@@ -1,0 +1,4 @@
+framework module CommonModels {
+  header "CommonModels-Swift.h"
+  requires objc
+}

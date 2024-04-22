@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BACB0E5E18596C8C0DF9FF8 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C504462083A35B9309685A /* IdentifiedCollections.framework */; };
+		1A23F0A10573BCA8127CA605 /* FeatureVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752C1D790B9166D19E0DD118 /* FeatureVideo.framework */; };
+		2AEC79007DE77D499F97BC91 /* swift_composable_architecture_ComposableArchitecture.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = A49557F55C85FB1948FC5865 /* swift_composable_architecture_ComposableArchitecture.bundle */; };
+		2B7C014E9B54404C9E80A033 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DA9DA30288A89279FA5D16 /* CombineSchedulers.framework */; };
 		2E4AD220F651793A015B0845 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D45F24BCC1D7AF64278717 /* Preview Assets.xcassets */; };
+		328464F73E1D6B4B361311F8 /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E0F05D6CE8B4C043BAAC19 /* OrderedCollections.framework */; };
+		35C2BFFCE769ADFF20BCA23B /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CE3AE5CD157B872C7A5471 /* ComposableArchitecture.framework */; };
+		40D99EBA4886A6A0CDEAFEB2 /* FeatureRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA5D274EC2DBC8242A93C2D /* FeatureRecorder.framework */; };
+		4E6F7E0DFEDB2B7AB81EED3B /* CommonTca.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B350E7C663EC9ED0644AC4 /* CommonTca.framework */; };
+		53107601B008080D72BC5257 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC74A5B9D125EFA40C04FB2 /* ConcurrencyExtras.framework */; };
+		54B7E4C27C914CB2887CA651 /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182053D29A891F47445F2C32 /* DependenciesMacros.framework */; };
+		5C458CBE62C2BC8C2C52E318 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8783AA56C940B0DF636F8D1E /* XCTestDynamicOverlay.framework */; };
+		65398FB3F62BC51D026635DC /* FeatureTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859DE28ED85928B5CC334550 /* FeatureTime.framework */; };
+		67E801C73AE80396B327E5E8 /* CommonModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A65FE671564EB8F8365A5A2 /* CommonModels.framework */; };
 		68041BBEB545AD685471D404 /* InWorkoutToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C03163813179C46A0DF433A /* InWorkoutToolsTests.swift */; };
+		6C108933E153F9C58649FA50 /* swift_composable_architecture_ComposableArchitecture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A49557F55C85FB1948FC5865 /* swift_composable_architecture_ComposableArchitecture.bundle */; };
 		842A34F006CC4AC98BBDA768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A807A15E6B462F604444FB1 /* LaunchScreen.storyboard */; };
+		84CC9C336DCA5C5DC2A390D6 /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBDAB93D58DC416A191D931 /* CustomDump.framework */; };
+		8C5C9C5657F3D1750624F52E /* FeatureWorkout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87716273AB20551D8D6CE1B2 /* FeatureWorkout.framework */; };
 		91A0901ADDFA133F7F6F3B08 /* TuistBundle+InWorkoutTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A51A3A8235FFE83CE5D78 /* TuistBundle+InWorkoutTools.swift */; };
 		B159835741CD35016EAE96DA /* InWorkoutToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A4D7D349EFEB9890A1336 /* InWorkoutToolsApp.swift */; };
+		B39F3426BADB6C2898B4D87B /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03004678E4E82E16197E797 /* Dependencies.framework */; };
+		B549ED64B6213BA3F406AFA9 /* _CollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0E3934DAA89231CA57BF79 /* _CollectionsUtilities.framework */; };
+		C087444ED100C54939BC3B1C /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BCFC91C2E63EBC64FA3EF0 /* CasePaths.framework */; };
+		C4B5CBCF442FC96788B87D2D /* SwiftUINavigationCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E28EC1EF2019915589CBD2 /* SwiftUINavigationCore.framework */; };
 		C8BCA9D3B4286216CDCA0A4D /* TuistAssets+InWorkoutTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0953336AD3EDA1400ED016C /* TuistAssets+InWorkoutTools.swift */; };
+		DF19F7CB43E8074AC74BB086 /* Perception.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2549E14DC1AFB317D7D23D1 /* Perception.framework */; };
 		E0D8C3485E7C5700830C1913 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2CD80DECF11353C9FB21CE /* ContentView.swift */; };
+		E368DA13B7B6C867FD0CCA6D /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F63D10F2882BAEDB60EB7E2 /* Clocks.framework */; };
 		EA2CF52523F2AF80630E9B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4F2EE390AF887BCE6ADC8A /* Assets.xcassets */; };
+		FD51C1B34616D0C1E02649BB /* FeatureExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0783FC322CE9A5393CDF9561 /* FeatureExercise.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +61,16 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26DB6F89276D970DD840BFE6 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				2AEC79007DE77D499F97BC91 /* swift_composable_architecture_ComposableArchitecture.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		E7D20AAFB3697B949CB5E0C9 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -51,18 +84,40 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0783FC322CE9A5393CDF9561 /* FeatureExercise.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FeatureExercise.framework; sourceTree = "<group>"; };
 		0A807A15E6B462F604444FB1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182053D29A891F47445F2C32 /* DependenciesMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DependenciesMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B350E7C663EC9ED0644AC4 /* CommonTca.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CommonTca.framework; sourceTree = "<group>"; };
+		1BBDAB93D58DC416A191D931 /* CustomDump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomDump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		290F3AB5AA89639A4205061A /* InWorkoutTools-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "InWorkoutTools-Info.plist"; sourceTree = "<group>"; };
+		2A65FE671564EB8F8365A5A2 /* CommonModels.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CommonModels.framework; sourceTree = "<group>"; };
 		3B8A51A3A8235FFE83CE5D78 /* TuistBundle+InWorkoutTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+InWorkoutTools.swift"; sourceTree = "<group>"; };
+		48DA9DA30288A89279FA5D16 /* CombineSchedulers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineSchedulers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C03163813179C46A0DF433A /* InWorkoutToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InWorkoutToolsTests.swift; sourceTree = "<group>"; };
 		50D45F24BCC1D7AF64278717 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		524560311FADD481F8615151 /* InWorkoutTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InWorkoutTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E28EC1EF2019915589CBD2 /* SwiftUINavigationCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUINavigationCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		584A803BBD56C83D5E526AC3 /* InWorkoutToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "InWorkoutToolsTests-Info.plist"; sourceTree = "<group>"; };
+		60E0F05D6CE8B4C043BAAC19 /* OrderedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CE3AE5CD157B872C7A5471 /* ComposableArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComposableArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		752C1D790B9166D19E0DD118 /* FeatureVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FeatureVideo.framework; sourceTree = "<group>"; };
+		7FA5D274EC2DBC8242A93C2D /* FeatureRecorder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FeatureRecorder.framework; sourceTree = "<group>"; };
+		859DE28ED85928B5CC334550 /* FeatureTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FeatureTime.framework; sourceTree = "<group>"; };
+		87716273AB20551D8D6CE1B2 /* FeatureWorkout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FeatureWorkout.framework; sourceTree = "<group>"; };
+		8783AA56C940B0DF636F8D1E /* XCTestDynamicOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestDynamicOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E4F2EE390AF887BCE6ADC8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F63D10F2882BAEDB60EB7E2 /* Clocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Clocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0953336AD3EDA1400ED016C /* TuistAssets+InWorkoutTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+InWorkoutTools.swift"; sourceTree = "<group>"; };
+		A49557F55C85FB1948FC5865 /* swift_composable_architecture_ComposableArchitecture.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_composable_architecture_ComposableArchitecture.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2549E14DC1AFB317D7D23D1 /* Perception.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Perception.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BCFC91C2E63EBC64FA3EF0 /* CasePaths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePaths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC74A5B9D125EFA40C04FB2 /* ConcurrencyExtras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConcurrencyExtras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2CD80DECF11353C9FB21CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB7F59EAAC426D93CF77782B /* InWorkoutToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InWorkoutToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8A4D7D349EFEB9890A1336 /* InWorkoutToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InWorkoutToolsApp.swift; sourceTree = "<group>"; };
+		D03004678E4E82E16197E797 /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0E3934DAA89231CA57BF79 /* _CollectionsUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = _CollectionsUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C504462083A35B9309685A /* IdentifiedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IdentifiedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +132,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C087444ED100C54939BC3B1C /* CasePaths.framework in Frameworks */,
+				E368DA13B7B6C867FD0CCA6D /* Clocks.framework in Frameworks */,
+				2B7C014E9B54404C9E80A033 /* CombineSchedulers.framework in Frameworks */,
+				35C2BFFCE769ADFF20BCA23B /* ComposableArchitecture.framework in Frameworks */,
+				53107601B008080D72BC5257 /* ConcurrencyExtras.framework in Frameworks */,
+				84CC9C336DCA5C5DC2A390D6 /* CustomDump.framework in Frameworks */,
+				B39F3426BADB6C2898B4D87B /* Dependencies.framework in Frameworks */,
+				54B7E4C27C914CB2887CA651 /* DependenciesMacros.framework in Frameworks */,
+				0BACB0E5E18596C8C0DF9FF8 /* IdentifiedCollections.framework in Frameworks */,
+				328464F73E1D6B4B361311F8 /* OrderedCollections.framework in Frameworks */,
+				DF19F7CB43E8074AC74BB086 /* Perception.framework in Frameworks */,
+				C4B5CBCF442FC96788B87D2D /* SwiftUINavigationCore.framework in Frameworks */,
+				5C458CBE62C2BC8C2C52E318 /* XCTestDynamicOverlay.framework in Frameworks */,
+				B549ED64B6213BA3F406AFA9 /* _CollectionsUtilities.framework in Frameworks */,
+				67E801C73AE80396B327E5E8 /* CommonModels.framework in Frameworks */,
+				4E6F7E0DFEDB2B7AB81EED3B /* CommonTca.framework in Frameworks */,
+				FD51C1B34616D0C1E02649BB /* FeatureExercise.framework in Frameworks */,
+				40D99EBA4886A6A0CDEAFEB2 /* FeatureRecorder.framework in Frameworks */,
+				65398FB3F62BC51D026635DC /* FeatureTime.framework in Frameworks */,
+				1A23F0A10573BCA8127CA605 /* FeatureVideo.framework in Frameworks */,
+				8C5C9C5657F3D1750624F52E /* FeatureWorkout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +225,7 @@
 			children = (
 				F7DEAEAAE42F3D47D5A4C244 /* Derived */,
 				0513CCFDB49E5BA3F9CA9AE5 /* InWorkoutTools */,
+				EC4A36136AFF03098CFFF2C0 /* SDK */,
 			);
 			name = Project;
 			sourceTree = "<group>";
@@ -166,10 +243,39 @@
 		E020E07BF3F23ABC97894B54 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				DA0E3934DAA89231CA57BF79 /* _CollectionsUtilities.framework */,
+				B3BCFC91C2E63EBC64FA3EF0 /* CasePaths.framework */,
+				9F63D10F2882BAEDB60EB7E2 /* Clocks.framework */,
+				48DA9DA30288A89279FA5D16 /* CombineSchedulers.framework */,
+				69CE3AE5CD157B872C7A5471 /* ComposableArchitecture.framework */,
+				BAC74A5B9D125EFA40C04FB2 /* ConcurrencyExtras.framework */,
+				1BBDAB93D58DC416A191D931 /* CustomDump.framework */,
+				D03004678E4E82E16197E797 /* Dependencies.framework */,
+				182053D29A891F47445F2C32 /* DependenciesMacros.framework */,
+				E2C504462083A35B9309685A /* IdentifiedCollections.framework */,
 				524560311FADD481F8615151 /* InWorkoutTools.app */,
 				CB7F59EAAC426D93CF77782B /* InWorkoutToolsTests.xctest */,
+				60E0F05D6CE8B4C043BAAC19 /* OrderedCollections.framework */,
+				B2549E14DC1AFB317D7D23D1 /* Perception.framework */,
+				A49557F55C85FB1948FC5865 /* swift_composable_architecture_ComposableArchitecture.bundle */,
+				56E28EC1EF2019915589CBD2 /* SwiftUINavigationCore.framework */,
+				8783AA56C940B0DF636F8D1E /* XCTestDynamicOverlay.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EC4A36136AFF03098CFFF2C0 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				2A65FE671564EB8F8365A5A2 /* CommonModels.framework */,
+				18B350E7C663EC9ED0644AC4 /* CommonTca.framework */,
+				0783FC322CE9A5393CDF9561 /* FeatureExercise.framework */,
+				7FA5D274EC2DBC8242A93C2D /* FeatureRecorder.framework */,
+				859DE28ED85928B5CC334550 /* FeatureTime.framework */,
+				752C1D790B9166D19E0DD118 /* FeatureVideo.framework */,
+				87716273AB20551D8D6CE1B2 /* FeatureWorkout.framework */,
+			);
+			path = SDK;
 			sourceTree = "<group>";
 		};
 		F7DEAEAAE42F3D47D5A4C244 /* Derived */ = {
@@ -190,8 +296,10 @@
 			buildPhases = (
 				447C9962D5A0E760BE532F11 /* Sources */,
 				4C2742AC7D3561625F349509 /* Resources */,
+				66076F27ECA0AE26E478DF7F /* Embed Precompiled Frameworks */,
 				E7D20AAFB3697B949CB5E0C9 /* Embed Frameworks */,
 				5A9A39038EF9134712BF248E /* Frameworks */,
+				26DB6F89276D970DD840BFE6 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -261,6 +369,7 @@
 				EA2CF52523F2AF80630E9B70 /* Assets.xcassets in Resources */,
 				842A34F006CC4AC98BBDA768 /* LaunchScreen.storyboard in Resources */,
 				2E4AD220F651793A015B0845 /* Preview Assets.xcassets in Resources */,
+				6C108933E153F9C58649FA50 /* swift_composable_architecture_ComposableArchitecture.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +381,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66076F27ECA0AE26E478DF7F /* Embed Precompiled Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/SDK/CommonModels.framework",
+				"$(SRCROOT)/SDK/CommonModels.framework/CommonModels",
+				"$(SRCROOT)/SDK/CommonModels.framework/Info.plist",
+				"$(SRCROOT)/SDK/CommonTca.framework",
+				"$(SRCROOT)/SDK/CommonTca.framework/CommonTca",
+				"$(SRCROOT)/SDK/CommonTca.framework/Info.plist",
+				"$(SRCROOT)/SDK/FeatureExercise.framework",
+				"$(SRCROOT)/SDK/FeatureExercise.framework/FeatureExercise",
+				"$(SRCROOT)/SDK/FeatureExercise.framework/Info.plist",
+				"$(SRCROOT)/SDK/FeatureRecorder.framework",
+				"$(SRCROOT)/SDK/FeatureRecorder.framework/FeatureRecorder",
+				"$(SRCROOT)/SDK/FeatureRecorder.framework/Info.plist",
+				"$(SRCROOT)/SDK/FeatureTime.framework",
+				"$(SRCROOT)/SDK/FeatureTime.framework/FeatureTime",
+				"$(SRCROOT)/SDK/FeatureTime.framework/Info.plist",
+				"$(SRCROOT)/SDK/FeatureVideo.framework",
+				"$(SRCROOT)/SDK/FeatureVideo.framework/FeatureVideo",
+				"$(SRCROOT)/SDK/FeatureVideo.framework/Info.plist",
+				"$(SRCROOT)/SDK/FeatureWorkout.framework",
+				"$(SRCROOT)/SDK/FeatureWorkout.framework/FeatureWorkout",
+				"$(SRCROOT)/SDK/FeatureWorkout.framework/Info.plist",
+			);
+			name = "Embed Precompiled Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CommonModels.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CommonTca.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeatureExercise.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeatureRecorder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeatureTime.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeatureVideo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeatureWorkout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\nset -euo pipefail\nset -u\nset -o pipefail\n\nfunction on_error {\n  echo \"$(realpath -mq \"${0}\"):$1: error: Unexpected failure\"\n}\ntrap 'on_error $LINENO' ERR\n\nif [ -z ${FRAMEWORKS_FOLDER_PATH+x} ]; then\n  # If FRAMEWORKS_FOLDER_PATH is not set, then there's nowhere for us to copy\n  # frameworks to, so exit 0 (signalling the script phase was successful).\n  exit 0\nfi\n\necho \"mkdir -p ${CONFIGURATION_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\nmkdir -p \"${CONFIGURATION_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\n\nSWIFT_STDLIB_PATH=\"${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}\"\n# Used as a return value for each invocation of `strip_invalid_archs` function.\nSTRIP_BINARY_RETVAL=0\n# This protects against multiple targets copying the same framework dependency at the same time. The solution\n# was originally proposed here: https://lists.samba.org/archive/rsync/2008-February/020158.html\nRSYNC_PROTECT_TMP_FILES=(--filter \"P .*.??????\")\n# Copies and strips a vendored framework\ninstall_framework()\n{\n  if [ -r \"${BUILT_PRODUCTS_DIR}/$1\" ]; then\n    local source=\"${BUILT_PRODUCTS_DIR}/$1\"\n  elif [ -r \"${BUILT_PRODUCTS_DIR}/$(basename \"$1\")\" ]; then\n    local source=\"${BUILT_PRODUCTS_DIR}/$(basename \"$1\")\"\n  elif [ -r \"$1\" ]; then\n    local source=\"$1\"\n  fi\n  local destination=\"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\n  if [ -L \"${source}\" ]; then\n    echo \"Symlinked...\"\n    source=\"$(readlink \"${source}\")\"\n  fi\n  # Use filter instead of exclude so missing patterns don't throw errors.\n  echo \"rsync --delete -av \"${RSYNC_PROTECT_TMP_FILES[@]}\" --filter \\\"- CVS/\\\" --filter \\\"- .svn/\\\" --filter \\\"- .git/\\\" --filter \\\"- .hg/\\\" --filter \\\"- Headers\\\" --filter \\\"- PrivateHeaders\\\" --filter \\\"- Modules\\\" \\\"${source}\\\" \\\"${destination}\\\"\"\n  rsync --delete -av \"${RSYNC_PROTECT_TMP_FILES[@]}\" --filter \"- CVS/\" --filter \"- .svn/\" --filter \"- .git/\" --filter \"- .hg/\" --filter \"- Headers\" --filter \"- PrivateHeaders\" --filter \"- Modules\" \"${source}\" \"${destination}\"\n  local basename\n  basename=\"$(basename -s .framework \"$1\")\"\n  binary=\"${destination}/${basename}.framework/${basename}\"\n  if ! [ -r \"$binary\" ]; then\n    binary=\"${destination}/${basename}\"\n  elif [ -L \"${binary}\" ]; then\n    echo \"Destination binary is symlinked...\"\n    dirname=\"$(dirname \"${binary}\")\"\n    binary=\"${dirname}/$(readlink \"${binary}\")\"\n  fi\n  # Strip invalid architectures so \"fat\" simulator / device frameworks work on device\n  if [[ \"$(file \"$binary\")\" == *\"dynamically linked shared library\"* ]]; then\n    strip_invalid_archs \"$binary\"\n  fi\n  # Resign the code if required by the build settings to avoid unstable apps\n  code_sign_if_enabled \"${destination}/$(basename \"$1\")\"\n}\n\n\n# Copies and strips a vendored dSYM\ninstall_dsym() {\n  local source=\"$1\"\n  if [ -r \"$source\" ]; then\n\n    # Copy the dSYM into a the targets temp dir.\n    echo \"rsync --delete -av \"${RSYNC_PROTECT_TMP_FILES[@]}\" --filter \\\"- CVS/\\\" --filter \\\"- .svn/\\\" --filter \\\"- .git/\\\" --filter \\\"- .hg/\\\" --filter \\\"- Headers\\\" --filter \\\"- PrivateHeaders\\\" --filter \\\"- Modules\\\" \\\"${source}\\\" \\\"${DERIVED_FILES_DIR}\\\"\"\n    rsync --delete -av \"${RSYNC_PROTECT_TMP_FILES[@]}\" --filter \"- CVS/\" --filter \"- .svn/\" --filter \"- .git/\" --filter \"- .hg/\" --filter \"- Headers\" --filter \"- PrivateHeaders\" --filter \"- Modules\" \"${source}\" \"${DERIVED_FILES_DIR}\"\n\n    local basename\n    basename=\"$(basename -s .framework.dSYM \"$source\")\"\n    binary=\"${DERIVED_FILES_DIR}/${basename}.framework.dSYM/Contents/Resources/DWARF/${basename}\"\n\n    # Strip invalid architectures so \"fat\" simulator / device frameworks work on device\n    if [[ \"$(file \"$binary\")\" == *\"Mach-O \"*\"dSYM companion\"* ]]; then\n      strip_invalid_archs \"$binary\"\n    fi\n    if [[ $STRIP_BINARY_RETVAL == 1 ]]; then\n      # Move the stripped file into its final destination.\n      echo \"rsync --delete -av \"${RSYNC_PROTECT_TMP_FILES[@]}\" --filter \\\"- CVS/\\\" --filter \\\"- .svn/\\\" --filter \\\"- .git/\\\" --filter \\\"- .hg/\\\" --filter \\\"- Headers\\\" --filter \\\"- PrivateHeaders\\\" --filter \\\"- Modules\\\" \\\"${DERIVED_FILES_DIR}/${basename}.framework.dSYM\\\" \\\"${DWARF_DSYM_FOLDER_PATH}\\\"\"\n      rsync --delete -av \"${RSYNC_PROTECT_TMP_FILES[@]}\" --filter \"- CVS/\" --filter \"- .svn/\" --filter \"- .git/\" --filter \"- .hg/\" --filter \"- Headers\" --filter \"- PrivateHeaders\" --filter \"- Modules\" \"${DERIVED_FILES_DIR}/${basename}.framework.dSYM\" \"${DWARF_DSYM_FOLDER_PATH}\"\n    else\n      # The dSYM was not stripped at all, in this case touch a fake folder so the input/output paths from Xcode do not reexecute this script because the file is missing.\n      touch \"${DWARF_DSYM_FOLDER_PATH}/${basename}.framework.dSYM\"\n    fi\n\n  fi\n}\n\n\n# Copies the bcsymbolmap files of a vendored framework\ninstall_bcsymbolmap() {\n    local bcsymbolmap_path=\"$1\"\n    local destination=\"${BUILT_PRODUCTS_DIR}\"\n    echo \"rsync --delete -av \"${RSYNC_PROTECT_TMP_FILES[@]}\" --filter \"- CVS/\" --filter \"- .svn/\" --filter \"- .git/\" --filter \"- .hg/\" --filter \"- Headers\" --filter \"- PrivateHeaders\" --filter \"- Modules\" \"${bcsymbolmap_path}\" \"${destination}\"\"\n    rsync --delete -av \"${RSYNC_PROTECT_TMP_FILES[@]}\" --filter \"- CVS/\" --filter \"- .svn/\" --filter \"- .git/\" --filter \"- .hg/\" --filter \"- Headers\" --filter \"- PrivateHeaders\" --filter \"- Modules\" \"${bcsymbolmap_path}\" \"${destination}\"\n}\n\n\n# Signs a framework with the provided identity\ncode_sign_if_enabled() {\n  if [ -n \"${EXPANDED_CODE_SIGN_IDENTITY:-}\" -a \"${CODE_SIGNING_REQUIRED:-}\" != \"NO\" -a \"${CODE_SIGNING_ALLOWED}\" != \"NO\" ]; then\n    # Use the current code_sign_identity\n    echo \"Code Signing $1 with Identity ${EXPANDED_CODE_SIGN_IDENTITY_NAME}\"\n    local code_sign_cmd=\"/usr/bin/codesign --force --sign ${EXPANDED_CODE_SIGN_IDENTITY} ${OTHER_CODE_SIGN_FLAGS:-} --preserve-metadata=identifier,entitlements '$1'\"\n    code_sign_cmd=\"$code_sign_cmd &\"\n    echo \"$code_sign_cmd\"\n    eval \"$code_sign_cmd\"\n  fi\n}\n\n\n# Strip invalid architectures\nstrip_invalid_archs() {\n  binary=\"$1\"\n  # Get architectures for current target binary\n  binary_archs=\"$(lipo -info \"$binary\" | rev | cut -d ':' -f1 | awk '{$1=$1;print}' | rev)\"\n  # Intersect them with the architectures we are building for\n  intersected_archs=\"$(echo ${ARCHS[@]} ${binary_archs[@]} | tr ' ' '\\n' | sort | uniq -d)\"\n  # If there are no archs supported by this binary then warn the user\n  if [[ -z \"$intersected_archs\" ]]; then\n    echo \"warning: [CP] Vendored binary '$binary' contains architectures ($binary_archs) none of which match the current build architectures ($ARCHS).\"\n    STRIP_BINARY_RETVAL=0\n    return\n  fi\n  stripped=\"\"\n  for arch in $binary_archs; do\n    if ! [[ \"${ARCHS}\" == *\"$arch\"* ]]; then\n      # Strip non-valid architectures in-place\n      lipo -remove \"$arch\" -output \"$binary\" \"$binary\"\n      stripped=\"$stripped $arch\"\n    fi\n  done\n  if [[ \"$stripped\" ]]; then\n    echo \"Stripped $binary of architectures:$stripped\"\n  fi\n  STRIP_BINARY_RETVAL=1\n}\ninstall_framework \"$SRCROOT/SDK/CommonModels.framework\"\ninstall_framework \"$SRCROOT/SDK/CommonTca.framework\"\ninstall_framework \"$SRCROOT/SDK/FeatureExercise.framework\"\ninstall_framework \"$SRCROOT/SDK/FeatureRecorder.framework\"\ninstall_framework \"$SRCROOT/SDK/FeatureTime.framework\"\ninstall_framework \"$SRCROOT/SDK/FeatureVideo.framework\"\ninstall_framework \"$SRCROOT/SDK/FeatureWorkout.framework\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		447C9962D5A0E760BE532F11 /* Sources */ = {
@@ -316,6 +470,16 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.InWorkoutToolsTests;
 				PRODUCT_NAME = InWorkoutToolsTests;
 				SDKROOT = iphoneos;
@@ -341,10 +505,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/SDK",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/InWorkoutTools-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.InWorkoutTools;
 				PRODUCT_NAME = InWorkoutTools;
@@ -373,6 +551,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.InWorkoutToolsTests;
 				PRODUCT_NAME = InWorkoutToolsTests;
@@ -454,10 +642,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/SDK",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/InWorkoutTools-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.InWorkoutTools;
 				PRODUCT_NAME = InWorkoutTools;

@@ -1,0 +1,4 @@
+framework module CommonTca {
+  header "CommonTca-Swift.h"
+  requires objc
+}
