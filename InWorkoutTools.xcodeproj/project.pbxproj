@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E4AD220F651793A015B0845 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D45F24BCC1D7AF64278717 /* Preview Assets.xcassets */; };
+		68041BBEB545AD685471D404 /* InWorkoutToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C03163813179C46A0DF433A /* InWorkoutToolsTests.swift */; };
+		842A34F006CC4AC98BBDA768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A807A15E6B462F604444FB1 /* LaunchScreen.storyboard */; };
+		91A0901ADDFA133F7F6F3B08 /* TuistBundle+InWorkoutTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A51A3A8235FFE83CE5D78 /* TuistBundle+InWorkoutTools.swift */; };
+		B159835741CD35016EAE96DA /* InWorkoutToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A4D7D349EFEB9890A1336 /* InWorkoutToolsApp.swift */; };
+		C8BCA9D3B4286216CDCA0A4D /* TuistAssets+InWorkoutTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0953336AD3EDA1400ED016C /* TuistAssets+InWorkoutTools.swift */; };
+		E0D8C3485E7C5700830C1913 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2CD80DECF11353C9FB21CE /* ContentView.swift */; };
+		EA2CF52523F2AF80630E9B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4F2EE390AF887BCE6ADC8A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44A7F68BB5E929EA5FB84CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182DBFAC6B44C34DC54B12F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9585FF102746B2BA51412456;
+			remoteInfo = InWorkoutTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05A89B4602396B17A4959B8A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D20AAFB3697B949CB5E0C9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A807A15E6B462F604444FB1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		290F3AB5AA89639A4205061A /* InWorkoutTools-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "InWorkoutTools-Info.plist"; sourceTree = "<group>"; };
+		3B8A51A3A8235FFE83CE5D78 /* TuistBundle+InWorkoutTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+InWorkoutTools.swift"; sourceTree = "<group>"; };
+		4C03163813179C46A0DF433A /* InWorkoutToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InWorkoutToolsTests.swift; sourceTree = "<group>"; };
+		50D45F24BCC1D7AF64278717 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		524560311FADD481F8615151 /* InWorkoutTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InWorkoutTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		584A803BBD56C83D5E526AC3 /* InWorkoutToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "InWorkoutToolsTests-Info.plist"; sourceTree = "<group>"; };
+		9E4F2EE390AF887BCE6ADC8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0953336AD3EDA1400ED016C /* TuistAssets+InWorkoutTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+InWorkoutTools.swift"; sourceTree = "<group>"; };
+		BF2CD80DECF11353C9FB21CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB7F59EAAC426D93CF77782B /* InWorkoutToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InWorkoutToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8A4D7D349EFEB9890A1336 /* InWorkoutToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InWorkoutToolsApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31648F70BB54CE3260A9C046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9A39038EF9134712BF248E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0513CCFDB49E5BA3F9CA9AE5 /* InWorkoutTools */ = {
+			isa = PBXGroup;
+			children = (
+				DC064924B686FB6341496213 /* Resources */,
+				37755EF2960D8EBC9F1CFEB4 /* Sources */,
+				42759B1A156D7D0AD414EC5C /* Tests */,
+			);
+			path = InWorkoutTools;
+			sourceTree = "<group>";
+		};
+		37755EF2960D8EBC9F1CFEB4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BF2CD80DECF11353C9FB21CE /* ContentView.swift */,
+				CB8A4D7D349EFEB9890A1336 /* InWorkoutToolsApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		42759B1A156D7D0AD414EC5C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4C03163813179C46A0DF433A /* InWorkoutToolsTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		45A43E4D00161FF13D7BEF7A = {
+			isa = PBXGroup;
+			children = (
+				CC9680128C8DF8B434B871BD /* Project */,
+				E020E07BF3F23ABC97894B54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B99359A935D5CCA8ADCB9B6A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A0953336AD3EDA1400ED016C /* TuistAssets+InWorkoutTools.swift */,
+				3B8A51A3A8235FFE83CE5D78 /* TuistBundle+InWorkoutTools.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BE68EF7AF10CE9D434D5EFDC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50D45F24BCC1D7AF64278717 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC45C2A93D34796BABD6DB1A /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				290F3AB5AA89639A4205061A /* InWorkoutTools-Info.plist */,
+				584A803BBD56C83D5E526AC3 /* InWorkoutToolsTests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		CC9680128C8DF8B434B871BD /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				F7DEAEAAE42F3D47D5A4C244 /* Derived */,
+				0513CCFDB49E5BA3F9CA9AE5 /* InWorkoutTools */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		DC064924B686FB6341496213 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE68EF7AF10CE9D434D5EFDC /* Preview Content */,
+				9E4F2EE390AF887BCE6ADC8A /* Assets.xcassets */,
+				0A807A15E6B462F604444FB1 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E020E07BF3F23ABC97894B54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				524560311FADD481F8615151 /* InWorkoutTools.app */,
+				CB7F59EAAC426D93CF77782B /* InWorkoutToolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7DEAEAAE42F3D47D5A4C244 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				CC45C2A93D34796BABD6DB1A /* InfoPlists */,
+				B99359A935D5CCA8ADCB9B6A /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9585FF102746B2BA51412456 /* InWorkoutTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF53EF9B258D78BCA5CF91B /* Build configuration list for PBXNativeTarget "InWorkoutTools" */;
+			buildPhases = (
+				447C9962D5A0E760BE532F11 /* Sources */,
+				4C2742AC7D3561625F349509 /* Resources */,
+				E7D20AAFB3697B949CB5E0C9 /* Embed Frameworks */,
+				5A9A39038EF9134712BF248E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InWorkoutTools;
+			productName = InWorkoutTools;
+			productReference = 524560311FADD481F8615151 /* InWorkoutTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D77DB02B0CB122EFC53EC32B /* InWorkoutToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CDDA1A7389FB38B642AB6E /* Build configuration list for PBXNativeTarget "InWorkoutToolsTests" */;
+			buildPhases = (
+				B31EF0D50100A54A579C66E3 /* Sources */,
+				74E2E692F4339E1A710163E0 /* Resources */,
+				05A89B4602396B17A4959B8A /* Embed Frameworks */,
+				31648F70BB54CE3260A9C046 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D3B8C11C0C808B601E8C5A9 /* PBXTargetDependency */,
+			);
+			name = InWorkoutToolsTests;
+			productName = InWorkoutToolsTests;
+			productReference = CB7F59EAAC426D93CF77782B /* InWorkoutToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182DBFAC6B44C34DC54B12F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					D77DB02B0CB122EFC53EC32B = {
+						TestTargetID = 9585FF102746B2BA51412456;
+					};
+				};
+			};
+			buildConfigurationList = F2E32BD43FFF24A8E6FC6138 /* Build configuration list for PBXProject "InWorkoutTools" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 45A43E4D00161FF13D7BEF7A;
+			productRefGroup = E020E07BF3F23ABC97894B54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9585FF102746B2BA51412456 /* InWorkoutTools */,
+				D77DB02B0CB122EFC53EC32B /* InWorkoutToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C2742AC7D3561625F349509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2CF52523F2AF80630E9B70 /* Assets.xcassets in Resources */,
+				842A34F006CC4AC98BBDA768 /* LaunchScreen.storyboard in Resources */,
+				2E4AD220F651793A015B0845 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E2E692F4339E1A710163E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		447C9962D5A0E760BE532F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BCA9D3B4286216CDCA0A4D /* TuistAssets+InWorkoutTools.swift in Sources */,
+				91A0901ADDFA133F7F6F3B08 /* TuistBundle+InWorkoutTools.swift in Sources */,
+				E0D8C3485E7C5700830C1913 /* ContentView.swift in Sources */,
+				B159835741CD35016EAE96DA /* InWorkoutToolsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31EF0D50100A54A579C66E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68041BBEB545AD685471D404 /* InWorkoutToolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D3B8C11C0C808B601E8C5A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InWorkoutTools;
+			target = 9585FF102746B2BA51412456 /* InWorkoutTools */;
+			targetProxy = 44A7F68BB5E929EA5FB84CF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09EAE568DA5855C8C2995833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/InWorkoutToolsTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.InWorkoutToolsTests;
+				PRODUCT_NAME = InWorkoutToolsTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InWorkoutTools.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InWorkoutTools";
+				TEST_TARGET_NAME = InWorkoutTools;
+			};
+			name = Debug;
+		};
+		348AF54E4E0227A290A343D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/InWorkoutTools-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.InWorkoutTools;
+				PRODUCT_NAME = InWorkoutTools;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70E2459D7C29EF3F9D1EC526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/InWorkoutToolsTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.InWorkoutToolsTests;
+				PRODUCT_NAME = InWorkoutToolsTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InWorkoutTools.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InWorkoutTools";
+				TEST_TARGET_NAME = InWorkoutTools;
+			};
+			name = Release;
+		};
+		9273EDACE31303159A56690A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9AF3B47E37E47B56FA2698B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/InWorkoutTools-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.InWorkoutTools;
+				PRODUCT_NAME = InWorkoutTools;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F19A7B1E68835C48C5BBC81B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05CDDA1A7389FB38B642AB6E /* Build configuration list for PBXNativeTarget "InWorkoutToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09EAE568DA5855C8C2995833 /* Debug */,
+				70E2459D7C29EF3F9D1EC526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF53EF9B258D78BCA5CF91B /* Build configuration list for PBXNativeTarget "InWorkoutTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348AF54E4E0227A290A343D8 /* Debug */,
+				C9AF3B47E37E47B56FA2698B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E32BD43FFF24A8E6FC6138 /* Build configuration list for PBXProject "InWorkoutTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9273EDACE31303159A56690A /* Debug */,
+				F19A7B1E68835C48C5BBC81B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182DBFAC6B44C34DC54B12F7 /* Project object */;
+}

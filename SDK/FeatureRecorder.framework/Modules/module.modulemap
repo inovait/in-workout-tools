@@ -1,0 +1,4 @@
+framework module FeatureRecorder {
+  header "FeatureRecorder-Swift.h"
+  requires objc
+}
