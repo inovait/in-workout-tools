@@ -15,21 +15,21 @@ let package = Package(
         .library(
             name: "CommonModels",
             targets: ["CommonModels"]),
-        .library(
-            name: "FeatureExercise",
-            targets: ["FeatureExercise"]),
-        .library(
-            name: "FeatureRecorder",
-            targets: ["FeatureRecorder"]),
-        .library(
-            name: "FeatureTime",
-            targets: ["FeatureTime"]),
+        // .library(
+        //     name: "FeatureExercise",
+        //     targets: ["FeatureExercise"]),
+        // .library(
+        //     name: "FeatureRecorder",
+        //     targets: ["FeatureRecorder"]),
+        // .library(
+        //     name: "FeatureTime",
+        //     targets: ["FeatureTime"]),
         .library(
             name: "FeatureVideo",
             targets: ["FeatureVideo"]),
-        .library(
-            name: "FeatureWorkout",
-            targets: ["FeatureWorkout"])
+        // .library(
+        //     name: "FeatureWorkout",
+        //     targets: ["FeatureWorkout"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -39,10 +39,10 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(name: "CommonTca", path: "SDK/CommonTca.xcframework"),
         .binaryTarget(name: "CommonModels", path: "SDK/CommonModels.xcframework"),
-        .binaryTarget(name: "FeatureExercise", path: "SDK/FeatureExercise.xcframework"),
-        .binaryTarget(name: "FeatureRecorder", path: "SDK/FeatureRecorder.xcframework"),
-        .binaryTarget(name: "FeatureTime", path: "SDK/FeatureTime.xcframework"),
+        // .binaryTarget(name: "FeatureExercise", path: "SDK/FeatureExercise.xcframework"),
+        // .binaryTarget(name: "FeatureRecorder", path: "SDK/FeatureRecorder.xcframework"),
+        // .binaryTarget(name: "FeatureTime", path: "SDK/FeatureTime.xcframework"),
         .binaryTarget(name: "FeatureVideo", path: "SDK/FeatureVideo.xcframework"),
-        .binaryTarget(name: "FeatureWorkout", path: "SDK/FeatureWorkout.xcframework")
+        // .binaryTarget(name: "FeatureWorkout", path: "SDK/FeatureWorkout.xcframework")
     ]
 )
