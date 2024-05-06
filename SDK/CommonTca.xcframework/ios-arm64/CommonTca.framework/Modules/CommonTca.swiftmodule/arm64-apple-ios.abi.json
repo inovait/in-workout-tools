@@ -1,0 +1,4015 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CommonTca",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ComposableArchitecture",
+        "printedName": "ComposableArchitecture",
+        "declKind": "Import",
+        "moduleName": "CommonTca"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TCAFeatureAction",
+        "printedName": "TCAFeatureAction",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "ViewAction",
+            "printedName": "ViewAction",
+            "declKind": "AssociatedType",
+            "usr": "s:9CommonTca16TCAFeatureActionP04ViewD0Qa",
+            "mangledName": "$s9CommonTca16TCAFeatureActionP04ViewD0Qa",
+            "moduleName": "CommonTca",
+            "protocolReq": true
+          },
+          {
+            "kind": "AssociatedType",
+            "name": "DelegateAction",
+            "printedName": "DelegateAction",
+            "declKind": "AssociatedType",
+            "usr": "s:9CommonTca16TCAFeatureActionP08DelegateD0Qa",
+            "mangledName": "$s9CommonTca16TCAFeatureActionP08DelegateD0Qa",
+            "moduleName": "CommonTca",
+            "protocolReq": true
+          },
+          {
+            "kind": "AssociatedType",
+            "name": "BusinessAction",
+            "printedName": "BusinessAction",
+            "declKind": "AssociatedType",
+            "usr": "s:9CommonTca16TCAFeatureActionP08BusinessD0Qa",
+            "mangledName": "$s9CommonTca16TCAFeatureActionP08BusinessD0Qa",
+            "moduleName": "CommonTca",
+            "protocolReq": true
+          },
+          {
+            "kind": "Function",
+            "name": "view",
+            "printedName": "view(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.ViewAction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CommonTca16TCAFeatureActionP4viewyx04ViewD0QzFZ",
+            "mangledName": "$s9CommonTca16TCAFeatureActionP4viewyx04ViewD0QzFZ",
+            "moduleName": "CommonTca",
+            "genericSig": "<τ_0_0 where τ_0_0 : CommonTca.TCAFeatureAction>",
+            "sugared_genericSig": "<Self where Self : CommonTca.TCAFeatureAction>",
+            "static": true,
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "delegate",
+            "printedName": "delegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.DelegateAction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CommonTca16TCAFeatureActionP8delegateyx08DelegateD0QzFZ",
+            "mangledName": "$s9CommonTca16TCAFeatureActionP8delegateyx08DelegateD0QzFZ",
+            "moduleName": "CommonTca",
+            "genericSig": "<τ_0_0 where τ_0_0 : CommonTca.TCAFeatureAction>",
+            "sugared_genericSig": "<Self where Self : CommonTca.TCAFeatureAction>",
+            "static": true,
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "business",
+            "printedName": "business(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.BusinessAction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CommonTca16TCAFeatureActionP8businessyx08BusinessD0QzFZ",
+            "mangledName": "$s9CommonTca16TCAFeatureActionP8businessyx08BusinessD0QzFZ",
+            "moduleName": "CommonTca",
+            "genericSig": "<τ_0_0 where τ_0_0 : CommonTca.TCAFeatureAction>",
+            "sugared_genericSig": "<Self where Self : CommonTca.TCAFeatureAction>",
+            "static": true,
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9CommonTca16TCAFeatureActionP",
+        "mangledName": "$s9CommonTca16TCAFeatureActionP",
+        "moduleName": "CommonTca",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DummyPeroReducer",
+        "printedName": "DummyPeroReducer",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "State",
+            "printedName": "State",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "State",
+                    "printedName": "CommonTca.DummyPeroReducer.State",
+                    "usr": "s:9CommonTca16DummyPeroReducerV5StateV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9CommonTca16DummyPeroReducerV5StateVAEycfc",
+                "mangledName": "$s9CommonTca16DummyPeroReducerV5StateVAEycfc",
+                "moduleName": "CommonTca",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "State",
+                    "printedName": "CommonTca.DummyPeroReducer.State",
+                    "usr": "s:9CommonTca16DummyPeroReducerV5StateV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "State",
+                    "printedName": "CommonTca.DummyPeroReducer.State",
+                    "usr": "s:9CommonTca16DummyPeroReducerV5StateV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9CommonTca16DummyPeroReducerV5StateV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s9CommonTca16DummyPeroReducerV5StateV2eeoiySbAE_AEtFZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:9CommonTca16DummyPeroReducerV5StateV",
+            "mangledName": "$s9CommonTca16DummyPeroReducerV5StateV",
+            "moduleName": "CommonTca",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Action",
+            "printedName": "Action",
+            "children": [
+              {
+                "kind": "TypeDecl",
+                "name": "ViewAction",
+                "printedName": "ViewAction",
+                "children": [
+                  {
+                    "kind": "Function",
+                    "name": "==",
+                    "printedName": "==(_:_:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewAction",
+                        "printedName": "CommonTca.DummyPeroReducer.Action.ViewAction",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO04ViewF0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewAction",
+                        "printedName": "CommonTca.DummyPeroReducer.Action.ViewAction",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO04ViewF0O"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:9CommonTca16DummyPeroReducerV6ActionO04ViewF0O2eeoiySbAG_AGtFZ",
+                    "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO04ViewF0O2eeoiySbAG_AGtFZ",
+                    "moduleName": "CommonTca",
+                    "static": true,
+                    "implicit": true,
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "TypeDecl",
+                    "name": "AllCasePaths",
+                    "printedName": "AllCasePaths",
+                    "children": [
+                      {
+                        "kind": "Constructor",
+                        "name": "init",
+                        "printedName": "init()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AllCasePaths",
+                            "printedName": "CommonTca.DummyPeroReducer.Action.ViewAction.AllCasePaths",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO04ViewF0O12AllCasePathsV"
+                          }
+                        ],
+                        "declKind": "Constructor",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO04ViewF0O12AllCasePathsVAIycfc",
+                        "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO04ViewF0O12AllCasePathsVAIycfc",
+                        "moduleName": "CommonTca",
+                        "implicit": true,
+                        "init_kind": "Designated"
+                      }
+                    ],
+                    "declKind": "Struct",
+                    "usr": "s:9CommonTca16DummyPeroReducerV6ActionO04ViewF0O12AllCasePathsV",
+                    "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO04ViewF0O12AllCasePathsV",
+                    "moduleName": "CommonTca",
+                    "declAttributes": [
+                      "AccessControl"
+                    ],
+                    "conformances": [
+                      {
+                        "kind": "Conformance",
+                        "name": "Sendable",
+                        "printedName": "Sendable",
+                        "usr": "s:s8SendableP",
+                        "mangledName": "$ss8SendableP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "allCasePaths",
+                    "printedName": "allCasePaths",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AllCasePaths",
+                        "printedName": "CommonTca.DummyPeroReducer.Action.ViewAction.AllCasePaths",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO04ViewF0O12AllCasePathsV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:9CommonTca16DummyPeroReducerV6ActionO04ViewF0O12allCasePathsAG03AlliJ0VvpZ",
+                    "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO04ViewF0O12allCasePathsAG03AlliJ0VvpZ",
+                    "moduleName": "CommonTca",
+                    "static": true,
+                    "declAttributes": [
+                      "AccessControl"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AllCasePaths",
+                            "printedName": "CommonTca.DummyPeroReducer.Action.ViewAction.AllCasePaths",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO04ViewF0O12AllCasePathsV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO04ViewF0O12allCasePathsAG03AlliJ0VvgZ",
+                        "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO04ViewF0O12allCasePathsAG03AlliJ0VvgZ",
+                        "moduleName": "CommonTca",
+                        "static": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:9CommonTca16DummyPeroReducerV6ActionO04ViewF0O",
+                "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO04ViewF0O",
+                "moduleName": "CommonTca",
+                "declAttributes": [
+                  "Custom"
+                ],
+                "isEnumExhaustive": true,
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Sendable",
+                    "printedName": "Sendable",
+                    "usr": "s:s8SendableP",
+                    "mangledName": "$ss8SendableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "CasePathable",
+                    "printedName": "CasePathable",
+                    "children": [
+                      {
+                        "kind": "TypeWitness",
+                        "name": "AllCasePaths",
+                        "printedName": "AllCasePaths",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AllCasePaths",
+                            "printedName": "CommonTca.DummyPeroReducer.Action.ViewAction.AllCasePaths",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO04ViewF0O12AllCasePathsV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:9CasePaths0A8PathableP",
+                    "mangledName": "$s9CasePaths0A8PathableP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "DelegateAction",
+                "printedName": "DelegateAction",
+                "children": [
+                  {
+                    "kind": "Function",
+                    "name": "==",
+                    "printedName": "==(_:_:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DelegateAction",
+                        "printedName": "CommonTca.DummyPeroReducer.Action.DelegateAction",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO08DelegateF0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DelegateAction",
+                        "printedName": "CommonTca.DummyPeroReducer.Action.DelegateAction",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO08DelegateF0O"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:9CommonTca16DummyPeroReducerV6ActionO08DelegateF0O2eeoiySbAG_AGtFZ",
+                    "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO08DelegateF0O2eeoiySbAG_AGtFZ",
+                    "moduleName": "CommonTca",
+                    "static": true,
+                    "implicit": true,
+                    "funcSelfKind": "NonMutating"
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:9CommonTca16DummyPeroReducerV6ActionO08DelegateF0O",
+                "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO08DelegateF0O",
+                "moduleName": "CommonTca",
+                "isEnumExhaustive": true,
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Sendable",
+                    "printedName": "Sendable",
+                    "usr": "s:s8SendableP",
+                    "mangledName": "$ss8SendableP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "BusinessAction",
+                "printedName": "BusinessAction",
+                "children": [
+                  {
+                    "kind": "Function",
+                    "name": "==",
+                    "printedName": "==(_:_:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BusinessAction",
+                        "printedName": "CommonTca.DummyPeroReducer.Action.BusinessAction",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO08BusinessF0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BusinessAction",
+                        "printedName": "CommonTca.DummyPeroReducer.Action.BusinessAction",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO08BusinessF0O"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:9CommonTca16DummyPeroReducerV6ActionO08BusinessF0O2eeoiySbAG_AGtFZ",
+                    "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO08BusinessF0O2eeoiySbAG_AGtFZ",
+                    "moduleName": "CommonTca",
+                    "static": true,
+                    "implicit": true,
+                    "funcSelfKind": "NonMutating"
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:9CommonTca16DummyPeroReducerV6ActionO08BusinessF0O",
+                "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO08BusinessF0O",
+                "moduleName": "CommonTca",
+                "isEnumExhaustive": true,
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Sendable",
+                    "printedName": "Sendable",
+                    "usr": "s:s8SendableP",
+                    "mangledName": "$ss8SendableP"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "view",
+                "printedName": "view",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CommonTca.DummyPeroReducer.Action.Type) -> (CommonTca.DummyPeroReducer.Action.ViewAction) -> CommonTca.DummyPeroReducer.Action",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CommonTca.DummyPeroReducer.Action.ViewAction) -> CommonTca.DummyPeroReducer.Action",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "CommonTca.DummyPeroReducer.Action",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ViewAction",
+                            "printedName": "CommonTca.DummyPeroReducer.Action.ViewAction",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO04ViewF0O"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CommonTca.DummyPeroReducer.Action.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "CommonTca.DummyPeroReducer.Action",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9CommonTca16DummyPeroReducerV6ActionO4viewyA2E04ViewF0OcAEmF",
+                "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO4viewyA2E04ViewF0OcAEmF",
+                "moduleName": "CommonTca",
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "delegate",
+                "printedName": "delegate",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CommonTca.DummyPeroReducer.Action.Type) -> (CommonTca.DummyPeroReducer.Action.DelegateAction) -> CommonTca.DummyPeroReducer.Action",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CommonTca.DummyPeroReducer.Action.DelegateAction) -> CommonTca.DummyPeroReducer.Action",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "CommonTca.DummyPeroReducer.Action",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DelegateAction",
+                            "printedName": "CommonTca.DummyPeroReducer.Action.DelegateAction",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO08DelegateF0O"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CommonTca.DummyPeroReducer.Action.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "CommonTca.DummyPeroReducer.Action",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9CommonTca16DummyPeroReducerV6ActionO8delegateyA2E08DelegateF0OcAEmF",
+                "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO8delegateyA2E08DelegateF0OcAEmF",
+                "moduleName": "CommonTca",
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "business",
+                "printedName": "business",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CommonTca.DummyPeroReducer.Action.Type) -> (CommonTca.DummyPeroReducer.Action.BusinessAction) -> CommonTca.DummyPeroReducer.Action",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CommonTca.DummyPeroReducer.Action.BusinessAction) -> CommonTca.DummyPeroReducer.Action",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "CommonTca.DummyPeroReducer.Action",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "BusinessAction",
+                            "printedName": "CommonTca.DummyPeroReducer.Action.BusinessAction",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO08BusinessF0O"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CommonTca.DummyPeroReducer.Action.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "CommonTca.DummyPeroReducer.Action",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:9CommonTca16DummyPeroReducerV6ActionO8businessyA2E08BusinessF0OcAEmF",
+                "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO8businessyA2E08BusinessF0OcAEmF",
+                "moduleName": "CommonTca",
+                "fixedbinaryorder": 2
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "AllCasePaths",
+                "printedName": "AllCasePaths",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "view",
+                    "printedName": "view",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCasePath",
+                        "printedName": "CasePaths.AnyCasePath<CommonTca.DummyPeroReducer.Action, CommonTca.DummyPeroReducer.Action.ViewAction>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "CommonTca.DummyPeroReducer.Action",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ViewAction",
+                            "printedName": "CommonTca.DummyPeroReducer.Action.ViewAction",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO04ViewF0O"
+                          }
+                        ],
+                        "usr": "s:9CasePaths03AnyA4PathV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV4view0hI003AnyH4PathVyA2E04ViewF0OGvp",
+                    "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV4view0hI003AnyH4PathVyA2E04ViewF0OGvp",
+                    "moduleName": "CommonTca",
+                    "declAttributes": [
+                      "AccessControl"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyCasePath",
+                            "printedName": "CasePaths.AnyCasePath<CommonTca.DummyPeroReducer.Action, CommonTca.DummyPeroReducer.Action.ViewAction>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Action",
+                                "printedName": "CommonTca.DummyPeroReducer.Action",
+                                "usr": "s:9CommonTca16DummyPeroReducerV6ActionO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ViewAction",
+                                "printedName": "CommonTca.DummyPeroReducer.Action.ViewAction",
+                                "usr": "s:9CommonTca16DummyPeroReducerV6ActionO04ViewF0O"
+                              }
+                            ],
+                            "usr": "s:9CasePaths03AnyA4PathV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV4view0hI003AnyH4PathVyA2E04ViewF0OGvg",
+                        "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV4view0hI003AnyH4PathVyA2E04ViewF0OGvg",
+                        "moduleName": "CommonTca",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "delegate",
+                    "printedName": "delegate",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCasePath",
+                        "printedName": "CasePaths.AnyCasePath<CommonTca.DummyPeroReducer.Action, CommonTca.DummyPeroReducer.Action.DelegateAction>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "CommonTca.DummyPeroReducer.Action",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DelegateAction",
+                            "printedName": "CommonTca.DummyPeroReducer.Action.DelegateAction",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO08DelegateF0O"
+                          }
+                        ],
+                        "usr": "s:9CasePaths03AnyA4PathV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV8delegate0hI003AnyH4PathVyA2E08DelegateF0OGvp",
+                    "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV8delegate0hI003AnyH4PathVyA2E08DelegateF0OGvp",
+                    "moduleName": "CommonTca",
+                    "declAttributes": [
+                      "AccessControl"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyCasePath",
+                            "printedName": "CasePaths.AnyCasePath<CommonTca.DummyPeroReducer.Action, CommonTca.DummyPeroReducer.Action.DelegateAction>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Action",
+                                "printedName": "CommonTca.DummyPeroReducer.Action",
+                                "usr": "s:9CommonTca16DummyPeroReducerV6ActionO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "DelegateAction",
+                                "printedName": "CommonTca.DummyPeroReducer.Action.DelegateAction",
+                                "usr": "s:9CommonTca16DummyPeroReducerV6ActionO08DelegateF0O"
+                              }
+                            ],
+                            "usr": "s:9CasePaths03AnyA4PathV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV8delegate0hI003AnyH4PathVyA2E08DelegateF0OGvg",
+                        "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV8delegate0hI003AnyH4PathVyA2E08DelegateF0OGvg",
+                        "moduleName": "CommonTca",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "business",
+                    "printedName": "business",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyCasePath",
+                        "printedName": "CasePaths.AnyCasePath<CommonTca.DummyPeroReducer.Action, CommonTca.DummyPeroReducer.Action.BusinessAction>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "CommonTca.DummyPeroReducer.Action",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "BusinessAction",
+                            "printedName": "CommonTca.DummyPeroReducer.Action.BusinessAction",
+                            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO08BusinessF0O"
+                          }
+                        ],
+                        "usr": "s:9CasePaths03AnyA4PathV"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV8business0hI003AnyH4PathVyA2E08BusinessF0OGvp",
+                    "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV8business0hI003AnyH4PathVyA2E08BusinessF0OGvp",
+                    "moduleName": "CommonTca",
+                    "declAttributes": [
+                      "AccessControl"
+                    ],
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyCasePath",
+                            "printedName": "CasePaths.AnyCasePath<CommonTca.DummyPeroReducer.Action, CommonTca.DummyPeroReducer.Action.BusinessAction>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Action",
+                                "printedName": "CommonTca.DummyPeroReducer.Action",
+                                "usr": "s:9CommonTca16DummyPeroReducerV6ActionO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "BusinessAction",
+                                "printedName": "CommonTca.DummyPeroReducer.Action.BusinessAction",
+                                "usr": "s:9CommonTca16DummyPeroReducerV6ActionO08BusinessF0O"
+                              }
+                            ],
+                            "usr": "s:9CasePaths03AnyA4PathV"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV8business0hI003AnyH4PathVyA2E08BusinessF0OGvg",
+                        "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV8business0hI003AnyH4PathVyA2E08BusinessF0OGvg",
+                        "moduleName": "CommonTca",
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AllCasePaths",
+                        "printedName": "CommonTca.DummyPeroReducer.Action.AllCasePaths",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsVAGycfc",
+                    "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsVAGycfc",
+                    "moduleName": "CommonTca",
+                    "implicit": true,
+                    "init_kind": "Designated"
+                  }
+                ],
+                "declKind": "Struct",
+                "usr": "s:9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV",
+                "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV",
+                "moduleName": "CommonTca",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Sendable",
+                    "printedName": "Sendable",
+                    "usr": "s:s8SendableP",
+                    "mangledName": "$ss8SendableP"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "allCasePaths",
+                "printedName": "allCasePaths",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AllCasePaths",
+                    "printedName": "CommonTca.DummyPeroReducer.Action.AllCasePaths",
+                    "usr": "s:9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9CommonTca16DummyPeroReducerV6ActionO12allCasePathsAE03AllhI0VvpZ",
+                "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO12allCasePathsAE03AllhI0VvpZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AllCasePaths",
+                        "printedName": "CommonTca.DummyPeroReducer.Action.AllCasePaths",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9CommonTca16DummyPeroReducerV6ActionO12allCasePathsAE03AllhI0VvgZ",
+                    "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO12allCasePathsAE03AllhI0VvgZ",
+                    "moduleName": "CommonTca",
+                    "static": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:9CommonTca16DummyPeroReducerV6ActionO",
+            "mangledName": "$s9CommonTca16DummyPeroReducerV6ActionO",
+            "moduleName": "CommonTca",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isEnumExhaustive": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "TCAFeatureAction",
+                "printedName": "TCAFeatureAction",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "ViewAction",
+                    "printedName": "ViewAction",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewAction",
+                        "printedName": "CommonTca.DummyPeroReducer.Action.ViewAction",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO04ViewF0O"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeWitness",
+                    "name": "DelegateAction",
+                    "printedName": "DelegateAction",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DelegateAction",
+                        "printedName": "CommonTca.DummyPeroReducer.Action.DelegateAction",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO08DelegateF0O"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeWitness",
+                    "name": "BusinessAction",
+                    "printedName": "BusinessAction",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BusinessAction",
+                        "printedName": "CommonTca.DummyPeroReducer.Action.BusinessAction",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO08BusinessF0O"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:9CommonTca16TCAFeatureActionP",
+                "mangledName": "$s9CommonTca16TCAFeatureActionP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CasePathable",
+                "printedName": "CasePathable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "AllCasePaths",
+                    "printedName": "AllCasePaths",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AllCasePaths",
+                        "printedName": "CommonTca.DummyPeroReducer.Action.AllCasePaths",
+                        "usr": "s:9CommonTca16DummyPeroReducerV6ActionO12AllCasePathsV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:9CasePaths0A8PathableP",
+                "mangledName": "$s9CasePaths0A8PathableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some ComposableArchitecture.Reducer<CommonTca.DummyPeroReducer.State, CommonTca.DummyPeroReducer.Action>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Reducer",
+                    "printedName": "ComposableArchitecture.Reducer",
+                    "usr": "s:22ComposableArchitecture7ReducerP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca16DummyPeroReducerV4bodyQrvp",
+            "mangledName": "$s9CommonTca16DummyPeroReducerV4bodyQrvp",
+            "moduleName": "CommonTca",
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some ComposableArchitecture.Reducer<CommonTca.DummyPeroReducer.State, CommonTca.DummyPeroReducer.Action>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Reducer",
+                        "printedName": "ComposableArchitecture.Reducer",
+                        "usr": "s:22ComposableArchitecture7ReducerP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CommonTca16DummyPeroReducerV4bodyQrvg",
+                "mangledName": "$s9CommonTca16DummyPeroReducerV4bodyQrvg",
+                "moduleName": "CommonTca",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DummyPeroReducer",
+                "printedName": "CommonTca.DummyPeroReducer",
+                "usr": "s:9CommonTca16DummyPeroReducerV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9CommonTca16DummyPeroReducerVACycfc",
+            "mangledName": "$s9CommonTca16DummyPeroReducerVACycfc",
+            "moduleName": "CommonTca",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9CommonTca16DummyPeroReducerV",
+        "mangledName": "$s9CommonTca16DummyPeroReducerV",
+        "moduleName": "CommonTca",
+        "declAttributes": [
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Reducer",
+            "printedName": "Reducer",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "State",
+                "printedName": "State",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "State",
+                    "printedName": "CommonTca.DummyPeroReducer.State",
+                    "usr": "s:9CommonTca16DummyPeroReducerV5StateV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Action",
+                "printedName": "Action",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Action",
+                    "printedName": "CommonTca.DummyPeroReducer.Action",
+                    "usr": "s:9CommonTca16DummyPeroReducerV6ActionO"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some ComposableArchitecture.Reducer<CommonTca.DummyPeroReducer.State, CommonTca.DummyPeroReducer.Action>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Reducer",
+                        "printedName": "ComposableArchitecture.Reducer",
+                        "usr": "s:22ComposableArchitecture7ReducerP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:22ComposableArchitecture7ReducerP",
+            "mangledName": "$s22ComposableArchitecture7ReducerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CommonTca"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CommonTca"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CommonTcaAsset",
+        "printedName": "CommonTcaAsset",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Assets",
+            "printedName": "Assets",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "accentColor",
+                "printedName": "accentColor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CommonTcaColors",
+                    "printedName": "CommonTca.CommonTcaColors",
+                    "usr": "s:9CommonTca0aB6ColorsC"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9CommonTca0aB5AssetO6AssetsO11accentColorAA0aB6ColorsCvpZ",
+                "mangledName": "$s9CommonTca0aB5AssetO6AssetsO11accentColorAA0aB6ColorsCvpZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CommonTcaColors",
+                        "printedName": "CommonTca.CommonTcaColors",
+                        "usr": "s:9CommonTca0aB6ColorsC"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9CommonTca0aB5AssetO6AssetsO11accentColorAA0aB6ColorsCvgZ",
+                    "mangledName": "$s9CommonTca0aB5AssetO6AssetsO11accentColorAA0aB6ColorsCvgZ",
+                    "moduleName": "CommonTca",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "icBack",
+                "printedName": "icBack",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CommonTcaImages",
+                    "printedName": "CommonTca.CommonTcaImages",
+                    "usr": "s:9CommonTca0aB6ImagesV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9CommonTca0aB5AssetO6AssetsO6icBackAA0aB6ImagesVvpZ",
+                "mangledName": "$s9CommonTca0aB5AssetO6AssetsO6icBackAA0aB6ImagesVvpZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CommonTcaImages",
+                        "printedName": "CommonTca.CommonTcaImages",
+                        "usr": "s:9CommonTca0aB6ImagesV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9CommonTca0aB5AssetO6AssetsO6icBackAA0aB6ImagesVvgZ",
+                    "mangledName": "$s9CommonTca0aB5AssetO6AssetsO6icBackAA0aB6ImagesVvgZ",
+                    "moduleName": "CommonTca",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "icDetailsTime",
+                "printedName": "icDetailsTime",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CommonTcaImages",
+                    "printedName": "CommonTca.CommonTcaImages",
+                    "usr": "s:9CommonTca0aB6ImagesV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9CommonTca0aB5AssetO6AssetsO13icDetailsTimeAA0aB6ImagesVvpZ",
+                "mangledName": "$s9CommonTca0aB5AssetO6AssetsO13icDetailsTimeAA0aB6ImagesVvpZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CommonTcaImages",
+                        "printedName": "CommonTca.CommonTcaImages",
+                        "usr": "s:9CommonTca0aB6ImagesV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9CommonTca0aB5AssetO6AssetsO13icDetailsTimeAA0aB6ImagesVvgZ",
+                    "mangledName": "$s9CommonTca0aB5AssetO6AssetsO13icDetailsTimeAA0aB6ImagesVvgZ",
+                    "moduleName": "CommonTca",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "icDetailsVideo",
+                "printedName": "icDetailsVideo",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CommonTcaImages",
+                    "printedName": "CommonTca.CommonTcaImages",
+                    "usr": "s:9CommonTca0aB6ImagesV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9CommonTca0aB5AssetO6AssetsO14icDetailsVideoAA0aB6ImagesVvpZ",
+                "mangledName": "$s9CommonTca0aB5AssetO6AssetsO14icDetailsVideoAA0aB6ImagesVvpZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CommonTcaImages",
+                        "printedName": "CommonTca.CommonTcaImages",
+                        "usr": "s:9CommonTca0aB6ImagesV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9CommonTca0aB5AssetO6AssetsO14icDetailsVideoAA0aB6ImagesVvgZ",
+                    "mangledName": "$s9CommonTca0aB5AssetO6AssetsO14icDetailsVideoAA0aB6ImagesVvgZ",
+                    "moduleName": "CommonTca",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "icNext",
+                "printedName": "icNext",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CommonTcaImages",
+                    "printedName": "CommonTca.CommonTcaImages",
+                    "usr": "s:9CommonTca0aB6ImagesV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9CommonTca0aB5AssetO6AssetsO6icNextAA0aB6ImagesVvpZ",
+                "mangledName": "$s9CommonTca0aB5AssetO6AssetsO6icNextAA0aB6ImagesVvpZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CommonTcaImages",
+                        "printedName": "CommonTca.CommonTcaImages",
+                        "usr": "s:9CommonTca0aB6ImagesV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9CommonTca0aB5AssetO6AssetsO6icNextAA0aB6ImagesVvgZ",
+                    "mangledName": "$s9CommonTca0aB5AssetO6AssetsO6icNextAA0aB6ImagesVvgZ",
+                    "moduleName": "CommonTca",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "icPause",
+                "printedName": "icPause",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CommonTcaImages",
+                    "printedName": "CommonTca.CommonTcaImages",
+                    "usr": "s:9CommonTca0aB6ImagesV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9CommonTca0aB5AssetO6AssetsO7icPauseAA0aB6ImagesVvpZ",
+                "mangledName": "$s9CommonTca0aB5AssetO6AssetsO7icPauseAA0aB6ImagesVvpZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CommonTcaImages",
+                        "printedName": "CommonTca.CommonTcaImages",
+                        "usr": "s:9CommonTca0aB6ImagesV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9CommonTca0aB5AssetO6AssetsO7icPauseAA0aB6ImagesVvgZ",
+                    "mangledName": "$s9CommonTca0aB5AssetO6AssetsO7icPauseAA0aB6ImagesVvgZ",
+                    "moduleName": "CommonTca",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "icPrevious",
+                "printedName": "icPrevious",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CommonTcaImages",
+                    "printedName": "CommonTca.CommonTcaImages",
+                    "usr": "s:9CommonTca0aB6ImagesV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9CommonTca0aB5AssetO6AssetsO10icPreviousAA0aB6ImagesVvpZ",
+                "mangledName": "$s9CommonTca0aB5AssetO6AssetsO10icPreviousAA0aB6ImagesVvpZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CommonTcaImages",
+                        "printedName": "CommonTca.CommonTcaImages",
+                        "usr": "s:9CommonTca0aB6ImagesV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9CommonTca0aB5AssetO6AssetsO10icPreviousAA0aB6ImagesVvgZ",
+                    "mangledName": "$s9CommonTca0aB5AssetO6AssetsO10icPreviousAA0aB6ImagesVvgZ",
+                    "moduleName": "CommonTca",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "muteButton",
+                "printedName": "muteButton",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CommonTcaImages",
+                    "printedName": "CommonTca.CommonTcaImages",
+                    "usr": "s:9CommonTca0aB6ImagesV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9CommonTca0aB5AssetO6AssetsO10muteButtonAA0aB6ImagesVvpZ",
+                "mangledName": "$s9CommonTca0aB5AssetO6AssetsO10muteButtonAA0aB6ImagesVvpZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CommonTcaImages",
+                        "printedName": "CommonTca.CommonTcaImages",
+                        "usr": "s:9CommonTca0aB6ImagesV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9CommonTca0aB5AssetO6AssetsO10muteButtonAA0aB6ImagesVvgZ",
+                    "mangledName": "$s9CommonTca0aB5AssetO6AssetsO10muteButtonAA0aB6ImagesVvgZ",
+                    "moduleName": "CommonTca",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "mutedButton",
+                "printedName": "mutedButton",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CommonTcaImages",
+                    "printedName": "CommonTca.CommonTcaImages",
+                    "usr": "s:9CommonTca0aB6ImagesV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9CommonTca0aB5AssetO6AssetsO11mutedButtonAA0aB6ImagesVvpZ",
+                "mangledName": "$s9CommonTca0aB5AssetO6AssetsO11mutedButtonAA0aB6ImagesVvpZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CommonTcaImages",
+                        "printedName": "CommonTca.CommonTcaImages",
+                        "usr": "s:9CommonTca0aB6ImagesV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9CommonTca0aB5AssetO6AssetsO11mutedButtonAA0aB6ImagesVvgZ",
+                    "mangledName": "$s9CommonTca0aB5AssetO6AssetsO11mutedButtonAA0aB6ImagesVvgZ",
+                    "moduleName": "CommonTca",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:9CommonTca0aB5AssetO6AssetsO",
+            "mangledName": "$s9CommonTca0aB5AssetO6AssetsO",
+            "moduleName": "CommonTca",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "PreviewAssets",
+            "printedName": "PreviewAssets",
+            "declKind": "Enum",
+            "usr": "s:9CommonTca0aB5AssetO13PreviewAssetsO",
+            "mangledName": "$s9CommonTca0aB5AssetO13PreviewAssetsO",
+            "moduleName": "CommonTca",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9CommonTca0aB5AssetO",
+        "mangledName": "$s9CommonTca0aB5AssetO",
+        "moduleName": "CommonTca",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CommonTcaColors",
+        "printedName": "CommonTcaColors",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca0aB6ColorsC4nameSSvp",
+            "mangledName": "$s9CommonTca0aB6ColorsC4nameSSvp",
+            "moduleName": "CommonTca",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CommonTca0aB6ColorsC4nameSSvg",
+                "mangledName": "$s9CommonTca0aB6ColorsC4nameSSvg",
+                "moduleName": "CommonTca",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "color",
+            "printedName": "color",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca0aB6ColorsC5colorSo7UIColorCvp",
+            "mangledName": "$s9CommonTca0aB6ColorsC5colorSo7UIColorCvp",
+            "moduleName": "CommonTca",
+            "intro_Macosx": "10.13",
+            "intro_iOS": "11.0",
+            "intro_tvOS": "11.0",
+            "intro_watchOS": "4.0",
+            "declAttributes": [
+              "Final",
+              "Lazy",
+              "SetterAccess",
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CommonTca0aB6ColorsC5colorSo7UIColorCvg",
+                "mangledName": "$s9CommonTca0aB6ColorsC5colorSo7UIColorCvg",
+                "moduleName": "CommonTca",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "swiftUIColor",
+            "printedName": "swiftUIColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca0aB6ColorsC12swiftUIColor7SwiftUI5ColorVvp",
+            "mangledName": "$s9CommonTca0aB6ColorsC12swiftUIColor7SwiftUI5ColorVvp",
+            "moduleName": "CommonTca",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Final",
+              "SetterAccess",
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CommonTca0aB6ColorsC12swiftUIColor7SwiftUI5ColorVvg",
+                "mangledName": "$s9CommonTca0aB6ColorsC12swiftUIColor7SwiftUI5ColorVvg",
+                "moduleName": "CommonTca",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9CommonTca0aB6ColorsC",
+        "mangledName": "$s9CommonTca0aB6ColorsC",
+        "moduleName": "CommonTca",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CommonTcaImages",
+        "printedName": "CommonTcaImages",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca0aB6ImagesV4nameSSvp",
+            "mangledName": "$s9CommonTca0aB6ImagesV4nameSSvp",
+            "moduleName": "CommonTca",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CommonTca0aB6ImagesV4nameSSvg",
+                "mangledName": "$s9CommonTca0aB6ImagesV4nameSSvg",
+                "moduleName": "CommonTca",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca0aB6ImagesV5imageSo7UIImageCvp",
+            "mangledName": "$s9CommonTca0aB6ImagesV5imageSo7UIImageCvp",
+            "moduleName": "CommonTca",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CommonTca0aB6ImagesV5imageSo7UIImageCvg",
+                "mangledName": "$s9CommonTca0aB6ImagesV5imageSo7UIImageCvg",
+                "moduleName": "CommonTca",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "swiftUIImage",
+            "printedName": "swiftUIImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Image",
+                "printedName": "SwiftUI.Image",
+                "usr": "s:7SwiftUI5ImageV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca0aB6ImagesV12swiftUIImage7SwiftUI5ImageVvp",
+            "mangledName": "$s9CommonTca0aB6ImagesV12swiftUIImage7SwiftUI5ImageVvp",
+            "moduleName": "CommonTca",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CommonTca0aB6ImagesV12swiftUIImage7SwiftUI5ImageVvg",
+                "mangledName": "$s9CommonTca0aB6ImagesV12swiftUIImage7SwiftUI5ImageVvg",
+                "moduleName": "CommonTca",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CommonTcaImages",
+                "printedName": "CommonTca.CommonTcaImages",
+                "usr": "s:9CommonTca0aB6ImagesV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9CommonTca0aB6ImagesV4nameACSS_tcfc",
+            "mangledName": "$s9CommonTca0aB6ImagesV4nameACSS_tcfc",
+            "moduleName": "CommonTca",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9CommonTca0aB6ImagesV",
+        "mangledName": "$s9CommonTca0aB6ImagesV",
+        "moduleName": "CommonTca",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CommonTca",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CommonTcaResources",
+        "printedName": "CommonTcaResources",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bundle",
+            "printedName": "bundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CommonTca@objc(cs)CommonTcaResources(cpy)bundle",
+            "mangledName": "$s9CommonTca0aB9ResourcesC6bundleSo8NSBundleCvpZ",
+            "moduleName": "CommonTca",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CommonTca@objc(cs)CommonTcaResources(cm)bundle",
+                "mangledName": "$s9CommonTca0aB9ResourcesC6bundleSo8NSBundleCvgZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CommonTcaResources",
+                "printedName": "CommonTca.CommonTcaResources",
+                "usr": "c:@M@CommonTca@objc(cs)CommonTcaResources"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CommonTca@objc(cs)CommonTcaResources(im)init",
+            "mangledName": "$s9CommonTca0aB9ResourcesCACycfc",
+            "moduleName": "CommonTca",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CommonTca@objc(cs)CommonTcaResources",
+        "mangledName": "$s9CommonTca0aB9ResourcesC",
+        "moduleName": "CommonTca",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CommonTca"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CommonTca"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CommonTca"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "CommonTca"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ColorResource",
+        "printedName": "ColorResource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca13ColorResourceV4name33_2E180C0E6D19916D2DCDE83E90865B05LLSSvp",
+            "mangledName": "$s9CommonTca13ColorResourceV4name33_2E180C0E6D19916D2DCDE83E90865B05LLSSvp",
+            "moduleName": "CommonTca",
+            "isInternal": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "bundle",
+            "printedName": "bundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca13ColorResourceV6bundle33_2E180C0E6D19916D2DCDE83E90865B05LLSo8NSBundleCvp",
+            "mangledName": "$s9CommonTca13ColorResourceV6bundle33_2E180C0E6D19916D2DCDE83E90865B05LLSo8NSBundleCvp",
+            "moduleName": "CommonTca",
+            "isInternal": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ColorResource",
+                "printedName": "CommonTca.ColorResource",
+                "usr": "s:9CommonTca13ColorResourceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9CommonTca13ColorResourceV4name6bundleACSS_So8NSBundleCtcfc",
+            "mangledName": "$s9CommonTca13ColorResourceV4name6bundleACSS_So8NSBundleCtcfc",
+            "moduleName": "CommonTca",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca13ColorResourceV9hashValueSivp",
+            "mangledName": "$s9CommonTca13ColorResourceV9hashValueSivp",
+            "moduleName": "CommonTca",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CommonTca13ColorResourceV9hashValueSivg",
+                "mangledName": "$s9CommonTca13ColorResourceV9hashValueSivg",
+                "moduleName": "CommonTca",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CommonTca13ColorResourceV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9CommonTca13ColorResourceV4hash4intoys6HasherVz_tF",
+            "moduleName": "CommonTca",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ColorResource",
+                "printedName": "CommonTca.ColorResource",
+                "usr": "s:9CommonTca13ColorResourceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ColorResource",
+                "printedName": "CommonTca.ColorResource",
+                "usr": "s:9CommonTca13ColorResourceV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CommonTca13ColorResourceV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9CommonTca13ColorResourceV2eeoiySbAC_ACtFZ",
+            "moduleName": "CommonTca",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9CommonTca13ColorResourceV",
+        "mangledName": "$s9CommonTca13ColorResourceV",
+        "moduleName": "CommonTca",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageResource",
+        "printedName": "ImageResource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca13ImageResourceV4name33_2E180C0E6D19916D2DCDE83E90865B05LLSSvp",
+            "mangledName": "$s9CommonTca13ImageResourceV4name33_2E180C0E6D19916D2DCDE83E90865B05LLSSvp",
+            "moduleName": "CommonTca",
+            "isInternal": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "bundle",
+            "printedName": "bundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca13ImageResourceV6bundle33_2E180C0E6D19916D2DCDE83E90865B05LLSo8NSBundleCvp",
+            "mangledName": "$s9CommonTca13ImageResourceV6bundle33_2E180C0E6D19916D2DCDE83E90865B05LLSo8NSBundleCvp",
+            "moduleName": "CommonTca",
+            "isInternal": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "CommonTca.ImageResource",
+                "usr": "s:9CommonTca13ImageResourceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9CommonTca13ImageResourceV4name6bundleACSS_So8NSBundleCtcfc",
+            "mangledName": "$s9CommonTca13ImageResourceV4name6bundleACSS_So8NSBundleCtcfc",
+            "moduleName": "CommonTca",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca13ImageResourceV9hashValueSivp",
+            "mangledName": "$s9CommonTca13ImageResourceV9hashValueSivp",
+            "moduleName": "CommonTca",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CommonTca13ImageResourceV9hashValueSivg",
+                "mangledName": "$s9CommonTca13ImageResourceV9hashValueSivg",
+                "moduleName": "CommonTca",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CommonTca13ImageResourceV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9CommonTca13ImageResourceV4hash4intoys6HasherVz_tF",
+            "moduleName": "CommonTca",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "CommonTca.ImageResource",
+                "usr": "s:9CommonTca13ImageResourceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "CommonTca.ImageResource",
+                "usr": "s:9CommonTca13ImageResourceV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CommonTca13ImageResourceV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9CommonTca13ImageResourceV2eeoiySbAC_ACtFZ",
+            "moduleName": "CommonTca",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "icBack",
+            "printedName": "icBack",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "CommonTca.ImageResource",
+                "usr": "s:9CommonTca13ImageResourceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca13ImageResourceV6icBackACvpZ",
+            "mangledName": "$s9CommonTca13ImageResourceV6icBackACvpZ",
+            "moduleName": "CommonTca",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageResource",
+                    "printedName": "CommonTca.ImageResource",
+                    "usr": "s:9CommonTca13ImageResourceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CommonTca13ImageResourceV6icBackACvgZ",
+                "mangledName": "$s9CommonTca13ImageResourceV6icBackACvgZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "icDetailsTime",
+            "printedName": "icDetailsTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "CommonTca.ImageResource",
+                "usr": "s:9CommonTca13ImageResourceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca13ImageResourceV13icDetailsTimeACvpZ",
+            "mangledName": "$s9CommonTca13ImageResourceV13icDetailsTimeACvpZ",
+            "moduleName": "CommonTca",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageResource",
+                    "printedName": "CommonTca.ImageResource",
+                    "usr": "s:9CommonTca13ImageResourceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CommonTca13ImageResourceV13icDetailsTimeACvgZ",
+                "mangledName": "$s9CommonTca13ImageResourceV13icDetailsTimeACvgZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "icDetailsVideo",
+            "printedName": "icDetailsVideo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "CommonTca.ImageResource",
+                "usr": "s:9CommonTca13ImageResourceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca13ImageResourceV14icDetailsVideoACvpZ",
+            "mangledName": "$s9CommonTca13ImageResourceV14icDetailsVideoACvpZ",
+            "moduleName": "CommonTca",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageResource",
+                    "printedName": "CommonTca.ImageResource",
+                    "usr": "s:9CommonTca13ImageResourceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CommonTca13ImageResourceV14icDetailsVideoACvgZ",
+                "mangledName": "$s9CommonTca13ImageResourceV14icDetailsVideoACvgZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "icNext",
+            "printedName": "icNext",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "CommonTca.ImageResource",
+                "usr": "s:9CommonTca13ImageResourceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca13ImageResourceV6icNextACvpZ",
+            "mangledName": "$s9CommonTca13ImageResourceV6icNextACvpZ",
+            "moduleName": "CommonTca",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageResource",
+                    "printedName": "CommonTca.ImageResource",
+                    "usr": "s:9CommonTca13ImageResourceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CommonTca13ImageResourceV6icNextACvgZ",
+                "mangledName": "$s9CommonTca13ImageResourceV6icNextACvgZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "icPause",
+            "printedName": "icPause",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "CommonTca.ImageResource",
+                "usr": "s:9CommonTca13ImageResourceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca13ImageResourceV7icPauseACvpZ",
+            "mangledName": "$s9CommonTca13ImageResourceV7icPauseACvpZ",
+            "moduleName": "CommonTca",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageResource",
+                    "printedName": "CommonTca.ImageResource",
+                    "usr": "s:9CommonTca13ImageResourceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CommonTca13ImageResourceV7icPauseACvgZ",
+                "mangledName": "$s9CommonTca13ImageResourceV7icPauseACvgZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "icPrevious",
+            "printedName": "icPrevious",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "CommonTca.ImageResource",
+                "usr": "s:9CommonTca13ImageResourceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca13ImageResourceV10icPreviousACvpZ",
+            "mangledName": "$s9CommonTca13ImageResourceV10icPreviousACvpZ",
+            "moduleName": "CommonTca",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageResource",
+                    "printedName": "CommonTca.ImageResource",
+                    "usr": "s:9CommonTca13ImageResourceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CommonTca13ImageResourceV10icPreviousACvgZ",
+                "mangledName": "$s9CommonTca13ImageResourceV10icPreviousACvgZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "muteButton",
+            "printedName": "muteButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "CommonTca.ImageResource",
+                "usr": "s:9CommonTca13ImageResourceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca13ImageResourceV10muteButtonACvpZ",
+            "mangledName": "$s9CommonTca13ImageResourceV10muteButtonACvpZ",
+            "moduleName": "CommonTca",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageResource",
+                    "printedName": "CommonTca.ImageResource",
+                    "usr": "s:9CommonTca13ImageResourceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CommonTca13ImageResourceV10muteButtonACvgZ",
+                "mangledName": "$s9CommonTca13ImageResourceV10muteButtonACvgZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mutedButton",
+            "printedName": "mutedButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "CommonTca.ImageResource",
+                "usr": "s:9CommonTca13ImageResourceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CommonTca13ImageResourceV11mutedButtonACvpZ",
+            "mangledName": "$s9CommonTca13ImageResourceV11mutedButtonACvpZ",
+            "moduleName": "CommonTca",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageResource",
+                    "printedName": "CommonTca.ImageResource",
+                    "usr": "s:9CommonTca13ImageResourceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CommonTca13ImageResourceV11mutedButtonACvgZ",
+                "mangledName": "$s9CommonTca13ImageResourceV11mutedButtonACvgZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9CommonTca13ImageResourceV",
+        "mangledName": "$s9CommonTca13ImageResourceV",
+        "moduleName": "CommonTca",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(asset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CommonTcaColors",
+                "printedName": "CommonTca.CommonTcaColors",
+                "usr": "s:9CommonTca0aB6ColorsC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC9CommonTcaE5assetABSgAC0bC6ColorsC_tcfc",
+            "mangledName": "$sSo7UIColorC9CommonTcaE5assetABSgAC0bC6ColorsC_tcfc",
+            "moduleName": "CommonTca",
+            "intro_Macosx": "10.13",
+            "intro_iOS": "11.0",
+            "intro_tvOS": "11.0",
+            "intro_watchOS": "4.0",
+            "declAttributes": [
+              "Convenience",
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(resource:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ColorResource",
+                "printedName": "CommonTca.ColorResource",
+                "usr": "s:9CommonTca13ColorResourceV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC9CommonTcaE8resourceAbC13ColorResourceV_tcfc",
+            "mangledName": "$sSo7UIColorC9CommonTcaE8resourceAbC13ColorResourceV_tcfc",
+            "moduleName": "CommonTca",
+            "declAttributes": [
+              "Convenience",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Color",
+        "printedName": "Color",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(asset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CommonTcaColors",
+                "printedName": "CommonTca.CommonTcaColors",
+                "usr": "s:9CommonTca0aB6ColorsC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI5ColorV9CommonTcaE5assetAcD0dE6ColorsC_tcfc",
+            "mangledName": "$s7SwiftUI5ColorV9CommonTcaE5assetAcD0dE6ColorsC_tcfc",
+            "moduleName": "CommonTca",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ColorResource",
+                "printedName": "CommonTca.ColorResource",
+                "usr": "s:9CommonTca13ColorResourceV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI5ColorV9CommonTcaEyAcD0C8ResourceVcfc",
+            "mangledName": "$s7SwiftUI5ColorV9CommonTcaEyAcD0C8ResourceVcfc",
+            "moduleName": "CommonTca",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftUI5ColorV",
+        "mangledName": "$s7SwiftUI5ColorV",
+        "moduleName": "SwiftUI",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ShapeStyle",
+            "printedName": "ShapeStyle",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Resolved",
+                "printedName": "Resolved",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Resolved",
+                    "printedName": "SwiftUI.Color.Resolved",
+                    "usr": "s:7SwiftUI5ColorV8ResolvedV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10ShapeStyleP",
+            "mangledName": "$s7SwiftUI10ShapeStyleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Image",
+        "printedName": "Image",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(asset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Image",
+                "printedName": "SwiftUI.Image",
+                "usr": "s:7SwiftUI5ImageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CommonTcaImages",
+                "printedName": "CommonTca.CommonTcaImages",
+                "usr": "s:9CommonTca0aB6ImagesV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI5ImageV9CommonTcaE5assetAcD0dE6ImagesV_tcfc",
+            "mangledName": "$s7SwiftUI5ImageV9CommonTcaE5assetAcD0dE6ImagesV_tcfc",
+            "moduleName": "CommonTca",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(asset:label:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Image",
+                "printedName": "SwiftUI.Image",
+                "usr": "s:7SwiftUI5ImageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CommonTcaImages",
+                "printedName": "CommonTca.CommonTcaImages",
+                "usr": "s:9CommonTca0aB6ImagesV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Text",
+                "printedName": "SwiftUI.Text",
+                "usr": "s:7SwiftUI4TextV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI5ImageV9CommonTcaE5asset5labelAcD0dE6ImagesV_AA4TextVtcfc",
+            "mangledName": "$s7SwiftUI5ImageV9CommonTcaE5asset5labelAcD0dE6ImagesV_AA4TextVtcfc",
+            "moduleName": "CommonTca",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(decorative:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Image",
+                "printedName": "SwiftUI.Image",
+                "usr": "s:7SwiftUI5ImageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CommonTcaImages",
+                "printedName": "CommonTca.CommonTcaImages",
+                "usr": "s:9CommonTca0aB6ImagesV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI5ImageV9CommonTcaE10decorativeAcD0dE6ImagesV_tcfc",
+            "mangledName": "$s7SwiftUI5ImageV9CommonTcaE10decorativeAcD0dE6ImagesV_tcfc",
+            "moduleName": "CommonTca",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Image",
+                "printedName": "SwiftUI.Image",
+                "usr": "s:7SwiftUI5ImageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "CommonTca.ImageResource",
+                "usr": "s:9CommonTca13ImageResourceV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI5ImageV9CommonTcaEyAcD0C8ResourceVcfc",
+            "mangledName": "$s7SwiftUI5ImageV9CommonTcaEyAcD0C8ResourceVcfc",
+            "moduleName": "CommonTca",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftUI5ImageV",
+        "mangledName": "$s7SwiftUI5ImageV",
+        "moduleName": "SwiftUI",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bundle",
+        "printedName": "Bundle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "module",
+            "printedName": "module",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8NSBundleC9CommonTcaE6moduleABvpZ",
+            "mangledName": "$sSo8NSBundleC9CommonTcaE6moduleABvpZ",
+            "moduleName": "CommonTca",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSBundleC9CommonTcaE6moduleABvgZ",
+                "mangledName": "$sSo8NSBundleC9CommonTcaE6moduleABvgZ",
+                "moduleName": "CommonTca",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSBundle",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSBundle",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(resource:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageResource",
+                "printedName": "CommonTca.ImageResource",
+                "usr": "s:9CommonTca13ImageResourceV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIImageC9CommonTcaE8resourceAbC13ImageResourceV_tcfc",
+            "mangledName": "$sSo7UIImageC9CommonTcaE8resourceAbC13ImageResourceV_tcfc",
+            "moduleName": "CommonTca",
+            "declAttributes": [
+              "Convenience",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonTca.swift",
+      "kind": "StringLiteral",
+      "offset": 601,
+      "length": 13,
+      "value": "\"AccentColor\""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonTca.swift",
+      "kind": "StringLiteral",
+      "offset": 669,
+      "length": 9,
+      "value": "\"ic_back\""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonTca.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 17,
+      "value": "\"ic_details_time\""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonTca.swift",
+      "kind": "StringLiteral",
+      "offset": 820,
+      "length": 18,
+      "value": "\"ic_details_video\""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonTca.swift",
+      "kind": "StringLiteral",
+      "offset": 893,
+      "length": 9,
+      "value": "\"ic_next\""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonTca.swift",
+      "kind": "StringLiteral",
+      "offset": 958,
+      "length": 10,
+      "value": "\"ic_pause\""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonTca.swift",
+      "kind": "StringLiteral",
+      "offset": 1027,
+      "length": 13,
+      "value": "\"ic_previous\""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonTca.swift",
+      "kind": "StringLiteral",
+      "offset": 1099,
+      "length": 13,
+      "value": "\"mute_button\""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonTca.swift",
+      "kind": "StringLiteral",
+      "offset": 1172,
+      "length": 14,
+      "value": "\"muted_button\""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonTca.swift",
+      "kind": "StringLiteral",
+      "offset": 1775,
+      "length": 43,
+      "value": "\"Unable to load color asset named \""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonTca.swift",
+      "kind": "StringLiteral",
+      "offset": 1816,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/dd\/Build\/Intermediates.noindex\/InWorkoutTools.build\/Debug-iphoneos\/CommonTca.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 726,
+      "length": 9,
+      "value": "\"ic_back\""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/dd\/Build\/Intermediates.noindex\/InWorkoutTools.build\/Debug-iphoneos\/CommonTca.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 873,
+      "length": 17,
+      "value": "\"ic_details_time\""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/dd\/Build\/Intermediates.noindex\/InWorkoutTools.build\/Debug-iphoneos\/CommonTca.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1030,
+      "length": 18,
+      "value": "\"ic_details_video\""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/dd\/Build\/Intermediates.noindex\/InWorkoutTools.build\/Debug-iphoneos\/CommonTca.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1171,
+      "length": 9,
+      "value": "\"ic_next\""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/dd\/Build\/Intermediates.noindex\/InWorkoutTools.build\/Debug-iphoneos\/CommonTca.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1305,
+      "length": 10,
+      "value": "\"ic_pause\""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/dd\/Build\/Intermediates.noindex\/InWorkoutTools.build\/Debug-iphoneos\/CommonTca.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1446,
+      "length": 13,
+      "value": "\"ic_previous\""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/dd\/Build\/Intermediates.noindex\/InWorkoutTools.build\/Debug-iphoneos\/CommonTca.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1590,
+      "length": 13,
+      "value": "\"mute_button\""
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/dd\/Build\/Intermediates.noindex\/InWorkoutTools.build\/Debug-iphoneos\/CommonTca.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1736,
+      "length": 14,
+      "value": "\"muted_button\""
+    }
+  ]
+}

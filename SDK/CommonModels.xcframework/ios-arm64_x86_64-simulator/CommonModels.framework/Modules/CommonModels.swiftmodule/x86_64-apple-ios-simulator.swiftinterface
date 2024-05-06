@@ -1,0 +1,180 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name CommonModels
+import DeveloperToolsSupport
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct Exercise : Swift.Identifiable, Swift.Equatable, Swift.Codable {
+  public static func == (lhs: CommonModels.Exercise, rhs: CommonModels.Exercise) -> Swift.Bool
+  public let id: Swift.String
+  public var name: Swift.String
+  public var type: CommonModels.ExerciseType
+  public var media: CommonModels.Media?
+  public var durationInMillis: Foundation.TimeInterval?
+  public let idx: Swift.Int
+  public var exerciseRepetition: Swift.Int
+  public var reps: Swift.Int?
+  public var loopSubExercises: Swift.Bool
+  public var canSkipExercise: Swift.Bool
+  public var subExercises: [CommonModels.Exercise]
+  public func leftTime(elapsedTimeInMillis: Foundation.TimeInterval) -> Foundation.TimeInterval
+  public func totalDuration() -> Foundation.TimeInterval
+  public func hasSubExercises() -> Swift.Bool
+  public init(id: Swift.String, name: Swift.String, type: CommonModels.ExerciseType, durationInMillis: Foundation.TimeInterval?, idx: Swift.Int, exerciseRepetition: Swift.Int, reps: Swift.Int, loopSubExercises: Swift.Bool, canSkipExercise: Swift.Bool, subExercises: [CommonModels.Exercise], media: CommonModels.Media? = nil)
+  public typealias ID = Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CommonModels.Exercise {
+  public func hasDuration() -> Swift.Bool
+}
+public enum ExerciseType : Swift.CaseIterable, Swift.Codable {
+  case exercise
+  case rest
+  public static func == (a: CommonModels.ExerciseType, b: CommonModels.ExerciseType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias AllCases = [CommonModels.ExerciseType]
+  public static var allCases: [CommonModels.ExerciseType] {
+    get
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum Gender : Swift.Codable {
+  case male
+  case female
+  case undisclosed
+  public var value: Swift.String {
+    get
+  }
+  public static func fromString(_ stringValue: Swift.String?) -> CommonModels.Gender?
+  public static func == (a: CommonModels.Gender, b: CommonModels.Gender) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Media : Swift.Equatable, Swift.Identifiable, Swift.Codable, Swift.Hashable {
+  public let id: Foundation.UUID
+  public let url: Foundation.URL?
+  public let height: CoreFoundation.CGFloat?
+  public let width: CoreFoundation.CGFloat?
+  public let duration: CoreFoundation.CGFloat?
+  public let type: Swift.String
+  public let mimeType: CommonModels.Media.MimeType
+  public let loopVideo: Swift.Bool?
+  public init(url: Foundation.URL?, height: CoreFoundation.CGFloat? = nil, width: CoreFoundation.CGFloat? = nil, duration: CoreFoundation.CGFloat? = nil, type: Swift.String, loopVideo: Swift.Bool? = nil)
+  public enum MimeType : Swift.String, Swift.Codable, Swift.Equatable {
+    case jpg
+    case gif
+    case jpeg
+    case png
+    case webp
+    case image
+    case mp4
+    case mov
+    case quicktime
+    public var isImage: Swift.Bool {
+      get
+    }
+    public var isVideo: Swift.Bool {
+      get
+    }
+    public var `extension`: Swift.String {
+      get
+    }
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public static func == (a: CommonModels.Media, b: CommonModels.Media) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias ID = Foundation.UUID
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum CommonModelsAsset {
+  public enum Assets {
+    public static let accentColor: CommonModels.CommonModelsColors
+    public static let icBack: CommonModels.CommonModelsImages
+    public static let icDetailsTime: CommonModels.CommonModelsImages
+    public static let icDetailsVideo: CommonModels.CommonModelsImages
+    public static let icNext: CommonModels.CommonModelsImages
+    public static let icPause: CommonModels.CommonModelsImages
+    public static let icPrevious: CommonModels.CommonModelsImages
+    public static let muteButton: CommonModels.CommonModelsImages
+    public static let mutedButton: CommonModels.CommonModelsImages
+  }
+  public enum PreviewAssets {
+  }
+}
+@_hasMissingDesignatedInitializers final public class CommonModelsColors {
+  final public var name: Swift.String {
+    get
+  }
+  public typealias Color = UIKit.UIColor
+  @available(iOS 11.0, tvOS 11.0, watchOS 4.0, macOS 10.13, visionOS 1.0, *)
+  final public var color: CommonModels.CommonModelsColors.Color {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+  final public var swiftUIColor: SwiftUI.Color {
+    get
+  }
+  @objc deinit
+}
+extension UIKit.UIColor {
+  @available(iOS 11.0, tvOS 11.0, watchOS 4.0, macOS 10.13, visionOS 1.0, *)
+  convenience public init?(asset: CommonModels.CommonModelsColors)
+}
+@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+extension SwiftUI.Color {
+  public init(asset: CommonModels.CommonModelsColors)
+}
+public struct CommonModelsImages {
+  public var name: Swift.String {
+    get
+  }
+  public typealias Image = UIKit.UIImage
+  public var image: CommonModels.CommonModelsImages.Image {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+  public var swiftUIImage: SwiftUI.Image {
+    get
+  }
+}
+@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+extension SwiftUI.Image {
+  public init(asset: CommonModels.CommonModelsImages)
+  public init(asset: CommonModels.CommonModelsImages, label: SwiftUI.Text)
+  public init(decorative asset: CommonModels.CommonModelsImages)
+}
+@_inheritsConvenienceInitializers @objc public class CommonModelsResources : ObjectiveC.NSObject {
+  @objc public class var bundle: Foundation.Bundle {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension CommonModels.ExerciseType : Swift.Equatable {}
+extension CommonModels.ExerciseType : Swift.Hashable {}
+extension CommonModels.Gender : Swift.Equatable {}
+extension CommonModels.Gender : Swift.Hashable {}
+extension CommonModels.Media.MimeType : Swift.Hashable {}
+extension CommonModels.Media.MimeType : Swift.RawRepresentable {}

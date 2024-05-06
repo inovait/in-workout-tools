@@ -1,0 +1,244 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name FeatureVideo
+import AVFoundation
+import AVKit
+import Combine
+import CommonModels
+import CommonTca
+import ComposableArchitecture
+import DeveloperToolsSupport
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum FeatureVideoAsset {
+  public enum Assets {
+    public static let accentColor: FeatureVideo.FeatureVideoColors
+    public static let icBack: FeatureVideo.FeatureVideoImages
+    public static let icDetailsTime: FeatureVideo.FeatureVideoImages
+    public static let icDetailsVideo: FeatureVideo.FeatureVideoImages
+    public static let icNext: FeatureVideo.FeatureVideoImages
+    public static let icPause: FeatureVideo.FeatureVideoImages
+    public static let icPrevious: FeatureVideo.FeatureVideoImages
+    public static let muteButton: FeatureVideo.FeatureVideoImages
+    public static let mutedButton: FeatureVideo.FeatureVideoImages
+  }
+  public enum PreviewAssets {
+  }
+}
+@_hasMissingDesignatedInitializers final public class FeatureVideoColors {
+  final public var name: Swift.String {
+    get
+  }
+  public typealias Color = UIKit.UIColor
+  @available(iOS 11.0, tvOS 11.0, watchOS 4.0, macOS 10.13, visionOS 1.0, *)
+  final public var color: FeatureVideo.FeatureVideoColors.Color {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+  final public var swiftUIColor: SwiftUI.Color {
+    get
+  }
+  @objc deinit
+}
+extension UIKit.UIColor {
+  @available(iOS 11.0, tvOS 11.0, watchOS 4.0, macOS 10.13, visionOS 1.0, *)
+  convenience public init?(asset: FeatureVideo.FeatureVideoColors)
+}
+@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+extension SwiftUI.Color {
+  public init(asset: FeatureVideo.FeatureVideoColors)
+}
+public struct FeatureVideoImages {
+  public var name: Swift.String {
+    get
+  }
+  public typealias Image = UIKit.UIImage
+  public var image: FeatureVideo.FeatureVideoImages.Image {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+  public var swiftUIImage: SwiftUI.Image {
+    get
+  }
+}
+@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+extension SwiftUI.Image {
+  public init(asset: FeatureVideo.FeatureVideoImages)
+  public init(asset: FeatureVideo.FeatureVideoImages, label: SwiftUI.Text)
+  public init(decorative asset: FeatureVideo.FeatureVideoImages)
+}
+@_inheritsConvenienceInitializers @objc public class FeatureVideoResources : ObjectiveC.NSObject {
+  @objc public class var bundle: Foundation.Bundle {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class CachingPlayerItem : AVFoundation.AVPlayerItem {
+  final public let url: Foundation.URL
+  open func download()
+  @objc override dynamic open func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @objc deinit
+}
+public struct GifView : SwiftUI.View {
+  public init(url: Foundation.URL, width: CoreFoundation.CGFloat? = nil, height: CoreFoundation.CGFloat? = nil, isFailed: SwiftUI.Binding<Swift.Bool> = .constant(false))
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12FeatureVideo7GifViewV4bodyQrvp", 0) __
+}
+public struct VideoFeature : ComposableArchitecture.Reducer {
+  public init()
+  public struct State : Swift.Equatable {
+    public var player: AVFoundation.AVPlayer? {
+      get
+      set
+      _modify
+    }
+    public var currentMedia: CommonModels.Media? {
+      get
+      set
+      _modify
+    }
+    public var playerStatus: AVFoundation.AVPlayerItem.Status? {
+      get
+      set
+      _modify
+    }
+    public var playerIsSet: Swift.Bool {
+      get
+      set
+      _modify
+    }
+    public var isMuted: Swift.Bool {
+      get
+      set
+      _modify
+    }
+    public init(media: [CommonModels.Media?])
+    public var _$id: ComposableArchitecture.ObservableStateID {
+      get
+    }
+    public mutating func _$willModify()
+    public static func == (a: FeatureVideo.VideoFeature.State, b: FeatureVideo.VideoFeature.State) -> Swift.Bool
+  }
+  public enum Action : CommonTca.TCAFeatureAction, Swift.Equatable {
+    public enum ViewAction : Swift.Equatable {
+      public static func == (a: FeatureVideo.VideoFeature.Action.ViewAction, b: FeatureVideo.VideoFeature.Action.ViewAction) -> Swift.Bool
+      public struct AllCasePaths {
+      }
+      public static var allCasePaths: FeatureVideo.VideoFeature.Action.ViewAction.AllCasePaths {
+        get
+      }
+    }
+    public enum DelegateAction : Swift.Equatable {
+      public static func == (a: FeatureVideo.VideoFeature.Action.DelegateAction, b: FeatureVideo.VideoFeature.Action.DelegateAction) -> Swift.Bool
+    }
+    public enum BusinessAction : Swift.Equatable {
+      case prepareMedia
+      case pause
+      case muteVideo
+      case playVideo
+      case playerDeinit
+      case nextMedia
+      case prevMedia
+      case setMedia(FeatureVideo.SetMediaValues)
+      case setPlayer(FeatureVideo.SetPlayerValues)
+      case setCurrentMedia(CommonModels.Media)
+      case setPlayerStatus(AVFoundation.AVPlayerItem?)
+      case saveManagerId(Foundation.UUID?)
+      case setPlayerIfNil(AVFoundation.AVPlayerItem?, Swift.Bool?)
+      case setPlayerIsSet
+      public static func == (a: FeatureVideo.VideoFeature.Action.BusinessAction, b: FeatureVideo.VideoFeature.Action.BusinessAction) -> Swift.Bool
+      public struct AllCasePaths {
+        public var prepareMedia: CasePaths.AnyCasePath<FeatureVideo.VideoFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var pause: CasePaths.AnyCasePath<FeatureVideo.VideoFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var muteVideo: CasePaths.AnyCasePath<FeatureVideo.VideoFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var playVideo: CasePaths.AnyCasePath<FeatureVideo.VideoFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var playerDeinit: CasePaths.AnyCasePath<FeatureVideo.VideoFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var nextMedia: CasePaths.AnyCasePath<FeatureVideo.VideoFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var prevMedia: CasePaths.AnyCasePath<FeatureVideo.VideoFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var setMedia: CasePaths.AnyCasePath<FeatureVideo.VideoFeature.Action.BusinessAction, FeatureVideo.SetMediaValues> {
+          get
+        }
+        public var setPlayer: CasePaths.AnyCasePath<FeatureVideo.VideoFeature.Action.BusinessAction, FeatureVideo.SetPlayerValues> {
+          get
+        }
+        public var setCurrentMedia: CasePaths.AnyCasePath<FeatureVideo.VideoFeature.Action.BusinessAction, CommonModels.Media> {
+          get
+        }
+        public var setPlayerStatus: CasePaths.AnyCasePath<FeatureVideo.VideoFeature.Action.BusinessAction, AVFoundation.AVPlayerItem?> {
+          get
+        }
+        public var saveManagerId: CasePaths.AnyCasePath<FeatureVideo.VideoFeature.Action.BusinessAction, Foundation.UUID?> {
+          get
+        }
+        public var setPlayerIfNil: CasePaths.AnyCasePath<FeatureVideo.VideoFeature.Action.BusinessAction, (AVFoundation.AVPlayerItem?, Swift.Bool?)> {
+          get
+        }
+        public var setPlayerIsSet: CasePaths.AnyCasePath<FeatureVideo.VideoFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+      }
+      public static var allCasePaths: FeatureVideo.VideoFeature.Action.BusinessAction.AllCasePaths {
+        get
+      }
+    }
+    case view(FeatureVideo.VideoFeature.Action.ViewAction)
+    case delegate(FeatureVideo.VideoFeature.Action.DelegateAction)
+    case business(FeatureVideo.VideoFeature.Action.BusinessAction)
+    public static func == (a: FeatureVideo.VideoFeature.Action, b: FeatureVideo.VideoFeature.Action) -> Swift.Bool
+    public struct AllCasePaths {
+      public var view: CasePaths.AnyCasePath<FeatureVideo.VideoFeature.Action, FeatureVideo.VideoFeature.Action.ViewAction> {
+        get
+      }
+      public var delegate: CasePaths.AnyCasePath<FeatureVideo.VideoFeature.Action, FeatureVideo.VideoFeature.Action.DelegateAction> {
+        get
+      }
+      public var business: CasePaths.AnyCasePath<FeatureVideo.VideoFeature.Action, FeatureVideo.VideoFeature.Action.BusinessAction> {
+        get
+      }
+    }
+    public static var allCasePaths: FeatureVideo.VideoFeature.Action.AllCasePaths {
+      get
+    }
+  }
+  public var body: some ComposableArchitecture.Reducer<FeatureVideo.VideoFeature.State, FeatureVideo.VideoFeature.Action> {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12FeatureVideo0bA0V4bodyQrvp", 0) __
+}
+extension FeatureVideo.VideoFeature.State : ComposableArchitecture.ObservableState, Observation.Observable {
+}
+extension FeatureVideo.VideoFeature.Action.ViewAction : CasePaths.CasePathable {
+}
+extension FeatureVideo.VideoFeature.Action.BusinessAction : CasePaths.CasePathable {
+}
+extension FeatureVideo.VideoFeature.Action : CasePaths.CasePathable {
+}
+public struct SetPlayerValues : Swift.Equatable {
+  public static func == (a: FeatureVideo.SetPlayerValues, b: FeatureVideo.SetPlayerValues) -> Swift.Bool
+}
+public struct SetMediaValues : Swift.Equatable {
+  public init(mediaId: Foundation.UUID?, isSkippedBack: Swift.Bool, isExerciseLooping: Swift.Bool)
+  public static func == (a: FeatureVideo.SetMediaValues, b: FeatureVideo.SetMediaValues) -> Swift.Bool
+}

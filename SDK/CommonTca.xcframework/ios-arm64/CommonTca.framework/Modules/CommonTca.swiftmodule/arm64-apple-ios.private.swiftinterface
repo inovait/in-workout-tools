@@ -1,0 +1,84 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name CommonTca
+import ComposableArchitecture
+import DeveloperToolsSupport
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol TCAFeatureAction {
+  associatedtype ViewAction
+  associatedtype DelegateAction
+  associatedtype BusinessAction
+  static func view(_: Self.ViewAction) -> Self
+  static func delegate(_: Self.DelegateAction) -> Self
+  static func business(_: Self.BusinessAction) -> Self
+}
+public enum CommonTcaAsset {
+  public enum Assets {
+    public static let accentColor: CommonTca.CommonTcaColors
+    public static let icBack: CommonTca.CommonTcaImages
+    public static let icDetailsTime: CommonTca.CommonTcaImages
+    public static let icDetailsVideo: CommonTca.CommonTcaImages
+    public static let icNext: CommonTca.CommonTcaImages
+    public static let icPause: CommonTca.CommonTcaImages
+    public static let icPrevious: CommonTca.CommonTcaImages
+    public static let muteButton: CommonTca.CommonTcaImages
+    public static let mutedButton: CommonTca.CommonTcaImages
+  }
+  public enum PreviewAssets {
+  }
+}
+@_hasMissingDesignatedInitializers final public class CommonTcaColors {
+  final public var name: Swift.String {
+    get
+  }
+  public typealias Color = UIKit.UIColor
+  @available(iOS 11.0, tvOS 11.0, watchOS 4.0, macOS 10.13, visionOS 1.0, *)
+  final public var color: CommonTca.CommonTcaColors.Color {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+  final public var swiftUIColor: SwiftUI.Color {
+    get
+  }
+  @objc deinit
+}
+extension UIKit.UIColor {
+  @available(iOS 11.0, tvOS 11.0, watchOS 4.0, macOS 10.13, visionOS 1.0, *)
+  convenience public init?(asset: CommonTca.CommonTcaColors)
+}
+@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+extension SwiftUI.Color {
+  public init(asset: CommonTca.CommonTcaColors)
+}
+public struct CommonTcaImages {
+  public var name: Swift.String {
+    get
+  }
+  public typealias Image = UIKit.UIImage
+  public var image: CommonTca.CommonTcaImages.Image {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+  public var swiftUIImage: SwiftUI.Image {
+    get
+  }
+}
+@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+extension SwiftUI.Image {
+  public init(asset: CommonTca.CommonTcaImages)
+  public init(asset: CommonTca.CommonTcaImages, label: SwiftUI.Text)
+  public init(decorative asset: CommonTca.CommonTcaImages)
+}
+@_inheritsConvenienceInitializers @objc public class CommonTcaResources : ObjectiveC.NSObject {
+  @objc public class var bundle: Foundation.Bundle {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}

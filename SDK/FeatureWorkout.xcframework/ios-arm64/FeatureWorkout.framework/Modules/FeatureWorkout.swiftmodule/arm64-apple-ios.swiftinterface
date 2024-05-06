@@ -1,0 +1,269 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name FeatureWorkout
+import CommonModels
+import CommonTca
+import ComposableArchitecture
+import DeveloperToolsSupport
+import FeatureExercise
+import FeatureRecorder
+import FeatureTime
+import FeatureVideo
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum FeatureWorkoutAsset {
+  public enum Assets {
+    public static let accentColor: FeatureWorkout.FeatureWorkoutColors
+    public static let icBack: FeatureWorkout.FeatureWorkoutImages
+    public static let icDetailsTime: FeatureWorkout.FeatureWorkoutImages
+    public static let icDetailsVideo: FeatureWorkout.FeatureWorkoutImages
+    public static let icNext: FeatureWorkout.FeatureWorkoutImages
+    public static let icPause: FeatureWorkout.FeatureWorkoutImages
+    public static let icPrevious: FeatureWorkout.FeatureWorkoutImages
+    public static let muteButton: FeatureWorkout.FeatureWorkoutImages
+    public static let mutedButton: FeatureWorkout.FeatureWorkoutImages
+  }
+  public enum PreviewAssets {
+  }
+}
+@_hasMissingDesignatedInitializers final public class FeatureWorkoutColors {
+  final public var name: Swift.String {
+    get
+  }
+  public typealias Color = UIKit.UIColor
+  @available(iOS 11.0, tvOS 11.0, watchOS 4.0, macOS 10.13, visionOS 1.0, *)
+  final public var color: FeatureWorkout.FeatureWorkoutColors.Color {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+  final public var swiftUIColor: SwiftUI.Color {
+    get
+  }
+  @objc deinit
+}
+extension UIKit.UIColor {
+  @available(iOS 11.0, tvOS 11.0, watchOS 4.0, macOS 10.13, visionOS 1.0, *)
+  convenience public init?(asset: FeatureWorkout.FeatureWorkoutColors)
+}
+@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+extension SwiftUI.Color {
+  public init(asset: FeatureWorkout.FeatureWorkoutColors)
+}
+public struct FeatureWorkoutImages {
+  public var name: Swift.String {
+    get
+  }
+  public typealias Image = UIKit.UIImage
+  public var image: FeatureWorkout.FeatureWorkoutImages.Image {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+  public var swiftUIImage: SwiftUI.Image {
+    get
+  }
+}
+@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+extension SwiftUI.Image {
+  public init(asset: FeatureWorkout.FeatureWorkoutImages)
+  public init(asset: FeatureWorkout.FeatureWorkoutImages, label: SwiftUI.Text)
+  public init(decorative asset: FeatureWorkout.FeatureWorkoutImages)
+}
+@_inheritsConvenienceInitializers @objc public class FeatureWorkoutResources : ObjectiveC.NSObject {
+  @objc public class var bundle: Foundation.Bundle {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct WorkoutHelper {
+}
+public struct WorkoutFeature : ComposableArchitecture.Reducer {
+  public init()
+  public struct State : Swift.Equatable {
+    public var currentExercise: FeatureExercise.ExerciseFeature.State {
+      get
+      set
+      _modify
+    }
+    public var status: FeatureWorkout.WorkoutStatus {
+      get
+      set
+      _modify
+    }
+    public var videoFeature: FeatureVideo.VideoFeature.State {
+      get
+      set
+      _modify
+    }
+    public var isNextExercise: Swift.Bool {
+      get
+      set
+      _modify
+    }
+    public var runningExercise: FeatureExercise.ExerciseFeature.State? {
+      get
+      set
+      _modify
+    }
+    public var showMedia: Swift.Bool {
+      get
+      set
+      _modify
+    }
+    public init(roundIdx: Swift.Int, currentExercise: FeatureExercise.ExerciseFeature.State)
+    public var _$id: ComposableArchitecture.ObservableStateID {
+      get
+    }
+    public mutating func _$willModify()
+    public static func == (a: FeatureWorkout.WorkoutFeature.State, b: FeatureWorkout.WorkoutFeature.State) -> Swift.Bool
+  }
+  public enum Action : CommonTca.TCAFeatureAction, Swift.Equatable {
+    public enum ViewAction : Swift.Equatable {
+      case onPrepare(Swift.String)
+      case onStart
+      case onResume
+      case onPause
+      case onNextRound
+      case onPreviousRound
+      case onEnd
+      case onMuteVideo
+      public static func == (a: FeatureWorkout.WorkoutFeature.Action.ViewAction, b: FeatureWorkout.WorkoutFeature.Action.ViewAction) -> Swift.Bool
+      public struct AllCasePaths {
+        public var onPrepare: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.ViewAction, Swift.String> {
+          get
+        }
+        public var onStart: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.ViewAction, Swift.Void> {
+          get
+        }
+        public var onResume: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.ViewAction, Swift.Void> {
+          get
+        }
+        public var onPause: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.ViewAction, Swift.Void> {
+          get
+        }
+        public var onNextRound: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.ViewAction, Swift.Void> {
+          get
+        }
+        public var onPreviousRound: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.ViewAction, Swift.Void> {
+          get
+        }
+        public var onEnd: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.ViewAction, Swift.Void> {
+          get
+        }
+        public var onMuteVideo: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.ViewAction, Swift.Void> {
+          get
+        }
+      }
+      public static var allCasePaths: FeatureWorkout.WorkoutFeature.Action.ViewAction.AllCasePaths {
+        get
+      }
+    }
+    public enum DelegateAction : Swift.Equatable {
+      case timeTick(Foundation.TimeInterval)
+      case end
+      case exerciseStarted(CommonModels.Exercise)
+      case exerciseEnded(CommonModels.Exercise)
+      public static func == (a: FeatureWorkout.WorkoutFeature.Action.DelegateAction, b: FeatureWorkout.WorkoutFeature.Action.DelegateAction) -> Swift.Bool
+    }
+    public enum BusinessAction : Swift.Equatable {
+      case currentExercise(FeatureExercise.ExerciseFeature.Action)
+      case videoFeature(FeatureVideo.VideoFeature.Action)
+      case item(ComposableArchitecture.IdentifiedActionOf<FeatureExercise.ExerciseFeature>)
+      case prepare(Swift.String)
+      case start
+      case resume
+      case pause
+      case nextRound
+      case previousRound
+      case done
+      case totalTime(Foundation.TimeInterval)
+      public static func == (a: FeatureWorkout.WorkoutFeature.Action.BusinessAction, b: FeatureWorkout.WorkoutFeature.Action.BusinessAction) -> Swift.Bool
+      public struct AllCasePaths {
+        public var currentExercise: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.BusinessAction, FeatureExercise.ExerciseFeature.Action> {
+          get
+        }
+        public var videoFeature: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.BusinessAction, FeatureVideo.VideoFeature.Action> {
+          get
+        }
+        public var item: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.BusinessAction, ComposableArchitecture.IdentifiedActionOf<FeatureExercise.ExerciseFeature>> {
+          get
+        }
+        public var prepare: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.BusinessAction, Swift.String> {
+          get
+        }
+        public var start: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var resume: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var pause: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var nextRound: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var previousRound: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var done: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var totalTime: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action.BusinessAction, Foundation.TimeInterval> {
+          get
+        }
+      }
+      public static var allCasePaths: FeatureWorkout.WorkoutFeature.Action.BusinessAction.AllCasePaths {
+        get
+      }
+    }
+    case view(FeatureWorkout.WorkoutFeature.Action.ViewAction)
+    case delegate(FeatureWorkout.WorkoutFeature.Action.DelegateAction)
+    case business(FeatureWorkout.WorkoutFeature.Action.BusinessAction)
+    public static func == (a: FeatureWorkout.WorkoutFeature.Action, b: FeatureWorkout.WorkoutFeature.Action) -> Swift.Bool
+    public struct AllCasePaths {
+      public var view: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action, FeatureWorkout.WorkoutFeature.Action.ViewAction> {
+        get
+      }
+      public var delegate: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action, FeatureWorkout.WorkoutFeature.Action.DelegateAction> {
+        get
+      }
+      public var business: CasePaths.AnyCasePath<FeatureWorkout.WorkoutFeature.Action, FeatureWorkout.WorkoutFeature.Action.BusinessAction> {
+        get
+      }
+    }
+    public static var allCasePaths: FeatureWorkout.WorkoutFeature.Action.AllCasePaths {
+      get
+    }
+  }
+  public var body: some ComposableArchitecture.Reducer<FeatureWorkout.WorkoutFeature.State, FeatureWorkout.WorkoutFeature.Action> {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s14FeatureWorkout0bA0V4bodyQrvp", 0) __
+}
+public enum WorkoutStatus {
+  case none
+  case started
+  case paused
+  case ended
+  public static func == (a: FeatureWorkout.WorkoutStatus, b: FeatureWorkout.WorkoutStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension FeatureWorkout.WorkoutFeature.State : ComposableArchitecture.ObservableState, Observation.Observable {
+}
+extension FeatureWorkout.WorkoutFeature.Action.ViewAction : CasePaths.CasePathable {
+}
+extension FeatureWorkout.WorkoutFeature.Action.BusinessAction : CasePaths.CasePathable {
+}
+extension FeatureWorkout.WorkoutFeature.Action : CasePaths.CasePathable {
+}
+extension FeatureWorkout.WorkoutStatus : Swift.Equatable {}
+extension FeatureWorkout.WorkoutStatus : Swift.Hashable {}

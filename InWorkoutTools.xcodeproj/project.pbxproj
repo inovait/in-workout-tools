@@ -7,17 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0054D6B627633741B246BCFC /* FeatureVideo.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA81A9179AE9D65557203D1E /* FeatureVideo.xcframework */; };
+		0BACB0E5E18596C8C0DF9FF8 /* IdentifiedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C504462083A35B9309685A /* IdentifiedCollections.framework */; };
 		150938FF000D46F8DC7991D3 /* SomeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B231BA0CE61A400AA7F3CEA /* SomeFramework.framework */; };
+		21EE9306BB7536A7BA4995BB /* FeatureTime.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC5B2DE0565F44B06ABE64C9 /* FeatureTime.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2558DD36F727AD375D7083AF /* CommonModels.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7C1C8BA5FDAE23E4125E784 /* CommonModels.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2AEC79007DE77D499F97BC91 /* swift_composable_architecture_ComposableArchitecture.bundle in Dependencies */ = {isa = PBXBuildFile; fileRef = A49557F55C85FB1948FC5865 /* swift_composable_architecture_ComposableArchitecture.bundle */; };
+		2B7C014E9B54404C9E80A033 /* CombineSchedulers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DA9DA30288A89279FA5D16 /* CombineSchedulers.framework */; };
 		2E4AD220F651793A015B0845 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D45F24BCC1D7AF64278717 /* Preview Assets.xcassets */; };
+		328464F73E1D6B4B361311F8 /* OrderedCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E0F05D6CE8B4C043BAAC19 /* OrderedCollections.framework */; };
+		35C2BFFCE769ADFF20BCA23B /* ComposableArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CE3AE5CD157B872C7A5471 /* ComposableArchitecture.framework */; };
+		53107601B008080D72BC5257 /* ConcurrencyExtras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC74A5B9D125EFA40C04FB2 /* ConcurrencyExtras.framework */; };
+		54B7E4C27C914CB2887CA651 /* DependenciesMacros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182053D29A891F47445F2C32 /* DependenciesMacros.framework */; };
+		589B079A640E785798CAED82 /* FeatureWorkout.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64162B5C4B5B953B2B9C65A7 /* FeatureWorkout.xcframework */; };
+		5C458CBE62C2BC8C2C52E318 /* XCTestDynamicOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8783AA56C940B0DF636F8D1E /* XCTestDynamicOverlay.framework */; };
+		5E2D663E5D1B3D21552D99E0 /* FeatureTime.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5B2DE0565F44B06ABE64C9 /* FeatureTime.xcframework */; };
+		5E5A426551076E94952098AD /* FeatureVideo.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA81A9179AE9D65557203D1E /* FeatureVideo.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		66DA2FB52191329D31F8D692 /* SomeFrameworkClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A547C4717699AE44D3D9B574 /* SomeFrameworkClass.swift */; };
 		68041BBEB545AD685471D404 /* InWorkoutToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C03163813179C46A0DF433A /* InWorkoutToolsTests.swift */; };
+		6C108933E153F9C58649FA50 /* swift_composable_architecture_ComposableArchitecture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A49557F55C85FB1948FC5865 /* swift_composable_architecture_ComposableArchitecture.bundle */; };
 		842A34F006CC4AC98BBDA768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A807A15E6B462F604444FB1 /* LaunchScreen.storyboard */; };
+		84CC9C336DCA5C5DC2A390D6 /* CustomDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBDAB93D58DC416A191D931 /* CustomDump.framework */; };
 		91A0901ADDFA133F7F6F3B08 /* TuistBundle+InWorkoutTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A51A3A8235FFE83CE5D78 /* TuistBundle+InWorkoutTools.swift */; };
 		96DBEB030AEA2E98B18492FF /* SomeFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B231BA0CE61A400AA7F3CEA /* SomeFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9E1E6C51212246EEDD3B35CD /* CommonModels.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C1C8BA5FDAE23E4125E784 /* CommonModels.xcframework */; };
+		A4ACABEEC581C6715E83A455 /* FeatureExercise.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF0E363F0DDB61615377C38 /* FeatureExercise.xcframework */; };
+		A8C3F654BF9D8BEE5F13CEAE /* FeatureRecorder.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0218DB88F696D9D48D24F89 /* FeatureRecorder.xcframework */; };
+		AB3E75B425C58F1CBBB74732 /* FeatureExercise.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF0E363F0DDB61615377C38 /* FeatureExercise.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B159835741CD35016EAE96DA /* InWorkoutToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A4D7D349EFEB9890A1336 /* InWorkoutToolsApp.swift */; };
+		B39F3426BADB6C2898B4D87B /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03004678E4E82E16197E797 /* Dependencies.framework */; };
+		B549ED64B6213BA3F406AFA9 /* _CollectionsUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0E3934DAA89231CA57BF79 /* _CollectionsUtilities.framework */; };
+		C087444ED100C54939BC3B1C /* CasePaths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BCFC91C2E63EBC64FA3EF0 /* CasePaths.framework */; };
+		C4B5CBCF442FC96788B87D2D /* SwiftUINavigationCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E28EC1EF2019915589CBD2 /* SwiftUINavigationCore.framework */; };
 		C8BCA9D3B4286216CDCA0A4D /* TuistAssets+InWorkoutTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0953336AD3EDA1400ED016C /* TuistAssets+InWorkoutTools.swift */; };
+		D21B8E2A50CEE852BEFD3610 /* CommonTca.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A77E4FAF5AF0E3DBBDB1021 /* CommonTca.xcframework */; };
+		DF19F7CB43E8074AC74BB086 /* Perception.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2549E14DC1AFB317D7D23D1 /* Perception.framework */; };
 		E0D8C3485E7C5700830C1913 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2CD80DECF11353C9FB21CE /* ContentView.swift */; };
+		E368DA13B7B6C867FD0CCA6D /* Clocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F63D10F2882BAEDB60EB7E2 /* Clocks.framework */; };
+		E754EAE7497A7F9082BE5440 /* CommonTca.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A77E4FAF5AF0E3DBBDB1021 /* CommonTca.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E8F63013D7A2D82F3EA70F8E /* FeatureRecorder.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0218DB88F696D9D48D24F89 /* FeatureRecorder.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EA2CF52523F2AF80630E9B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4F2EE390AF887BCE6ADC8A /* Assets.xcassets */; };
+		FC3F75A12DCA6C5E917995F4 /* FeatureWorkout.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 64162B5C4B5B953B2B9C65A7 /* FeatureWorkout.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +78,16 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26DB6F89276D970DD840BFE6 /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				2AEC79007DE77D499F97BC91 /* swift_composable_architecture_ComposableArchitecture.bundle in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		B2B4443747AD6DBEEBE39C1D /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -65,6 +105,13 @@
 			dstSubfolderSpec = 10;
 			files = (
 				96DBEB030AEA2E98B18492FF /* SomeFramework.framework in Embed Frameworks */,
+				2558DD36F727AD375D7083AF /* CommonModels.xcframework in Embed Frameworks */,
+				E754EAE7497A7F9082BE5440 /* CommonTca.xcframework in Embed Frameworks */,
+				AB3E75B425C58F1CBBB74732 /* FeatureExercise.xcframework in Embed Frameworks */,
+				E8F63013D7A2D82F3EA70F8E /* FeatureRecorder.xcframework in Embed Frameworks */,
+				21EE9306BB7536A7BA4995BB /* FeatureTime.xcframework in Embed Frameworks */,
+				5E5A426551076E94952098AD /* FeatureVideo.xcframework in Embed Frameworks */,
+				FC3F75A12DCA6C5E917995F4 /* FeatureWorkout.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,20 +120,42 @@
 
 /* Begin PBXFileReference section */
 		0A807A15E6B462F604444FB1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182053D29A891F47445F2C32 /* DependenciesMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DependenciesMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BBDAB93D58DC416A191D931 /* CustomDump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomDump.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF0E363F0DDB61615377C38 /* FeatureExercise.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FeatureExercise.xcframework; sourceTree = "<group>"; };
 		290F3AB5AA89639A4205061A /* InWorkoutTools-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "InWorkoutTools-Info.plist"; sourceTree = "<group>"; };
 		2B231BA0CE61A400AA7F3CEA /* SomeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SomeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8A51A3A8235FFE83CE5D78 /* TuistBundle+InWorkoutTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+InWorkoutTools.swift"; sourceTree = "<group>"; };
+		48DA9DA30288A89279FA5D16 /* CombineSchedulers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineSchedulers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C03163813179C46A0DF433A /* InWorkoutToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InWorkoutToolsTests.swift; sourceTree = "<group>"; };
 		50D45F24BCC1D7AF64278717 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		524560311FADD481F8615151 /* InWorkoutTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InWorkoutTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E28EC1EF2019915589CBD2 /* SwiftUINavigationCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUINavigationCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		584A803BBD56C83D5E526AC3 /* InWorkoutToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "InWorkoutToolsTests-Info.plist"; sourceTree = "<group>"; };
+		60E0F05D6CE8B4C043BAAC19 /* OrderedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64162B5C4B5B953B2B9C65A7 /* FeatureWorkout.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FeatureWorkout.xcframework; sourceTree = "<group>"; };
+		69CE3AE5CD157B872C7A5471 /* ComposableArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComposableArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A77E4FAF5AF0E3DBBDB1021 /* CommonTca.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CommonTca.xcframework; sourceTree = "<group>"; };
+		8783AA56C940B0DF636F8D1E /* XCTestDynamicOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestDynamicOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C14B330C58AA8F5141A0BB /* SomeFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SomeFramework-Info.plist"; sourceTree = "<group>"; };
 		9E4F2EE390AF887BCE6ADC8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F63D10F2882BAEDB60EB7E2 /* Clocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Clocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0953336AD3EDA1400ED016C /* TuistAssets+InWorkoutTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+InWorkoutTools.swift"; sourceTree = "<group>"; };
+		A49557F55C85FB1948FC5865 /* swift_composable_architecture_ComposableArchitecture.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_composable_architecture_ComposableArchitecture.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A547C4717699AE44D3D9B574 /* SomeFrameworkClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeFrameworkClass.swift; sourceTree = "<group>"; };
+		B2549E14DC1AFB317D7D23D1 /* Perception.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Perception.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BCFC91C2E63EBC64FA3EF0 /* CasePaths.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CasePaths.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA81A9179AE9D65557203D1E /* FeatureVideo.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FeatureVideo.xcframework; sourceTree = "<group>"; };
+		BAC74A5B9D125EFA40C04FB2 /* ConcurrencyExtras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConcurrencyExtras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2CD80DECF11353C9FB21CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB7F59EAAC426D93CF77782B /* InWorkoutToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InWorkoutToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8A4D7D349EFEB9890A1336 /* InWorkoutToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InWorkoutToolsApp.swift; sourceTree = "<group>"; };
+		D03004678E4E82E16197E797 /* Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C1C8BA5FDAE23E4125E784 /* CommonModels.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CommonModels.xcframework; sourceTree = "<group>"; };
+		DA0E3934DAA89231CA57BF79 /* _CollectionsUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = _CollectionsUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5B2DE0565F44B06ABE64C9 /* FeatureTime.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FeatureTime.xcframework; sourceTree = "<group>"; };
+		E2C504462083A35B9309685A /* IdentifiedCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IdentifiedCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0218DB88F696D9D48D24F89 /* FeatureRecorder.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FeatureRecorder.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +170,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C087444ED100C54939BC3B1C /* CasePaths.framework in Frameworks */,
+				E368DA13B7B6C867FD0CCA6D /* Clocks.framework in Frameworks */,
+				2B7C014E9B54404C9E80A033 /* CombineSchedulers.framework in Frameworks */,
+				35C2BFFCE769ADFF20BCA23B /* ComposableArchitecture.framework in Frameworks */,
+				53107601B008080D72BC5257 /* ConcurrencyExtras.framework in Frameworks */,
+				84CC9C336DCA5C5DC2A390D6 /* CustomDump.framework in Frameworks */,
+				B39F3426BADB6C2898B4D87B /* Dependencies.framework in Frameworks */,
+				54B7E4C27C914CB2887CA651 /* DependenciesMacros.framework in Frameworks */,
+				0BACB0E5E18596C8C0DF9FF8 /* IdentifiedCollections.framework in Frameworks */,
+				328464F73E1D6B4B361311F8 /* OrderedCollections.framework in Frameworks */,
+				DF19F7CB43E8074AC74BB086 /* Perception.framework in Frameworks */,
 				150938FF000D46F8DC7991D3 /* SomeFramework.framework in Frameworks */,
+				C4B5CBCF442FC96788B87D2D /* SwiftUINavigationCore.framework in Frameworks */,
+				5C458CBE62C2BC8C2C52E318 /* XCTestDynamicOverlay.framework in Frameworks */,
+				B549ED64B6213BA3F406AFA9 /* _CollectionsUtilities.framework in Frameworks */,
+				9E1E6C51212246EEDD3B35CD /* CommonModels.xcframework in Frameworks */,
+				D21B8E2A50CEE852BEFD3610 /* CommonTca.xcframework in Frameworks */,
+				A4ACABEEC581C6715E83A455 /* FeatureExercise.xcframework in Frameworks */,
+				A8C3F654BF9D8BEE5F13CEAE /* FeatureRecorder.xcframework in Frameworks */,
+				5E2D663E5D1B3D21552D99E0 /* FeatureTime.xcframework in Frameworks */,
+				0054D6B627633741B246BCFC /* FeatureVideo.xcframework in Frameworks */,
+				589B079A640E785798CAED82 /* FeatureWorkout.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +288,7 @@
 			children = (
 				F7DEAEAAE42F3D47D5A4C244 /* Derived */,
 				0513CCFDB49E5BA3F9CA9AE5 /* InWorkoutTools */,
+				EC4A36136AFF03098CFFF2C0 /* SDK */,
 				9BF253A686CC3AE9CF04ED47 /* SomeFramework */,
 			);
 			name = Project;
@@ -216,11 +307,40 @@
 		E020E07BF3F23ABC97894B54 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				DA0E3934DAA89231CA57BF79 /* _CollectionsUtilities.framework */,
+				B3BCFC91C2E63EBC64FA3EF0 /* CasePaths.framework */,
+				9F63D10F2882BAEDB60EB7E2 /* Clocks.framework */,
+				48DA9DA30288A89279FA5D16 /* CombineSchedulers.framework */,
+				69CE3AE5CD157B872C7A5471 /* ComposableArchitecture.framework */,
+				BAC74A5B9D125EFA40C04FB2 /* ConcurrencyExtras.framework */,
+				1BBDAB93D58DC416A191D931 /* CustomDump.framework */,
+				D03004678E4E82E16197E797 /* Dependencies.framework */,
+				182053D29A891F47445F2C32 /* DependenciesMacros.framework */,
+				E2C504462083A35B9309685A /* IdentifiedCollections.framework */,
 				524560311FADD481F8615151 /* InWorkoutTools.app */,
 				CB7F59EAAC426D93CF77782B /* InWorkoutToolsTests.xctest */,
+				60E0F05D6CE8B4C043BAAC19 /* OrderedCollections.framework */,
+				B2549E14DC1AFB317D7D23D1 /* Perception.framework */,
 				2B231BA0CE61A400AA7F3CEA /* SomeFramework.framework */,
+				A49557F55C85FB1948FC5865 /* swift_composable_architecture_ComposableArchitecture.bundle */,
+				56E28EC1EF2019915589CBD2 /* SwiftUINavigationCore.framework */,
+				8783AA56C940B0DF636F8D1E /* XCTestDynamicOverlay.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EC4A36136AFF03098CFFF2C0 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				D7C1C8BA5FDAE23E4125E784 /* CommonModels.xcframework */,
+				7A77E4FAF5AF0E3DBBDB1021 /* CommonTca.xcframework */,
+				1CF0E363F0DDB61615377C38 /* FeatureExercise.xcframework */,
+				F0218DB88F696D9D48D24F89 /* FeatureRecorder.xcframework */,
+				DC5B2DE0565F44B06ABE64C9 /* FeatureTime.xcframework */,
+				BA81A9179AE9D65557203D1E /* FeatureVideo.xcframework */,
+				64162B5C4B5B953B2B9C65A7 /* FeatureWorkout.xcframework */,
+			);
+			path = SDK;
 			sourceTree = "<group>";
 		};
 		F7DEAEAAE42F3D47D5A4C244 /* Derived */ = {
@@ -261,6 +381,7 @@
 				4C2742AC7D3561625F349509 /* Resources */,
 				E7D20AAFB3697B949CB5E0C9 /* Embed Frameworks */,
 				5A9A39038EF9134712BF248E /* Frameworks */,
+				26DB6F89276D970DD840BFE6 /* Dependencies */,
 			);
 			buildRules = (
 			);
@@ -332,6 +453,7 @@
 				EA2CF52523F2AF80630E9B70 /* Assets.xcassets in Resources */,
 				842A34F006CC4AC98BBDA768 /* LaunchScreen.storyboard in Resources */,
 				2E4AD220F651793A015B0845 /* Preview Assets.xcassets in Resources */,
+				6C108933E153F9C58649FA50 /* swift_composable_architecture_ComposableArchitecture.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +530,16 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.inova.InWorkoutToolsTests;
 				PRODUCT_NAME = InWorkoutToolsTests;
 				SDKROOT = iphoneos;
@@ -433,10 +565,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/SDK",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/InWorkoutTools-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.inova.InWorkoutTools;
 				PRODUCT_NAME = InWorkoutTools;
@@ -498,6 +644,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.inova.InWorkoutToolsTests;
 				PRODUCT_NAME = InWorkoutToolsTests;
@@ -616,10 +772,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/SDK",
+				);
 				INFOPLIST_FILE = "Derived/InfoPlists/InWorkoutTools-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/PerceptionMacros#PerceptionMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/CasePathsMacros#CasePathsMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/ComposableArchitectureMacros#ComposableArchitectureMacros",
+					"-load-plugin-executable",
+					"$BUILD_DIR/Debug$EFFECTIVE_PLATFORM_NAME/DependenciesMacrosPlugin#DependenciesMacrosPlugin",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.inova.InWorkoutTools;
 				PRODUCT_NAME = InWorkoutTools;

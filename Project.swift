@@ -16,14 +16,14 @@ let project = Project(
             sources: ["InWorkoutTools/Sources/**"],
             resources: ["InWorkoutTools/Resources/**"],
             dependencies: [
-//                .framework(path: "SDK/CommonTca.framework", status: .required, condition: nil),
-//                .framework(path: "SDK/CommonModels.framework", status: .required, condition: nil),
-//                .framework(path: "SDK/FeatureExercise.framework", status: .required, condition: nil),
-//                .framework(path: "SDK/FeatureRecorder.framework", status: .required, condition: nil),
-//                .framework(path: "SDK/FeatureTime.framework", status: .required, condition: nil),
-//                .framework(path: "SDK/FeatureVideo.framework", status: .required, condition: nil),
-//                .xcframework(path: "SDK/FeatureWorkout.xcframework", status: .required, condition: nil),
-//                .external(name: "ComposableArchitecture"),
+                .xcframework(path: "SDK/CommonTca.xcframework", status: .required, condition: nil),
+                .xcframework(path: "SDK/CommonModels.xcframework", status: .required, condition: nil),
+                .xcframework(path: "SDK/FeatureExercise.xcframework", status: .required, condition: nil),
+                .xcframework(path: "SDK/FeatureRecorder.xcframework", status: .required, condition: nil),
+                .xcframework(path: "SDK/FeatureTime.xcframework", status: .required, condition: nil),
+                .xcframework(path: "SDK/FeatureVideo.xcframework", status: .required, condition: nil),
+                .xcframework(path: "SDK/FeatureWorkout.xcframework", status: .required, condition: nil),
+                .external(name: "ComposableArchitecture"),
                 .target(name: "SomeFramework")
             ]
         ),

@@ -1,0 +1,264 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name FeatureTime
+import CommonTca
+import ComposableArchitecture
+import DeveloperToolsSupport
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum FeatureTimeAsset {
+  public enum Assets {
+    public static let accentColor: FeatureTime.FeatureTimeColors
+    public static let icBack: FeatureTime.FeatureTimeImages
+    public static let icDetailsTime: FeatureTime.FeatureTimeImages
+    public static let icDetailsVideo: FeatureTime.FeatureTimeImages
+    public static let icNext: FeatureTime.FeatureTimeImages
+    public static let icPause: FeatureTime.FeatureTimeImages
+    public static let icPrevious: FeatureTime.FeatureTimeImages
+    public static let muteButton: FeatureTime.FeatureTimeImages
+    public static let mutedButton: FeatureTime.FeatureTimeImages
+  }
+  public enum PreviewAssets {
+  }
+}
+@_hasMissingDesignatedInitializers final public class FeatureTimeColors {
+  final public var name: Swift.String {
+    get
+  }
+  public typealias Color = UIKit.UIColor
+  @available(iOS 11.0, tvOS 11.0, watchOS 4.0, macOS 10.13, visionOS 1.0, *)
+  final public var color: FeatureTime.FeatureTimeColors.Color {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+  final public var swiftUIColor: SwiftUI.Color {
+    get
+  }
+  @objc deinit
+}
+extension UIKit.UIColor {
+  @available(iOS 11.0, tvOS 11.0, watchOS 4.0, macOS 10.13, visionOS 1.0, *)
+  convenience public init?(asset: FeatureTime.FeatureTimeColors)
+}
+@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+extension SwiftUI.Color {
+  public init(asset: FeatureTime.FeatureTimeColors)
+}
+public struct FeatureTimeImages {
+  public var name: Swift.String {
+    get
+  }
+  public typealias Image = UIKit.UIImage
+  public var image: FeatureTime.FeatureTimeImages.Image {
+    get
+  }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+  public var swiftUIImage: SwiftUI.Image {
+    get
+  }
+}
+@available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, visionOS 1.0, *)
+extension SwiftUI.Image {
+  public init(asset: FeatureTime.FeatureTimeImages)
+  public init(asset: FeatureTime.FeatureTimeImages, label: SwiftUI.Text)
+  public init(decorative asset: FeatureTime.FeatureTimeImages)
+}
+@_inheritsConvenienceInitializers @objc public class FeatureTimeResources : ObjectiveC.NSObject {
+  @objc public class var bundle: Foundation.Bundle {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct WorkoutTimerDependancy {
+  public var subscribe: @Sendable (any FeatureTime.TimeProvider, Swift.String) -> FeatureTime.WorkoutTimerStreamData
+  public var unSubscribe: @Sendable (Foundation.UUID) -> Swift.Void
+  public var start: @Sendable () -> Swift.Void
+  public var pause: @Sendable () -> Swift.Void
+  public var resume: @Sendable () -> Swift.Void
+  public var end: @Sendable () -> Swift.Void
+  public var getIncrementDuration: @Sendable () -> Foundation.TimeInterval
+}
+public struct WorkoutTimerDependancyKey : Dependencies.DependencyKey {
+  public static var liveValue: FeatureTime.WorkoutTimerDependancy {
+    get
+  }
+  public typealias Value = FeatureTime.WorkoutTimerDependancy
+}
+extension Dependencies.DependencyValues {
+  public var workoutTimer: FeatureTime.WorkoutTimerDependancy {
+    get
+    set
+  }
+}
+public struct TimeFeature : ComposableArchitecture.Reducer {
+  public init()
+  public struct State : Swift.Equatable {
+    public var running: Swift.Bool {
+      get
+      set
+      _modify
+    }
+    public var elapsedTime: Foundation.TimeInterval {
+      get
+    }
+    public init(timeProvider: any FeatureTime.TimeProvider, name: Swift.String)
+    public var _$id: ComposableArchitecture.ObservableStateID {
+      get
+    }
+    public mutating func _$willModify()
+    public static func == (a: FeatureTime.TimeFeature.State, b: FeatureTime.TimeFeature.State) -> Swift.Bool
+  }
+  public enum Action : CommonTca.TCAFeatureAction, Swift.Equatable {
+    case view(FeatureTime.TimeFeature.Action.ViewAction)
+    case delegate(FeatureTime.TimeFeature.Action.DelegateAction)
+    case business(FeatureTime.TimeFeature.Action.BusinessAction)
+    public enum ViewAction : Swift.Equatable {
+      public static func == (a: FeatureTime.TimeFeature.Action.ViewAction, b: FeatureTime.TimeFeature.Action.ViewAction) -> Swift.Bool
+    }
+    public enum DelegateAction : Swift.Equatable {
+      case tickInMillis(Foundation.TimeInterval)
+      case terminated(Foundation.TimeInterval)
+      case end(Foundation.TimeInterval)
+      public static func == (a: FeatureTime.TimeFeature.Action.DelegateAction, b: FeatureTime.TimeFeature.Action.DelegateAction) -> Swift.Bool
+      public struct AllCasePaths {
+        public var tickInMillis: CasePaths.AnyCasePath<FeatureTime.TimeFeature.Action.DelegateAction, Foundation.TimeInterval> {
+          get
+        }
+        public var terminated: CasePaths.AnyCasePath<FeatureTime.TimeFeature.Action.DelegateAction, Foundation.TimeInterval> {
+          get
+        }
+        public var end: CasePaths.AnyCasePath<FeatureTime.TimeFeature.Action.DelegateAction, Foundation.TimeInterval> {
+          get
+        }
+      }
+      public static var allCasePaths: FeatureTime.TimeFeature.Action.DelegateAction.AllCasePaths {
+        get
+      }
+    }
+    public enum BusinessAction : Swift.Equatable {
+      case start
+      case pause
+      case resume
+      case reset
+      case end
+      case terminate
+      case watch
+      public func hash(into hasher: inout Swift.Hasher)
+      public static func == (a: FeatureTime.TimeFeature.Action.BusinessAction, b: FeatureTime.TimeFeature.Action.BusinessAction) -> Swift.Bool
+      public struct AllCasePaths {
+        public var start: CasePaths.AnyCasePath<FeatureTime.TimeFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var pause: CasePaths.AnyCasePath<FeatureTime.TimeFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var resume: CasePaths.AnyCasePath<FeatureTime.TimeFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var reset: CasePaths.AnyCasePath<FeatureTime.TimeFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var end: CasePaths.AnyCasePath<FeatureTime.TimeFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var terminate: CasePaths.AnyCasePath<FeatureTime.TimeFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+        public var watch: CasePaths.AnyCasePath<FeatureTime.TimeFeature.Action.BusinessAction, Swift.Void> {
+          get
+        }
+      }
+      public static var allCasePaths: FeatureTime.TimeFeature.Action.BusinessAction.AllCasePaths {
+        get
+      }
+      public var hashValue: Swift.Int {
+        get
+      }
+    }
+    public static func == (a: FeatureTime.TimeFeature.Action, b: FeatureTime.TimeFeature.Action) -> Swift.Bool
+    public struct AllCasePaths {
+      public var view: CasePaths.AnyCasePath<FeatureTime.TimeFeature.Action, FeatureTime.TimeFeature.Action.ViewAction> {
+        get
+      }
+      public var delegate: CasePaths.AnyCasePath<FeatureTime.TimeFeature.Action, FeatureTime.TimeFeature.Action.DelegateAction> {
+        get
+      }
+      public var business: CasePaths.AnyCasePath<FeatureTime.TimeFeature.Action, FeatureTime.TimeFeature.Action.BusinessAction> {
+        get
+      }
+    }
+    public static var allCasePaths: FeatureTime.TimeFeature.Action.AllCasePaths {
+      get
+    }
+  }
+  public func reduce(into state: inout FeatureTime.TimeFeature.State, action: FeatureTime.TimeFeature.Action) -> ComposableArchitecture.Effect<FeatureTime.TimeFeature.Action>
+  public let body: ComposableArchitecture.EmptyReducer<FeatureTime.TimeFeature.State, FeatureTime.TimeFeature.Action>
+  public typealias Body = ComposableArchitecture.EmptyReducer<FeatureTime.TimeFeature.State, FeatureTime.TimeFeature.Action>
+}
+extension FeatureTime.TimeFeature.State : ComposableArchitecture.ObservableState, Observation.Observable {
+}
+extension FeatureTime.TimeFeature.Action.DelegateAction : CasePaths.CasePathable {
+}
+extension FeatureTime.TimeFeature.Action.BusinessAction : CasePaths.CasePathable {
+}
+extension FeatureTime.TimeFeature.Action : CasePaths.CasePathable {
+}
+public class Stopwatch : Swift.Equatable {
+  public static func == (lhs: FeatureTime.Stopwatch, rhs: FeatureTime.Stopwatch) -> Swift.Bool
+  public init(timeProvider: any FeatureTime.TimeProvider, startTime: Foundation.TimeInterval? = nil, pausedTime: Foundation.TimeInterval = 0)
+  public func start()
+  public func pause()
+  public func resume()
+  public func elapsedTime() -> Foundation.TimeInterval
+  @objc deinit
+}
+#if compiler(>=5.3) && $RethrowsProtocol
+public class StopwatchStream : _Concurrency.AsyncSequence, Swift.Equatable {
+  public static func == (lhs: FeatureTime.StopwatchStream, rhs: FeatureTime.StopwatchStream) -> Swift.Bool
+  public init(stopwatch: FeatureTime.Stopwatch, name: Swift.String)
+  @_hasMissingDesignatedInitializers public class AsyncIterator : _Concurrency.AsyncIteratorProtocol {
+    #if compiler(>=5.3) && $AsyncAwait
+    public func next() async -> Foundation.TimeInterval?
+    #endif
+    public typealias Element = Foundation.TimeInterval
+    @objc deinit
+  }
+  public typealias Element = Foundation.TimeInterval
+  public func makeAsyncIterator() -> FeatureTime.StopwatchStream.AsyncIterator
+  public func cancel()
+  @objc deinit
+}
+#endif
+public protocol TimeProvider : Swift.Equatable {
+  #if compiler(>=5.3) && $AsyncAwait
+  func delay() async throws
+  #endif
+  func timeIntervalInMillis() -> Foundation.TimeInterval
+}
+public class TimeProviderImpl : FeatureTime.TimeProvider, Swift.Equatable {
+  public static func == (lhs: FeatureTime.TimeProviderImpl, rhs: FeatureTime.TimeProviderImpl) -> Swift.Bool
+  public func timeIntervalInMillis() -> Foundation.TimeInterval
+  #if compiler(>=5.3) && $AsyncAwait
+  public func delay() async throws
+  #endif
+  public init()
+  @objc deinit
+}
+public struct WorkoutTimerStreamData : Swift.Equatable {
+  public static func == (lhs: FeatureTime.WorkoutTimerStreamData, rhs: FeatureTime.WorkoutTimerStreamData) -> Swift.Bool
+  public let uuid: Foundation.UUID
+  public let stopWatch: FeatureTime.Stopwatch
+  public let stream: _Concurrency.AsyncStream<Foundation.TimeInterval>
+  public let continuation: _Concurrency.AsyncStream<Foundation.TimeInterval>.Continuation
+  public let name: Swift.String
+}
+extension Swift.Optional where Wrapped == FeatureTime.WorkoutTimerStreamData {
+  public func elapsedTime() -> Foundation.TimeInterval
+}
+extension FeatureTime.TimeFeature.Action.BusinessAction : Swift.Hashable {}
