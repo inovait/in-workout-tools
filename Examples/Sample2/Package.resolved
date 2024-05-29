@@ -10,6 +10,15 @@
       }
     },
     {
+      "identity" : "in-workout-tools",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/inovait/in-workout-tools.git",
+      "state" : {
+        "revision" : "d96b5aa54b6f8c75c1125190a2385eb2f210f065",
+        "version" : "1.0.5"
+      }
+    },
+    {
       "identity" : "sdwebimage",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SDWebImage/SDWebImage.git",

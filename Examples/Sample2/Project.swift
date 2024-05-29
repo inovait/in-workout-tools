@@ -59,6 +59,8 @@ let project = Project(
             resources: ["Sample/Resources/**"],
             dependencies: [
                 .target(name: "CommonTca", condition: .none),
+                .external(name: "CommonModels"),
+                .external(name: "WorkoutFramework"),
             ],
             settings: Settings.settings(base: SettingsDictionary().setProjectSettings(), defaultSettings: .recommended)
         ),
