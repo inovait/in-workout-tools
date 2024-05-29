@@ -1,4 +1,0 @@
-framework module FeatureTime {
-  header "FeatureTime-Swift.h"
-  requires objc
-}

@@ -16,13 +16,8 @@ let project = Project(
             sources: ["InWorkoutTools/Sources/**"],
             resources: ["InWorkoutTools/Resources/**"],
             dependencies: [
-                .xcframework(path: "SDK/CommonTca.xcframework", status: .required, condition: nil),
+                .xcframework(path: "SDK/WorkoutFramework.xcframework", status: .required, condition: nil),
                 .xcframework(path: "SDK/CommonModels.xcframework", status: .required, condition: nil),
-                .xcframework(path: "SDK/FeatureExercise.xcframework", status: .required, condition: nil),
-                .xcframework(path: "SDK/FeatureRecorder.xcframework", status: .required, condition: nil),
-                .xcframework(path: "SDK/FeatureTime.xcframework", status: .required, condition: nil),
-                .xcframework(path: "SDK/FeatureVideo.xcframework", status: .required, condition: nil),
-                .xcframework(path: "SDK/FeatureWorkout.xcframework", status: .required, condition: nil),
                 .external(name: "ComposableArchitecture"),
                 .target(name: "SomeFramework")
             ]

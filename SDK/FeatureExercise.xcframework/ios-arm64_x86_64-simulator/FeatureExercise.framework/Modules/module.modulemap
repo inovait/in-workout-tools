@@ -1,4 +1,0 @@
-framework module FeatureExercise {
-  header "FeatureExercise-Swift.h"
-  requires objc
-}

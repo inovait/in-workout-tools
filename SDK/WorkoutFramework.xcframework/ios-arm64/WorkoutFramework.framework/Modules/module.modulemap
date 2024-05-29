@@ -1,0 +1,4 @@
+framework module WorkoutFramework {
+  header "WorkoutFramework-Swift.h"
+  requires objc
+}
