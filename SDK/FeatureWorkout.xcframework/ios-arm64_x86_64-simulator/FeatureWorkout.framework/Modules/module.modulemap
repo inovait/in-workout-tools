@@ -1,4 +1,0 @@
-framework module FeatureWorkout {
-  header "FeatureWorkout-Swift.h"
-  requires objc
-}

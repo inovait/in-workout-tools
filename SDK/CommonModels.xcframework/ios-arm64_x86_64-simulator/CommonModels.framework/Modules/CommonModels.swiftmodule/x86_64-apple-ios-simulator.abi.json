@@ -2076,6 +2076,770 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "IntermediateFileKeywords",
+        "printedName": "IntermediateFileKeywords",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.IntermediateFileKeywords.Type) -> CommonModels.IntermediateFileKeywords",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.IntermediateFileKeywords.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntermediateFileKeywords",
+                        "printedName": "CommonModels.IntermediateFileKeywords",
+                        "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO7versionyA2CmF",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO7versionyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "template",
+            "printedName": "template",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.IntermediateFileKeywords.Type) -> CommonModels.IntermediateFileKeywords",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.IntermediateFileKeywords.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntermediateFileKeywords",
+                        "printedName": "CommonModels.IntermediateFileKeywords",
+                        "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO8templateyA2CmF",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO8templateyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "start",
+            "printedName": "start",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.IntermediateFileKeywords.Type) -> CommonModels.IntermediateFileKeywords",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.IntermediateFileKeywords.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntermediateFileKeywords",
+                        "printedName": "CommonModels.IntermediateFileKeywords",
+                        "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO5startyA2CmF",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO5startyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "pause",
+            "printedName": "pause",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.IntermediateFileKeywords.Type) -> CommonModels.IntermediateFileKeywords",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.IntermediateFileKeywords.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntermediateFileKeywords",
+                        "printedName": "CommonModels.IntermediateFileKeywords",
+                        "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO5pauseyA2CmF",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO5pauseyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "resume",
+            "printedName": "resume",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.IntermediateFileKeywords.Type) -> CommonModels.IntermediateFileKeywords",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.IntermediateFileKeywords.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntermediateFileKeywords",
+                        "printedName": "CommonModels.IntermediateFileKeywords",
+                        "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO6resumeyA2CmF",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO6resumeyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "user",
+            "printedName": "user",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.IntermediateFileKeywords.Type) -> CommonModels.IntermediateFileKeywords",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.IntermediateFileKeywords.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntermediateFileKeywords",
+                        "printedName": "CommonModels.IntermediateFileKeywords",
+                        "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO4useryA2CmF",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO4useryA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "ping",
+            "printedName": "ping",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.IntermediateFileKeywords.Type) -> CommonModels.IntermediateFileKeywords",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.IntermediateFileKeywords.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntermediateFileKeywords",
+                        "printedName": "CommonModels.IntermediateFileKeywords",
+                        "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO4pingyA2CmF",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO4pingyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "impact",
+            "printedName": "impact",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.IntermediateFileKeywords.Type) -> CommonModels.IntermediateFileKeywords",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.IntermediateFileKeywords.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntermediateFileKeywords",
+                        "printedName": "CommonModels.IntermediateFileKeywords",
+                        "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO6impactyA2CmF",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO6impactyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "hrm",
+            "printedName": "hrm",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.IntermediateFileKeywords.Type) -> CommonModels.IntermediateFileKeywords",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.IntermediateFileKeywords.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntermediateFileKeywords",
+                        "printedName": "CommonModels.IntermediateFileKeywords",
+                        "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO3hrmyA2CmF",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO3hrmyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "skipped",
+            "printedName": "skipped",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.IntermediateFileKeywords.Type) -> CommonModels.IntermediateFileKeywords",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.IntermediateFileKeywords.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntermediateFileKeywords",
+                        "printedName": "CommonModels.IntermediateFileKeywords",
+                        "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO7skippedyA2CmF",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO7skippedyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "roundStart",
+            "printedName": "roundStart",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.IntermediateFileKeywords.Type) -> CommonModels.IntermediateFileKeywords",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.IntermediateFileKeywords.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntermediateFileKeywords",
+                        "printedName": "CommonModels.IntermediateFileKeywords",
+                        "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO10roundStartyA2CmF",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO10roundStartyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "roundEnd",
+            "printedName": "roundEnd",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.IntermediateFileKeywords.Type) -> CommonModels.IntermediateFileKeywords",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.IntermediateFileKeywords.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntermediateFileKeywords",
+                        "printedName": "CommonModels.IntermediateFileKeywords",
+                        "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO8roundEndyA2CmF",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO8roundEndyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "sessionStart",
+            "printedName": "sessionStart",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.IntermediateFileKeywords.Type) -> CommonModels.IntermediateFileKeywords",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.IntermediateFileKeywords.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntermediateFileKeywords",
+                        "printedName": "CommonModels.IntermediateFileKeywords",
+                        "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO12sessionStartyA2CmF",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO12sessionStartyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "sessionEnd",
+            "printedName": "sessionEnd",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.IntermediateFileKeywords.Type) -> CommonModels.IntermediateFileKeywords",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.IntermediateFileKeywords.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntermediateFileKeywords",
+                        "printedName": "CommonModels.IntermediateFileKeywords",
+                        "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO10sessionEndyA2CmF",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO10sessionEndyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "end",
+            "printedName": "end",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.IntermediateFileKeywords.Type) -> CommonModels.IntermediateFileKeywords",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.IntermediateFileKeywords.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntermediateFileKeywords",
+                        "printedName": "CommonModels.IntermediateFileKeywords",
+                        "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO3endyA2CmF",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO3endyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "packId",
+            "printedName": "packId",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.IntermediateFileKeywords.Type) -> CommonModels.IntermediateFileKeywords",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.IntermediateFileKeywords.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntermediateFileKeywords",
+                        "printedName": "CommonModels.IntermediateFileKeywords",
+                        "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO6packIdyA2CmF",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO6packIdyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "skipBack",
+            "printedName": "skipBack",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.IntermediateFileKeywords.Type) -> CommonModels.IntermediateFileKeywords",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.IntermediateFileKeywords.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntermediateFileKeywords",
+                        "printedName": "CommonModels.IntermediateFileKeywords",
+                        "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO8skipBackyA2CmF",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO8skipBackyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CommonModels.IntermediateFileKeywords?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileKeywords",
+                    "printedName": "CommonModels.IntermediateFileKeywords",
+                    "usr": "s:12CommonModels24IntermediateFileKeywordsO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO8rawValueACSgSS_tcfc",
+            "moduleName": "CommonModels",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels24IntermediateFileKeywordsO8rawValueSSvp",
+            "mangledName": "$s12CommonModels24IntermediateFileKeywordsO8rawValueSSvp",
+            "moduleName": "CommonModels",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels24IntermediateFileKeywordsO8rawValueSSvg",
+                "mangledName": "$s12CommonModels24IntermediateFileKeywordsO8rawValueSSvg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12CommonModels24IntermediateFileKeywordsO",
+        "mangledName": "$s12CommonModels24IntermediateFileKeywordsO",
+        "moduleName": "CommonModels",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CommonModels",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "Media",
         "printedName": "Media",
         "children": [
@@ -3414,933 +4178,270 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "CommonModels"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "CommonModels"
+        "moduleName": "CommonModels",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "TypeDecl",
-        "name": "CommonModelsAsset",
-        "printedName": "CommonModelsAsset",
+        "name": "WorkoutStatus",
+        "printedName": "WorkoutStatus",
         "children": [
           {
-            "kind": "TypeDecl",
-            "name": "Assets",
-            "printedName": "Assets",
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
             "children": [
               {
-                "kind": "Var",
-                "name": "accentColor",
-                "printedName": "accentColor",
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.WorkoutStatus.Type) -> CommonModels.WorkoutStatus",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CommonModelsColors",
-                    "printedName": "CommonModels.CommonModelsColors",
-                    "usr": "s:12CommonModels0aB6ColorsC"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:12CommonModels0aB5AssetO6AssetsO11accentColorAA0aB6ColorsCvpZ",
-                "mangledName": "$s12CommonModels0aB5AssetO6AssetsO11accentColorAA0aB6ColorsCvpZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CommonModelsColors",
-                        "printedName": "CommonModels.CommonModelsColors",
-                        "usr": "s:12CommonModels0aB6ColorsC"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:12CommonModels0aB5AssetO6AssetsO11accentColorAA0aB6ColorsCvgZ",
-                    "mangledName": "$s12CommonModels0aB5AssetO6AssetsO11accentColorAA0aB6ColorsCvgZ",
-                    "moduleName": "CommonModels",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "icBack",
-                "printedName": "icBack",
-                "children": [
+                    "name": "WorkoutStatus",
+                    "printedName": "CommonModels.WorkoutStatus",
+                    "usr": "s:12CommonModels13WorkoutStatusO"
+                  },
                   {
                     "kind": "TypeNominal",
-                    "name": "CommonModelsImages",
-                    "printedName": "CommonModels.CommonModelsImages",
-                    "usr": "s:12CommonModels0aB6ImagesV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:12CommonModels0aB5AssetO6AssetsO6icBackAA0aB6ImagesVvpZ",
-                "mangledName": "$s12CommonModels0aB5AssetO6AssetsO6icBackAA0aB6ImagesVvpZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.WorkoutStatus.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "CommonModelsImages",
-                        "printedName": "CommonModels.CommonModelsImages",
-                        "usr": "s:12CommonModels0aB6ImagesV"
+                        "name": "WorkoutStatus",
+                        "printedName": "CommonModels.WorkoutStatus",
+                        "usr": "s:12CommonModels13WorkoutStatusO"
                       }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:12CommonModels0aB5AssetO6AssetsO6icBackAA0aB6ImagesVvgZ",
-                    "mangledName": "$s12CommonModels0aB5AssetO6AssetsO6icBackAA0aB6ImagesVvgZ",
-                    "moduleName": "CommonModels",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "icDetailsTime",
-                "printedName": "icDetailsTime",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CommonModelsImages",
-                    "printedName": "CommonModels.CommonModelsImages",
-                    "usr": "s:12CommonModels0aB6ImagesV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:12CommonModels0aB5AssetO6AssetsO13icDetailsTimeAA0aB6ImagesVvpZ",
-                "mangledName": "$s12CommonModels0aB5AssetO6AssetsO13icDetailsTimeAA0aB6ImagesVvpZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CommonModelsImages",
-                        "printedName": "CommonModels.CommonModelsImages",
-                        "usr": "s:12CommonModels0aB6ImagesV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:12CommonModels0aB5AssetO6AssetsO13icDetailsTimeAA0aB6ImagesVvgZ",
-                    "mangledName": "$s12CommonModels0aB5AssetO6AssetsO13icDetailsTimeAA0aB6ImagesVvgZ",
-                    "moduleName": "CommonModels",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "icDetailsVideo",
-                "printedName": "icDetailsVideo",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CommonModelsImages",
-                    "printedName": "CommonModels.CommonModelsImages",
-                    "usr": "s:12CommonModels0aB6ImagesV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:12CommonModels0aB5AssetO6AssetsO14icDetailsVideoAA0aB6ImagesVvpZ",
-                "mangledName": "$s12CommonModels0aB5AssetO6AssetsO14icDetailsVideoAA0aB6ImagesVvpZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CommonModelsImages",
-                        "printedName": "CommonModels.CommonModelsImages",
-                        "usr": "s:12CommonModels0aB6ImagesV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:12CommonModels0aB5AssetO6AssetsO14icDetailsVideoAA0aB6ImagesVvgZ",
-                    "mangledName": "$s12CommonModels0aB5AssetO6AssetsO14icDetailsVideoAA0aB6ImagesVvgZ",
-                    "moduleName": "CommonModels",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "icNext",
-                "printedName": "icNext",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CommonModelsImages",
-                    "printedName": "CommonModels.CommonModelsImages",
-                    "usr": "s:12CommonModels0aB6ImagesV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:12CommonModels0aB5AssetO6AssetsO6icNextAA0aB6ImagesVvpZ",
-                "mangledName": "$s12CommonModels0aB5AssetO6AssetsO6icNextAA0aB6ImagesVvpZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CommonModelsImages",
-                        "printedName": "CommonModels.CommonModelsImages",
-                        "usr": "s:12CommonModels0aB6ImagesV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:12CommonModels0aB5AssetO6AssetsO6icNextAA0aB6ImagesVvgZ",
-                    "mangledName": "$s12CommonModels0aB5AssetO6AssetsO6icNextAA0aB6ImagesVvgZ",
-                    "moduleName": "CommonModels",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "icPause",
-                "printedName": "icPause",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CommonModelsImages",
-                    "printedName": "CommonModels.CommonModelsImages",
-                    "usr": "s:12CommonModels0aB6ImagesV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:12CommonModels0aB5AssetO6AssetsO7icPauseAA0aB6ImagesVvpZ",
-                "mangledName": "$s12CommonModels0aB5AssetO6AssetsO7icPauseAA0aB6ImagesVvpZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CommonModelsImages",
-                        "printedName": "CommonModels.CommonModelsImages",
-                        "usr": "s:12CommonModels0aB6ImagesV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:12CommonModels0aB5AssetO6AssetsO7icPauseAA0aB6ImagesVvgZ",
-                    "mangledName": "$s12CommonModels0aB5AssetO6AssetsO7icPauseAA0aB6ImagesVvgZ",
-                    "moduleName": "CommonModels",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "icPrevious",
-                "printedName": "icPrevious",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CommonModelsImages",
-                    "printedName": "CommonModels.CommonModelsImages",
-                    "usr": "s:12CommonModels0aB6ImagesV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:12CommonModels0aB5AssetO6AssetsO10icPreviousAA0aB6ImagesVvpZ",
-                "mangledName": "$s12CommonModels0aB5AssetO6AssetsO10icPreviousAA0aB6ImagesVvpZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CommonModelsImages",
-                        "printedName": "CommonModels.CommonModelsImages",
-                        "usr": "s:12CommonModels0aB6ImagesV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:12CommonModels0aB5AssetO6AssetsO10icPreviousAA0aB6ImagesVvgZ",
-                    "mangledName": "$s12CommonModels0aB5AssetO6AssetsO10icPreviousAA0aB6ImagesVvgZ",
-                    "moduleName": "CommonModels",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "muteButton",
-                "printedName": "muteButton",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CommonModelsImages",
-                    "printedName": "CommonModels.CommonModelsImages",
-                    "usr": "s:12CommonModels0aB6ImagesV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:12CommonModels0aB5AssetO6AssetsO10muteButtonAA0aB6ImagesVvpZ",
-                "mangledName": "$s12CommonModels0aB5AssetO6AssetsO10muteButtonAA0aB6ImagesVvpZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CommonModelsImages",
-                        "printedName": "CommonModels.CommonModelsImages",
-                        "usr": "s:12CommonModels0aB6ImagesV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:12CommonModels0aB5AssetO6AssetsO10muteButtonAA0aB6ImagesVvgZ",
-                    "mangledName": "$s12CommonModels0aB5AssetO6AssetsO10muteButtonAA0aB6ImagesVvgZ",
-                    "moduleName": "CommonModels",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "mutedButton",
-                "printedName": "mutedButton",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CommonModelsImages",
-                    "printedName": "CommonModels.CommonModelsImages",
-                    "usr": "s:12CommonModels0aB6ImagesV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:12CommonModels0aB5AssetO6AssetsO11mutedButtonAA0aB6ImagesVvpZ",
-                "mangledName": "$s12CommonModels0aB5AssetO6AssetsO11mutedButtonAA0aB6ImagesVvpZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CommonModelsImages",
-                        "printedName": "CommonModels.CommonModelsImages",
-                        "usr": "s:12CommonModels0aB6ImagesV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:12CommonModels0aB5AssetO6AssetsO11mutedButtonAA0aB6ImagesVvgZ",
-                    "mangledName": "$s12CommonModels0aB5AssetO6AssetsO11mutedButtonAA0aB6ImagesVvgZ",
-                    "moduleName": "CommonModels",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
+                    ]
                   }
                 ]
               }
             ],
-            "declKind": "Enum",
-            "usr": "s:12CommonModels0aB5AssetO6AssetsO",
-            "mangledName": "$s12CommonModels0aB5AssetO6AssetsO",
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels13WorkoutStatusO4noneyA2CmF",
+            "mangledName": "$s12CommonModels13WorkoutStatusO4noneyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "started",
+            "printedName": "started",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.WorkoutStatus.Type) -> CommonModels.WorkoutStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStatus",
+                    "printedName": "CommonModels.WorkoutStatus",
+                    "usr": "s:12CommonModels13WorkoutStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.WorkoutStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStatus",
+                        "printedName": "CommonModels.WorkoutStatus",
+                        "usr": "s:12CommonModels13WorkoutStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels13WorkoutStatusO7startedyA2CmF",
+            "mangledName": "$s12CommonModels13WorkoutStatusO7startedyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "paused",
+            "printedName": "paused",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.WorkoutStatus.Type) -> CommonModels.WorkoutStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStatus",
+                    "printedName": "CommonModels.WorkoutStatus",
+                    "usr": "s:12CommonModels13WorkoutStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.WorkoutStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStatus",
+                        "printedName": "CommonModels.WorkoutStatus",
+                        "usr": "s:12CommonModels13WorkoutStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels13WorkoutStatusO6pausedyA2CmF",
+            "mangledName": "$s12CommonModels13WorkoutStatusO6pausedyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "ended",
+            "printedName": "ended",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.WorkoutStatus.Type) -> CommonModels.WorkoutStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStatus",
+                    "printedName": "CommonModels.WorkoutStatus",
+                    "usr": "s:12CommonModels13WorkoutStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.WorkoutStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutStatus",
+                        "printedName": "CommonModels.WorkoutStatus",
+                        "usr": "s:12CommonModels13WorkoutStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels13WorkoutStatusO5endedyA2CmF",
+            "mangledName": "$s12CommonModels13WorkoutStatusO5endedyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WorkoutStatus",
+                "printedName": "CommonModels.WorkoutStatus",
+                "usr": "s:12CommonModels13WorkoutStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WorkoutStatus",
+                "printedName": "CommonModels.WorkoutStatus",
+                "usr": "s:12CommonModels13WorkoutStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CommonModels13WorkoutStatusO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12CommonModels13WorkoutStatusO2eeoiySbAC_ACtFZ",
             "moduleName": "CommonModels",
-            "declAttributes": [
-              "AccessControl"
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels13WorkoutStatusO9hashValueSivp",
+            "mangledName": "$s12CommonModels13WorkoutStatusO9hashValueSivp",
+            "moduleName": "CommonModels",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels13WorkoutStatusO9hashValueSivg",
+                "mangledName": "$s12CommonModels13WorkoutStatusO9hashValueSivg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
             ]
           },
           {
-            "kind": "TypeDecl",
-            "name": "PreviewAssets",
-            "printedName": "PreviewAssets",
-            "declKind": "Enum",
-            "usr": "s:12CommonModels0aB5AssetO13PreviewAssetsO",
-            "mangledName": "$s12CommonModels0aB5AssetO13PreviewAssetsO",
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CommonModels13WorkoutStatusO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12CommonModels13WorkoutStatusO4hash4intoys6HasherVz_tF",
             "moduleName": "CommonModels",
-            "declAttributes": [
-              "AccessControl"
-            ]
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
-        "usr": "s:12CommonModels0aB5AssetO",
-        "mangledName": "$s12CommonModels0aB5AssetO",
-        "moduleName": "CommonModels",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CommonModelsColors",
-        "printedName": "CommonModelsColors",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels0aB6ColorsC4nameSSvp",
-            "mangledName": "$s12CommonModels0aB6ColorsC4nameSSvp",
-            "moduleName": "CommonModels",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "SetterAccess",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels0aB6ColorsC4nameSSvg",
-                "mangledName": "$s12CommonModels0aB6ColorsC4nameSSvg",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "color",
-            "printedName": "color",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels0aB6ColorsC5colorSo7UIColorCvp",
-            "mangledName": "$s12CommonModels0aB6ColorsC5colorSo7UIColorCvp",
-            "moduleName": "CommonModels",
-            "intro_Macosx": "10.13",
-            "intro_iOS": "11.0",
-            "intro_tvOS": "11.0",
-            "intro_watchOS": "4.0",
-            "declAttributes": [
-              "Final",
-              "Lazy",
-              "SetterAccess",
-              "AccessControl",
-              "Available",
-              "Available",
-              "Available",
-              "Available",
-              "Available"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels0aB6ColorsC5colorSo7UIColorCvg",
-                "mangledName": "$s12CommonModels0aB6ColorsC5colorSo7UIColorCvg",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "swiftUIColor",
-            "printedName": "swiftUIColor",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "usr": "s:7SwiftUI5ColorV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels0aB6ColorsC12swiftUIColor7SwiftUI5ColorVvp",
-            "mangledName": "$s12CommonModels0aB6ColorsC12swiftUIColor7SwiftUI5ColorVvp",
-            "moduleName": "CommonModels",
-            "intro_Macosx": "10.15",
-            "intro_iOS": "13.0",
-            "intro_tvOS": "13.0",
-            "intro_watchOS": "6.0",
-            "declAttributes": [
-              "Final",
-              "SetterAccess",
-              "AccessControl",
-              "Available",
-              "Available",
-              "Available",
-              "Available",
-              "Available"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Color",
-                    "printedName": "SwiftUI.Color",
-                    "usr": "s:7SwiftUI5ColorV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels0aB6ColorsC12swiftUIColor7SwiftUI5ColorVvg",
-                "mangledName": "$s12CommonModels0aB6ColorsC12swiftUIColor7SwiftUI5ColorVvg",
-                "moduleName": "CommonModels",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:12CommonModels0aB6ColorsC",
-        "mangledName": "$s12CommonModels0aB6ColorsC",
-        "moduleName": "CommonModels",
-        "declAttributes": [
-          "Final",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CommonModelsImages",
-        "printedName": "CommonModelsImages",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels0aB6ImagesV4nameSSvp",
-            "mangledName": "$s12CommonModels0aB6ImagesV4nameSSvp",
-            "moduleName": "CommonModels",
-            "declAttributes": [
-              "HasStorage",
-              "SetterAccess",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels0aB6ImagesV4nameSSvg",
-                "mangledName": "$s12CommonModels0aB6ImagesV4nameSSvg",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "image",
-            "printedName": "image",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels0aB6ImagesV5imageSo7UIImageCvp",
-            "mangledName": "$s12CommonModels0aB6ImagesV5imageSo7UIImageCvp",
-            "moduleName": "CommonModels",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels0aB6ImagesV5imageSo7UIImageCvg",
-                "mangledName": "$s12CommonModels0aB6ImagesV5imageSo7UIImageCvg",
-                "moduleName": "CommonModels",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "swiftUIImage",
-            "printedName": "swiftUIImage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Image",
-                "printedName": "SwiftUI.Image",
-                "usr": "s:7SwiftUI5ImageV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels0aB6ImagesV12swiftUIImage7SwiftUI5ImageVvp",
-            "mangledName": "$s12CommonModels0aB6ImagesV12swiftUIImage7SwiftUI5ImageVvp",
-            "moduleName": "CommonModels",
-            "intro_Macosx": "10.15",
-            "intro_iOS": "13.0",
-            "intro_tvOS": "13.0",
-            "intro_watchOS": "6.0",
-            "declAttributes": [
-              "AccessControl",
-              "Available",
-              "Available",
-              "Available",
-              "Available",
-              "Available"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Image",
-                    "printedName": "SwiftUI.Image",
-                    "usr": "s:7SwiftUI5ImageV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels0aB6ImagesV12swiftUIImage7SwiftUI5ImageVvg",
-                "mangledName": "$s12CommonModels0aB6ImagesV12swiftUIImage7SwiftUI5ImageVvg",
-                "moduleName": "CommonModels",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(name:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CommonModelsImages",
-                "printedName": "CommonModels.CommonModelsImages",
-                "usr": "s:12CommonModels0aB6ImagesV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:12CommonModels0aB6ImagesV4nameACSS_tcfc",
-            "mangledName": "$s12CommonModels0aB6ImagesV4nameACSS_tcfc",
-            "moduleName": "CommonModels",
-            "implicit": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:12CommonModels0aB6ImagesV",
-        "mangledName": "$s12CommonModels0aB6ImagesV",
+        "usr": "s:12CommonModels13WorkoutStatusO",
+        "mangledName": "$s12CommonModels13WorkoutStatusO",
         "moduleName": "CommonModels",
         "declAttributes": [
           "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CommonModels",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CommonModelsResources",
-        "printedName": "CommonModelsResources",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "bundle",
-            "printedName": "bundle",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bundle",
-                "printedName": "Foundation.Bundle",
-                "usr": "c:objc(cs)NSBundle"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@CommonModels@objc(cs)CommonModelsResources(cpy)bundle",
-            "mangledName": "$s12CommonModels0aB9ResourcesC6bundleSo8NSBundleCvpZ",
-            "moduleName": "CommonModels",
-            "static": true,
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bundle",
-                    "printedName": "Foundation.Bundle",
-                    "usr": "c:objc(cs)NSBundle"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@CommonModels@objc(cs)CommonModelsResources(cm)bundle",
-                "mangledName": "$s12CommonModels0aB9ResourcesC6bundleSo8NSBundleCvgZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "isOpen": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CommonModelsResources",
-                "printedName": "CommonModels.CommonModelsResources",
-                "usr": "c:@M@CommonModels@objc(cs)CommonModelsResources"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@CommonModels@objc(cs)CommonModelsResources(im)init",
-            "mangledName": "$s12CommonModels0aB9ResourcesCACycfc",
-            "moduleName": "CommonModels",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@CommonModels@objc(cs)CommonModelsResources",
-        "mangledName": "$s12CommonModels0aB9ResourcesC",
-        "moduleName": "CommonModels",
-        "isOpen": true,
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
         ],
         "conformances": [
           {
@@ -4356,1734 +4457,6 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CommonModels"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "CommonModels"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "CommonModels"
-      },
-      {
-        "kind": "Import",
-        "name": "DeveloperToolsSupport",
-        "printedName": "DeveloperToolsSupport",
-        "declKind": "Import",
-        "moduleName": "CommonModels"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ColorResource",
-        "printedName": "ColorResource",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels13ColorResourceV4name33_49952DDF33163D179B7974C5C2B17A12LLSSvp",
-            "mangledName": "$s12CommonModels13ColorResourceV4name33_49952DDF33163D179B7974C5C2B17A12LLSSvp",
-            "moduleName": "CommonModels",
-            "isInternal": true,
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "bundle",
-            "printedName": "bundle",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bundle",
-                "printedName": "Foundation.Bundle",
-                "usr": "c:objc(cs)NSBundle"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels13ColorResourceV6bundle33_49952DDF33163D179B7974C5C2B17A12LLSo8NSBundleCvp",
-            "mangledName": "$s12CommonModels13ColorResourceV6bundle33_49952DDF33163D179B7974C5C2B17A12LLSo8NSBundleCvp",
-            "moduleName": "CommonModels",
-            "isInternal": true,
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 1,
-            "isLet": true,
-            "hasStorage": true
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(name:bundle:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ColorResource",
-                "printedName": "CommonModels.ColorResource",
-                "usr": "s:12CommonModels13ColorResourceV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bundle",
-                "printedName": "Foundation.Bundle",
-                "usr": "c:objc(cs)NSBundle"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:12CommonModels13ColorResourceV4name6bundleACSS_So8NSBundleCtcfc",
-            "mangledName": "$s12CommonModels13ColorResourceV4name6bundleACSS_So8NSBundleCtcfc",
-            "moduleName": "CommonModels",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels13ColorResourceV9hashValueSivp",
-            "mangledName": "$s12CommonModels13ColorResourceV9hashValueSivp",
-            "moduleName": "CommonModels",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels13ColorResourceV9hashValueSivg",
-                "mangledName": "$s12CommonModels13ColorResourceV9hashValueSivg",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12CommonModels13ColorResourceV4hash4intoys6HasherVz_tF",
-            "mangledName": "$s12CommonModels13ColorResourceV4hash4intoys6HasherVz_tF",
-            "moduleName": "CommonModels",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ColorResource",
-                "printedName": "CommonModels.ColorResource",
-                "usr": "s:12CommonModels13ColorResourceV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ColorResource",
-                "printedName": "CommonModels.ColorResource",
-                "usr": "s:12CommonModels13ColorResourceV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12CommonModels13ColorResourceV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s12CommonModels13ColorResourceV2eeoiySbAC_ACtFZ",
-            "moduleName": "CommonModels",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:12CommonModels13ColorResourceV",
-        "mangledName": "$s12CommonModels13ColorResourceV",
-        "moduleName": "CommonModels",
-        "declAttributes": [
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ImageResource",
-        "printedName": "ImageResource",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels13ImageResourceV4name33_49952DDF33163D179B7974C5C2B17A12LLSSvp",
-            "mangledName": "$s12CommonModels13ImageResourceV4name33_49952DDF33163D179B7974C5C2B17A12LLSSvp",
-            "moduleName": "CommonModels",
-            "isInternal": true,
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "bundle",
-            "printedName": "bundle",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bundle",
-                "printedName": "Foundation.Bundle",
-                "usr": "c:objc(cs)NSBundle"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels13ImageResourceV6bundle33_49952DDF33163D179B7974C5C2B17A12LLSo8NSBundleCvp",
-            "mangledName": "$s12CommonModels13ImageResourceV6bundle33_49952DDF33163D179B7974C5C2B17A12LLSo8NSBundleCvp",
-            "moduleName": "CommonModels",
-            "isInternal": true,
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 1,
-            "isLet": true,
-            "hasStorage": true
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(name:bundle:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ImageResource",
-                "printedName": "CommonModels.ImageResource",
-                "usr": "s:12CommonModels13ImageResourceV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bundle",
-                "printedName": "Foundation.Bundle",
-                "usr": "c:objc(cs)NSBundle"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:12CommonModels13ImageResourceV4name6bundleACSS_So8NSBundleCtcfc",
-            "mangledName": "$s12CommonModels13ImageResourceV4name6bundleACSS_So8NSBundleCtcfc",
-            "moduleName": "CommonModels",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels13ImageResourceV9hashValueSivp",
-            "mangledName": "$s12CommonModels13ImageResourceV9hashValueSivp",
-            "moduleName": "CommonModels",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels13ImageResourceV9hashValueSivg",
-                "mangledName": "$s12CommonModels13ImageResourceV9hashValueSivg",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12CommonModels13ImageResourceV4hash4intoys6HasherVz_tF",
-            "mangledName": "$s12CommonModels13ImageResourceV4hash4intoys6HasherVz_tF",
-            "moduleName": "CommonModels",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImageResource",
-                "printedName": "CommonModels.ImageResource",
-                "usr": "s:12CommonModels13ImageResourceV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImageResource",
-                "printedName": "CommonModels.ImageResource",
-                "usr": "s:12CommonModels13ImageResourceV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12CommonModels13ImageResourceV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s12CommonModels13ImageResourceV2eeoiySbAC_ACtFZ",
-            "moduleName": "CommonModels",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "icBack",
-            "printedName": "icBack",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ImageResource",
-                "printedName": "CommonModels.ImageResource",
-                "usr": "s:12CommonModels13ImageResourceV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels13ImageResourceV6icBackACvpZ",
-            "mangledName": "$s12CommonModels13ImageResourceV6icBackACvpZ",
-            "moduleName": "CommonModels",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImageResource",
-                    "printedName": "CommonModels.ImageResource",
-                    "usr": "s:12CommonModels13ImageResourceV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels13ImageResourceV6icBackACvgZ",
-                "mangledName": "$s12CommonModels13ImageResourceV6icBackACvgZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "icDetailsTime",
-            "printedName": "icDetailsTime",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ImageResource",
-                "printedName": "CommonModels.ImageResource",
-                "usr": "s:12CommonModels13ImageResourceV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels13ImageResourceV13icDetailsTimeACvpZ",
-            "mangledName": "$s12CommonModels13ImageResourceV13icDetailsTimeACvpZ",
-            "moduleName": "CommonModels",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImageResource",
-                    "printedName": "CommonModels.ImageResource",
-                    "usr": "s:12CommonModels13ImageResourceV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels13ImageResourceV13icDetailsTimeACvgZ",
-                "mangledName": "$s12CommonModels13ImageResourceV13icDetailsTimeACvgZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "icDetailsVideo",
-            "printedName": "icDetailsVideo",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ImageResource",
-                "printedName": "CommonModels.ImageResource",
-                "usr": "s:12CommonModels13ImageResourceV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels13ImageResourceV14icDetailsVideoACvpZ",
-            "mangledName": "$s12CommonModels13ImageResourceV14icDetailsVideoACvpZ",
-            "moduleName": "CommonModels",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImageResource",
-                    "printedName": "CommonModels.ImageResource",
-                    "usr": "s:12CommonModels13ImageResourceV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels13ImageResourceV14icDetailsVideoACvgZ",
-                "mangledName": "$s12CommonModels13ImageResourceV14icDetailsVideoACvgZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "icNext",
-            "printedName": "icNext",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ImageResource",
-                "printedName": "CommonModels.ImageResource",
-                "usr": "s:12CommonModels13ImageResourceV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels13ImageResourceV6icNextACvpZ",
-            "mangledName": "$s12CommonModels13ImageResourceV6icNextACvpZ",
-            "moduleName": "CommonModels",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImageResource",
-                    "printedName": "CommonModels.ImageResource",
-                    "usr": "s:12CommonModels13ImageResourceV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels13ImageResourceV6icNextACvgZ",
-                "mangledName": "$s12CommonModels13ImageResourceV6icNextACvgZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "icPause",
-            "printedName": "icPause",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ImageResource",
-                "printedName": "CommonModels.ImageResource",
-                "usr": "s:12CommonModels13ImageResourceV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels13ImageResourceV7icPauseACvpZ",
-            "mangledName": "$s12CommonModels13ImageResourceV7icPauseACvpZ",
-            "moduleName": "CommonModels",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImageResource",
-                    "printedName": "CommonModels.ImageResource",
-                    "usr": "s:12CommonModels13ImageResourceV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels13ImageResourceV7icPauseACvgZ",
-                "mangledName": "$s12CommonModels13ImageResourceV7icPauseACvgZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "icPrevious",
-            "printedName": "icPrevious",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ImageResource",
-                "printedName": "CommonModels.ImageResource",
-                "usr": "s:12CommonModels13ImageResourceV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels13ImageResourceV10icPreviousACvpZ",
-            "mangledName": "$s12CommonModels13ImageResourceV10icPreviousACvpZ",
-            "moduleName": "CommonModels",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImageResource",
-                    "printedName": "CommonModels.ImageResource",
-                    "usr": "s:12CommonModels13ImageResourceV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels13ImageResourceV10icPreviousACvgZ",
-                "mangledName": "$s12CommonModels13ImageResourceV10icPreviousACvgZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "muteButton",
-            "printedName": "muteButton",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ImageResource",
-                "printedName": "CommonModels.ImageResource",
-                "usr": "s:12CommonModels13ImageResourceV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels13ImageResourceV10muteButtonACvpZ",
-            "mangledName": "$s12CommonModels13ImageResourceV10muteButtonACvpZ",
-            "moduleName": "CommonModels",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImageResource",
-                    "printedName": "CommonModels.ImageResource",
-                    "usr": "s:12CommonModels13ImageResourceV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels13ImageResourceV10muteButtonACvgZ",
-                "mangledName": "$s12CommonModels13ImageResourceV10muteButtonACvgZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "mutedButton",
-            "printedName": "mutedButton",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ImageResource",
-                "printedName": "CommonModels.ImageResource",
-                "usr": "s:12CommonModels13ImageResourceV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels13ImageResourceV11mutedButtonACvpZ",
-            "mangledName": "$s12CommonModels13ImageResourceV11mutedButtonACvpZ",
-            "moduleName": "CommonModels",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ImageResource",
-                    "printedName": "CommonModels.ImageResource",
-                    "usr": "s:12CommonModels13ImageResourceV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels13ImageResourceV11mutedButtonACvgZ",
-                "mangledName": "$s12CommonModels13ImageResourceV11mutedButtonACvgZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:12CommonModels13ImageResourceV",
-        "mangledName": "$s12CommonModels13ImageResourceV",
-        "moduleName": "CommonModels",
-        "declAttributes": [
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UIColor",
-        "printedName": "UIColor",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(asset:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIColor?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CommonModelsColors",
-                "printedName": "CommonModels.CommonModelsColors",
-                "usr": "s:12CommonModels0aB6ColorsC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:So7UIColorC12CommonModelsE5assetABSgAC0bC6ColorsC_tcfc",
-            "mangledName": "$sSo7UIColorC12CommonModelsE5assetABSgAC0bC6ColorsC_tcfc",
-            "moduleName": "CommonModels",
-            "intro_Macosx": "10.13",
-            "intro_iOS": "11.0",
-            "intro_tvOS": "11.0",
-            "intro_watchOS": "4.0",
-            "declAttributes": [
-              "Convenience",
-              "Available",
-              "Available",
-              "Available",
-              "Available",
-              "Available"
-            ],
-            "isFromExtension": true,
-            "init_kind": "Convenience"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(resource:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ColorResource",
-                "printedName": "CommonModels.ColorResource",
-                "usr": "s:12CommonModels13ColorResourceV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:So7UIColorC12CommonModelsE8resourceAbC13ColorResourceV_tcfc",
-            "mangledName": "$sSo7UIColorC12CommonModelsE8resourceAbC13ColorResourceV_tcfc",
-            "moduleName": "CommonModels",
-            "declAttributes": [
-              "Convenience",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "init_kind": "Convenience"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIColor",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIColor",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "SynthesizedProtocol",
-          "NonSendable",
-          "Sendable",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByColorLiteral",
-            "printedName": "_ExpressibleByColorLiteral",
-            "usr": "s:s26_ExpressibleByColorLiteralP",
-            "mangledName": "$ss26_ExpressibleByColorLiteralP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Color",
-        "printedName": "Color",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(asset:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "usr": "s:7SwiftUI5ColorV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CommonModelsColors",
-                "printedName": "CommonModels.CommonModelsColors",
-                "usr": "s:12CommonModels0aB6ColorsC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:7SwiftUI5ColorV12CommonModelsE5assetAcD0dE6ColorsC_tcfc",
-            "mangledName": "$s7SwiftUI5ColorV12CommonModelsE5assetAcD0dE6ColorsC_tcfc",
-            "moduleName": "CommonModels",
-            "isFromExtension": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "usr": "s:7SwiftUI5ColorV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ColorResource",
-                "printedName": "CommonModels.ColorResource",
-                "usr": "s:12CommonModels13ColorResourceV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:7SwiftUI5ColorV12CommonModelsEyAcD0C8ResourceVcfc",
-            "mangledName": "$s7SwiftUI5ColorV12CommonModelsEyAcD0C8ResourceVcfc",
-            "moduleName": "CommonModels",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:7SwiftUI5ColorV",
-        "mangledName": "$s7SwiftUI5ColorV",
-        "moduleName": "SwiftUI",
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13.0",
-        "intro_tvOS": "13.0",
-        "intro_watchOS": "6.0",
-        "declAttributes": [
-          "Frozen",
-          "Available",
-          "Available",
-          "Available",
-          "Available"
-        ],
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Transferable",
-            "printedName": "Transferable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Representation",
-                "printedName": "Representation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some CoreTransferable.TransferRepresentation",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TransferRepresentation",
-                        "printedName": "CoreTransferable.TransferRepresentation",
-                        "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:16CoreTransferable0B0P",
-            "mangledName": "$s16CoreTransferable0B0P"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ShapeStyle",
-            "printedName": "ShapeStyle",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Resolved",
-                "printedName": "Resolved",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Resolved",
-                    "printedName": "SwiftUI.Color.Resolved",
-                    "usr": "s:7SwiftUI5ColorV8ResolvedV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI10ShapeStyleP",
-            "mangledName": "$s7SwiftUI10ShapeStyleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Image",
-        "printedName": "Image",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(asset:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Image",
-                "printedName": "SwiftUI.Image",
-                "usr": "s:7SwiftUI5ImageV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CommonModelsImages",
-                "printedName": "CommonModels.CommonModelsImages",
-                "usr": "s:12CommonModels0aB6ImagesV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:7SwiftUI5ImageV12CommonModelsE5assetAcD0dE6ImagesV_tcfc",
-            "mangledName": "$s7SwiftUI5ImageV12CommonModelsE5assetAcD0dE6ImagesV_tcfc",
-            "moduleName": "CommonModels",
-            "isFromExtension": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(asset:label:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Image",
-                "printedName": "SwiftUI.Image",
-                "usr": "s:7SwiftUI5ImageV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CommonModelsImages",
-                "printedName": "CommonModels.CommonModelsImages",
-                "usr": "s:12CommonModels0aB6ImagesV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Text",
-                "printedName": "SwiftUI.Text",
-                "usr": "s:7SwiftUI4TextV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:7SwiftUI5ImageV12CommonModelsE5asset5labelAcD0dE6ImagesV_AA4TextVtcfc",
-            "mangledName": "$s7SwiftUI5ImageV12CommonModelsE5asset5labelAcD0dE6ImagesV_AA4TextVtcfc",
-            "moduleName": "CommonModels",
-            "isFromExtension": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(decorative:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Image",
-                "printedName": "SwiftUI.Image",
-                "usr": "s:7SwiftUI5ImageV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CommonModelsImages",
-                "printedName": "CommonModels.CommonModelsImages",
-                "usr": "s:12CommonModels0aB6ImagesV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:7SwiftUI5ImageV12CommonModelsE10decorativeAcD0dE6ImagesV_tcfc",
-            "mangledName": "$s7SwiftUI5ImageV12CommonModelsE10decorativeAcD0dE6ImagesV_tcfc",
-            "moduleName": "CommonModels",
-            "isFromExtension": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Image",
-                "printedName": "SwiftUI.Image",
-                "usr": "s:7SwiftUI5ImageV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImageResource",
-                "printedName": "CommonModels.ImageResource",
-                "usr": "s:12CommonModels13ImageResourceV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:7SwiftUI5ImageV12CommonModelsEyAcD0C8ResourceVcfc",
-            "mangledName": "$s7SwiftUI5ImageV12CommonModelsEyAcD0C8ResourceVcfc",
-            "moduleName": "CommonModels",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:7SwiftUI5ImageV",
-        "mangledName": "$s7SwiftUI5ImageV",
-        "moduleName": "SwiftUI",
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13.0",
-        "intro_tvOS": "13.0",
-        "intro_watchOS": "6.0",
-        "declAttributes": [
-          "Frozen",
-          "Available",
-          "Available",
-          "Available",
-          "Available"
-        ],
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Transferable",
-            "printedName": "Transferable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Representation",
-                "printedName": "Representation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some CoreTransferable.TransferRepresentation",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TransferRepresentation",
-                        "printedName": "CoreTransferable.TransferRepresentation",
-                        "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:16CoreTransferable0B0P",
-            "mangledName": "$s16CoreTransferable0B0P"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Bundle",
-        "printedName": "Bundle",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "module",
-            "printedName": "module",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bundle",
-                "printedName": "Foundation.Bundle",
-                "usr": "c:objc(cs)NSBundle"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:So8NSBundleC12CommonModelsE6moduleABvpZ",
-            "mangledName": "$sSo8NSBundleC12CommonModelsE6moduleABvpZ",
-            "moduleName": "CommonModels",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bundle",
-                    "printedName": "Foundation.Bundle",
-                    "usr": "c:objc(cs)NSBundle"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:So8NSBundleC12CommonModelsE6moduleABvgZ",
-                "mangledName": "$sSo8NSBundleC12CommonModelsE6moduleABvgZ",
-                "moduleName": "CommonModels",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)NSBundle",
-        "moduleName": "Foundation",
-        "isOpen": true,
-        "objc_name": "NSBundle",
-        "declAttributes": [
-          "ObjC",
-          "SynthesizedProtocol",
-          "NonSendable",
-          "Sendable",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UIImage",
-        "printedName": "UIImage",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(resource:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImageResource",
-                "printedName": "CommonModels.ImageResource",
-                "usr": "s:12CommonModels13ImageResourceV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:So7UIImageC12CommonModelsE8resourceAbC13ImageResourceV_tcfc",
-            "mangledName": "$sSo7UIImageC12CommonModelsE8resourceAbC13ImageResourceV_tcfc",
-            "moduleName": "CommonModels",
-            "declAttributes": [
-              "Convenience",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "init_kind": "Convenience"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIImage",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIImage",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "SynthesizedProtocol",
-          "NonSendable",
-          "Sendable",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByImageLiteral",
-            "printedName": "_ExpressibleByImageLiteral",
-            "usr": "s:s26_ExpressibleByImageLiteralP",
-            "mangledName": "$ss26_ExpressibleByImageLiteralP"
           }
         ]
       }
@@ -6092,263 +4465,130 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1527,
       "length": 11,
       "value": "\"image\/jpg\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1558,
       "length": 11,
       "value": "\"image\/gif\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1590,
       "length": 12,
       "value": "\"image\/jpeg\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1622,
       "length": 11,
       "value": "\"image\/png\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1654,
       "length": 12,
       "value": "\"image\/webp\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1688,
       "length": 9,
       "value": "\"image\/*\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1717,
       "length": 11,
       "value": "\"video\/mp4\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1748,
       "length": 11,
       "value": "\"video\/mov\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1785,
       "length": 17,
       "value": "\"video\/quicktime\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1527,
       "length": 11,
       "value": "\"image\/jpg\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1558,
       "length": 11,
       "value": "\"image\/gif\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1590,
       "length": 12,
       "value": "\"image\/jpeg\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1622,
       "length": 11,
       "value": "\"image\/png\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1654,
       "length": 12,
       "value": "\"image\/webp\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1688,
       "length": 9,
       "value": "\"image\/*\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1717,
       "length": 11,
       "value": "\"video\/mp4\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1748,
       "length": 11,
       "value": "\"video\/mov\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1785,
       "length": 17,
       "value": "\"video\/quicktime\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonModels.swift",
-      "kind": "StringLiteral",
-      "offset": 607,
-      "length": 13,
-      "value": "\"AccentColor\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonModels.swift",
-      "kind": "StringLiteral",
-      "offset": 678,
-      "length": 9,
-      "value": "\"ic_back\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonModels.swift",
-      "kind": "StringLiteral",
-      "offset": 752,
-      "length": 17,
-      "value": "\"ic_details_time\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonModels.swift",
-      "kind": "StringLiteral",
-      "offset": 835,
-      "length": 18,
-      "value": "\"ic_details_video\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonModels.swift",
-      "kind": "StringLiteral",
-      "offset": 911,
-      "length": 9,
-      "value": "\"ic_next\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonModels.swift",
-      "kind": "StringLiteral",
-      "offset": 979,
-      "length": 10,
-      "value": "\"ic_pause\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonModels.swift",
-      "kind": "StringLiteral",
-      "offset": 1051,
-      "length": 13,
-      "value": "\"ic_previous\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonModels.swift",
-      "kind": "StringLiteral",
-      "offset": 1126,
-      "length": 13,
-      "value": "\"mute_button\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonModels.swift",
-      "kind": "StringLiteral",
-      "offset": 1202,
-      "length": 14,
-      "value": "\"muted_button\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonModels.swift",
-      "kind": "StringLiteral",
-      "offset": 1808,
-      "length": 43,
-      "value": "\"Unable to load color asset named \""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/Derived\/Sources\/TuistAssets+CommonModels.swift",
-      "kind": "StringLiteral",
-      "offset": 1849,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/dd\/Build\/Intermediates.noindex\/InWorkoutTools.build\/Debug-iphonesimulator\/CommonModels.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 726,
-      "length": 9,
-      "value": "\"ic_back\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/dd\/Build\/Intermediates.noindex\/InWorkoutTools.build\/Debug-iphonesimulator\/CommonModels.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 873,
-      "length": 17,
-      "value": "\"ic_details_time\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/dd\/Build\/Intermediates.noindex\/InWorkoutTools.build\/Debug-iphonesimulator\/CommonModels.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1030,
-      "length": 18,
-      "value": "\"ic_details_video\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/dd\/Build\/Intermediates.noindex\/InWorkoutTools.build\/Debug-iphonesimulator\/CommonModels.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1171,
-      "length": 9,
-      "value": "\"ic_next\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/dd\/Build\/Intermediates.noindex\/InWorkoutTools.build\/Debug-iphonesimulator\/CommonModels.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1305,
-      "length": 10,
-      "value": "\"ic_pause\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/dd\/Build\/Intermediates.noindex\/InWorkoutTools.build\/Debug-iphonesimulator\/CommonModels.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1446,
-      "length": 13,
-      "value": "\"ic_previous\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/dd\/Build\/Intermediates.noindex\/InWorkoutTools.build\/Debug-iphonesimulator\/CommonModels.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1590,
-      "length": 13,
-      "value": "\"mute_button\""
-    },
-    {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/dd\/Build\/Intermediates.noindex\/InWorkoutTools.build\/Debug-iphonesimulator\/CommonModels.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1736,
-      "length": 14,
-      "value": "\"muted_button\""
     }
   ]
 }

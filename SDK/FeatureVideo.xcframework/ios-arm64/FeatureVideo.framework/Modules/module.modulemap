@@ -1,4 +1,0 @@
-framework module FeatureVideo {
-  header "FeatureVideo-Swift.h"
-  requires objc
-}
