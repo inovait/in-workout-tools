@@ -25,7 +25,7 @@ struct ContentView: View {
 
                 Text(workout.workoutName)
                 Text(workout.exerciseName)
-                Text(workout.workoutTime)
+                Text(workout.workoutTimeString)
                 Button {
                     workout.startWorkout()
                 } label: {

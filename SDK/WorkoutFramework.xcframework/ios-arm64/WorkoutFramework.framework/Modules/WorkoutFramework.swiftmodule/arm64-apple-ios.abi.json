@@ -229,8 +229,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "workoutTime",
-            "printedName": "workoutTime",
+            "name": "workoutTimeString",
+            "printedName": "workoutTimeString",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -240,8 +240,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16WorkoutFramework0A7HandlerC11workoutTimeSSvp",
-            "mangledName": "$s16WorkoutFramework0A7HandlerC11workoutTimeSSvp",
+            "usr": "s:16WorkoutFramework0A7HandlerC17workoutTimeStringSSvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC17workoutTimeStringSSvp",
             "moduleName": "WorkoutFramework",
             "declAttributes": [
               "ProjectedValueProperty",
@@ -262,8 +262,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC11workoutTimeSSvg",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC11workoutTimeSSvg",
+                "usr": "s:16WorkoutFramework0A7HandlerC17workoutTimeStringSSvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC17workoutTimeStringSSvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -286,8 +286,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC11workoutTimeSSvs",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC11workoutTimeSSvs",
+                "usr": "s:16WorkoutFramework0A7HandlerC17workoutTimeStringSSvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC17workoutTimeStringSSvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "intro_Macosx": "10.15",
@@ -314,8 +314,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC11workoutTimeSSvM",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC11workoutTimeSSvM",
+                "usr": "s:16WorkoutFramework0A7HandlerC17workoutTimeStringSSvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC17workoutTimeStringSSvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "intro_Macosx": "10.15",
@@ -334,8 +334,8 @@
           },
           {
             "kind": "Var",
-            "name": "$workoutTime",
-            "printedName": "$workoutTime",
+            "name": "$workoutTimeString",
+            "printedName": "$workoutTimeString",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -345,8 +345,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16WorkoutFramework0A7HandlerC12$workoutTime7Combine9PublishedV9PublisherVySS_Gvp",
-            "mangledName": "$s16WorkoutFramework0A7HandlerC12$workoutTime7Combine9PublishedV9PublisherVySS_Gvp",
+            "usr": "s:16WorkoutFramework0A7HandlerC18$workoutTimeString7Combine9PublishedV9PublisherVySS_Gvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC18$workoutTimeString7Combine9PublishedV9PublisherVySS_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
             "accessors": [
@@ -363,8 +363,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC12$workoutTime7Combine9PublishedV9PublisherVySS_Gvg",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC12$workoutTime7Combine9PublishedV9PublisherVySS_Gvg",
+                "usr": "s:16WorkoutFramework0A7HandlerC18$workoutTimeString7Combine9PublishedV9PublisherVySS_Gvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC18$workoutTimeString7Combine9PublishedV9PublisherVySS_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -387,8 +387,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC12$workoutTime7Combine9PublishedV9PublisherVySS_Gvs",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC12$workoutTime7Combine9PublishedV9PublisherVySS_Gvs",
+                "usr": "s:16WorkoutFramework0A7HandlerC18$workoutTimeString7Combine9PublishedV9PublisherVySS_Gvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC18$workoutTimeString7Combine9PublishedV9PublisherVySS_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "intro_Macosx": "11.0",
@@ -415,8 +415,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC12$workoutTime7Combine9PublishedV9PublisherVySS_GvM",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC12$workoutTime7Combine9PublishedV9PublisherVySS_GvM",
+                "usr": "s:16WorkoutFramework0A7HandlerC18$workoutTimeString7Combine9PublishedV9PublisherVySS_GvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC18$workoutTimeString7Combine9PublishedV9PublisherVySS_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "intro_Macosx": "11.0",
@@ -1513,8 +1513,8 @@
           },
           {
             "kind": "Var",
-            "name": "parentExerciseTime",
-            "printedName": "parentExerciseTime",
+            "name": "parentExerciseTimeString",
+            "printedName": "parentExerciseTimeString",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1532,8 +1532,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16WorkoutFramework0A7HandlerC18parentExerciseTimeSSSgvp",
-            "mangledName": "$s16WorkoutFramework0A7HandlerC18parentExerciseTimeSSSgvp",
+            "usr": "s:16WorkoutFramework0A7HandlerC24parentExerciseTimeStringSSSgvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC24parentExerciseTimeStringSSSgvp",
             "moduleName": "WorkoutFramework",
             "declAttributes": [
               "ProjectedValueProperty",
@@ -1562,8 +1562,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC18parentExerciseTimeSSSgvg",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC18parentExerciseTimeSSSgvg",
+                "usr": "s:16WorkoutFramework0A7HandlerC24parentExerciseTimeStringSSSgvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC24parentExerciseTimeStringSSSgvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1594,8 +1594,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC18parentExerciseTimeSSSgvs",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC18parentExerciseTimeSSSgvs",
+                "usr": "s:16WorkoutFramework0A7HandlerC24parentExerciseTimeStringSSSgvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC24parentExerciseTimeStringSSSgvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "intro_Macosx": "10.15",
@@ -1622,8 +1622,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC18parentExerciseTimeSSSgvM",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC18parentExerciseTimeSSSgvM",
+                "usr": "s:16WorkoutFramework0A7HandlerC24parentExerciseTimeStringSSSgvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC24parentExerciseTimeStringSSSgvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "intro_Macosx": "10.15",
@@ -1642,8 +1642,8 @@
           },
           {
             "kind": "Var",
-            "name": "$parentExerciseTime",
-            "printedName": "$parentExerciseTime",
+            "name": "$parentExerciseTimeString",
+            "printedName": "$parentExerciseTimeString",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1653,8 +1653,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:16WorkoutFramework0A7HandlerC19$parentExerciseTime7Combine9PublishedV9PublisherVySSSg_Gvp",
-            "mangledName": "$s16WorkoutFramework0A7HandlerC19$parentExerciseTime7Combine9PublishedV9PublisherVySSSg_Gvp",
+            "usr": "s:16WorkoutFramework0A7HandlerC25$parentExerciseTimeString7Combine9PublishedV9PublisherVySSSg_Gvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC25$parentExerciseTimeString7Combine9PublishedV9PublisherVySSSg_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
             "accessors": [
@@ -1671,8 +1671,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC19$parentExerciseTime7Combine9PublishedV9PublisherVySSSg_Gvg",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC19$parentExerciseTime7Combine9PublishedV9PublisherVySSSg_Gvg",
+                "usr": "s:16WorkoutFramework0A7HandlerC25$parentExerciseTimeString7Combine9PublishedV9PublisherVySSSg_Gvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC25$parentExerciseTimeString7Combine9PublishedV9PublisherVySSSg_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1695,8 +1695,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC19$parentExerciseTime7Combine9PublishedV9PublisherVySSSg_Gvs",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC19$parentExerciseTime7Combine9PublishedV9PublisherVySSSg_Gvs",
+                "usr": "s:16WorkoutFramework0A7HandlerC25$parentExerciseTimeString7Combine9PublishedV9PublisherVySSSg_Gvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC25$parentExerciseTimeString7Combine9PublishedV9PublisherVySSSg_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "intro_Macosx": "11.0",
@@ -1723,8 +1723,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC19$parentExerciseTime7Combine9PublishedV9PublisherVySSSg_GvM",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC19$parentExerciseTime7Combine9PublishedV9PublisherVySSSg_GvM",
+                "usr": "s:16WorkoutFramework0A7HandlerC25$parentExerciseTimeString7Combine9PublishedV9PublisherVySSSg_GvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC25$parentExerciseTimeString7Combine9PublishedV9PublisherVySSSg_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "intro_Macosx": "11.0",
@@ -2868,6 +2868,1156 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "finishedWorkoutUrl",
+            "printedName": "finishedWorkoutUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvp",
+            "moduleName": "WorkoutFramework",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvg",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvs",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvM",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$finishedWorkoutUrl",
+            "printedName": "$finishedWorkoutUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<Swift.String>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_Gvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_Gvp",
+            "moduleName": "WorkoutFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.String>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_Gvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_Gvg",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.String>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_Gvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_Gvs",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_GvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_GvM",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "runningExerciseCurrentTime",
+            "printedName": "runningExerciseCurrentTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WorkoutFramework0A7HandlerC26runningExerciseCurrentTimeSdSgvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC26runningExerciseCurrentTimeSdSgvp",
+            "moduleName": "WorkoutFramework",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC26runningExerciseCurrentTimeSdSgvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC26runningExerciseCurrentTimeSdSgvg",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC26runningExerciseCurrentTimeSdSgvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC26runningExerciseCurrentTimeSdSgvs",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC26runningExerciseCurrentTimeSdSgvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC26runningExerciseCurrentTimeSdSgvM",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$runningExerciseCurrentTime",
+            "printedName": "$runningExerciseCurrentTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<Swift.Double>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WorkoutFramework0A7HandlerC27$runningExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC27$runningExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvp",
+            "moduleName": "WorkoutFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.Double>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC27$runningExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC27$runningExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvg",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.Double>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC27$runningExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC27$runningExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvs",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC27$runningExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_GvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC27$runningExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_GvM",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "runningExerciseTotalDuration",
+            "printedName": "runningExerciseTotalDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WorkoutFramework0A7HandlerC28runningExerciseTotalDurationSdSgvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC28runningExerciseTotalDurationSdSgvp",
+            "moduleName": "WorkoutFramework",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC28runningExerciseTotalDurationSdSgvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC28runningExerciseTotalDurationSdSgvg",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC28runningExerciseTotalDurationSdSgvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC28runningExerciseTotalDurationSdSgvs",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC28runningExerciseTotalDurationSdSgvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC28runningExerciseTotalDurationSdSgvM",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$runningExerciseTotalDuration",
+            "printedName": "$runningExerciseTotalDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<Swift.Double>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WorkoutFramework0A7HandlerC29$runningExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC29$runningExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvp",
+            "moduleName": "WorkoutFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.Double>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC29$runningExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC29$runningExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvg",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.Double>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC29$runningExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC29$runningExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvs",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC29$runningExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_GvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC29$runningExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_GvM",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parentExerciseCurrentTime",
+            "printedName": "parentExerciseCurrentTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WorkoutFramework0A7HandlerC25parentExerciseCurrentTimeSdSgvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC25parentExerciseCurrentTimeSdSgvp",
+            "moduleName": "WorkoutFramework",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC25parentExerciseCurrentTimeSdSgvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC25parentExerciseCurrentTimeSdSgvg",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC25parentExerciseCurrentTimeSdSgvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC25parentExerciseCurrentTimeSdSgvs",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC25parentExerciseCurrentTimeSdSgvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC25parentExerciseCurrentTimeSdSgvM",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$parentExerciseCurrentTime",
+            "printedName": "$parentExerciseCurrentTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<Swift.Double>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WorkoutFramework0A7HandlerC26$parentExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC26$parentExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvp",
+            "moduleName": "WorkoutFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.Double>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC26$parentExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC26$parentExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvg",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.Double>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC26$parentExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC26$parentExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvs",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC26$parentExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_GvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC26$parentExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_GvM",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parentExerciseTotalDuration",
+            "printedName": "parentExerciseTotalDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WorkoutFramework0A7HandlerC27parentExerciseTotalDurationSdSgvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC27parentExerciseTotalDurationSdSgvp",
+            "moduleName": "WorkoutFramework",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC27parentExerciseTotalDurationSdSgvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC27parentExerciseTotalDurationSdSgvg",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC27parentExerciseTotalDurationSdSgvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC27parentExerciseTotalDurationSdSgvs",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC27parentExerciseTotalDurationSdSgvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC27parentExerciseTotalDurationSdSgvM",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$parentExerciseTotalDuration",
+            "printedName": "$parentExerciseTotalDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<Swift.Double>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WorkoutFramework0A7HandlerC28$parentExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC28$parentExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvp",
+            "moduleName": "WorkoutFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.Double>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC28$parentExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC28$parentExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvg",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.Double>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC28$parentExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC28$parentExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvs",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC28$parentExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_GvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC28$parentExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_GvM",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -3021,16 +4171,26 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16WorkoutFramework0A7HandlerC03endA0yyF",
-            "mangledName": "$s16WorkoutFramework0A7HandlerC03endA0yyF",
+            "usr": "s:16WorkoutFramework0A7HandlerC03endA0SSSgyF",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC03endA0SSSgyF",
             "moduleName": "WorkoutFramework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "DiscardableResult"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3094,28 +4254,28 @@
     {
       "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 912,
+      "offset": 918,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 963,
+      "offset": 969,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1015,
+      "offset": 1021,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1380,
+      "offset": 1392,
       "length": 5,
       "value": "false"
     }
