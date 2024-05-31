@@ -4465,126 +4465,126 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1527,
       "length": 11,
       "value": "\"image\/jpg\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1558,
       "length": 11,
       "value": "\"image\/gif\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1590,
       "length": 12,
       "value": "\"image\/jpeg\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1622,
       "length": 11,
       "value": "\"image\/png\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1654,
       "length": 12,
       "value": "\"image\/webp\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1688,
       "length": 9,
       "value": "\"image\/*\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1717,
       "length": 11,
       "value": "\"video\/mp4\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1748,
       "length": 11,
       "value": "\"video\/mov\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1785,
       "length": 17,
       "value": "\"video\/quicktime\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1527,
       "length": 11,
       "value": "\"image\/jpg\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1558,
       "length": 11,
       "value": "\"image\/gif\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1590,
       "length": 12,
       "value": "\"image\/jpeg\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1622,
       "length": 11,
       "value": "\"image\/png\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1654,
       "length": 12,
       "value": "\"image\/webp\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1688,
       "length": 9,
       "value": "\"image\/*\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1717,
       "length": 11,
       "value": "\"video\/mp4\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1748,
       "length": 11,
       "value": "\"video\/mov\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1785,
       "length": 17,
