@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/inovait/in-workout-tools.git",
       "state" : {
-        "revision" : "d96b5aa54b6f8c75c1125190a2385eb2f210f065",
-        "version" : "1.0.5"
+        "revision" : "f82aaad598565f098f38a109615000f47f433c1b",
+        "version" : "1.0.7"
       }
     },
     {
