@@ -129,7 +129,7 @@ public struct WorkoutBuilderView: View {
             
             Button {
                 store.send(.view(.onAddExercise(
-                    Exercise(id: UUID().uuidString, name: getRandomExerciseName(), type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [], media: getRandomMedia())
+                    RepsExercise(id: UUID().uuidString, name: getRandomExerciseName(), type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [], media: getRandomMedia())
                 )))
             } label: {
                 Image(systemName: "plus")
