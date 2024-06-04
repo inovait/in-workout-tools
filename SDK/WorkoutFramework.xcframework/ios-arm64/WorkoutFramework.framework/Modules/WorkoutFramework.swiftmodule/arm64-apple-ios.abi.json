@@ -4248,6 +4248,236 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "runningExercise",
+            "printedName": "runningExercise",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CommonModels.RepsExercise?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RepsExercise",
+                    "printedName": "CommonModels.RepsExercise",
+                    "usr": "s:12CommonModels12RepsExerciseV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WorkoutFramework0A7HandlerC15runningExercise12CommonModels04RepsE0VSgvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC15runningExercise12CommonModels04RepsE0VSgvp",
+            "moduleName": "WorkoutFramework",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CommonModels.RepsExercise?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RepsExercise",
+                        "printedName": "CommonModels.RepsExercise",
+                        "usr": "s:12CommonModels12RepsExerciseV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC15runningExercise12CommonModels04RepsE0VSgvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC15runningExercise12CommonModels04RepsE0VSgvg",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CommonModels.RepsExercise?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RepsExercise",
+                        "printedName": "CommonModels.RepsExercise",
+                        "usr": "s:12CommonModels12RepsExerciseV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC15runningExercise12CommonModels04RepsE0VSgvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC15runningExercise12CommonModels04RepsE0VSgvs",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC15runningExercise12CommonModels04RepsE0VSgvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC15runningExercise12CommonModels04RepsE0VSgvM",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$runningExercise",
+            "printedName": "$runningExercise",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<CommonModels.RepsExercise>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels04RepsE0VSg_Gvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels04RepsE0VSg_Gvp",
+            "moduleName": "WorkoutFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<CommonModels.RepsExercise>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels04RepsE0VSg_Gvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels04RepsE0VSg_Gvg",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<CommonModels.RepsExercise>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels04RepsE0VSg_Gvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels04RepsE0VSg_Gvs",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels04RepsE0VSg_GvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels04RepsE0VSg_GvM",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -4280,14 +4510,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Exercise",
-                "printedName": "CommonModels.Exercise",
-                "usr": "s:12CommonModels8ExerciseV"
+                "name": "RepsExercise",
+                "printedName": "CommonModels.RepsExercise",
+                "usr": "s:12CommonModels12RepsExerciseV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16WorkoutFramework0A7HandlerC10initialize8exercisey12CommonModels8ExerciseV_tF",
-            "mangledName": "$s16WorkoutFramework0A7HandlerC10initialize8exercisey12CommonModels8ExerciseV_tF",
+            "usr": "s:16WorkoutFramework0A7HandlerC10initialize8exercisey12CommonModels12RepsExerciseV_tF",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC10initialize8exercisey12CommonModels12RepsExerciseV_tF",
             "moduleName": "WorkoutFramework",
             "declAttributes": [
               "AccessControl"
