@@ -15,9 +15,9 @@ struct WorkoutHolderFeature: Reducer {
     
     @ObservableState
     struct State: Equatable {
-        public var exercise: Exercise
+        public var exercise: RepsExercise
         
-        public init(exercise: Exercise) {
+        public init(exercise: RepsExercise) {
             self.exercise = exercise
         }
     }

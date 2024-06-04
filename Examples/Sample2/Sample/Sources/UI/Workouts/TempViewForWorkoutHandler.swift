@@ -32,7 +32,7 @@ public struct TempView: View {
 public struct TempView2: View {
     
     @StateObject var workout: WorkoutHandler
-    let exercise: Exercise
+    let exercise: RepsExercise
     let dismiss: () -> Void
     
     private let media = DummyData().emilyVideos

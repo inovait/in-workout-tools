@@ -46,7 +46,7 @@ struct WorkoutDetailsView: View {
 }
 
 @ViewBuilder
-func _WorkoutDetailsView(title: String, duration: String, description: String, exercises: [Exercise], canDelete: Bool, onStartWorkout: @escaping () -> Void, onBack: @escaping () -> Void, onDelete: @escaping () -> Void) -> some View {
+func _WorkoutDetailsView(title: String, duration: String, description: String, exercises: [RepsExercise], canDelete: Bool, onStartWorkout: @escaping () -> Void, onBack: @escaping () -> Void, onDelete: @escaping () -> Void) -> some View {
     ZStack(alignment: .top) {
         VStack(alignment: .leading, spacing: 0) {
             TopView(onBack: onBack)
@@ -110,7 +110,7 @@ func _WorkoutDetailsView(title: String, duration: String, description: String, e
 }
 
 @ViewBuilder
-func BreakdownView(_ exercises: [Exercise]) -> some View {
+func BreakdownView(_ exercises: [RepsExercise]) -> some View {
     VStack {
         ForEach(exercises.indices, id: \.self) { index in
             let exercise = exercises[index]
@@ -133,7 +133,7 @@ func BreakdownView(_ exercises: [Exercise]) -> some View {
     }
 }
 
-func toFlatExerciseDisplayList(exercises: [Exercise], indent: Int) -> [ExerciseDisplay] {
+func toFlatExerciseDisplayList(exercises: [RepsExercise], indent: Int) -> [ExerciseDisplay] {
     var ret: [ExerciseDisplay] = []
     for exercise in exercises {
         ret.append(ExerciseDisplay(exercise: exercise, indent: indent))
@@ -148,7 +148,7 @@ struct ExerciseDisplay: Equatable, Identifiable {
     var id: String {
         return exercise.id
     }
-    let exercise: Exercise
+    let exercise: RepsExercise
     let indent: Int
 }
 
@@ -198,68 +198,68 @@ private func toExerciseRepetitionsOrNil(_ value: Int) -> String? {
 }
 
 fileprivate let exercises = [
-    Exercise(id: "1", name: "P1", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
-        Exercise(id: "11", name: "P1/C1", type: .exercise, durationInMillis: 3_000, idx: 1, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
-        Exercise(id: "12", name: "P1/C2", type: .exercise, durationInMillis: 3_000, idx: 2, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
-        Exercise(id: "13", name: "P1/C3", type: .exercise, durationInMillis: 3_500, idx: 3, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [])
+    RepsExercise(id: "1", name: "P1", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
+        RepsExercise(id: "11", name: "P1/C1", type: .exercise, durationInMillis: 3_000, idx: 1, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
+        RepsExercise(id: "12", name: "P1/C2", type: .exercise, durationInMillis: 3_000, idx: 2, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
+        RepsExercise(id: "13", name: "P1/C3", type: .exercise, durationInMillis: 3_500, idx: 3, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [])
     ]),
-    Exercise(id: "2", name: "P2", type: .exercise, durationInMillis: 0, idx: 4, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
-        Exercise(id: "21", name: "P2/C1", type: .exercise, durationInMillis: 3_000, idx: 5, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
-        Exercise(id: "22", name: "P2/C2", type: .exercise, durationInMillis: 3_000, idx: 6, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
+    RepsExercise(id: "2", name: "P2", type: .exercise, durationInMillis: 0, idx: 4, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
+        RepsExercise(id: "21", name: "P2/C1", type: .exercise, durationInMillis: 3_000, idx: 5, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
+        RepsExercise(id: "22", name: "P2/C2", type: .exercise, durationInMillis: 3_000, idx: 6, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
     ]),
 ]
 
 fileprivate let exercisesTabata = [
-    Exercise(id: "t1", name: "Tabata Mountain Climbers", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 8, reps: 0, loopSubExercises: false, canSkipExercise: false, subExercises: [
-        Exercise(id: "Mountain Climbers", name: "Mountain Climbers", type: .exercise, durationInMillis: 20 * 1000, idx: 1, exerciseRepetition: 0, reps: 15, loopSubExercises: false, canSkipExercise: false, subExercises: []),
-        Exercise(id: "Rest", name: "Rest", type: .rest, durationInMillis: 10 * 1000, idx: 1, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: []),
+    RepsExercise(id: "t1", name: "Tabata Mountain Climbers", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 8, reps: 0, loopSubExercises: false, canSkipExercise: false, subExercises: [
+        RepsExercise(id: "Mountain Climbers", name: "Mountain Climbers", type: .exercise, durationInMillis: 20 * 1000, idx: 1, exerciseRepetition: 0, reps: 15, loopSubExercises: false, canSkipExercise: false, subExercises: []),
+        RepsExercise(id: "Rest", name: "Rest", type: .rest, durationInMillis: 10 * 1000, idx: 1, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: []),
     ]),
-    Exercise(id: "Rest", name: "Rest and prepare for Step Ups", type: .rest, durationInMillis: 10 * 1000, idx: 1, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: []),
+    RepsExercise(id: "Rest", name: "Rest and prepare for Step Ups", type: .rest, durationInMillis: 10 * 1000, idx: 1, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: []),
     
-    Exercise(id: "t2", name: "Tabata Step Ups", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 8, reps: 0, loopSubExercises: false, canSkipExercise: false, subExercises: [
-        Exercise(id: "Step Ups", name: "Step Ups", type: .exercise, durationInMillis: 20 * 1000, idx: 1, exerciseRepetition: 0, reps: 15, loopSubExercises: false, canSkipExercise: false, subExercises: []),
-        Exercise(id: "Rest", name: "Rest", type: .rest, durationInMillis: 10 * 1000, idx: 1, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: []),
+    RepsExercise(id: "t2", name: "Tabata Step Ups", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 8, reps: 0, loopSubExercises: false, canSkipExercise: false, subExercises: [
+        RepsExercise(id: "Step Ups", name: "Step Ups", type: .exercise, durationInMillis: 20 * 1000, idx: 1, exerciseRepetition: 0, reps: 15, loopSubExercises: false, canSkipExercise: false, subExercises: []),
+        RepsExercise(id: "Rest", name: "Rest", type: .rest, durationInMillis: 10 * 1000, idx: 1, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: []),
     ]),
-    Exercise(id: "Rest2", name: "Rest and prepare for Bicycle Crunches", type: .rest, durationInMillis: 10 * 1000, idx: 1, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: []),
+    RepsExercise(id: "Rest2", name: "Rest and prepare for Bicycle Crunches", type: .rest, durationInMillis: 10 * 1000, idx: 1, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: []),
     
-    Exercise(id: "t3", name: "Tabata Bicycle Crunches", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 8, reps: 0, loopSubExercises: false, canSkipExercise: false, subExercises: [
-        Exercise(id: "Bicycle Crunches", name: "Bicycle Crunches", type: .exercise, durationInMillis: 20 * 1000, idx: 1, exerciseRepetition: 0, reps: 15, loopSubExercises: false, canSkipExercise: false, subExercises: []),
-        Exercise(id: "Rest", name: "Rest", type: .rest, durationInMillis: 10 * 1000, idx: 1, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: []),
+    RepsExercise(id: "t3", name: "Tabata Bicycle Crunches", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 8, reps: 0, loopSubExercises: false, canSkipExercise: false, subExercises: [
+        RepsExercise(id: "Bicycle Crunches", name: "Bicycle Crunches", type: .exercise, durationInMillis: 20 * 1000, idx: 1, exerciseRepetition: 0, reps: 15, loopSubExercises: false, canSkipExercise: false, subExercises: []),
+        RepsExercise(id: "Rest", name: "Rest", type: .rest, durationInMillis: 10 * 1000, idx: 1, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: []),
     ]),
-    Exercise(id: "Rest2", name: "Rest and prepare for Reverse Lunges", type: .rest, durationInMillis: 10 * 1000, idx: 1, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: []),
+    RepsExercise(id: "Rest2", name: "Rest and prepare for Reverse Lunges", type: .rest, durationInMillis: 10 * 1000, idx: 1, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: []),
     
-    Exercise(id: "t4", name: "Tabata Reverse Lunges", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 8, reps: 0, loopSubExercises: false, canSkipExercise: false, subExercises: [
-        Exercise(id: "Reverse Lunges", name: "Reverse Lunges", type: .exercise, durationInMillis: 20 * 1000, idx: 1, exerciseRepetition: 0, reps: 15, loopSubExercises: false, canSkipExercise: false, subExercises: []),
-        Exercise(id: "Rest", name: "Rest", type: .rest, durationInMillis: 10 * 1000, idx: 1, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: []),
+    RepsExercise(id: "t4", name: "Tabata Reverse Lunges", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 8, reps: 0, loopSubExercises: false, canSkipExercise: false, subExercises: [
+        RepsExercise(id: "Reverse Lunges", name: "Reverse Lunges", type: .exercise, durationInMillis: 20 * 1000, idx: 1, exerciseRepetition: 0, reps: 15, loopSubExercises: false, canSkipExercise: false, subExercises: []),
+        RepsExercise(id: "Rest", name: "Rest", type: .rest, durationInMillis: 10 * 1000, idx: 1, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: []),
     ]),
 ]
 
 fileprivate let weirdlyNested = [
-    Exercise(id: "main", name: "Sub exercises", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
-        Exercise(id: "1", name: "P1/C1", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
-            Exercise(id: "11", name: "11", type: .exercise, durationInMillis: 3_000, idx: 1, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
-                Exercise(id: "111", name: "111", type: .exercise, durationInMillis: 3_000, idx: 2, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
-                Exercise(id: "112", name: "112", type: .exercise, durationInMillis: 3_500, idx: 3, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [])
+    RepsExercise(id: "main", name: "Sub exercises", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
+        RepsExercise(id: "1", name: "P1/C1", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
+            RepsExercise(id: "11", name: "11", type: .exercise, durationInMillis: 3_000, idx: 1, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
+                RepsExercise(id: "111", name: "111", type: .exercise, durationInMillis: 3_000, idx: 2, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
+                RepsExercise(id: "112", name: "112", type: .exercise, durationInMillis: 3_500, idx: 3, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [])
             ]),
-            Exercise(id: "12", name: "P1/C2", type: .exercise, durationInMillis: 3_000, idx: 2, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
-            Exercise(id: "13", name: "P1/C3", type: .exercise, durationInMillis: 3_500, idx: 3, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
-                Exercise(id: "131", name: "131", type: .exercise, durationInMillis: 3_000, idx: 2, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
-                Exercise(id: "132", name: "132", type: .exercise, durationInMillis: 3_500, idx: 3, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
-                    Exercise(id: "1321", name: "1321", type: .exercise, durationInMillis: 3_000, idx: 2, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
-                    Exercise(id: "1321", name: "1321", type: .exercise, durationInMillis: 3_500, idx: 3, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [])
+            RepsExercise(id: "12", name: "P1/C2", type: .exercise, durationInMillis: 3_000, idx: 2, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
+            RepsExercise(id: "13", name: "P1/C3", type: .exercise, durationInMillis: 3_500, idx: 3, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
+                RepsExercise(id: "131", name: "131", type: .exercise, durationInMillis: 3_000, idx: 2, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
+                RepsExercise(id: "132", name: "132", type: .exercise, durationInMillis: 3_500, idx: 3, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
+                    RepsExercise(id: "1321", name: "1321", type: .exercise, durationInMillis: 3_000, idx: 2, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
+                    RepsExercise(id: "1321", name: "1321", type: .exercise, durationInMillis: 3_500, idx: 3, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [])
                 ])
             ])
         ]),
-        Exercise(id: "2", name: "P2", type: .exercise, durationInMillis: 0, idx: 4, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
-            Exercise(id: "21", name: "P2/C1", type: .exercise, durationInMillis: 3_000, idx: 5, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
-                Exercise(id: "211", name: "211", type: .exercise, durationInMillis: 3_000, idx: 6, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
-                    Exercise(id: "2111", name: "2111", type: .exercise, durationInMillis: 3_000, idx: 6, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
-                        Exercise(id: "21111", name: "21111", type: .exercise, durationInMillis: 3_000, idx: 6, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
-                        Exercise(id: "21112", name: "21112", type: .exercise, durationInMillis: 3_000, idx: 6, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [])
+        RepsExercise(id: "2", name: "P2", type: .exercise, durationInMillis: 0, idx: 4, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
+            RepsExercise(id: "21", name: "P2/C1", type: .exercise, durationInMillis: 3_000, idx: 5, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
+                RepsExercise(id: "211", name: "211", type: .exercise, durationInMillis: 3_000, idx: 6, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
+                    RepsExercise(id: "2111", name: "2111", type: .exercise, durationInMillis: 3_000, idx: 6, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [
+                        RepsExercise(id: "21111", name: "21111", type: .exercise, durationInMillis: 3_000, idx: 6, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
+                        RepsExercise(id: "21112", name: "21112", type: .exercise, durationInMillis: 3_000, idx: 6, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [])
                     ])
                 ])
             ]),
-            Exercise(id: "22", name: "P2/C2", type: .exercise, durationInMillis: 3_000, idx: 6, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
+            RepsExercise(id: "22", name: "P2/C2", type: .exercise, durationInMillis: 3_000, idx: 6, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []),
         ]),
     ])
 ]
