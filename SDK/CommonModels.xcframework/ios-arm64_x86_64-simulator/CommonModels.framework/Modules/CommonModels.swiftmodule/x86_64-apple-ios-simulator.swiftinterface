@@ -6,29 +6,45 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct Exercise : Swift.Identifiable, Swift.Equatable, Swift.Codable {
-  public static func == (lhs: CommonModels.Exercise, rhs: CommonModels.Exercise) -> Swift.Bool
-  public let id: Swift.String
+public protocol Exercise : Swift.Decodable, Swift.Encodable, Swift.Equatable, Swift.Identifiable {
+  var id: Swift.String { get }
+  var name: Swift.String { get set }
+  var type: CommonModels.ExerciseType { get set }
+  var media: CommonModels.Media? { get set }
+  var durationInMillis: Foundation.TimeInterval? { get set }
+  var idx: Swift.Int { get }
+  var exerciseRepetition: Swift.Int { get set }
+  var loopSubExercises: Swift.Bool { get set }
+  var canSkipExercise: Swift.Bool { get set }
+  var subExercises: [Self] { get set }
+  func leftTime(elapsedTimeInMillis: Foundation.TimeInterval) -> Foundation.TimeInterval
+  func totalDuration() -> Foundation.TimeInterval
+  func hasSubExercises() -> Swift.Bool
+  func hasDuration() -> Swift.Bool
+}
+extension CommonModels.Exercise {
+  public func leftTime(elapsedTimeInMillis: Foundation.TimeInterval) -> Foundation.TimeInterval
+  public func totalDuration() -> Foundation.TimeInterval
+  public func hasSubExercises() -> Swift.Bool
+  public func hasDuration() -> Swift.Bool
+}
+public struct RepsExercise : Swift.Identifiable, Swift.Equatable, Swift.Codable, CommonModels.Exercise {
+  public static func == (lhs: CommonModels.RepsExercise, rhs: CommonModels.RepsExercise) -> Swift.Bool
+  public var subExercises: [CommonModels.RepsExercise]
+  public var id: Swift.String
   public var name: Swift.String
   public var type: CommonModels.ExerciseType
   public var media: CommonModels.Media?
   public var durationInMillis: Foundation.TimeInterval?
-  public let idx: Swift.Int
+  public var idx: Swift.Int
   public var exerciseRepetition: Swift.Int
-  public var reps: Swift.Int?
   public var loopSubExercises: Swift.Bool
   public var canSkipExercise: Swift.Bool
-  public var subExercises: [CommonModels.Exercise]
-  public func leftTime(elapsedTimeInMillis: Foundation.TimeInterval) -> Foundation.TimeInterval
-  public func totalDuration() -> Foundation.TimeInterval
-  public func hasSubExercises() -> Swift.Bool
-  public init(id: Swift.String, name: Swift.String, type: CommonModels.ExerciseType, durationInMillis: Foundation.TimeInterval?, idx: Swift.Int, exerciseRepetition: Swift.Int, reps: Swift.Int, loopSubExercises: Swift.Bool, canSkipExercise: Swift.Bool, subExercises: [CommonModels.Exercise], media: CommonModels.Media? = nil)
+  public var reps: Swift.Int?
+  public init(id: Swift.String, name: Swift.String, type: CommonModels.ExerciseType, durationInMillis: Foundation.TimeInterval? = nil, idx: Swift.Int, exerciseRepetition: Swift.Int, reps: Swift.Int?, loopSubExercises: Swift.Bool, canSkipExercise: Swift.Bool, subExercises: [CommonModels.RepsExercise], media: CommonModels.Media? = nil)
   public typealias ID = Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
-}
-extension CommonModels.Exercise {
-  public func hasDuration() -> Swift.Bool
 }
 public enum ExerciseType : Swift.CaseIterable, Swift.Codable {
   case exercise
