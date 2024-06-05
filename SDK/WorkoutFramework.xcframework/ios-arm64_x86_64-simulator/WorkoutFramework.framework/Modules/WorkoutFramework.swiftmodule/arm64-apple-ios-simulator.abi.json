@@ -4255,21 +4255,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "CommonModels.RepsExercise?",
+                "printedName": "CommonModels.Exercise?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "RepsExercise",
-                    "printedName": "CommonModels.RepsExercise",
-                    "usr": "s:12CommonModels12RepsExerciseV"
+                    "name": "Exercise",
+                    "printedName": "CommonModels.Exercise",
+                    "usr": "s:12CommonModels8ExerciseV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16WorkoutFramework0A7HandlerC15runningExercise12CommonModels04RepsE0VSgvp",
-            "mangledName": "$s16WorkoutFramework0A7HandlerC15runningExercise12CommonModels04RepsE0VSgvp",
+            "usr": "s:16WorkoutFramework0A7HandlerC15runningExercise12CommonModels0E0VSgvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC15runningExercise12CommonModels0E0VSgvp",
             "moduleName": "WorkoutFramework",
             "declAttributes": [
               "ProjectedValueProperty",
@@ -4285,21 +4285,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "CommonModels.RepsExercise?",
+                    "printedName": "CommonModels.Exercise?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "RepsExercise",
-                        "printedName": "CommonModels.RepsExercise",
-                        "usr": "s:12CommonModels12RepsExerciseV"
+                        "name": "Exercise",
+                        "printedName": "CommonModels.Exercise",
+                        "usr": "s:12CommonModels8ExerciseV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC15runningExercise12CommonModels04RepsE0VSgvg",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC15runningExercise12CommonModels04RepsE0VSgvg",
+                "usr": "s:16WorkoutFramework0A7HandlerC15runningExercise12CommonModels0E0VSgvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC15runningExercise12CommonModels0E0VSgvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4317,21 +4317,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "CommonModels.RepsExercise?",
+                    "printedName": "CommonModels.Exercise?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "RepsExercise",
-                        "printedName": "CommonModels.RepsExercise",
-                        "usr": "s:12CommonModels12RepsExerciseV"
+                        "name": "Exercise",
+                        "printedName": "CommonModels.Exercise",
+                        "usr": "s:12CommonModels8ExerciseV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC15runningExercise12CommonModels04RepsE0VSgvs",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC15runningExercise12CommonModels04RepsE0VSgvs",
+                "usr": "s:16WorkoutFramework0A7HandlerC15runningExercise12CommonModels0E0VSgvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC15runningExercise12CommonModels0E0VSgvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "intro_Macosx": "10.15",
@@ -4358,8 +4358,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC15runningExercise12CommonModels04RepsE0VSgvM",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC15runningExercise12CommonModels04RepsE0VSgvM",
+                "usr": "s:16WorkoutFramework0A7HandlerC15runningExercise12CommonModels0E0VSgvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC15runningExercise12CommonModels0E0VSgvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "intro_Macosx": "10.15",
@@ -4384,13 +4384,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Publisher",
-                "printedName": "Combine.Published<Swift.Optional<CommonModels.RepsExercise>>.Publisher",
+                "printedName": "Combine.Published<Swift.Optional<CommonModels.Exercise>>.Publisher",
                 "usr": "s:7Combine9PublishedV9PublisherV"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels04RepsE0VSg_Gvp",
-            "mangledName": "$s16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels04RepsE0VSg_Gvp",
+            "usr": "s:16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels0E0VSg_Gvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels0E0VSg_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
             "accessors": [
@@ -4402,13 +4402,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Publisher",
-                    "printedName": "Combine.Published<Swift.Optional<CommonModels.RepsExercise>>.Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<CommonModels.Exercise>>.Publisher",
                     "usr": "s:7Combine9PublishedV9PublisherV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels04RepsE0VSg_Gvg",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels04RepsE0VSg_Gvg",
+                "usr": "s:16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels0E0VSg_Gvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels0E0VSg_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4426,13 +4426,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Publisher",
-                    "printedName": "Combine.Published<Swift.Optional<CommonModels.RepsExercise>>.Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<CommonModels.Exercise>>.Publisher",
                     "usr": "s:7Combine9PublishedV9PublisherV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels04RepsE0VSg_Gvs",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels04RepsE0VSg_Gvs",
+                "usr": "s:16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels0E0VSg_Gvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels0E0VSg_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "intro_Macosx": "11.0",
@@ -4459,8 +4459,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels04RepsE0VSg_GvM",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels04RepsE0VSg_GvM",
+                "usr": "s:16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels0E0VSg_GvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels0E0VSg_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "intro_Macosx": "11.0",
@@ -4510,14 +4510,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "RepsExercise",
-                "printedName": "CommonModels.RepsExercise",
-                "usr": "s:12CommonModels12RepsExerciseV"
+                "name": "Exercise",
+                "printedName": "CommonModels.Exercise",
+                "usr": "s:12CommonModels8ExerciseV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16WorkoutFramework0A7HandlerC10initialize8exercisey12CommonModels12RepsExerciseV_tF",
-            "mangledName": "$s16WorkoutFramework0A7HandlerC10initialize8exercisey12CommonModels12RepsExerciseV_tF",
+            "usr": "s:16WorkoutFramework0A7HandlerC10initialize8exercisey12CommonModels8ExerciseV_tF",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC10initialize8exercisey12CommonModels8ExerciseV_tF",
             "moduleName": "WorkoutFramework",
             "declAttributes": [
               "AccessControl"

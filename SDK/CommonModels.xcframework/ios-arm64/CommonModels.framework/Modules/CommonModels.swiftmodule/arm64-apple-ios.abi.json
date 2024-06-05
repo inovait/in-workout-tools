@@ -20,1132 +20,6 @@
         "printedName": "Exercise",
         "children": [
           {
-            "kind": "Var",
-            "name": "id",
-            "printedName": "id",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels8ExerciseP2idSSvp",
-            "mangledName": "$s12CommonModels8ExerciseP2idSSvp",
-            "moduleName": "CommonModels",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP2idSSvg",
-                "mangledName": "$s12CommonModels8ExerciseP2idSSvg",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels8ExerciseP4nameSSvp",
-            "mangledName": "$s12CommonModels8ExerciseP4nameSSvp",
-            "moduleName": "CommonModels",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP4nameSSvg",
-                "mangledName": "$s12CommonModels8ExerciseP4nameSSvg",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP4nameSSvs",
-                "mangledName": "$s12CommonModels8ExerciseP4nameSSvs",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP4nameSSvM",
-                "mangledName": "$s12CommonModels8ExerciseP4nameSSvM",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "implicit": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "type",
-            "printedName": "type",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ExerciseType",
-                "printedName": "CommonModels.ExerciseType",
-                "usr": "s:12CommonModels12ExerciseTypeO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels8ExerciseP4typeAA0C4TypeOvp",
-            "mangledName": "$s12CommonModels8ExerciseP4typeAA0C4TypeOvp",
-            "moduleName": "CommonModels",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ExerciseType",
-                    "printedName": "CommonModels.ExerciseType",
-                    "usr": "s:12CommonModels12ExerciseTypeO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP4typeAA0C4TypeOvg",
-                "mangledName": "$s12CommonModels8ExerciseP4typeAA0C4TypeOvg",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ExerciseType",
-                    "printedName": "CommonModels.ExerciseType",
-                    "usr": "s:12CommonModels12ExerciseTypeO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP4typeAA0C4TypeOvs",
-                "mangledName": "$s12CommonModels8ExerciseP4typeAA0C4TypeOvs",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP4typeAA0C4TypeOvM",
-                "mangledName": "$s12CommonModels8ExerciseP4typeAA0C4TypeOvM",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "implicit": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "media",
-            "printedName": "media",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "CommonModels.Media?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Media",
-                    "printedName": "CommonModels.Media",
-                    "usr": "s:12CommonModels5MediaV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels8ExerciseP5mediaAA5MediaVSgvp",
-            "mangledName": "$s12CommonModels8ExerciseP5mediaAA5MediaVSgvp",
-            "moduleName": "CommonModels",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "CommonModels.Media?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Media",
-                        "printedName": "CommonModels.Media",
-                        "usr": "s:12CommonModels5MediaV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP5mediaAA5MediaVSgvg",
-                "mangledName": "$s12CommonModels8ExerciseP5mediaAA5MediaVSgvg",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "CommonModels.Media?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Media",
-                        "printedName": "CommonModels.Media",
-                        "usr": "s:12CommonModels5MediaV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP5mediaAA5MediaVSgvs",
-                "mangledName": "$s12CommonModels8ExerciseP5mediaAA5MediaVSgvs",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP5mediaAA5MediaVSgvM",
-                "mangledName": "$s12CommonModels8ExerciseP5mediaAA5MediaVSgvM",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "implicit": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "durationInMillis",
-            "printedName": "durationInMillis",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Double?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels8ExerciseP16durationInMillisSdSgvp",
-            "mangledName": "$s12CommonModels8ExerciseP16durationInMillisSdSgvp",
-            "moduleName": "CommonModels",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Double?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Double",
-                        "printedName": "Swift.Double",
-                        "usr": "s:Sd"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP16durationInMillisSdSgvg",
-                "mangledName": "$s12CommonModels8ExerciseP16durationInMillisSdSgvg",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Double?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Double",
-                        "printedName": "Swift.Double",
-                        "usr": "s:Sd"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP16durationInMillisSdSgvs",
-                "mangledName": "$s12CommonModels8ExerciseP16durationInMillisSdSgvs",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP16durationInMillisSdSgvM",
-                "mangledName": "$s12CommonModels8ExerciseP16durationInMillisSdSgvM",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "implicit": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "idx",
-            "printedName": "idx",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels8ExerciseP3idxSivp",
-            "mangledName": "$s12CommonModels8ExerciseP3idxSivp",
-            "moduleName": "CommonModels",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP3idxSivg",
-                "mangledName": "$s12CommonModels8ExerciseP3idxSivg",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "exerciseRepetition",
-            "printedName": "exerciseRepetition",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels8ExerciseP18exerciseRepetitionSivp",
-            "mangledName": "$s12CommonModels8ExerciseP18exerciseRepetitionSivp",
-            "moduleName": "CommonModels",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP18exerciseRepetitionSivg",
-                "mangledName": "$s12CommonModels8ExerciseP18exerciseRepetitionSivg",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP18exerciseRepetitionSivs",
-                "mangledName": "$s12CommonModels8ExerciseP18exerciseRepetitionSivs",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP18exerciseRepetitionSivM",
-                "mangledName": "$s12CommonModels8ExerciseP18exerciseRepetitionSivM",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "implicit": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "loopSubExercises",
-            "printedName": "loopSubExercises",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels8ExerciseP16loopSubExercisesSbvp",
-            "mangledName": "$s12CommonModels8ExerciseP16loopSubExercisesSbvp",
-            "moduleName": "CommonModels",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP16loopSubExercisesSbvg",
-                "mangledName": "$s12CommonModels8ExerciseP16loopSubExercisesSbvg",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP16loopSubExercisesSbvs",
-                "mangledName": "$s12CommonModels8ExerciseP16loopSubExercisesSbvs",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP16loopSubExercisesSbvM",
-                "mangledName": "$s12CommonModels8ExerciseP16loopSubExercisesSbvM",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "implicit": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "canSkipExercise",
-            "printedName": "canSkipExercise",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels8ExerciseP07canSkipC0Sbvp",
-            "mangledName": "$s12CommonModels8ExerciseP07canSkipC0Sbvp",
-            "moduleName": "CommonModels",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP07canSkipC0Sbvg",
-                "mangledName": "$s12CommonModels8ExerciseP07canSkipC0Sbvg",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP07canSkipC0Sbvs",
-                "mangledName": "$s12CommonModels8ExerciseP07canSkipC0Sbvs",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP07canSkipC0SbvM",
-                "mangledName": "$s12CommonModels8ExerciseP07canSkipC0SbvM",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "implicit": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "subExercises",
-            "printedName": "subExercises",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[τ_0_0]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels8ExerciseP12subExercisesSayxGvp",
-            "mangledName": "$s12CommonModels8ExerciseP12subExercisesSayxGvp",
-            "moduleName": "CommonModels",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[τ_0_0]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP12subExercisesSayxGvg",
-                "mangledName": "$s12CommonModels8ExerciseP12subExercisesSayxGvg",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[τ_0_0]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP12subExercisesSayxGvs",
-                "mangledName": "$s12CommonModels8ExerciseP12subExercisesSayxGvs",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels8ExerciseP12subExercisesSayxGvM",
-                "mangledName": "$s12CommonModels8ExerciseP12subExercisesSayxGvM",
-                "moduleName": "CommonModels",
-                "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-                "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-                "protocolReq": true,
-                "implicit": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "leftTime",
-            "printedName": "leftTime(elapsedTimeInMillis:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12CommonModels8ExerciseP8leftTime07elapsedE8InMillisS2d_tF",
-            "mangledName": "$s12CommonModels8ExerciseP8leftTime07elapsedE8InMillisS2d_tF",
-            "moduleName": "CommonModels",
-            "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-            "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "totalDuration",
-            "printedName": "totalDuration()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12CommonModels8ExerciseP13totalDurationSdyF",
-            "mangledName": "$s12CommonModels8ExerciseP13totalDurationSdyF",
-            "moduleName": "CommonModels",
-            "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-            "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "hasSubExercises",
-            "printedName": "hasSubExercises()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12CommonModels8ExerciseP15hasSubExercisesSbyF",
-            "mangledName": "$s12CommonModels8ExerciseP15hasSubExercisesSbyF",
-            "moduleName": "CommonModels",
-            "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-            "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "hasDuration",
-            "printedName": "hasDuration()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12CommonModels8ExerciseP11hasDurationSbyF",
-            "mangledName": "$s12CommonModels8ExerciseP11hasDurationSbyF",
-            "moduleName": "CommonModels",
-            "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-            "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "leftTime",
-            "printedName": "leftTime(elapsedTimeInMillis:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12CommonModels8ExercisePAAE8leftTime07elapsedE8InMillisS2d_tF",
-            "mangledName": "$s12CommonModels8ExercisePAAE8leftTime07elapsedE8InMillisS2d_tF",
-            "moduleName": "CommonModels",
-            "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-            "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "totalDuration",
-            "printedName": "totalDuration()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12CommonModels8ExercisePAAE13totalDurationSdyF",
-            "mangledName": "$s12CommonModels8ExercisePAAE13totalDurationSdyF",
-            "moduleName": "CommonModels",
-            "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-            "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "hasSubExercises",
-            "printedName": "hasSubExercises()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12CommonModels8ExercisePAAE15hasSubExercisesSbyF",
-            "mangledName": "$s12CommonModels8ExercisePAAE15hasSubExercisesSbyF",
-            "moduleName": "CommonModels",
-            "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-            "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "hasDuration",
-            "printedName": "hasDuration()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12CommonModels8ExercisePAAE11hasDurationSbyF",
-            "mangledName": "$s12CommonModels8ExercisePAAE11hasDurationSbyF",
-            "moduleName": "CommonModels",
-            "genericSig": "<τ_0_0 where τ_0_0 : CommonModels.Exercise>",
-            "sugared_genericSig": "<Self where Self : CommonModels.Exercise>",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:12CommonModels8ExerciseP",
-        "mangledName": "$s12CommonModels8ExerciseP",
-        "moduleName": "CommonModels",
-        "genericSig": "<τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable, τ_0_0 : Swift.Identifiable>",
-        "sugared_genericSig": "<Self : Swift.Decodable, Self : Swift.Encodable, Self : Swift.Equatable, Self : Swift.Identifiable>",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Identifiable",
-            "printedName": "Identifiable",
-            "usr": "s:s12IdentifiableP",
-            "mangledName": "$ss12IdentifiableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "RepsExercise",
-        "printedName": "RepsExercise",
-        "children": [
-          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -1158,20 +32,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "RepsExercise",
-                "printedName": "CommonModels.RepsExercise",
-                "usr": "s:12CommonModels12RepsExerciseV"
+                "name": "Exercise",
+                "printedName": "CommonModels.Exercise",
+                "usr": "s:12CommonModels8ExerciseV"
               },
               {
                 "kind": "TypeNominal",
-                "name": "RepsExercise",
-                "printedName": "CommonModels.RepsExercise",
-                "usr": "s:12CommonModels12RepsExerciseV"
+                "name": "Exercise",
+                "printedName": "CommonModels.Exercise",
+                "usr": "s:12CommonModels8ExerciseV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12CommonModels12RepsExerciseV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s12CommonModels12RepsExerciseV2eeoiySbAC_ACtFZ",
+            "usr": "s:12CommonModels8ExerciseV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12CommonModels8ExerciseV2eeoiySbAC_ACtFZ",
             "moduleName": "CommonModels",
             "static": true,
             "declAttributes": [
@@ -1187,21 +61,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[CommonModels.RepsExercise]",
+                "printedName": "[CommonModels.Exercise]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "RepsExercise",
-                    "printedName": "CommonModels.RepsExercise",
-                    "usr": "s:12CommonModels12RepsExerciseV"
+                    "name": "Exercise",
+                    "printedName": "CommonModels.Exercise",
+                    "usr": "s:12CommonModels8ExerciseV"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12CommonModels12RepsExerciseV12subExercisesSayACGvp",
-            "mangledName": "$s12CommonModels12RepsExerciseV12subExercisesSayACGvp",
+            "usr": "s:12CommonModels8ExerciseV12subExercisesSayACGvp",
+            "mangledName": "$s12CommonModels8ExerciseV12subExercisesSayACGvp",
             "moduleName": "CommonModels",
             "declAttributes": [
               "HasStorage",
@@ -1217,21 +91,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[CommonModels.RepsExercise]",
+                    "printedName": "[CommonModels.Exercise]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "RepsExercise",
-                        "printedName": "CommonModels.RepsExercise",
-                        "usr": "s:12CommonModels12RepsExerciseV"
+                        "name": "Exercise",
+                        "printedName": "CommonModels.Exercise",
+                        "usr": "s:12CommonModels8ExerciseV"
                       }
                     ],
                     "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV12subExercisesSayACGvg",
-                "mangledName": "$s12CommonModels12RepsExerciseV12subExercisesSayACGvg",
+                "usr": "s:12CommonModels8ExerciseV12subExercisesSayACGvg",
+                "mangledName": "$s12CommonModels8ExerciseV12subExercisesSayACGvg",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1249,21 +123,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[CommonModels.RepsExercise]",
+                    "printedName": "[CommonModels.Exercise]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "RepsExercise",
-                        "printedName": "CommonModels.RepsExercise",
-                        "usr": "s:12CommonModels12RepsExerciseV"
+                        "name": "Exercise",
+                        "printedName": "CommonModels.Exercise",
+                        "usr": "s:12CommonModels8ExerciseV"
                       }
                     ],
                     "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV12subExercisesSayACGvs",
-                "mangledName": "$s12CommonModels12RepsExerciseV12subExercisesSayACGvs",
+                "usr": "s:12CommonModels8ExerciseV12subExercisesSayACGvs",
+                "mangledName": "$s12CommonModels8ExerciseV12subExercisesSayACGvs",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1280,8 +154,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV12subExercisesSayACGvM",
-                "mangledName": "$s12CommonModels12RepsExerciseV12subExercisesSayACGvM",
+                "usr": "s:12CommonModels8ExerciseV12subExercisesSayACGvM",
+                "mangledName": "$s12CommonModels8ExerciseV12subExercisesSayACGvM",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1301,8 +175,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12CommonModels12RepsExerciseV2idSSvp",
-            "mangledName": "$s12CommonModels12RepsExerciseV2idSSvp",
+            "usr": "s:12CommonModels8ExerciseV2idSSvp",
+            "mangledName": "$s12CommonModels8ExerciseV2idSSvp",
             "moduleName": "CommonModels",
             "declAttributes": [
               "HasStorage",
@@ -1323,8 +197,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV2idSSvg",
-                "mangledName": "$s12CommonModels12RepsExerciseV2idSSvg",
+                "usr": "s:12CommonModels8ExerciseV2idSSvg",
+                "mangledName": "$s12CommonModels8ExerciseV2idSSvg",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1347,8 +221,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV2idSSvs",
-                "mangledName": "$s12CommonModels12RepsExerciseV2idSSvs",
+                "usr": "s:12CommonModels8ExerciseV2idSSvs",
+                "mangledName": "$s12CommonModels8ExerciseV2idSSvs",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1365,8 +239,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV2idSSvM",
-                "mangledName": "$s12CommonModels12RepsExerciseV2idSSvM",
+                "usr": "s:12CommonModels8ExerciseV2idSSvM",
+                "mangledName": "$s12CommonModels8ExerciseV2idSSvM",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1386,8 +260,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12CommonModels12RepsExerciseV4nameSSvp",
-            "mangledName": "$s12CommonModels12RepsExerciseV4nameSSvp",
+            "usr": "s:12CommonModels8ExerciseV4nameSSvp",
+            "mangledName": "$s12CommonModels8ExerciseV4nameSSvp",
             "moduleName": "CommonModels",
             "declAttributes": [
               "HasStorage",
@@ -1408,8 +282,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV4nameSSvg",
-                "mangledName": "$s12CommonModels12RepsExerciseV4nameSSvg",
+                "usr": "s:12CommonModels8ExerciseV4nameSSvg",
+                "mangledName": "$s12CommonModels8ExerciseV4nameSSvg",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1432,8 +306,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV4nameSSvs",
-                "mangledName": "$s12CommonModels12RepsExerciseV4nameSSvs",
+                "usr": "s:12CommonModels8ExerciseV4nameSSvs",
+                "mangledName": "$s12CommonModels8ExerciseV4nameSSvs",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1450,8 +324,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV4nameSSvM",
-                "mangledName": "$s12CommonModels12RepsExerciseV4nameSSvM",
+                "usr": "s:12CommonModels8ExerciseV4nameSSvM",
+                "mangledName": "$s12CommonModels8ExerciseV4nameSSvM",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1471,8 +345,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12CommonModels12RepsExerciseV4typeAA0D4TypeOvp",
-            "mangledName": "$s12CommonModels12RepsExerciseV4typeAA0D4TypeOvp",
+            "usr": "s:12CommonModels8ExerciseV4typeAA0C4TypeOvp",
+            "mangledName": "$s12CommonModels8ExerciseV4typeAA0C4TypeOvp",
             "moduleName": "CommonModels",
             "declAttributes": [
               "HasStorage",
@@ -1493,8 +367,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV4typeAA0D4TypeOvg",
-                "mangledName": "$s12CommonModels12RepsExerciseV4typeAA0D4TypeOvg",
+                "usr": "s:12CommonModels8ExerciseV4typeAA0C4TypeOvg",
+                "mangledName": "$s12CommonModels8ExerciseV4typeAA0C4TypeOvg",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1517,8 +391,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV4typeAA0D4TypeOvs",
-                "mangledName": "$s12CommonModels12RepsExerciseV4typeAA0D4TypeOvs",
+                "usr": "s:12CommonModels8ExerciseV4typeAA0C4TypeOvs",
+                "mangledName": "$s12CommonModels8ExerciseV4typeAA0C4TypeOvs",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1535,8 +409,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV4typeAA0D4TypeOvM",
-                "mangledName": "$s12CommonModels12RepsExerciseV4typeAA0D4TypeOvM",
+                "usr": "s:12CommonModels8ExerciseV4typeAA0C4TypeOvM",
+                "mangledName": "$s12CommonModels8ExerciseV4typeAA0C4TypeOvM",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1564,8 +438,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12CommonModels12RepsExerciseV5mediaAA5MediaVSgvp",
-            "mangledName": "$s12CommonModels12RepsExerciseV5mediaAA5MediaVSgvp",
+            "usr": "s:12CommonModels8ExerciseV5mediaAA5MediaVSgvp",
+            "mangledName": "$s12CommonModels8ExerciseV5mediaAA5MediaVSgvp",
             "moduleName": "CommonModels",
             "declAttributes": [
               "HasInitialValue",
@@ -1595,8 +469,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV5mediaAA5MediaVSgvg",
-                "mangledName": "$s12CommonModels12RepsExerciseV5mediaAA5MediaVSgvg",
+                "usr": "s:12CommonModels8ExerciseV5mediaAA5MediaVSgvg",
+                "mangledName": "$s12CommonModels8ExerciseV5mediaAA5MediaVSgvg",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1627,8 +501,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV5mediaAA5MediaVSgvs",
-                "mangledName": "$s12CommonModels12RepsExerciseV5mediaAA5MediaVSgvs",
+                "usr": "s:12CommonModels8ExerciseV5mediaAA5MediaVSgvs",
+                "mangledName": "$s12CommonModels8ExerciseV5mediaAA5MediaVSgvs",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1645,8 +519,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV5mediaAA5MediaVSgvM",
-                "mangledName": "$s12CommonModels12RepsExerciseV5mediaAA5MediaVSgvM",
+                "usr": "s:12CommonModels8ExerciseV5mediaAA5MediaVSgvM",
+                "mangledName": "$s12CommonModels8ExerciseV5mediaAA5MediaVSgvM",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1674,458 +548,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12CommonModels12RepsExerciseV16durationInMillisSdSgvp",
-            "mangledName": "$s12CommonModels12RepsExerciseV16durationInMillisSdSgvp",
-            "moduleName": "CommonModels",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Double?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Double",
-                        "printedName": "Swift.Double",
-                        "usr": "s:Sd"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV16durationInMillisSdSgvg",
-                "mangledName": "$s12CommonModels12RepsExerciseV16durationInMillisSdSgvg",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Double?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Double",
-                        "printedName": "Swift.Double",
-                        "usr": "s:Sd"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV16durationInMillisSdSgvs",
-                "mangledName": "$s12CommonModels12RepsExerciseV16durationInMillisSdSgvs",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV16durationInMillisSdSgvM",
-                "mangledName": "$s12CommonModels12RepsExerciseV16durationInMillisSdSgvM",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "idx",
-            "printedName": "idx",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels12RepsExerciseV3idxSivp",
-            "mangledName": "$s12CommonModels12RepsExerciseV3idxSivp",
-            "moduleName": "CommonModels",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV3idxSivg",
-                "mangledName": "$s12CommonModels12RepsExerciseV3idxSivg",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV3idxSivs",
-                "mangledName": "$s12CommonModels12RepsExerciseV3idxSivs",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV3idxSivM",
-                "mangledName": "$s12CommonModels12RepsExerciseV3idxSivM",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "exerciseRepetition",
-            "printedName": "exerciseRepetition",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels12RepsExerciseV18exerciseRepetitionSivp",
-            "mangledName": "$s12CommonModels12RepsExerciseV18exerciseRepetitionSivp",
-            "moduleName": "CommonModels",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV18exerciseRepetitionSivg",
-                "mangledName": "$s12CommonModels12RepsExerciseV18exerciseRepetitionSivg",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV18exerciseRepetitionSivs",
-                "mangledName": "$s12CommonModels12RepsExerciseV18exerciseRepetitionSivs",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV18exerciseRepetitionSivM",
-                "mangledName": "$s12CommonModels12RepsExerciseV18exerciseRepetitionSivM",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "loopSubExercises",
-            "printedName": "loopSubExercises",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels12RepsExerciseV16loopSubExercisesSbvp",
-            "mangledName": "$s12CommonModels12RepsExerciseV16loopSubExercisesSbvp",
-            "moduleName": "CommonModels",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV16loopSubExercisesSbvg",
-                "mangledName": "$s12CommonModels12RepsExerciseV16loopSubExercisesSbvg",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV16loopSubExercisesSbvs",
-                "mangledName": "$s12CommonModels12RepsExerciseV16loopSubExercisesSbvs",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV16loopSubExercisesSbvM",
-                "mangledName": "$s12CommonModels12RepsExerciseV16loopSubExercisesSbvM",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "canSkipExercise",
-            "printedName": "canSkipExercise",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels12RepsExerciseV07canSkipD0Sbvp",
-            "mangledName": "$s12CommonModels12RepsExerciseV07canSkipD0Sbvp",
-            "moduleName": "CommonModels",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV07canSkipD0Sbvg",
-                "mangledName": "$s12CommonModels12RepsExerciseV07canSkipD0Sbvg",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV07canSkipD0Sbvs",
-                "mangledName": "$s12CommonModels12RepsExerciseV07canSkipD0Sbvs",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV07canSkipD0SbvM",
-                "mangledName": "$s12CommonModels12RepsExerciseV07canSkipD0SbvM",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "reps",
-            "printedName": "reps",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels12RepsExerciseV4repsSiSgvp",
-            "mangledName": "$s12CommonModels12RepsExerciseV4repsSiSgvp",
+            "usr": "s:12CommonModels8ExerciseV16durationInMillisSdSgvp",
+            "mangledName": "$s12CommonModels8ExerciseV16durationInMillisSdSgvp",
             "moduleName": "CommonModels",
             "declAttributes": [
               "HasInitialValue",
@@ -2143,21 +567,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Int?",
+                    "printedName": "Swift.Double?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV4repsSiSgvg",
-                "mangledName": "$s12CommonModels12RepsExerciseV4repsSiSgvg",
+                "usr": "s:12CommonModels8ExerciseV16durationInMillisSdSgvg",
+                "mangledName": "$s12CommonModels8ExerciseV16durationInMillisSdSgvg",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2175,21 +599,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Int?",
+                    "printedName": "Swift.Double?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV4repsSiSgvs",
-                "mangledName": "$s12CommonModels12RepsExerciseV4repsSiSgvs",
+                "usr": "s:12CommonModels8ExerciseV16durationInMillisSdSgvs",
+                "mangledName": "$s12CommonModels8ExerciseV16durationInMillisSdSgvs",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2206,8 +630,461 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12CommonModels12RepsExerciseV4repsSiSgvM",
-                "mangledName": "$s12CommonModels12RepsExerciseV4repsSiSgvM",
+                "usr": "s:12CommonModels8ExerciseV16durationInMillisSdSgvM",
+                "mangledName": "$s12CommonModels8ExerciseV16durationInMillisSdSgvM",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "idx",
+            "printedName": "idx",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels8ExerciseV3idxSivp",
+            "mangledName": "$s12CommonModels8ExerciseV3idxSivp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels8ExerciseV3idxSivg",
+                "mangledName": "$s12CommonModels8ExerciseV3idxSivg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels8ExerciseV3idxSivs",
+                "mangledName": "$s12CommonModels8ExerciseV3idxSivs",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels8ExerciseV3idxSivM",
+                "mangledName": "$s12CommonModels8ExerciseV3idxSivM",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "exerciseRepetition",
+            "printedName": "exerciseRepetition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels8ExerciseV18exerciseRepetitionSivp",
+            "mangledName": "$s12CommonModels8ExerciseV18exerciseRepetitionSivp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels8ExerciseV18exerciseRepetitionSivg",
+                "mangledName": "$s12CommonModels8ExerciseV18exerciseRepetitionSivg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels8ExerciseV18exerciseRepetitionSivs",
+                "mangledName": "$s12CommonModels8ExerciseV18exerciseRepetitionSivs",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels8ExerciseV18exerciseRepetitionSivM",
+                "mangledName": "$s12CommonModels8ExerciseV18exerciseRepetitionSivM",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loopSubExercises",
+            "printedName": "loopSubExercises",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels8ExerciseV16loopSubExercisesSbvp",
+            "mangledName": "$s12CommonModels8ExerciseV16loopSubExercisesSbvp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels8ExerciseV16loopSubExercisesSbvg",
+                "mangledName": "$s12CommonModels8ExerciseV16loopSubExercisesSbvg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels8ExerciseV16loopSubExercisesSbvs",
+                "mangledName": "$s12CommonModels8ExerciseV16loopSubExercisesSbvs",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels8ExerciseV16loopSubExercisesSbvM",
+                "mangledName": "$s12CommonModels8ExerciseV16loopSubExercisesSbvM",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "canSkipExercise",
+            "printedName": "canSkipExercise",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels8ExerciseV07canSkipC0Sbvp",
+            "mangledName": "$s12CommonModels8ExerciseV07canSkipC0Sbvp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels8ExerciseV07canSkipC0Sbvg",
+                "mangledName": "$s12CommonModels8ExerciseV07canSkipC0Sbvg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels8ExerciseV07canSkipC0Sbvs",
+                "mangledName": "$s12CommonModels8ExerciseV07canSkipC0Sbvs",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels8ExerciseV07canSkipC0SbvM",
+                "mangledName": "$s12CommonModels8ExerciseV07canSkipC0SbvM",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CommonModels.ExerciseData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExerciseData",
+                    "printedName": "CommonModels.ExerciseData",
+                    "usr": "s:12CommonModels12ExerciseDataO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels8ExerciseV4dataAA0C4DataOSgvp",
+            "mangledName": "$s12CommonModels8ExerciseV4dataAA0C4DataOSgvp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CommonModels.ExerciseData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExerciseData",
+                        "printedName": "CommonModels.ExerciseData",
+                        "usr": "s:12CommonModels12ExerciseDataO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels8ExerciseV4dataAA0C4DataOSgvg",
+                "mangledName": "$s12CommonModels8ExerciseV4dataAA0C4DataOSgvg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CommonModels.ExerciseData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExerciseData",
+                        "printedName": "CommonModels.ExerciseData",
+                        "usr": "s:12CommonModels12ExerciseDataO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels8ExerciseV4dataAA0C4DataOSgvs",
+                "mangledName": "$s12CommonModels8ExerciseV4dataAA0C4DataOSgvs",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels8ExerciseV4dataAA0C4DataOSgvM",
+                "mangledName": "$s12CommonModels8ExerciseV4dataAA0C4DataOSgvM",
                 "moduleName": "CommonModels",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2217,13 +1094,13 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(id:name:type:durationInMillis:idx:exerciseRepetition:reps:loopSubExercises:canSkipExercise:subExercises:media:)",
+            "printedName": "init(id:name:type:durationInMillis:idx:exerciseRepetition:data:loopSubExercises:canSkipExercise:subExercises:media:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "RepsExercise",
-                "printedName": "CommonModels.RepsExercise",
-                "usr": "s:12CommonModels12RepsExerciseV"
+                "name": "Exercise",
+                "printedName": "CommonModels.Exercise",
+                "usr": "s:12CommonModels8ExerciseV"
               },
               {
                 "kind": "TypeNominal",
@@ -2273,13 +1150,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Int?",
+                "printedName": "CommonModels.ExerciseData?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "ExerciseData",
+                    "printedName": "CommonModels.ExerciseData",
+                    "usr": "s:12CommonModels12ExerciseDataO"
                   }
                 ],
                 "usr": "s:Sq"
@@ -2299,13 +1176,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[CommonModels.RepsExercise]",
+                "printedName": "[CommonModels.Exercise]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "RepsExercise",
-                    "printedName": "CommonModels.RepsExercise",
-                    "usr": "s:12CommonModels12RepsExerciseV"
+                    "name": "Exercise",
+                    "printedName": "CommonModels.Exercise",
+                    "usr": "s:12CommonModels8ExerciseV"
                   }
                 ],
                 "usr": "s:Sa"
@@ -2327,13 +1204,104 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12CommonModels12RepsExerciseV2id4name4type16durationInMillis3idx18exerciseRepetition4reps16loopSubExercises07canSkipD003subQ05mediaACSS_SSAA0D4TypeOSdSgS3iSgS2bSayACGAA5MediaVSgtcfc",
-            "mangledName": "$s12CommonModels12RepsExerciseV2id4name4type16durationInMillis3idx18exerciseRepetition4reps16loopSubExercises07canSkipD003subQ05mediaACSS_SSAA0D4TypeOSdSgS3iSgS2bSayACGAA5MediaVSgtcfc",
+            "usr": "s:12CommonModels8ExerciseV2id4name4type16durationInMillis3idx18exerciseRepetition4data16loopSubExercises07canSkipC003subP05mediaACSS_SSAA0C4TypeOSdSgS2iAA0C4DataOSgS2bSayACGAA5MediaVSgtcfc",
+            "mangledName": "$s12CommonModels8ExerciseV2id4name4type16durationInMillis3idx18exerciseRepetition4data16loopSubExercises07canSkipC003subP05mediaACSS_SSAA0C4TypeOSdSgS2iAA0C4DataOSgS2bSayACGAA5MediaVSgtcfc",
             "moduleName": "CommonModels",
             "declAttributes": [
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "leftTime",
+            "printedName": "leftTime(elapsedTimeInMillis:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CommonModels8ExerciseV8leftTime07elapsedE8InMillisS2d_tF",
+            "mangledName": "$s12CommonModels8ExerciseV8leftTime07elapsedE8InMillisS2d_tF",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "totalDuration",
+            "printedName": "totalDuration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CommonModels8ExerciseV13totalDurationSdyF",
+            "mangledName": "$s12CommonModels8ExerciseV13totalDurationSdyF",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasSubExercises",
+            "printedName": "hasSubExercises()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CommonModels8ExerciseV15hasSubExercisesSbyF",
+            "mangledName": "$s12CommonModels8ExerciseV15hasSubExercisesSbyF",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasDuration",
+            "printedName": "hasDuration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CommonModels8ExerciseV11hasDurationSbyF",
+            "mangledName": "$s12CommonModels8ExerciseV11hasDurationSbyF",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Constructor",
@@ -2342,9 +1310,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "RepsExercise",
-                "printedName": "CommonModels.RepsExercise",
-                "usr": "s:12CommonModels12RepsExerciseV"
+                "name": "Exercise",
+                "printedName": "CommonModels.Exercise",
+                "usr": "s:12CommonModels8ExerciseV"
               },
               {
                 "kind": "TypeNominal",
@@ -2354,8 +1322,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12CommonModels12RepsExerciseV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s12CommonModels12RepsExerciseV4fromACs7Decoder_p_tKcfc",
+            "usr": "s:12CommonModels8ExerciseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12CommonModels8ExerciseV4fromACs7Decoder_p_tKcfc",
             "moduleName": "CommonModels",
             "implicit": true,
             "throwing": true,
@@ -2379,17 +1347,61 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12CommonModels12RepsExerciseV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s12CommonModels12RepsExerciseV6encode2toys7Encoder_p_tKF",
+            "usr": "s:12CommonModels8ExerciseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12CommonModels8ExerciseV6encode2toys7Encoder_p_tKF",
             "moduleName": "CommonModels",
             "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decodeExerciseData",
+            "printedName": "decodeExerciseData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CommonModels8ExerciseV06decodeC4DatayxSgxmKSeRzlF",
+            "mangledName": "$s12CommonModels8ExerciseV06decodeC4DatayxSgxmKSeRzlF",
+            "moduleName": "CommonModels",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
-        "usr": "s:12CommonModels12RepsExerciseV",
-        "mangledName": "$s12CommonModels12RepsExerciseV",
+        "usr": "s:12CommonModels8ExerciseV",
+        "mangledName": "$s12CommonModels8ExerciseV",
         "moduleName": "CommonModels",
         "declAttributes": [
           "AccessControl"
@@ -2437,13 +1449,6 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Exercise",
-            "printedName": "Exercise",
-            "usr": "s:12CommonModels8ExerciseP",
-            "mangledName": "$s12CommonModels8ExerciseP"
           }
         ]
       },
@@ -2796,6 +1801,533 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CommonModels",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ExerciseData",
+        "printedName": "ExerciseData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "string",
+            "printedName": "string",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.ExerciseData.Type) -> (Swift.String) -> CommonModels.ExerciseData",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> CommonModels.ExerciseData",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExerciseData",
+                        "printedName": "CommonModels.ExerciseData",
+                        "usr": "s:12CommonModels12ExerciseDataO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.ExerciseData.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExerciseData",
+                        "printedName": "CommonModels.ExerciseData",
+                        "usr": "s:12CommonModels12ExerciseDataO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels12ExerciseDataO6stringyACSScACmF",
+            "mangledName": "$s12CommonModels12ExerciseDataO6stringyACSScACmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "int",
+            "printedName": "int",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.ExerciseData.Type) -> (Swift.Int) -> CommonModels.ExerciseData",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> CommonModels.ExerciseData",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExerciseData",
+                        "printedName": "CommonModels.ExerciseData",
+                        "usr": "s:12CommonModels12ExerciseDataO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.ExerciseData.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExerciseData",
+                        "printedName": "CommonModels.ExerciseData",
+                        "usr": "s:12CommonModels12ExerciseDataO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels12ExerciseDataO3intyACSicACmF",
+            "mangledName": "$s12CommonModels12ExerciseDataO3intyACSicACmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "double",
+            "printedName": "double",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.ExerciseData.Type) -> (Swift.Double) -> CommonModels.ExerciseData",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> CommonModels.ExerciseData",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExerciseData",
+                        "printedName": "CommonModels.ExerciseData",
+                        "usr": "s:12CommonModels12ExerciseDataO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.ExerciseData.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExerciseData",
+                        "printedName": "CommonModels.ExerciseData",
+                        "usr": "s:12CommonModels12ExerciseDataO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels12ExerciseDataO6doubleyACSdcACmF",
+            "mangledName": "$s12CommonModels12ExerciseDataO6doubleyACSdcACmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "bool",
+            "printedName": "bool",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.ExerciseData.Type) -> (Swift.Bool) -> CommonModels.ExerciseData",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> CommonModels.ExerciseData",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExerciseData",
+                        "printedName": "CommonModels.ExerciseData",
+                        "usr": "s:12CommonModels12ExerciseDataO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.ExerciseData.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExerciseData",
+                        "printedName": "CommonModels.ExerciseData",
+                        "usr": "s:12CommonModels12ExerciseDataO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels12ExerciseDataO4boolyACSbcACmF",
+            "mangledName": "$s12CommonModels12ExerciseDataO4boolyACSbcACmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "array",
+            "printedName": "array",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.ExerciseData.Type) -> ([CommonModels.ExerciseData]) -> CommonModels.ExerciseData",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([CommonModels.ExerciseData]) -> CommonModels.ExerciseData",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExerciseData",
+                        "printedName": "CommonModels.ExerciseData",
+                        "usr": "s:12CommonModels12ExerciseDataO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[CommonModels.ExerciseData]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ExerciseData",
+                            "printedName": "CommonModels.ExerciseData",
+                            "usr": "s:12CommonModels12ExerciseDataO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.ExerciseData.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExerciseData",
+                        "printedName": "CommonModels.ExerciseData",
+                        "usr": "s:12CommonModels12ExerciseDataO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels12ExerciseDataO5arrayyACSayACGcACmF",
+            "mangledName": "$s12CommonModels12ExerciseDataO5arrayyACSayACGcACmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "dictionary",
+            "printedName": "dictionary",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.ExerciseData.Type) -> ([Swift.String : CommonModels.ExerciseData]) -> CommonModels.ExerciseData",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : CommonModels.ExerciseData]) -> CommonModels.ExerciseData",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExerciseData",
+                        "printedName": "CommonModels.ExerciseData",
+                        "usr": "s:12CommonModels12ExerciseDataO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : CommonModels.ExerciseData]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ExerciseData",
+                            "printedName": "CommonModels.ExerciseData",
+                            "usr": "s:12CommonModels12ExerciseDataO"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.ExerciseData.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExerciseData",
+                        "printedName": "CommonModels.ExerciseData",
+                        "usr": "s:12CommonModels12ExerciseDataO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels12ExerciseDataO10dictionaryyACSDySSACGcACmF",
+            "mangledName": "$s12CommonModels12ExerciseDataO10dictionaryyACSDySSACGcACmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExerciseData",
+                "printedName": "CommonModels.ExerciseData",
+                "usr": "s:12CommonModels12ExerciseDataO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12CommonModels12ExerciseDataO4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12CommonModels12ExerciseDataO4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CommonModels12ExerciseDataO6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12CommonModels12ExerciseDataO6encode2toys7Encoder_p_tKF",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels12ExerciseDataO9hashValueSivp",
+            "mangledName": "$s12CommonModels12ExerciseDataO9hashValueSivp",
+            "moduleName": "CommonModels",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels12ExerciseDataO9hashValueSivg",
+                "mangledName": "$s12CommonModels12ExerciseDataO9hashValueSivg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CommonModels12ExerciseDataO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12CommonModels12ExerciseDataO4hash4intoys6HasherVz_tF",
+            "moduleName": "CommonModels",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExerciseData",
+                "printedName": "CommonModels.ExerciseData",
+                "usr": "s:12CommonModels12ExerciseDataO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExerciseData",
+                "printedName": "CommonModels.ExerciseData",
+                "usr": "s:12CommonModels12ExerciseDataO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CommonModels12ExerciseDataO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12CommonModels12ExerciseDataO2eeoiySbAC_ACtFZ",
+            "moduleName": "CommonModels",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12CommonModels12ExerciseDataO",
+        "mangledName": "$s12CommonModels12ExerciseDataO",
+        "moduleName": "CommonModels",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
