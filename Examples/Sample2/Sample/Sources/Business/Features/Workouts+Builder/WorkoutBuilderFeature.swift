@@ -24,10 +24,10 @@ public struct WorkoutBuilderRootFeature {
     @ObservableState
     public struct State: Equatable {
         public var builder: WorkoutBuilderFeature.State
-        var rootExercise: RepsExercise
-        @Shared(.workouts) var builtExercises: [RepsExercise] = []
+        var rootExercise: Exercise
+        @Shared(.workouts) var builtExercises: [Exercise] = []
         
-        public init(exercise: RepsExercise) {
+        public init(exercise: Exercise) {
             self.rootExercise = exercise
             self.builder = .init(exercise: exercise)
         }
@@ -87,11 +87,11 @@ public struct WorkoutBuilderRootFeature {
         }
     }
     
-    /// Maps array of State to array of RepsExercise. Every state has an exercise. Function is called recursively until every child is added to its parent
+    /// Maps array of State to array of Exercise. Every state has an exercise. Function is called recursively until every child is added to its parent
     /// - Parameters:
     ///   - states: Array of WorkoutBuilderFeature.State
-    /// - Returns: Array of RepsExercise
-    func mapStateToExerciseArray(_ states: IdentifiedArrayOf<WorkoutBuilderFeature.State>) -> [RepsExercise] {
+    /// - Returns: Array of Exercise
+    func mapStateToExerciseArray(_ states: IdentifiedArrayOf<WorkoutBuilderFeature.State>) -> [Exercise] {
         return states.map { state in
             var exercise = state.exercise
             if !state.exercises.isEmpty {
@@ -109,13 +109,13 @@ public struct WorkoutBuilderFeature: Reducer {
     @ObservableState
     public struct State: Equatable, Identifiable {
         
-        public var exercise: RepsExercise
+        public var exercise: Exercise
         public var exercises = IdentifiedArrayOf<WorkoutBuilderFeature.State>()
         public var duration: String
         public var media: String?
         public var id: UUID = UUID()
         
-        public init(exercise: RepsExercise) {
+        public init(exercise: Exercise) {
             self.exercise = exercise
             self.duration = BuilderHelper.millisecondsToDurationString(exercise.durationInMillis ?? 0.0)
             self.media = exercise.media?.url?.lastPathComponent
@@ -126,12 +126,12 @@ public struct WorkoutBuilderFeature: Reducer {
         
         @CasePathable
         public enum ViewAction: Equatable {
-            case onAddExercise(RepsExercise)
+            case onAddExercise(Exercise)
             case onDelete(IndexSet)
             case onNameChange(String)
             case onExerciseTypeChange(ExerciseType)
             case onExerciseCyclesChange(Int)
-            case onExerciseRepsChange(Int?)
+            case onExerciseRepsChange(ExerciseData?)
             case onExerciseLoopChange(Bool)
             case onExerciseCanSkipChange(Bool)
             case onExerciseTimeIntervalChange(String)
@@ -192,8 +192,8 @@ public struct WorkoutBuilderFeature: Reducer {
             state.exercise.exerciseRepetition = cycles
             return .none
             
-        case .onExerciseRepsChange(let reps):
-            state.exercise.reps = reps
+        case .onExerciseRepsChange(let data):
+            state.exercise.data = data
             return .none
             
         case .onExerciseLoopChange(let loop):

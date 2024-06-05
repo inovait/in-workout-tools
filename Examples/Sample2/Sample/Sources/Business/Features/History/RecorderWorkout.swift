@@ -50,10 +50,10 @@ enum RecordedBreakdownType: Equatable {
 }
 
 extension [RecordedBreakdownItem] {
-    func toExercises() -> [RepsExercise] {
+    func toExercises() -> [Exercise] {
         var i = 0
-        var sessions: [RepsExercise] = []
-        var exercises: [RepsExercise] = []
+        var sessions: [Exercise] = []
+        var exercises: [Exercise] = []
         var records: [Int: RecordedBreakdownItem] = [:]
         forEach { item in
             i += 1
@@ -61,13 +61,13 @@ extension [RecordedBreakdownItem] {
             switch item.type {
             case .sessionEnded:
                 let removed = exercises.removeLast()
-                sessions.append(RepsExercise(id: i.description, name: removed.name, type: removed.type, durationInMillis: removed.durationInMillis, idx: removed.idx, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: false, subExercises: exercises))
+                sessions.append(Exercise(id: i.description, name: removed.name, type: removed.type, durationInMillis: removed.durationInMillis, idx: removed.idx, exerciseRepetition: 0, data: .int(0), loopSubExercises: false, canSkipExercise: false, subExercises: exercises))
                 exercises = []
 
             case .roundEnded:
                 let startTimestamp = records[item.roundIdx ?? 0]?.timestamp
                 let duration = startTimestamp != nil ? item.timestamp - (startTimestamp ?? 0) : 0
-                exercises.append(RepsExercise(id: i.description, name: item.exerciseName ?? "", type: .exercise, durationInMillis: duration.toMillis(), idx: item.roundIdx ?? 0, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: false, subExercises: []))
+                exercises.append(Exercise(id: i.description, name: item.exerciseName ?? "", type: .exercise, durationInMillis: duration.toMillis(), idx: item.roundIdx ?? 0, exerciseRepetition: 0, data: .int(0), loopSubExercises: false, canSkipExercise: false, subExercises: []))
             default:
                 _ = "do nothing"
             }
