@@ -22,7 +22,7 @@ struct WorkoutDetailsFeature: Reducer {
     
     @ObservableState
     struct State: Equatable {
-        @Shared(.workouts) var builtExercises: [RepsExercise] = []
+        @Shared(.workouts) var builtExercises: [Exercise] = []
         let details: WorkoutDetailsItem
         var duration: String {
             return toDurationLongString(duration: details.exercise.totalDuration())
@@ -86,9 +86,9 @@ struct WorkoutDetailsItem: Equatable, Identifiable {
     let title: String
     let description: String
     let canDelete: Bool
-    let exercise: RepsExercise
+    let exercise: Exercise
     
-    init(id: String, title: String, description: String, canDelete: Bool = false, exercise: RepsExercise) {
+    init(id: String, title: String, description: String, canDelete: Bool = false, exercise: Exercise) {
         self.id = id
         self.title = title
         self.description = description

@@ -17,7 +17,7 @@ import ComposableArchitecture
 import WorkoutFramework
 import CommonModels
 
-public extension PersistenceKey where Self == FileStorageKey<[RepsExercise]> {
+public extension PersistenceKey where Self == FileStorageKey<[Exercise]> {
     static var workouts: Self {
         fileStorage(RecorderWrapper().builtWorkoutsFile)
     }

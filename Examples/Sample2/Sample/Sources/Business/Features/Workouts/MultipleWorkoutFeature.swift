@@ -22,7 +22,7 @@ struct MultipleWorkoutFeature: Reducer {
     
     @ObservableState
     struct State: Equatable {    
-        @Shared(.workouts) var builtExercises: [RepsExercise] = []
+        @Shared(.workouts) var builtExercises: [Exercise] = []
     }
     
     enum Action: TCAFeatureAction {
@@ -33,7 +33,7 @@ struct MultipleWorkoutFeature: Reducer {
         }
         
         enum DelegateAction: Equatable {
-            case openWorkout(RepsExercise)
+            case openWorkout(Exercise)
             case openWorkoutDetails(WorkoutDetailsItem)
         }
         
