@@ -165,7 +165,7 @@ let w1d1SweatyEmom = WorkoutDetailsItem(id: "1", title: "W1D1: Sweaty Emom", des
     Exercise(id: "inAndOut", name: "In And Out Jumps", type: .exercise, durationInMillis: 60 * 1000, idx: 4, exerciseRepetition: 0, data: .int(10), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[3])
 ]))
 
-let w1d2SweatyAmrap = WorkoutDetailsItem(id: "2", title: "W1D2: Sweaty AMRAP", description: "AMRAP means \"As Many Rounds/Reps As Possible.\" In a set time, do exercises repeatedly to push your limits and improve fitness. Great for beginners and pros.\n\nOne repetitions for each exercises is counted, when you perform full motion and get back in your starting position.", exercise: Exercise(id: "w1d2", name: "AMRAP", type: .exercise, durationInMillis: 20 * 60 * 1000, idx: 0, exerciseRepetition: 0, data: .int(0), loopSubExercises: true, canSkipExercise: false, subExercises: [
+let w1d2SweatyAmrap = WorkoutDetailsItem(id: "2", title: "W1D2: Sweaty AMRAP", description: "AMRAP means \"As Many Rounds/Reps As Possible.\" In a set time, do exercises repeatedly to push your limits and improve fitness. Great for beginners and pros.\n\nOne repetitions for each exercises is counted, when you perform full motion and get back in your starting position.", exercise: Exercise(id: "w1d2", name: "AMRAP", type: .exercise, durationInMillis: 20 * 60 * 1000, idx: 0, exerciseRepetition: 0, data: .int(0), loopSubExercises: true, canSkipExercise: true, subExercises: [
     Exercise(id: "inAndOut", name: "In And Out Jumps", type: .exercise, durationInMillis: 0, idx: 1, exerciseRepetition: 0, data: .int(20), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[3]),
     Exercise(id: "lunges", name: "20 Lunges (each leg)", type: .exercise, durationInMillis: 0, idx: 2, exerciseRepetition: 0, data: .int(20), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[4]),
     Exercise(id: "bicycle", name: "Bicycle Crunches", type: .exercise, durationInMillis: 0, idx: 3, exerciseRepetition: 0, data: .int(20), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[2]),
@@ -174,7 +174,7 @@ let w1d2SweatyAmrap = WorkoutDetailsItem(id: "2", title: "W1D2: Sweaty AMRAP", d
 ]))
 
 let w2d1Amrap = WorkoutDetailsItem(id: "3", title: "W2D1: Out&In AMPRAP", description: "AMRAP means \"As Many Rounds/Reps As Possible.\" In a set time, do exercises repeatedly to push your limits and improve fitness. Great for beginners and pros.\n\nOne repetitions for each exercises is counted, when you perform full motion and get back in your starting position.", exercise:
-    Exercise(id: "w2d1", name: "AMRAP", type: .exercise, durationInMillis: 20 * 60 * 1000, idx: 0, exerciseRepetition: 0, data: .int(0), loopSubExercises: true, canSkipExercise: false, subExercises: [
+    Exercise(id: "w2d1", name: "AMRAP", type: .exercise, durationInMillis: 20 * 60 * 1000, idx: 0, exerciseRepetition: 0, data: .int(0), loopSubExercises: true, canSkipExercise: true, subExercises: [
         Exercise(id: "pushup", name: "Push-Ups", type: .exercise, durationInMillis: 0, idx: 1, exerciseRepetition: 0, data: .int(10), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[0]),
         Exercise(id: "plank", name: "Plank", type: .exercise, durationInMillis: 30 * 1000, idx: 2, exerciseRepetition: 0, data: .int(0), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[25]),
         Exercise(id: "diamondPushups", name: "Diamond Push-Ups", type: .exercise, durationInMillis: 0, idx: 3, exerciseRepetition: 0, data: .int(10), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[15]),
@@ -183,7 +183,7 @@ let w2d1Amrap = WorkoutDetailsItem(id: "3", title: "W2D1: Out&In AMPRAP", descri
 ]))
 
 let w2d2ForTime = WorkoutDetailsItem(id: "4", title: "W2D2: In&Out For Time", description: "CrossFit's \"For Time\" is an intense workout format designed to challenge and improve your fitness. In \"For Time,\" the goal is to complete a specific set of exercises as quickly as possible while maintaining proper form and technique.\n\nEach repetition counts when executed with full range of motion, and the stopwatch becomes your motivator to improve your time. It's a versatile training approach suitable for all fitness levels, fostering competitiveness and efficient progress in strength, endurance, and cardiovascular fitness.", exercise:
-    Exercise(id: "w2d2", name: "For Time", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 0, data: .int(0), loopSubExercises: false, canSkipExercise: false, subExercises: [
+    Exercise(id: "w2d2", name: "For Time", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 0, data: .int(0), loopSubExercises: false, canSkipExercise: true, subExercises: [
         Exercise(id: "HighKnees", name: "High Knees", type: .exercise, durationInMillis: 0, idx: 1, exerciseRepetition: 0, data: .int(25), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[23]),
         Exercise(id: "Squats", name: "Squats", type: .exercise, durationInMillis: 0, idx: 2, exerciseRepetition: 0, data: .int(25), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[1]),
         Exercise(id: "Push-Ups", name: "Push-Ups", type: .exercise, durationInMillis: 0, idx: 3, exerciseRepetition: 0, data: .int(50), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[0]),
@@ -192,7 +192,7 @@ let w2d2ForTime = WorkoutDetailsItem(id: "4", title: "W2D2: In&Out For Time", de
 ]))
 
 let w3d1Amrap = WorkoutDetailsItem(id: "5", title: "W3D1: Indoor AMRAP", description: "AMRAP means \"As Many Rounds/Reps As Possible.\" In a set time, do exercises repeatedly to push your limits and improve fitness. Great for beginners and pros.\n\nOne repetitions for each exercises is counted, when you perform full motion and get back in your starting position.", exercise:
-    Exercise(id: "w3d1", name: "AMRAP", type: .exercise, durationInMillis: 20 * 60 * 1000, idx: 0, exerciseRepetition: 0, data: .int(0), loopSubExercises: true, canSkipExercise: false, subExercises: [
+    Exercise(id: "w3d1", name: "AMRAP", type: .exercise, durationInMillis: 20 * 60 * 1000, idx: 0, exerciseRepetition: 0, data: .int(0), loopSubExercises: true, canSkipExercise: true, subExercises: [
         Exercise(id: "Burpees", name: "Burpees", type: .exercise, durationInMillis: 0, idx: 1, exerciseRepetition: 0, data: .int(10), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[9]),
         Exercise(id: "Mountain Climbers", name: "Mountain Climbers", type: .exercise, durationInMillis: 30 * 1000, idx: 2, exerciseRepetition: 0, data: .int(0), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[10]),
         Exercise(id: "Hindu Pushups", name: "Hindu Pushups", type: .exercise, durationInMillis: 0, idx: 3, exerciseRepetition: 0, data: .int(10), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[22]),
