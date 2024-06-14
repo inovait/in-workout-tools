@@ -1,3 +1,13 @@
+# Documentation
+- [Workout Handler](https://inovait.github.io/in-workout-tools/documentation/workoutframework/)
+## Getting started
+- [Start here](https://inovait.github.io/in-workout-tools/documentation/workoutframework/gettingstarted)
+
+# Examples
+Please checkout the sample apps found here:
+- [Sample 1](https://github.com/inovait/in-workout-tools/tree/main/Examples/Sample1)
+- [Sample 2](https://github.com/inovait/in-workout-tools/tree/main/Examples/Sample2) - Uses Tuist
+
 # Features
 
 ## General
