@@ -15,7 +15,7 @@ import PackageDescription
 let package = Package(
     name: "PackageName",
     dependencies: [
-        .package(url: "https://github.com/inovait/in-workout-tools.git", from: "1.0.5"),
+        .package(url: "https://github.com/inovait/in-workout-tools.git", from: "1.0.10"),
         .package(url: "https://github.com/pointfreeco/swift-composable-architecture", from: "1.10.1"),
         .package(url: "https://github.com/SDWebImage/SDWebImageSwiftUI.git", from: "2.2.6")
     ]

@@ -129,7 +129,7 @@ public struct WorkoutBuilderView: View {
             
             Button {
                 store.send(.view(.onAddExercise(
-                    Exercise(id: UUID().uuidString, name: getRandomExerciseName(), type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [], media: getRandomMedia())
+                    Exercise(id: UUID().uuidString, name: getRandomExerciseName(), type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 0, data: .int(0), loopSubExercises: false, canSkipExercise: true, subExercises: [], media: getRandomMedia())
                 )))
             } label: {
                 Image(systemName: "plus")
@@ -204,10 +204,10 @@ struct ExerciseBuilderView: View {
                         .font(.f13regular)
                         .foregroundStyle(Color(UIColor.lightGray))
                                         
-                    Picker("", selection: $exerciseStore.exercise.reps.sending(\.view.onExerciseRepsChange)) {
-                        Text("None").tag(nil as Int?)
+                    Picker("", selection: $exerciseStore.exercise.data.sending(\.view.onExerciseRepsChange)) {
+                        Text("None").tag(nil as ExerciseData?)
                         ForEach(0...100, id: \.self) { reps in
-                            Text("\(reps)").tag(reps as Int?)
+                            Text("\(reps)").tag(.int(reps) as ExerciseData?)
                         }
                     }
                     .pickerStyle(MenuPickerStyle())

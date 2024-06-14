@@ -114,7 +114,7 @@ struct ProjectNavigationFeature: Reducer {
         case .root(.home(.delegate(let actionDelegate))):
             switch actionDelegate {
             case .openFreeWorkout:
-                let exercise: Exercise = .init(id: UUID().uuidString, name: "Free Workout", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: false, subExercises: [])
+                let exercise: Exercise = .init(id: UUID().uuidString, name: "Free Workout", type: .exercise, durationInMillis: 0, idx: 0, exerciseRepetition: 0, data: .int(0), loopSubExercises: false, canSkipExercise: false, subExercises: [])
                 
                 state.path.append(.workout(.init(exercise: exercise)))
                             
@@ -128,23 +128,23 @@ struct ProjectNavigationFeature: Reducer {
                 state.path.append(.workoutCollection(.init()))
                 
             case .openWorkoutBuilder:
-                state.path.append(.workoutBuilder(.init(exercise: .init(id: UUID().uuidString, name: DummyData().workoutNames.randomElement() ?? "Built workout", type: .exercise, durationInMillis: nil, idx: 0, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: []))))
+                state.path.append(.workoutBuilder(.init(exercise: .init(id: UUID().uuidString, name: DummyData().workoutNames.randomElement() ?? "Built workout", type: .exercise, durationInMillis: nil, idx: 0, exerciseRepetition: 0, data: .int(0), loopSubExercises: false, canSkipExercise: true, subExercises: []))))
                 
             case .openTestWorkouts:
                 state.path.append(.testWorkouts(.init()))
             case .openTempView:
-                state.path.append(.workout(.init(exercise: Exercise(id: "w1d1", name: "W1D1: Sweaty Emom", type: .exercise, durationInMillis: 16 * 60 * 1000, idx: 0, exerciseRepetition: 0, reps: 0, loopSubExercises: true, canSkipExercise: false, subExercises: [
-                                        Exercise(id: "pushup", name: "Push-Ups", type: .exercise, durationInMillis: 60 * 1000, idx: 1, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[0]),
-                                        Exercise(id: "squats", name: "Squats", type: .exercise, durationInMillis: 60 * 1000, idx: 2, exerciseRepetition: 0, reps: 15, loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[1]),
-                                        Exercise(id: "bicycle", name: "Bicycle Crunches", type: .exercise, durationInMillis: 60 * 1000, idx: 3, exerciseRepetition: 0, reps: 15, loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[2]),
-                                        Exercise(id: "inAndOut", name: "In And Out Jumps", type: .exercise, durationInMillis: 60 * 1000, idx: 4, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[3])
+                state.path.append(.workout(.init(exercise: Exercise(id: "w1d1", name: "W1D1: Sweaty Emom", type: .exercise, durationInMillis: 16 * 60 * 1000, idx: 0, exerciseRepetition: 0, data: .int(0), loopSubExercises: true, canSkipExercise: false, subExercises: [
+                                        Exercise(id: "pushup", name: "Push-Ups", type: .exercise, durationInMillis: 60 * 1000, idx: 1, exerciseRepetition: 0, data: .int(10), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[0]),
+                                        Exercise(id: "squats", name: "Squats", type: .exercise, durationInMillis: 60 * 1000, idx: 2, exerciseRepetition: 0, data: .int(15), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[1]),
+                                        Exercise(id: "bicycle", name: "Bicycle Crunches", type: .exercise, durationInMillis: 60 * 1000, idx: 3, exerciseRepetition: 0, data: .int(15), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[2]),
+                                        Exercise(id: "inAndOut", name: "In And Out Jumps", type: .exercise, durationInMillis: 60 * 1000, idx: 4, exerciseRepetition: 0, data: .int(10), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[3])
                                     ]))))
                 return .none
-//                state.path.append(.workoutHandler(Exercise(id: "w1d1", name: "W1D1: Sweaty Emom", type: .exercise, durationInMillis: 16 * 60 * 1000, idx: 0, exerciseRepetition: 0, reps: 0, loopSubExercises: true, canSkipExercise: false, subExercises: [
-//                    Exercise(id: "pushup", name: "Push-Ups", type: .exercise, durationInMillis: 60 * 1000, idx: 1, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[0]),
-//                    Exercise(id: "squats", name: "Squats", type: .exercise, durationInMillis: 60 * 1000, idx: 2, exerciseRepetition: 0, reps: 15, loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[1]),
-//                    Exercise(id: "bicycle", name: "Bicycle Crunches", type: .exercise, durationInMillis: 60 * 1000, idx: 3, exerciseRepetition: 0, reps: 15, loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[2]),
-//                    Exercise(id: "inAndOut", name: "In And Out Jumps", type: .exercise, durationInMillis: 60 * 1000, idx: 4, exerciseRepetition: 0, reps: 10, loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[3])
+//                state.path.append(.workoutHandler(Exercise(id: "w1d1", name: "W1D1: Sweaty Emom", type: .exercise, durationInMillis: 16 * 60 * 1000, idx: 0, exerciseRepetition: 0, data: .int(0), loopSubExercises: true, canSkipExercise: false, subExercises: [
+//                    Exercise(id: "pushup", name: "Push-Ups", type: .exercise, durationInMillis: 60 * 1000, idx: 1, exerciseRepetition: 0, data: .int(10), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[0]),
+//                    Exercise(id: "squats", name: "Squats", type: .exercise, durationInMillis: 60 * 1000, idx: 2, exerciseRepetition: 0, data: .int(15), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[1]),
+//                    Exercise(id: "bicycle", name: "Bicycle Crunches", type: .exercise, durationInMillis: 60 * 1000, idx: 3, exerciseRepetition: 0, data: .int(15), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[2]),
+//                    Exercise(id: "inAndOut", name: "In And Out Jumps", type: .exercise, durationInMillis: 60 * 1000, idx: 4, exerciseRepetition: 0, data: .int(10), loopSubExercises: false, canSkipExercise: false, subExercises: [], media: media[3])
 //                ])))
             }
             

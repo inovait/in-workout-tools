@@ -44,7 +44,8 @@ public struct TempView2: View {
             }
             Text(workout.workoutName)
             Text(workout.exerciseName)
-            Text(workout.workoutTime)
+            Text(workout.runningExerciseTimeString)
+            Text(workout.workoutTotalTime?.description ?? "")
             Text(workout.reps ?? "0")
             Button {
                 workout.startWorkout()

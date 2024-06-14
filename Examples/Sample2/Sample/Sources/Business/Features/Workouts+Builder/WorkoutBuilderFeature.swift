@@ -131,7 +131,7 @@ public struct WorkoutBuilderFeature: Reducer {
             case onNameChange(String)
             case onExerciseTypeChange(ExerciseType)
             case onExerciseCyclesChange(Int)
-            case onExerciseRepsChange(Int?)
+            case onExerciseRepsChange(ExerciseData?)
             case onExerciseLoopChange(Bool)
             case onExerciseCanSkipChange(Bool)
             case onExerciseTimeIntervalChange(String)
@@ -192,8 +192,8 @@ public struct WorkoutBuilderFeature: Reducer {
             state.exercise.exerciseRepetition = cycles
             return .none
             
-        case .onExerciseRepsChange(let reps):
-            state.exercise.reps = reps
+        case .onExerciseRepsChange(let data):
+            state.exercise.data = data
             return .none
             
         case .onExerciseLoopChange(let loop):

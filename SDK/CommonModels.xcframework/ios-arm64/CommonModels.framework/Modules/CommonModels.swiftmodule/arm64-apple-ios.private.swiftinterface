@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name CommonModels
+// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name CommonModels
 import Foundation
 import Swift
 import _Concurrency
@@ -8,27 +8,28 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public struct Exercise : Swift.Identifiable, Swift.Equatable, Swift.Codable {
   public static func == (lhs: CommonModels.Exercise, rhs: CommonModels.Exercise) -> Swift.Bool
-  public let id: Swift.String
+  public var subExercises: [CommonModels.Exercise]
+  public var id: Swift.String
   public var name: Swift.String
   public var type: CommonModels.ExerciseType
   public var media: CommonModels.Media?
   public var durationInMillis: Foundation.TimeInterval?
-  public let idx: Swift.Int
+  public var idx: Swift.Int
   public var exerciseRepetition: Swift.Int
-  public var reps: Swift.Int?
   public var loopSubExercises: Swift.Bool
   public var canSkipExercise: Swift.Bool
-  public var subExercises: [CommonModels.Exercise]
+  public var data: CommonModels.ExerciseData?
+  public init(id: Swift.String, name: Swift.String, type: CommonModels.ExerciseType, durationInMillis: Foundation.TimeInterval? = nil, idx: Swift.Int, exerciseRepetition: Swift.Int, data: CommonModels.ExerciseData?, loopSubExercises: Swift.Bool, canSkipExercise: Swift.Bool, subExercises: [CommonModels.Exercise], media: CommonModels.Media? = nil)
   public func leftTime(elapsedTimeInMillis: Foundation.TimeInterval) -> Foundation.TimeInterval
   public func totalDuration() -> Foundation.TimeInterval
   public func hasSubExercises() -> Swift.Bool
-  public init(id: Swift.String, name: Swift.String, type: CommonModels.ExerciseType, durationInMillis: Foundation.TimeInterval?, idx: Swift.Int, exerciseRepetition: Swift.Int, reps: Swift.Int, loopSubExercises: Swift.Bool, canSkipExercise: Swift.Bool, subExercises: [CommonModels.Exercise], media: CommonModels.Media? = nil)
+  public func hasDuration() -> Swift.Bool
   public typealias ID = Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 extension CommonModels.Exercise {
-  public func hasDuration() -> Swift.Bool
+  public func decodeExerciseData<T>(_ type: T.Type) throws -> T? where T : Swift.Decodable
 }
 public enum ExerciseType : Swift.CaseIterable, Swift.Codable {
   case exercise
@@ -44,6 +45,21 @@ public enum ExerciseType : Swift.CaseIterable, Swift.Codable {
     get
   }
   public init(from decoder: any Swift.Decoder) throws
+}
+public enum ExerciseData : Swift.Codable, Swift.Hashable, Swift.Equatable {
+  case string(Swift.String)
+  case int(Swift.Int)
+  case double(Swift.Double)
+  case bool(Swift.Bool)
+  case array([CommonModels.ExerciseData])
+  case dictionary([Swift.String : CommonModels.ExerciseData])
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: CommonModels.ExerciseData, b: CommonModels.ExerciseData) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public enum Gender : Swift.Codable {
   case male
