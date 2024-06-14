@@ -15,10 +15,6 @@ public struct ContentView: View {
 
     public var body: some View {
         VStack {
-            if workout.exerciseHasMedia {
-                VideoView(currentMedia: workout.media, player: workout.player)
-            }
-            
             Text(workout.workoutName)
             Text(workout.runningExercise?.name ?? "")
             Text(workout.exerciseName)
