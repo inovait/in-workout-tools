@@ -47,48 +47,57 @@ public struct TempView2: View {
             Text(workout.runningExerciseTimeString)
             Text(workout.workoutTotalTime?.description ?? "")
             Text(workout.reps ?? "0")
-            Button {
-                workout.startWorkout()
-            } label: {
-                Text("Start")
+            if workout.status != .ended {
+                Button {
+                    workout.startWorkout()
+                } label: {
+                    Text("Start")
+                }
+                .padding()
+                
+                Button {
+                    workout.pauseWorkout()
+                } label: {
+                    Text("Pause")
+                }
+                .padding()
+                
+                Button {
+                    workout.resumeWorkout()
+                } label: {
+                    Text("Resume")
+                }
+                .padding()
+                
+                Button {
+                    workout.nextRound()
+                } label: {
+                    Text("Next")
+                }
+                .padding()
+                
+                Button {
+                    workout.previousRound()
+                } label: {
+                    Text("Prev")
+                }
+                .padding()
+                
+                Button {
+                    workout.endWorkout()
+                    dismiss()
+                } label: {
+                    Text("End")
+                }
+                .padding()
+            } else {
+                Button {
+                    dismiss()
+                } label: {
+                    Text("Dismiss")
+                }
+                .padding()
             }
-            .padding()
-            
-            Button {
-                workout.pauseWorkout()
-            } label: {
-                Text("Pause")
-            }
-            .padding()
-            
-            Button {
-                workout.resumeWorkout()
-            } label: {
-                Text("Resume")
-            }
-            .padding()
-            
-            Button {
-                workout.nextRound()
-            } label: {
-                Text("Next")
-            }
-            .padding()
-            
-            Button {
-                workout.previousRound()
-            } label: {
-                Text("Prev")
-            }
-            .padding()
-            
-            Button {
-                workout.endWorkout()
-                dismiss()
-            } label: {
-                Text("End")
-            }
-            .padding()
         }
         .padding()
         .task {
