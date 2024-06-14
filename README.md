@@ -40,38 +40,73 @@ This exercise named `Text Exercise` will be running for 5 seconds and will be re
 # Simple workout example
 In this example the workout is started and finished after 10 seconds.
 
-```
+```swift
 import SwiftUI
-import FeatureWorkout
-import ComposableArchitecture
+import WorkoutFramework
+import CommonModels
 
 public struct ContentView: View {
-    let store = Store(initialState: WorkoutFeature.State(roundIdx: 0, currentExercise: .init(exercise: .init(id: "demo", name: "Duration 10 sec", type: .exercise, durationInMillis: 10 * 1000, idx: 1, exerciseRepetition: 0, reps: 0, loopSubExercises: false, canSkipExercise: false, subExercises: []), currentTime: 0))) {
-        WorkoutFeature()
-    }
-    
-    public init() {}
+    @StateObject var workout = WorkoutHandler()
+    let exercise: Exercise = Exercise(id: "1", name: "Test Exercise", type: .exercise, durationInMillis: 5 * 1000, idx: 10, exerciseRepetition: 5, data: .int(0), loopSubExercises: false, canSkipExercise: true, subExercises: [])
 
     public var body: some View {
-        VStack() {
-            Text(store.currentExercise.exercise.name)
-                .padding(.top, 40)
-                .padding(.bottom, 20)
-                .font(.system(size: 24, weight: .bold))
-            
-            Text(store.totalTime.toSeconds().description)
-            
-            if (store.status == .ended) {
-                Text("Workout completed")
-                    .padding(.top, 40)
-                    .padding(.bottom, 20)
-                    .font(.system(size: 24, weight: .bold))
+        VStack {
+            if workout.exerciseHasMedia {
+                VideoView(currentMedia: workout.media, player: workout.player)
             }
             
-            Spacer()
-        }.task {
-            store.send(.view(.onPrepare(store.currentExercise.exercise.name)))
-            store.send(.view(.onStart))
+            Text(workout.workoutName)
+            Text(workout.runningExercise?.name ?? "")
+            Text(workout.exerciseName)
+            Text(workout.runningExerciseTimeString)
+            Text(workout.workoutTotalTime?.description ?? "")
+            if workout.status != .ended {
+                Button {
+                    workout.startWorkout()
+                } label: {
+                    Text("Start")
+                }
+                .padding()
+                
+                Button {
+                    workout.pauseWorkout()
+                } label: {
+                    Text("Pause")
+                }
+                .padding()
+                
+                Button {
+                    workout.resumeWorkout()
+                } label: {
+                    Text("Resume")
+                }
+                .padding()
+                
+                Button {
+                    workout.nextRound()
+                } label: {
+                    Text("Next")
+                }
+                .padding()
+                
+                Button {
+                    workout.previousRound()
+                } label: {
+                    Text("Prev")
+                }
+                .padding()
+                
+                Button {
+                    workout.endWorkout()
+                } label: {
+                    Text("End")
+                }
+                .padding()
+            }
+        }
+        .padding()
+        .task {
+            workout.initialize(exercise: self.exercise)
         }
     }
 }
