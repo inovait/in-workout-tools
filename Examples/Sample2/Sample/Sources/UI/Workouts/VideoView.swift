@@ -46,7 +46,7 @@ public struct VideoView: View {
                         }
                     } else if let currentMedia, currentMedia.mimeType.isVideo {
                         if let player {
-                            VideoPlayer(player: player)
+                            VideoPlayerView(player: player)
                                 .disabled(true)
                                 .frame(width: screenWidth, height: screenWidth * 9 / 16)
                                 .background(.black)
@@ -55,5 +55,19 @@ public struct VideoView: View {
                     }
                 }
             )
+    }
+}
+
+struct VideoPlayerView: UIViewControllerRepresentable {
+    let player: AVPlayer
+
+    func makeUIViewController(context: Context) -> AVPlayerViewController {
+        let playerViewController = AVPlayerViewController()
+        playerViewController.player = player
+        playerViewController.allowsVideoFrameAnalysis = false
+        return playerViewController
+    }
+
+    func updateUIViewController(_ uiViewController: AVPlayerViewController, context: Context) {
     }
 }
