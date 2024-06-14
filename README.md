@@ -1,5 +1,6 @@
 # Documentation
-- [Workout Handler](https://inovait.github.io/in-workout-tools/documentation/workoutframework/)
+- [Workout Framework](https://inovait.github.io/in-workout-tools/documentation/workoutframework/)
+- [Workout handler](https://inovait.github.io/in-workout-tools/documentation/workoutframework/workouthandler)
 ## Getting started
 - [Start here](https://inovait.github.io/in-workout-tools/documentation/workoutframework/gettingstarted)
 
