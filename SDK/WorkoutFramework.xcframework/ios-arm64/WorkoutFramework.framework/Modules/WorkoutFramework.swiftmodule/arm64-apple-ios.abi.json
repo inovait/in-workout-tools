@@ -85,6 +85,47 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "recordFile",
+            "printedName": "recordFile",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IntermediateFileDependancy",
+                "printedName": "FeatureRecorder.IntermediateFileDependancy",
+                "usr": "s:15FeatureRecorder26IntermediateFileDependancyV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WorkoutFramework15RecorderWrapperV10recordFile07FeatureC0012IntermediateF10DependancyVvp",
+            "mangledName": "$s16WorkoutFramework15RecorderWrapperV10recordFile07FeatureC0012IntermediateF10DependancyVvp",
+            "moduleName": "WorkoutFramework",
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntermediateFileDependancy",
+                    "printedName": "FeatureRecorder.IntermediateFileDependancy",
+                    "usr": "s:15FeatureRecorder26IntermediateFileDependancyV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework15RecorderWrapperV10recordFile07FeatureC0012IntermediateF10DependancyVvg",
+                "mangledName": "$s16WorkoutFramework15RecorderWrapperV10recordFile07FeatureC0012IntermediateF10DependancyVvg",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -229,6 +270,316 @@
         "children": [
           {
             "kind": "Var",
+            "name": "store",
+            "printedName": "store",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ComposableArchitecture.Store<FeatureWorkout.WorkoutFeature.State, FeatureWorkout.WorkoutFeature.Action>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Store",
+                    "printedName": "ComposableArchitecture.Store<FeatureWorkout.WorkoutFeature.State, FeatureWorkout.WorkoutFeature.Action>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "FeatureWorkout.WorkoutFeature.State",
+                        "usr": "s:14FeatureWorkout0bA0V5StateV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "FeatureWorkout.WorkoutFeature.Action",
+                        "usr": "s:14FeatureWorkout0bA0V6ActionO"
+                      }
+                    ],
+                    "usr": "s:22ComposableArchitecture5StoreC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WorkoutFramework0A7HandlerC5store22ComposableArchitecture5StoreCy07FeatureA00aH0V5StateVAJ6ActionOGSgvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC5store22ComposableArchitecture5StoreCy07FeatureA00aH0V5StateVAJ6ActionOGSgvp",
+            "moduleName": "WorkoutFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ComposableArchitecture.Store<FeatureWorkout.WorkoutFeature.State, FeatureWorkout.WorkoutFeature.Action>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Store",
+                        "printedName": "ComposableArchitecture.Store<FeatureWorkout.WorkoutFeature.State, FeatureWorkout.WorkoutFeature.Action>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "FeatureWorkout.WorkoutFeature.State",
+                            "usr": "s:14FeatureWorkout0bA0V5StateV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "FeatureWorkout.WorkoutFeature.Action",
+                            "usr": "s:14FeatureWorkout0bA0V6ActionO"
+                          }
+                        ],
+                        "usr": "s:22ComposableArchitecture5StoreC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC5store22ComposableArchitecture5StoreCy07FeatureA00aH0V5StateVAJ6ActionOGSgvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC5store22ComposableArchitecture5StoreCy07FeatureA00aH0V5StateVAJ6ActionOGSgvg",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ComposableArchitecture.Store<FeatureWorkout.WorkoutFeature.State, FeatureWorkout.WorkoutFeature.Action>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Store",
+                        "printedName": "ComposableArchitecture.Store<FeatureWorkout.WorkoutFeature.State, FeatureWorkout.WorkoutFeature.Action>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "FeatureWorkout.WorkoutFeature.State",
+                            "usr": "s:14FeatureWorkout0bA0V5StateV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "FeatureWorkout.WorkoutFeature.Action",
+                            "usr": "s:14FeatureWorkout0bA0V6ActionO"
+                          }
+                        ],
+                        "usr": "s:22ComposableArchitecture5StoreC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC5store22ComposableArchitecture5StoreCy07FeatureA00aH0V5StateVAJ6ActionOGSgvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC5store22ComposableArchitecture5StoreCy07FeatureA00aH0V5StateVAJ6ActionOGSgvs",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC5store22ComposableArchitecture5StoreCy07FeatureA00aH0V5StateVAJ6ActionOGSgvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC5store22ComposableArchitecture5StoreCy07FeatureA00aH0V5StateVAJ6ActionOGSgvM",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewStore",
+            "printedName": "viewStore",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ComposableArchitecture.ViewStore<FeatureWorkout.WorkoutFeature.State, FeatureWorkout.WorkoutFeature.Action>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewStore",
+                    "printedName": "ComposableArchitecture.ViewStore<FeatureWorkout.WorkoutFeature.State, FeatureWorkout.WorkoutFeature.Action>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "FeatureWorkout.WorkoutFeature.State",
+                        "usr": "s:14FeatureWorkout0bA0V5StateV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "FeatureWorkout.WorkoutFeature.Action",
+                        "usr": "s:14FeatureWorkout0bA0V6ActionO"
+                      }
+                    ],
+                    "usr": "s:22ComposableArchitecture9ViewStoreC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WorkoutFramework0A7HandlerC9viewStore22ComposableArchitecture04ViewE0Cy07FeatureA00aI0V5StateVAJ6ActionOGSgvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC9viewStore22ComposableArchitecture04ViewE0Cy07FeatureA00aI0V5StateVAJ6ActionOGSgvp",
+            "moduleName": "WorkoutFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ComposableArchitecture.ViewStore<FeatureWorkout.WorkoutFeature.State, FeatureWorkout.WorkoutFeature.Action>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewStore",
+                        "printedName": "ComposableArchitecture.ViewStore<FeatureWorkout.WorkoutFeature.State, FeatureWorkout.WorkoutFeature.Action>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "FeatureWorkout.WorkoutFeature.State",
+                            "usr": "s:14FeatureWorkout0bA0V5StateV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "FeatureWorkout.WorkoutFeature.Action",
+                            "usr": "s:14FeatureWorkout0bA0V6ActionO"
+                          }
+                        ],
+                        "usr": "s:22ComposableArchitecture9ViewStoreC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC9viewStore22ComposableArchitecture04ViewE0Cy07FeatureA00aI0V5StateVAJ6ActionOGSgvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC9viewStore22ComposableArchitecture04ViewE0Cy07FeatureA00aI0V5StateVAJ6ActionOGSgvg",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ComposableArchitecture.ViewStore<FeatureWorkout.WorkoutFeature.State, FeatureWorkout.WorkoutFeature.Action>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewStore",
+                        "printedName": "ComposableArchitecture.ViewStore<FeatureWorkout.WorkoutFeature.State, FeatureWorkout.WorkoutFeature.Action>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "FeatureWorkout.WorkoutFeature.State",
+                            "usr": "s:14FeatureWorkout0bA0V5StateV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Action",
+                            "printedName": "FeatureWorkout.WorkoutFeature.Action",
+                            "usr": "s:14FeatureWorkout0bA0V6ActionO"
+                          }
+                        ],
+                        "usr": "s:22ComposableArchitecture9ViewStoreC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC9viewStore22ComposableArchitecture04ViewE0Cy07FeatureA00aI0V5StateVAJ6ActionOGSgvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC9viewStore22ComposableArchitecture04ViewE0Cy07FeatureA00aI0V5StateVAJ6ActionOGSgvs",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC9viewStore22ComposableArchitecture04ViewE0Cy07FeatureA00aI0V5StateVAJ6ActionOGSgvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC9viewStore22ComposableArchitecture04ViewE0Cy07FeatureA00aI0V5StateVAJ6ActionOGSgvM",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "runningExerciseTimeString",
             "printedName": "runningExerciseTimeString",
             "children": [
@@ -243,10 +594,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC25runningExerciseTimeStringSSvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC25runningExerciseTimeStringSSvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -266,6 +619,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC25runningExerciseTimeStringSSvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -290,6 +644,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC25runningExerciseTimeStringSSvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -318,6 +673,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC25runningExerciseTimeStringSSvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -349,6 +705,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC26$runningExerciseTimeString7Combine9PublishedV9PublisherVySS_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -367,6 +724,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC26$runningExerciseTimeString7Combine9PublishedV9PublisherVySS_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -391,6 +749,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC26$runningExerciseTimeString7Combine9PublishedV9PublisherVySS_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -419,6 +778,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC26$runningExerciseTimeString7Combine9PublishedV9PublisherVySS_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -449,10 +809,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC11workoutNameSSvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC11workoutNameSSvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -472,6 +834,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC11workoutNameSSvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -496,6 +859,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC11workoutNameSSvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -524,6 +888,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC11workoutNameSSvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -555,6 +920,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC12$workoutName7Combine9PublishedV9PublisherVySS_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -573,6 +939,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC12$workoutName7Combine9PublishedV9PublisherVySS_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -597,6 +964,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC12$workoutName7Combine9PublishedV9PublisherVySS_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -625,6 +993,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC12$workoutName7Combine9PublishedV9PublisherVySS_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -655,10 +1024,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC12exerciseNameSSvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC12exerciseNameSSvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -678,6 +1049,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC12exerciseNameSSvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -702,6 +1074,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC12exerciseNameSSvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -730,6 +1103,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC12exerciseNameSSvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -761,6 +1135,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC13$exerciseName7Combine9PublishedV9PublisherVySS_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -779,6 +1154,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC13$exerciseName7Combine9PublishedV9PublisherVySS_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -803,6 +1179,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC13$exerciseName7Combine9PublishedV9PublisherVySS_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -831,6 +1208,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC13$exerciseName7Combine9PublishedV9PublisherVySS_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -861,10 +1239,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC6status12CommonModels0A6StatusOvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC6status12CommonModels0A6StatusOvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -884,6 +1264,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC6status12CommonModels0A6StatusOvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -908,6 +1289,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC6status12CommonModels0A6StatusOvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -936,6 +1318,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC6status12CommonModels0A6StatusOvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -967,6 +1350,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC7$status7Combine9PublishedV9PublisherVy12CommonModels0A6StatusO_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -985,6 +1369,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC7$status7Combine9PublishedV9PublisherVy12CommonModels0A6StatusO_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -1009,6 +1394,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC7$status7Combine9PublishedV9PublisherVy12CommonModels0A6StatusO_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -1037,6 +1423,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC7$status7Combine9PublishedV9PublisherVy12CommonModels0A6StatusO_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -1075,10 +1462,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC4repsSSSgvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC4repsSSSgvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -1106,6 +1495,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC4repsSSSgvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -1138,6 +1528,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC4repsSSSgvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -1166,6 +1557,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC4repsSSSgvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -1197,6 +1589,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC5$reps7Combine9PublishedV9PublisherVySSSg_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1215,6 +1608,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC5$reps7Combine9PublishedV9PublisherVySSSg_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -1239,6 +1633,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC5$reps7Combine9PublishedV9PublisherVySSSg_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -1267,6 +1662,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC5$reps7Combine9PublishedV9PublisherVySSSg_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -1305,10 +1701,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC19exerciseRepetitionsSSSgvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC19exerciseRepetitionsSSSgvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -1336,6 +1734,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC19exerciseRepetitionsSSSgvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -1368,6 +1767,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC19exerciseRepetitionsSSSgvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -1396,6 +1796,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC19exerciseRepetitionsSSSgvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -1427,6 +1828,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC20$exerciseRepetitions7Combine9PublishedV9PublisherVySSSg_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1445,6 +1847,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC20$exerciseRepetitions7Combine9PublishedV9PublisherVySSSg_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -1469,6 +1872,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC20$exerciseRepetitions7Combine9PublishedV9PublisherVySSSg_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -1497,6 +1901,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC20$exerciseRepetitions7Combine9PublishedV9PublisherVySSSg_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -1535,10 +1940,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC24parentExerciseTimeStringSSSgvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC24parentExerciseTimeStringSSSgvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -1566,6 +1973,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC24parentExerciseTimeStringSSSgvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -1598,6 +2006,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC24parentExerciseTimeStringSSSgvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -1626,6 +2035,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC24parentExerciseTimeStringSSSgvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -1657,6 +2067,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC25$parentExerciseTimeString7Combine9PublishedV9PublisherVySSSg_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1675,6 +2086,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC25$parentExerciseTimeString7Combine9PublishedV9PublisherVySSSg_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -1699,6 +2111,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC25$parentExerciseTimeString7Combine9PublishedV9PublisherVySSSg_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -1727,6 +2140,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC25$parentExerciseTimeString7Combine9PublishedV9PublisherVySSSg_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -1765,10 +2179,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC18parentExerciseNameSSSgvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC18parentExerciseNameSSSgvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -1796,6 +2212,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC18parentExerciseNameSSSgvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -1828,6 +2245,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC18parentExerciseNameSSSgvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -1856,6 +2274,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC18parentExerciseNameSSSgvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -1887,6 +2306,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC19$parentExerciseName7Combine9PublishedV9PublisherVySSSg_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1905,6 +2325,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC19$parentExerciseName7Combine9PublishedV9PublisherVySSSg_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -1929,6 +2350,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC19$parentExerciseName7Combine9PublishedV9PublisherVySSSg_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -1957,6 +2379,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC19$parentExerciseName7Combine9PublishedV9PublisherVySSSg_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -1995,10 +2418,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC16nextExerciseNameSSSgvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC16nextExerciseNameSSSgvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -2026,6 +2451,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC16nextExerciseNameSSSgvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -2058,6 +2484,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC16nextExerciseNameSSSgvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -2086,6 +2513,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC16nextExerciseNameSSSgvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -2117,6 +2545,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC17$nextExerciseName7Combine9PublishedV9PublisherVySSSg_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -2135,6 +2564,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC17$nextExerciseName7Combine9PublishedV9PublisherVySSSg_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -2159,6 +2589,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC17$nextExerciseName7Combine9PublishedV9PublisherVySSSg_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -2187,6 +2618,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC17$nextExerciseName7Combine9PublishedV9PublisherVySSSg_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -2217,10 +2649,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC16exerciseHasMediaSbvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC16exerciseHasMediaSbvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -2240,6 +2674,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC16exerciseHasMediaSbvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -2264,6 +2699,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC16exerciseHasMediaSbvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -2292,6 +2728,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC16exerciseHasMediaSbvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -2323,6 +2760,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC17$exerciseHasMedia7Combine9PublishedV9PublisherVySb_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -2341,6 +2779,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC17$exerciseHasMedia7Combine9PublishedV9PublisherVySb_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -2365,6 +2804,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC17$exerciseHasMedia7Combine9PublishedV9PublisherVySb_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -2393,6 +2833,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC17$exerciseHasMedia7Combine9PublishedV9PublisherVySb_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -2431,10 +2872,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC5media12CommonModels5MediaVSgvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC5media12CommonModels5MediaVSgvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -2462,6 +2905,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC5media12CommonModels5MediaVSgvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -2494,6 +2938,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC5media12CommonModels5MediaVSgvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -2522,6 +2967,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC5media12CommonModels5MediaVSgvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -2553,6 +2999,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC6$media7Combine9PublishedV9PublisherVy12CommonModels5MediaVSg_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -2571,6 +3018,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC6$media7Combine9PublishedV9PublisherVy12CommonModels5MediaVSg_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -2595,6 +3043,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC6$media7Combine9PublishedV9PublisherVy12CommonModels5MediaVSg_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -2623,6 +3072,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC6$media7Combine9PublishedV9PublisherVy12CommonModels5MediaVSg_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -2661,10 +3111,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC6playerSo8AVPlayerCSgvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC6playerSo8AVPlayerCSgvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -2692,6 +3144,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC6playerSo8AVPlayerCSgvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -2724,6 +3177,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC6playerSo8AVPlayerCSgvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -2752,6 +3206,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC6playerSo8AVPlayerCSgvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -2783,6 +3238,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC7$player7Combine9PublishedV9PublisherVySo8AVPlayerCSg_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -2801,6 +3257,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC7$player7Combine9PublishedV9PublisherVySo8AVPlayerCSg_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -2825,6 +3282,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC7$player7Combine9PublishedV9PublisherVySo8AVPlayerCSg_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -2853,6 +3311,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC7$player7Combine9PublishedV9PublisherVySo8AVPlayerCSg_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -2891,10 +3350,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -2922,6 +3383,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -2954,6 +3416,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -2982,6 +3445,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -3013,6 +3477,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -3031,6 +3496,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -3055,6 +3521,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -3083,6 +3550,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -3121,10 +3589,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC26runningExerciseCurrentTimeSdSgvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC26runningExerciseCurrentTimeSdSgvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -3152,6 +3622,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC26runningExerciseCurrentTimeSdSgvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -3184,6 +3655,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC26runningExerciseCurrentTimeSdSgvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -3212,6 +3684,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC26runningExerciseCurrentTimeSdSgvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -3243,6 +3716,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC27$runningExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -3261,6 +3735,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC27$runningExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -3285,6 +3760,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC27$runningExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -3313,6 +3789,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC27$runningExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -3351,10 +3828,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC28runningExerciseTotalDurationSdSgvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC28runningExerciseTotalDurationSdSgvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -3382,6 +3861,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC28runningExerciseTotalDurationSdSgvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -3414,6 +3894,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC28runningExerciseTotalDurationSdSgvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -3442,6 +3923,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC28runningExerciseTotalDurationSdSgvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -3473,6 +3955,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC29$runningExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -3491,6 +3974,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC29$runningExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -3515,6 +3999,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC29$runningExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -3543,6 +4028,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC29$runningExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -3581,10 +4067,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC25parentExerciseCurrentTimeSdSgvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC25parentExerciseCurrentTimeSdSgvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -3612,6 +4100,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC25parentExerciseCurrentTimeSdSgvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -3644,6 +4133,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC25parentExerciseCurrentTimeSdSgvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -3672,6 +4162,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC25parentExerciseCurrentTimeSdSgvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -3703,6 +4194,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC26$parentExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -3721,6 +4213,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC26$parentExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -3745,6 +4238,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC26$parentExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -3773,6 +4267,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC26$parentExerciseCurrentTime7Combine9PublishedV9PublisherVySdSg_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -3811,10 +4306,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC27parentExerciseTotalDurationSdSgvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC27parentExerciseTotalDurationSdSgvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -3842,6 +4339,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC27parentExerciseTotalDurationSdSgvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -3874,6 +4372,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC27parentExerciseTotalDurationSdSgvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -3902,6 +4401,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC27parentExerciseTotalDurationSdSgvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -3933,6 +4433,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC28$parentExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -3951,6 +4452,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC28$parentExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -3975,6 +4477,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC28$parentExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -4003,6 +4506,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC28$parentExerciseTotalDuration7Combine9PublishedV9PublisherVySdSg_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -4041,10 +4545,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC16workoutTotalTimeSdSgvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC16workoutTotalTimeSdSgvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -4072,6 +4578,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC16workoutTotalTimeSdSgvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -4104,6 +4611,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC16workoutTotalTimeSdSgvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -4132,6 +4640,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC16workoutTotalTimeSdSgvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -4163,6 +4672,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC17$workoutTotalTime7Combine9PublishedV9PublisherVySdSg_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -4181,6 +4691,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC17$workoutTotalTime7Combine9PublishedV9PublisherVySdSg_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -4205,6 +4716,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC17$workoutTotalTime7Combine9PublishedV9PublisherVySdSg_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -4233,6 +4745,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC17$workoutTotalTime7Combine9PublishedV9PublisherVySdSg_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -4271,10 +4784,12 @@
             "usr": "s:16WorkoutFramework0A7HandlerC15runningExercise12CommonModels0E0VSgvp",
             "mangledName": "$s16WorkoutFramework0A7HandlerC15runningExercise12CommonModels0E0VSgvp",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "ProjectedValueProperty",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -4302,6 +4817,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC15runningExercise12CommonModels0E0VSgvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -4334,6 +4850,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC15runningExercise12CommonModels0E0VSgvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -4362,6 +4879,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC15runningExercise12CommonModels0E0VSgvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "10.15",
                 "intro_iOS": "13.0",
                 "intro_tvOS": "13.0",
@@ -4393,6 +4911,7 @@
             "mangledName": "$s16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels0E0VSg_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
+            "isOpen": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -4411,6 +4930,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels0E0VSg_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -4435,6 +4955,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels0E0VSg_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -4463,6 +4984,7 @@
                 "mangledName": "$s16WorkoutFramework0A7HandlerC16$runningExercise7Combine9PublishedV9PublisherVy12CommonModels0E0VSg_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
+                "isOpen": true,
                 "intro_Macosx": "11.0",
                 "intro_iOS": "14.0",
                 "intro_tvOS": "14.0",
@@ -4519,8 +5041,10 @@
             "usr": "s:16WorkoutFramework0A7HandlerC10initialize8exercisey12CommonModels8ExerciseV_tF",
             "mangledName": "$s16WorkoutFramework0A7HandlerC10initialize8exercisey12CommonModels8ExerciseV_tF",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4539,8 +5063,10 @@
             "usr": "s:16WorkoutFramework0A7HandlerC05startA0yyF",
             "mangledName": "$s16WorkoutFramework0A7HandlerC05startA0yyF",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4559,8 +5085,10 @@
             "usr": "s:16WorkoutFramework0A7HandlerC05pauseA0yyF",
             "mangledName": "$s16WorkoutFramework0A7HandlerC05pauseA0yyF",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4579,8 +5107,10 @@
             "usr": "s:16WorkoutFramework0A7HandlerC06resumeA0yyF",
             "mangledName": "$s16WorkoutFramework0A7HandlerC06resumeA0yyF",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4599,8 +5129,10 @@
             "usr": "s:16WorkoutFramework0A7HandlerC9nextRoundyyF",
             "mangledName": "$s16WorkoutFramework0A7HandlerC9nextRoundyyF",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4619,8 +5151,10 @@
             "usr": "s:16WorkoutFramework0A7HandlerC13previousRoundyyF",
             "mangledName": "$s16WorkoutFramework0A7HandlerC13previousRoundyyF",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4648,9 +5182,11 @@
             "usr": "s:16WorkoutFramework0A7HandlerC03endA0SSSgyF",
             "mangledName": "$s16WorkoutFramework0A7HandlerC03endA0SSSgyF",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
-              "DiscardableResult"
+              "DiscardableResult",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4669,8 +5205,32 @@
             "usr": "s:16WorkoutFramework0A7HandlerC9muteVideoyyF",
             "mangledName": "$s16WorkoutFramework0A7HandlerC9muteVideoyyF",
             "moduleName": "WorkoutFramework",
+            "isOpen": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshMedia",
+            "printedName": "refreshMedia()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WorkoutFramework0A7HandlerC12refreshMediayyF",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC12refreshMediayyF",
+            "moduleName": "WorkoutFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -4679,6 +5239,7 @@
         "usr": "s:16WorkoutFramework0A7HandlerC",
         "mangledName": "$s16WorkoutFramework0A7HandlerC",
         "moduleName": "WorkoutFramework",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl"
         ],
@@ -4712,30 +5273,30 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 926,
+      "offset": 963,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 977,
+      "offset": 1038,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1029,
+      "offset": 1115,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
+      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1400,
+      "offset": 1858,
       "length": 5,
       "value": "false"
     }
