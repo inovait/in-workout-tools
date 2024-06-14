@@ -23,7 +23,9 @@ Please checkout the sample apps found here:
 The main struct holding neccessary workout data is `Exercise`.
 
 Example:
-`Exercise(id: "1", name: "Test Exercise", type: .exercise, durationInMillis: 5 * 1000, idx: 10, exerciseRepetition: 5, reps: 0, loopSubExercises: false, canSkipExercise: true, subExercises: [])`
+```swift
+Exercise(id: "1", name: "Test Exercise", type: .exercise, durationInMillis: 5 * 1000, idx: 10, exerciseRepetition: 5, data: .int(0), loopSubExercises: false, canSkipExercise: true, subExercises: [])
+```
 
 This exercise named `Text Exercise` will be running for 5 seconds and will be repeated 5 times (lasting in total 25 seconds).
 
