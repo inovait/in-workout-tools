@@ -19,6 +19,25 @@ import CommonModels
 
 public extension PersistenceKey where Self == FileStorageKey<[Exercise]> {
     static var workouts: Self {
-        fileStorage(RecorderWrapper().builtWorkoutsFile)
+        fileStorage(builtWorkoutsFile)
     }
 }
+
+private func _builtWorkoutsDirectory() -> URL {
+    let folder = "BuiltWorkoutsFolder"
+    let documentDirectory = NSURL(
+        fileURLWithPath: NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
+    )
+    if let dirPath = documentDirectory.appendingPathComponent(folder, isDirectory: true), !FileManager.default.fileExists(atPath: dirPath.path) {
+        do {
+            try FileManager.default.createDirectory(atPath: dirPath.path, withIntermediateDirectories: true, attributes: nil)
+        } catch let error {
+            assertionFailure("\(error)")
+        }
+    }
+    let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+    let documentsDirectory = paths[0]
+    return documentsDirectory.appendingPathComponent(folder, isDirectory: true)
+}
+
+private let builtWorkoutsFile = _builtWorkoutsDirectory().appendingPathComponent("builtWorkoutsFile")
