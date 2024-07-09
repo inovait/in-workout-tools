@@ -103,14 +103,15 @@ public enum IntermediateFileKeywords : Swift.String {
 }
 public struct Media : Swift.Equatable, Swift.Identifiable, Swift.Codable, Swift.Hashable {
   public let id: Foundation.UUID
-  public let url: Foundation.URL?
   public let height: CoreFoundation.CGFloat?
   public let width: CoreFoundation.CGFloat?
   public let duration: CoreFoundation.CGFloat?
   public let type: Swift.String
   public let mimeType: CommonModels.Media.MimeType
   public let loopVideo: Swift.Bool?
-  public init(url: Foundation.URL?, height: CoreFoundation.CGFloat? = nil, width: CoreFoundation.CGFloat? = nil, duration: CoreFoundation.CGFloat? = nil, type: Swift.String, loopVideo: Swift.Bool? = nil)
+  public var name: Swift.String?
+  public var url: Foundation.URL?
+  public init(url: Foundation.URL?, height: CoreFoundation.CGFloat? = nil, width: CoreFoundation.CGFloat? = nil, duration: CoreFoundation.CGFloat? = nil, type: Swift.String, loopVideo: Swift.Bool? = nil, name: Swift.String? = nil)
   public enum MimeType : Swift.String, Swift.Codable, Swift.Equatable {
     case jpg
     case gif
@@ -145,6 +146,53 @@ public struct Media : Swift.Equatable, Swift.Identifiable, Swift.Codable, Swift.
   }
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct RecordedWorkout : Swift.Equatable {
+  public let timestamp: Foundation.TimeInterval
+  public let duration: Swift.Int
+  public let name: Swift.String
+  public let url: Foundation.URL?
+  public let breakdown: [CommonModels.RecordedBreakdownItem]
+  public init(timestamp: Foundation.TimeInterval, duration: Swift.Int, name: Swift.String, breakdown: [CommonModels.RecordedBreakdownItem], url: Foundation.URL? = nil)
+  public var exercisesDisplay: Swift.String {
+    get
+  }
+  public static func == (a: CommonModels.RecordedWorkout, b: CommonModels.RecordedWorkout) -> Swift.Bool
+}
+public struct RecordedBreakdownItem : Swift.Equatable, Swift.Hashable {
+  public let roundIdx: Swift.Int?
+  public let timestamp: Swift.Int
+  public let type: CommonModels.RecordedBreakdownType
+  public let duration: Swift.Int
+  public let exerciseName: Swift.String?
+  public init(roundIdx: Swift.Int?, timestamp: Swift.Int, type: CommonModels.RecordedBreakdownType, duration: Swift.Int, exerciseName: Swift.String?)
+  public static func == (a: CommonModels.RecordedBreakdownItem, b: CommonModels.RecordedBreakdownItem) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum RecordedBreakdownType : Swift.Equatable {
+  case start
+  case sessionStarted
+  case sessionEnded
+  case roundStarted
+  case roundEnded
+  case stop
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: CommonModels.RecordedBreakdownType, b: CommonModels.RecordedBreakdownType) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension Swift.Array where Element == CommonModels.RecordedBreakdownItem {
+  public func toExercises() -> [CommonModels.Exercise]
+}
+extension Swift.Int {
+  public func toMillis() -> Foundation.TimeInterval
+}
+extension CommonModels.RecordedWorkout {
+  public static func fromUrl(url: Foundation.URL, name: Swift.String) -> CommonModels.RecordedWorkout?
+}
 public enum WorkoutStatus {
   case none
   case started
@@ -165,5 +213,6 @@ extension CommonModels.IntermediateFileKeywords : Swift.Hashable {}
 extension CommonModels.IntermediateFileKeywords : Swift.RawRepresentable {}
 extension CommonModels.Media.MimeType : Swift.Hashable {}
 extension CommonModels.Media.MimeType : Swift.RawRepresentable {}
+extension CommonModels.RecordedBreakdownType : Swift.Hashable {}
 extension CommonModels.WorkoutStatus : Swift.Equatable {}
 extension CommonModels.WorkoutStatus : Swift.Hashable {}

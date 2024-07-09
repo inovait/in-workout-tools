@@ -3552,66 +3552,6 @@
           },
           {
             "kind": "Var",
-            "name": "url",
-            "printedName": "url",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.URL?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12CommonModels5MediaV3url10Foundation3URLVSgvp",
-            "mangledName": "$s12CommonModels5MediaV3url10Foundation3URLVSgvp",
-            "moduleName": "CommonModels",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Foundation.URL?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "URL",
-                        "printedName": "Foundation.URL",
-                        "usr": "s:10Foundation3URLV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12CommonModels5MediaV3url10Foundation3URLVSgvg",
-                "mangledName": "$s12CommonModels5MediaV3url10Foundation3URLVSgvg",
-                "moduleName": "CommonModels",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "height",
             "printedName": "height",
             "children": [
@@ -3939,9 +3879,229 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels5MediaV4nameSSSgvp",
+            "mangledName": "$s12CommonModels5MediaV4nameSSSgvp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels5MediaV4nameSSSgvg",
+                "mangledName": "$s12CommonModels5MediaV4nameSSSgvg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels5MediaV4nameSSSgvs",
+                "mangledName": "$s12CommonModels5MediaV4nameSSSgvs",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels5MediaV4nameSSSgvM",
+                "mangledName": "$s12CommonModels5MediaV4nameSSSgvM",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels5MediaV3url10Foundation3URLVSgvp",
+            "mangledName": "$s12CommonModels5MediaV3url10Foundation3URLVSgvp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels5MediaV3url10Foundation3URLVSgvg",
+                "mangledName": "$s12CommonModels5MediaV3url10Foundation3URLVSgvg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels5MediaV3url10Foundation3URLVSgvs",
+                "mangledName": "$s12CommonModels5MediaV3url10Foundation3URLVSgvs",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels5MediaV3url10Foundation3URLVSgvM",
+                "mangledName": "$s12CommonModels5MediaV3url10Foundation3URLVSgvM",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(url:height:width:duration:type:loopVideo:)",
+            "printedName": "init(url:height:width:duration:type:loopVideo:name:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4028,11 +4188,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12CommonModels5MediaV3url6height5width8duration4type9loopVideoAC10Foundation3URLVSg_04CoreK07CGFloatVSgA2QSSSbSgtcfc",
-            "mangledName": "$s12CommonModels5MediaV3url6height5width8duration4type9loopVideoAC10Foundation3URLVSg_12CoreGraphics7CGFloatVSgA2QSSSbSgtcfc",
+            "usr": "s:12CommonModels5MediaV3url6height5width8duration4type9loopVideo4nameAC10Foundation3URLVSg_04CoreL07CGFloatVSgA2RSSSbSgSSSgtcfc",
+            "mangledName": "$s12CommonModels5MediaV3url6height5width8duration4type9loopVideo4nameAC10Foundation3URLVSg_12CoreGraphics7CGFloatVSgA2RSSSbSgSSSgtcfc",
             "moduleName": "CommonModels",
             "declAttributes": [
               "AccessControl"
@@ -4851,6 +5026,1264 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "RecordedWorkout",
+        "printedName": "RecordedWorkout",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels15RecordedWorkoutV9timestampSdvp",
+            "mangledName": "$s12CommonModels15RecordedWorkoutV9timestampSdvp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels15RecordedWorkoutV9timestampSdvg",
+                "mangledName": "$s12CommonModels15RecordedWorkoutV9timestampSdvg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "duration",
+            "printedName": "duration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels15RecordedWorkoutV8durationSivp",
+            "mangledName": "$s12CommonModels15RecordedWorkoutV8durationSivp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels15RecordedWorkoutV8durationSivg",
+                "mangledName": "$s12CommonModels15RecordedWorkoutV8durationSivg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels15RecordedWorkoutV4nameSSvp",
+            "mangledName": "$s12CommonModels15RecordedWorkoutV4nameSSvp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels15RecordedWorkoutV4nameSSvg",
+                "mangledName": "$s12CommonModels15RecordedWorkoutV4nameSSvg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels15RecordedWorkoutV3url10Foundation3URLVSgvp",
+            "mangledName": "$s12CommonModels15RecordedWorkoutV3url10Foundation3URLVSgvp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels15RecordedWorkoutV3url10Foundation3URLVSgvg",
+                "mangledName": "$s12CommonModels15RecordedWorkoutV3url10Foundation3URLVSgvg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "breakdown",
+            "printedName": "breakdown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CommonModels.RecordedBreakdownItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordedBreakdownItem",
+                    "printedName": "CommonModels.RecordedBreakdownItem",
+                    "usr": "s:12CommonModels21RecordedBreakdownItemV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels15RecordedWorkoutV9breakdownSayAA0C13BreakdownItemVGvp",
+            "mangledName": "$s12CommonModels15RecordedWorkoutV9breakdownSayAA0C13BreakdownItemVGvp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CommonModels.RecordedBreakdownItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RecordedBreakdownItem",
+                        "printedName": "CommonModels.RecordedBreakdownItem",
+                        "usr": "s:12CommonModels21RecordedBreakdownItemV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels15RecordedWorkoutV9breakdownSayAA0C13BreakdownItemVGvg",
+                "mangledName": "$s12CommonModels15RecordedWorkoutV9breakdownSayAA0C13BreakdownItemVGvg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(timestamp:duration:name:breakdown:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RecordedWorkout",
+                "printedName": "CommonModels.RecordedWorkout",
+                "usr": "s:12CommonModels15RecordedWorkoutV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CommonModels.RecordedBreakdownItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordedBreakdownItem",
+                    "printedName": "CommonModels.RecordedBreakdownItem",
+                    "usr": "s:12CommonModels21RecordedBreakdownItemV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12CommonModels15RecordedWorkoutV9timestamp8duration4name9breakdown3urlACSd_SiSSSayAA0C13BreakdownItemVG10Foundation3URLVSgtcfc",
+            "mangledName": "$s12CommonModels15RecordedWorkoutV9timestamp8duration4name9breakdown3urlACSd_SiSSSayAA0C13BreakdownItemVG10Foundation3URLVSgtcfc",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "exercisesDisplay",
+            "printedName": "exercisesDisplay",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels15RecordedWorkoutV16exercisesDisplaySSvp",
+            "mangledName": "$s12CommonModels15RecordedWorkoutV16exercisesDisplaySSvp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels15RecordedWorkoutV16exercisesDisplaySSvg",
+                "mangledName": "$s12CommonModels15RecordedWorkoutV16exercisesDisplaySSvg",
+                "moduleName": "CommonModels",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RecordedWorkout",
+                "printedName": "CommonModels.RecordedWorkout",
+                "usr": "s:12CommonModels15RecordedWorkoutV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RecordedWorkout",
+                "printedName": "CommonModels.RecordedWorkout",
+                "usr": "s:12CommonModels15RecordedWorkoutV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CommonModels15RecordedWorkoutV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12CommonModels15RecordedWorkoutV2eeoiySbAC_ACtFZ",
+            "moduleName": "CommonModels",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fromUrl",
+            "printedName": "fromUrl(url:name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CommonModels.RecordedWorkout?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordedWorkout",
+                    "printedName": "CommonModels.RecordedWorkout",
+                    "usr": "s:12CommonModels15RecordedWorkoutV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CommonModels15RecordedWorkoutV7fromUrl3url4nameACSg10Foundation3URLV_SStFZ",
+            "mangledName": "$s12CommonModels15RecordedWorkoutV7fromUrl3url4nameACSg10Foundation3URLV_SStFZ",
+            "moduleName": "CommonModels",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12CommonModels15RecordedWorkoutV",
+        "mangledName": "$s12CommonModels15RecordedWorkoutV",
+        "moduleName": "CommonModels",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RecordedBreakdownItem",
+        "printedName": "RecordedBreakdownItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "roundIdx",
+            "printedName": "roundIdx",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels21RecordedBreakdownItemV8roundIdxSiSgvp",
+            "mangledName": "$s12CommonModels21RecordedBreakdownItemV8roundIdxSiSgvp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels21RecordedBreakdownItemV8roundIdxSiSgvg",
+                "mangledName": "$s12CommonModels21RecordedBreakdownItemV8roundIdxSiSgvg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels21RecordedBreakdownItemV9timestampSivp",
+            "mangledName": "$s12CommonModels21RecordedBreakdownItemV9timestampSivp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels21RecordedBreakdownItemV9timestampSivg",
+                "mangledName": "$s12CommonModels21RecordedBreakdownItemV9timestampSivg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RecordedBreakdownType",
+                "printedName": "CommonModels.RecordedBreakdownType",
+                "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels21RecordedBreakdownItemV4typeAA0cD4TypeOvp",
+            "mangledName": "$s12CommonModels21RecordedBreakdownItemV4typeAA0cD4TypeOvp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordedBreakdownType",
+                    "printedName": "CommonModels.RecordedBreakdownType",
+                    "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels21RecordedBreakdownItemV4typeAA0cD4TypeOvg",
+                "mangledName": "$s12CommonModels21RecordedBreakdownItemV4typeAA0cD4TypeOvg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "duration",
+            "printedName": "duration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels21RecordedBreakdownItemV8durationSivp",
+            "mangledName": "$s12CommonModels21RecordedBreakdownItemV8durationSivp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels21RecordedBreakdownItemV8durationSivg",
+                "mangledName": "$s12CommonModels21RecordedBreakdownItemV8durationSivg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "exerciseName",
+            "printedName": "exerciseName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels21RecordedBreakdownItemV12exerciseNameSSSgvp",
+            "mangledName": "$s12CommonModels21RecordedBreakdownItemV12exerciseNameSSSgvp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels21RecordedBreakdownItemV12exerciseNameSSSgvg",
+                "mangledName": "$s12CommonModels21RecordedBreakdownItemV12exerciseNameSSSgvg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(roundIdx:timestamp:type:duration:exerciseName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RecordedBreakdownItem",
+                "printedName": "CommonModels.RecordedBreakdownItem",
+                "usr": "s:12CommonModels21RecordedBreakdownItemV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RecordedBreakdownType",
+                "printedName": "CommonModels.RecordedBreakdownType",
+                "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12CommonModels21RecordedBreakdownItemV8roundIdx9timestamp4type8duration12exerciseNameACSiSg_SiAA0cD4TypeOSiSSSgtcfc",
+            "mangledName": "$s12CommonModels21RecordedBreakdownItemV8roundIdx9timestamp4type8duration12exerciseNameACSiSg_SiAA0cD4TypeOSiSSSgtcfc",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RecordedBreakdownItem",
+                "printedName": "CommonModels.RecordedBreakdownItem",
+                "usr": "s:12CommonModels21RecordedBreakdownItemV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RecordedBreakdownItem",
+                "printedName": "CommonModels.RecordedBreakdownItem",
+                "usr": "s:12CommonModels21RecordedBreakdownItemV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CommonModels21RecordedBreakdownItemV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12CommonModels21RecordedBreakdownItemV2eeoiySbAC_ACtFZ",
+            "moduleName": "CommonModels",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels21RecordedBreakdownItemV9hashValueSivp",
+            "mangledName": "$s12CommonModels21RecordedBreakdownItemV9hashValueSivp",
+            "moduleName": "CommonModels",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels21RecordedBreakdownItemV9hashValueSivg",
+                "mangledName": "$s12CommonModels21RecordedBreakdownItemV9hashValueSivg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CommonModels21RecordedBreakdownItemV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12CommonModels21RecordedBreakdownItemV4hash4intoys6HasherVz_tF",
+            "moduleName": "CommonModels",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12CommonModels21RecordedBreakdownItemV",
+        "mangledName": "$s12CommonModels21RecordedBreakdownItemV",
+        "moduleName": "CommonModels",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RecordedBreakdownType",
+        "printedName": "RecordedBreakdownType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "start",
+            "printedName": "start",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.RecordedBreakdownType.Type) -> CommonModels.RecordedBreakdownType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordedBreakdownType",
+                    "printedName": "CommonModels.RecordedBreakdownType",
+                    "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.RecordedBreakdownType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RecordedBreakdownType",
+                        "printedName": "CommonModels.RecordedBreakdownType",
+                        "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels21RecordedBreakdownTypeO5startyA2CmF",
+            "mangledName": "$s12CommonModels21RecordedBreakdownTypeO5startyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "sessionStarted",
+            "printedName": "sessionStarted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.RecordedBreakdownType.Type) -> CommonModels.RecordedBreakdownType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordedBreakdownType",
+                    "printedName": "CommonModels.RecordedBreakdownType",
+                    "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.RecordedBreakdownType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RecordedBreakdownType",
+                        "printedName": "CommonModels.RecordedBreakdownType",
+                        "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels21RecordedBreakdownTypeO14sessionStartedyA2CmF",
+            "mangledName": "$s12CommonModels21RecordedBreakdownTypeO14sessionStartedyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "sessionEnded",
+            "printedName": "sessionEnded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.RecordedBreakdownType.Type) -> CommonModels.RecordedBreakdownType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordedBreakdownType",
+                    "printedName": "CommonModels.RecordedBreakdownType",
+                    "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.RecordedBreakdownType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RecordedBreakdownType",
+                        "printedName": "CommonModels.RecordedBreakdownType",
+                        "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels21RecordedBreakdownTypeO12sessionEndedyA2CmF",
+            "mangledName": "$s12CommonModels21RecordedBreakdownTypeO12sessionEndedyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "roundStarted",
+            "printedName": "roundStarted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.RecordedBreakdownType.Type) -> CommonModels.RecordedBreakdownType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordedBreakdownType",
+                    "printedName": "CommonModels.RecordedBreakdownType",
+                    "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.RecordedBreakdownType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RecordedBreakdownType",
+                        "printedName": "CommonModels.RecordedBreakdownType",
+                        "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels21RecordedBreakdownTypeO12roundStartedyA2CmF",
+            "mangledName": "$s12CommonModels21RecordedBreakdownTypeO12roundStartedyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "roundEnded",
+            "printedName": "roundEnded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.RecordedBreakdownType.Type) -> CommonModels.RecordedBreakdownType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordedBreakdownType",
+                    "printedName": "CommonModels.RecordedBreakdownType",
+                    "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.RecordedBreakdownType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RecordedBreakdownType",
+                        "printedName": "CommonModels.RecordedBreakdownType",
+                        "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels21RecordedBreakdownTypeO10roundEndedyA2CmF",
+            "mangledName": "$s12CommonModels21RecordedBreakdownTypeO10roundEndedyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "stop",
+            "printedName": "stop",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.RecordedBreakdownType.Type) -> CommonModels.RecordedBreakdownType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordedBreakdownType",
+                    "printedName": "CommonModels.RecordedBreakdownType",
+                    "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.RecordedBreakdownType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RecordedBreakdownType",
+                        "printedName": "CommonModels.RecordedBreakdownType",
+                        "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels21RecordedBreakdownTypeO4stopyA2CmF",
+            "mangledName": "$s12CommonModels21RecordedBreakdownTypeO4stopyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels21RecordedBreakdownTypeO9hashValueSivp",
+            "mangledName": "$s12CommonModels21RecordedBreakdownTypeO9hashValueSivp",
+            "moduleName": "CommonModels",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels21RecordedBreakdownTypeO9hashValueSivg",
+                "mangledName": "$s12CommonModels21RecordedBreakdownTypeO9hashValueSivg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CommonModels21RecordedBreakdownTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12CommonModels21RecordedBreakdownTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "CommonModels",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RecordedBreakdownType",
+                "printedName": "CommonModels.RecordedBreakdownType",
+                "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RecordedBreakdownType",
+                "printedName": "CommonModels.RecordedBreakdownType",
+                "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CommonModels21RecordedBreakdownTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12CommonModels21RecordedBreakdownTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "CommonModels",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12CommonModels21RecordedBreakdownTypeO",
+        "mangledName": "$s12CommonModels21RecordedBreakdownTypeO",
+        "moduleName": "CommonModels",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CommonModels",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "WorkoutStatus",
         "printedName": "WorkoutStatus",
         "children": [
@@ -5122,6 +6555,1822 @@
             "mangledName": "$sSH"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Array",
+        "printedName": "Array",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "toExercises",
+            "printedName": "toExercises()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CommonModels.Exercise]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Exercise",
+                    "printedName": "CommonModels.Exercise",
+                    "usr": "s:12CommonModels8ExerciseV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sa12CommonModelsAA21RecordedBreakdownItemVRszlE11toExercisesSayAA8ExerciseVGyF",
+            "mangledName": "$sSa12CommonModelsAA21RecordedBreakdownItemVRszlE11toExercisesSayAA8ExerciseVGyF",
+            "moduleName": "CommonModels",
+            "genericSig": "<τ_0_0 where τ_0_0 == CommonModels.RecordedBreakdownItem>",
+            "sugared_genericSig": "<Element where Element == CommonModels.RecordedBreakdownItem>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getOrNil",
+            "printedName": "getOrNil(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Substring?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sa12CommonModelsSsRszlE8getOrNilySsSgSiF",
+            "mangledName": "$sSa12CommonModelsSsRszlE8getOrNilySsSgSiF",
+            "moduleName": "CommonModels",
+            "genericSig": "<τ_0_0 where τ_0_0 == Swift.Substring>",
+            "sugared_genericSig": "<Element where Element == Swift.Substring>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Sa",
+        "mangledName": "$sSa",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Element>",
+        "declAttributes": [
+          "EagerMove",
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_DestructorSafeContainer",
+            "printedName": "_DestructorSafeContainer",
+            "usr": "s:s24_DestructorSafeContainerP",
+            "mangledName": "$ss24_DestructorSafeContainerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ArrayProtocol",
+            "printedName": "_ArrayProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Buffer",
+                "printedName": "_Buffer",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ArrayBuffer",
+                    "printedName": "Swift._ArrayBuffer<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s12_ArrayBufferV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s14_ArrayProtocolP",
+            "mangledName": "$ss14_ArrayProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RandomAccessCollection",
+            "printedName": "RandomAccessCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sk",
+            "mangledName": "$sSk"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableCollection",
+            "printedName": "MutableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SM",
+            "mangledName": "$sSM"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<[τ_0_0]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArraySlice",
+                    "printedName": "Swift.ArraySlice<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:s10ArraySliceV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSArray",
+                    "printedName": "Foundation.NSArray",
+                    "usr": "c:objc(cs)NSArray"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "EncodableWithConfiguration",
+            "printedName": "EncodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "EncodingConfiguration",
+                "printedName": "EncodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.EncodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26EncodableWithConfigurationP",
+            "mangledName": "$s10Foundation26EncodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DecodableWithConfiguration",
+            "printedName": "DecodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "DecodingConfiguration",
+                "printedName": "DecodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.DecodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26DecodableWithConfigurationP",
+            "mangledName": "$s10Foundation26DecodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<[Swift.UInt8]>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Int",
+        "printedName": "Int",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "toMillis",
+            "printedName": "toMillis()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Si12CommonModelsE8toMillisSdyF",
+            "mangledName": "$sSi12CommonModelsE8toMillisSdyF",
+            "moduleName": "CommonModels",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Si",
+        "mangledName": "$sSi",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FixedWidthInteger",
+            "printedName": "FixedWidthInteger",
+            "usr": "s:s17FixedWidthIntegerP",
+            "mangledName": "$ss17FixedWidthIntegerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedInteger",
+            "printedName": "SignedInteger",
+            "usr": "s:SZ",
+            "mangledName": "$sSZ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinIntegerLiteral",
+            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BinaryInteger",
+            "printedName": "BinaryInteger",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Words",
+                "printedName": "Words",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Words",
+                    "printedName": "Swift.Int.Words",
+                    "usr": "s:Si5WordsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sz",
+            "mangledName": "$sSz"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedNumeric",
+            "printedName": "SignedNumeric",
+            "usr": "s:s13SignedNumericP",
+            "mangledName": "$ss13SignedNumericP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Numeric",
+            "printedName": "Numeric",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Magnitude",
+                "printedName": "Magnitude",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sj",
+            "mangledName": "$sSj"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdditiveArithmetic",
+            "printedName": "AdditiveArithmetic",
+            "usr": "s:s18AdditiveArithmeticP",
+            "mangledName": "$ss18AdditiveArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByIntegerLiteral",
+            "printedName": "ExpressibleByIntegerLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IntegerLiteralType",
+                "printedName": "IntegerLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByIntegerLiteralP",
+            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SIMDScalar",
+            "printedName": "SIMDScalar",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SIMDMaskScalar",
+                "printedName": "SIMDMaskScalar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD2Storage",
+                "printedName": "SIMD2Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2Storage",
+                    "printedName": "Swift.Int.SIMD2Storage",
+                    "usr": "s:Si12SIMD2StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD4Storage",
+                "printedName": "SIMD4Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD4Storage",
+                    "printedName": "Swift.Int.SIMD4Storage",
+                    "usr": "s:Si12SIMD4StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD8Storage",
+                "printedName": "SIMD8Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD8Storage",
+                    "printedName": "Swift.Int.SIMD8Storage",
+                    "usr": "s:Si12SIMD8StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD16Storage",
+                "printedName": "SIMD16Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD16Storage",
+                    "printedName": "Swift.Int.SIMD16Storage",
+                    "usr": "s:Si13SIMD16StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD32Storage",
+                "printedName": "SIMD32Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD32Storage",
+                    "printedName": "Swift.Int.SIMD32Storage",
+                    "usr": "s:Si13SIMD32StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD64Storage",
+                "printedName": "SIMD64Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD64Storage",
+                    "printedName": "Swift.Int.SIMD64Storage",
+                    "usr": "s:Si13SIMD64StorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SIMDScalarP",
+            "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation18_FormatSpecifiableP",
+            "mangledName": "$s10Foundation18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Substring",
+        "printedName": "Substring",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "toIntOrZero",
+            "printedName": "toIntOrZero()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Ss12CommonModelsE11toIntOrZeroSiyF",
+            "mangledName": "$sSs12CommonModelsE11toIntOrZeroSiyF",
+            "moduleName": "CommonModels",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Ss",
+        "mangledName": "$sSs",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StringProtocol",
+            "printedName": "StringProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UTF8View",
+                "printedName": "UTF8View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF8View",
+                    "printedName": "Swift.Substring.UTF8View",
+                    "usr": "s:Ss8UTF8ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UTF16View",
+                "printedName": "UTF16View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF16View",
+                    "printedName": "Swift.Substring.UTF16View",
+                    "usr": "s:Ss9UTF16ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarView",
+                "printedName": "UnicodeScalarView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnicodeScalarView",
+                    "printedName": "Swift.Substring.UnicodeScalarView",
+                    "usr": "s:Ss17UnicodeScalarViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sy",
+            "mangledName": "$sSy"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.Substring>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Substring",
+                        "printedName": "Swift.Substring",
+                        "usr": "s:Ss"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultStringInterpolation",
+                    "printedName": "Swift.DefaultStringInterpolation",
+                    "usr": "s:s26DefaultStringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<Swift.Substring>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Substring",
+                        "printedName": "Swift.Substring",
+                        "usr": "s:Ss"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.Substring>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Substring",
+                        "printedName": "Swift.Substring",
+                        "usr": "s:Ss"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<Swift.Substring>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Substring",
+                        "printedName": "Swift.Substring",
+                        "usr": "s:Ss"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Optional",
+        "printedName": "Optional",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "toIntOrZero",
+            "printedName": "toIntOrZero()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sq12CommonModelsSsRszlE11toIntOrZeroSiyF",
+            "mangledName": "$sSq12CommonModelsSsRszlE11toIntOrZeroSiyF",
+            "moduleName": "CommonModels",
+            "genericSig": "<τ_0_0 where τ_0_0 == Swift.Substring>",
+            "sugared_genericSig": "<Wrapped where Wrapped == Swift.Substring>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toString",
+            "printedName": "toString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sq12CommonModelsSsRszlE8toStringSSyF",
+            "mangledName": "$sSq12CommonModelsSsRszlE8toStringSSyF",
+            "moduleName": "CommonModels",
+            "genericSig": "<τ_0_0 where τ_0_0 == Swift.Substring>",
+            "sugared_genericSig": "<Wrapped where Wrapped == Swift.Substring>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:Sq",
+        "mangledName": "$sSq",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Wrapped>",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByNilLiteral",
+            "printedName": "ExpressibleByNilLiteral",
+            "usr": "s:s23ExpressibleByNilLiteralP",
+            "mangledName": "$ss23ExpressibleByNilLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "EncodableWithConfiguration",
+            "printedName": "EncodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "EncodingConfiguration",
+                "printedName": "EncodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.EncodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26EncodableWithConfigurationP",
+            "mangledName": "$s10Foundation26EncodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DecodableWithConfiguration",
+            "printedName": "DecodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "DecodingConfiguration",
+                "printedName": "DecodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.DecodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26DecodableWithConfigurationP",
+            "mangledName": "$s10Foundation26DecodableWithConfigurationP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -5130,126 +8379,126 @@
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1507,
+      "offset": 1590,
       "length": 11,
       "value": "\"image\/jpg\""
     },
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1538,
+      "offset": 1621,
       "length": 11,
       "value": "\"image\/gif\""
     },
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1570,
+      "offset": 1653,
       "length": 12,
       "value": "\"image\/jpeg\""
     },
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1602,
+      "offset": 1685,
       "length": 11,
       "value": "\"image\/png\""
     },
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1634,
+      "offset": 1717,
       "length": 12,
       "value": "\"image\/webp\""
     },
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1668,
+      "offset": 1751,
       "length": 9,
       "value": "\"image\/*\""
     },
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1697,
+      "offset": 1780,
       "length": 11,
       "value": "\"video\/mp4\""
     },
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1728,
+      "offset": 1811,
       "length": 11,
       "value": "\"video\/mov\""
     },
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1765,
+      "offset": 1848,
       "length": 17,
       "value": "\"video\/quicktime\""
     },
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1507,
+      "offset": 1590,
       "length": 11,
       "value": "\"image\/jpg\""
     },
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1538,
+      "offset": 1621,
       "length": 11,
       "value": "\"image\/gif\""
     },
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1570,
+      "offset": 1653,
       "length": 12,
       "value": "\"image\/jpeg\""
     },
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1602,
+      "offset": 1685,
       "length": 11,
       "value": "\"image\/png\""
     },
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1634,
+      "offset": 1717,
       "length": 12,
       "value": "\"image\/webp\""
     },
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1668,
+      "offset": 1751,
       "length": 9,
       "value": "\"image\/*\""
     },
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1697,
+      "offset": 1780,
       "length": 11,
       "value": "\"video\/mp4\""
     },
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1728,
+      "offset": 1811,
       "length": 11,
       "value": "\"video\/mov\""
     },
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
-      "offset": 1765,
+      "offset": 1848,
       "length": 17,
       "value": "\"video\/quicktime\""
     }
