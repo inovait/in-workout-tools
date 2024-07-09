@@ -9,11 +9,13 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct RecorderWrapper {
-  public let builtWorkoutsFile: Foundation.URL
+public struct RecorderWrapper : Swift.Equatable {
   public init()
   public func recorderRemoveAll()
   public func getIntermediateWorkoutsFromDisk() -> [Foundation.URL]?
+}
+extension WorkoutFramework.RecorderWrapper {
+  public static func == (lhs: WorkoutFramework.RecorderWrapper, rhs: WorkoutFramework.RecorderWrapper) -> Swift.Bool
 }
 public class WorkoutHandler : Foundation.ObservableObject {
   @Combine.Published @_projectedValueProperty($runningExerciseTimeString) public var runningExerciseTimeString: Swift.String {
@@ -240,6 +242,18 @@ public class WorkoutHandler : Foundation.ObservableObject {
     _modify
   }
   public var $runningExercise: Combine.Published<CommonModels.Exercise?>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  @Combine.Published @_projectedValueProperty($isMuted) public var isMuted: Swift.Bool {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  public var $isMuted: Combine.Published<Swift.Bool>.Publisher {
     get
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
