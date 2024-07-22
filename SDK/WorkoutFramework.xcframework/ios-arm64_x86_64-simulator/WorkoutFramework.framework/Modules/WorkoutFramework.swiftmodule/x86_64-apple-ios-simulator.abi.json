@@ -35,9 +35,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "CommonModels",
+        "printedName": "CommonModels",
+        "declKind": "Import",
+        "moduleName": "WorkoutFramework"
+      },
+      {
         "kind": "TypeDecl",
-        "name": "RecorderWrapper",
-        "printedName": "RecorderWrapper",
+        "name": "HistoryHandler",
+        "printedName": "HistoryHandler",
         "children": [
           {
             "kind": "Constructor",
@@ -46,14 +53,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "RecorderWrapper",
-                "printedName": "WorkoutFramework.RecorderWrapper",
-                "usr": "s:16WorkoutFramework15RecorderWrapperV"
+                "name": "HistoryHandler",
+                "printedName": "WorkoutFramework.HistoryHandler",
+                "usr": "s:16WorkoutFramework14HistoryHandlerV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:16WorkoutFramework15RecorderWrapperVACycfc",
-            "mangledName": "$s16WorkoutFramework15RecorderWrapperVACycfc",
+            "usr": "s:16WorkoutFramework14HistoryHandlerVACycfc",
+            "mangledName": "$s16WorkoutFramework14HistoryHandlerVACycfc",
             "moduleName": "WorkoutFramework",
             "declAttributes": [
               "AccessControl"
@@ -62,18 +69,27 @@
           },
           {
             "kind": "Function",
-            "name": "recorderRemoveAll",
-            "printedName": "recorderRemoveAll()",
+            "name": "loadHistory",
+            "printedName": "loadHistory()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Array",
+                "printedName": "[CommonModels.RecordedWorkout]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordedWorkout",
+                    "printedName": "CommonModels.RecordedWorkout",
+                    "usr": "s:12CommonModels15RecordedWorkoutV"
+                  }
+                ],
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16WorkoutFramework15RecorderWrapperV17recorderRemoveAllyyF",
-            "mangledName": "$s16WorkoutFramework15RecorderWrapperV17recorderRemoveAllyyF",
+            "usr": "s:16WorkoutFramework14HistoryHandlerV04loadC0Say12CommonModels08RecordedA0VGyF",
+            "mangledName": "$s16WorkoutFramework14HistoryHandlerV04loadC0Say12CommonModels08RecordedA0VGyF",
             "moduleName": "WorkoutFramework",
             "declAttributes": [
               "AccessControl"
@@ -82,39 +98,29 @@
           },
           {
             "kind": "Function",
-            "name": "getIntermediateWorkoutsFromDisk",
-            "printedName": "getIntermediateWorkoutsFromDisk()",
+            "name": "removeHistoryItem",
+            "printedName": "removeHistoryItem(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Foundation.URL]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Foundation.URL]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "URL",
-                        "printedName": "Foundation.URL",
-                        "usr": "s:10Foundation3URLV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RecordedWorkout",
+                "printedName": "CommonModels.RecordedWorkout",
+                "usr": "s:12CommonModels15RecordedWorkoutV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16WorkoutFramework15RecorderWrapperV31getIntermediateWorkoutsFromDiskSay10Foundation3URLVGSgyF",
-            "mangledName": "$s16WorkoutFramework15RecorderWrapperV31getIntermediateWorkoutsFromDiskSay10Foundation3URLVGSgyF",
+            "usr": "s:16WorkoutFramework14HistoryHandlerV06removeC4Itemyy12CommonModels08RecordedA0VKF",
+            "mangledName": "$s16WorkoutFramework14HistoryHandlerV06removeC4Itemyy12CommonModels08RecordedA0VKF",
             "moduleName": "WorkoutFramework",
             "declAttributes": [
               "AccessControl"
             ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -130,20 +136,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "RecorderWrapper",
-                "printedName": "WorkoutFramework.RecorderWrapper",
-                "usr": "s:16WorkoutFramework15RecorderWrapperV"
+                "name": "HistoryHandler",
+                "printedName": "WorkoutFramework.HistoryHandler",
+                "usr": "s:16WorkoutFramework14HistoryHandlerV"
               },
               {
                 "kind": "TypeNominal",
-                "name": "RecorderWrapper",
-                "printedName": "WorkoutFramework.RecorderWrapper",
-                "usr": "s:16WorkoutFramework15RecorderWrapperV"
+                "name": "HistoryHandler",
+                "printedName": "WorkoutFramework.HistoryHandler",
+                "usr": "s:16WorkoutFramework14HistoryHandlerV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16WorkoutFramework15RecorderWrapperV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s16WorkoutFramework15RecorderWrapperV2eeoiySbAC_ACtFZ",
+            "usr": "s:16WorkoutFramework14HistoryHandlerV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s16WorkoutFramework14HistoryHandlerV2eeoiySbAC_ACtFZ",
             "moduleName": "WorkoutFramework",
             "static": true,
             "declAttributes": [
@@ -154,8 +160,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:16WorkoutFramework15RecorderWrapperV",
-        "mangledName": "$s16WorkoutFramework15RecorderWrapperV",
+        "usr": "s:16WorkoutFramework14HistoryHandlerV",
+        "mangledName": "$s16WorkoutFramework14HistoryHandlerV",
         "moduleName": "WorkoutFramework",
         "declAttributes": [
           "AccessControl"
@@ -2880,27 +2886,27 @@
           },
           {
             "kind": "Var",
-            "name": "finishedWorkoutUrl",
-            "printedName": "finishedWorkoutUrl",
+            "name": "finishedWorkout",
+            "printedName": "finishedWorkout",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.String?",
+                "printedName": "CommonModels.RecordedWorkout?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "RecordedWorkout",
+                    "printedName": "CommonModels.RecordedWorkout",
+                    "usr": "s:12CommonModels15RecordedWorkoutV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvp",
-            "mangledName": "$s16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvp",
+            "usr": "s:16WorkoutFramework0A7HandlerC08finishedA012CommonModels08RecordedA0VSgvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC08finishedA012CommonModels08RecordedA0VSgvp",
             "moduleName": "WorkoutFramework",
             "declAttributes": [
               "ProjectedValueProperty",
@@ -2917,21 +2923,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.String?",
+                    "printedName": "CommonModels.RecordedWorkout?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "RecordedWorkout",
+                        "printedName": "CommonModels.RecordedWorkout",
+                        "usr": "s:12CommonModels15RecordedWorkoutV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvg",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvg",
+                "usr": "s:16WorkoutFramework0A7HandlerC08finishedA012CommonModels08RecordedA0VSgvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC08finishedA012CommonModels08RecordedA0VSgvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2949,21 +2955,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.String?",
+                    "printedName": "CommonModels.RecordedWorkout?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "RecordedWorkout",
+                        "printedName": "CommonModels.RecordedWorkout",
+                        "usr": "s:12CommonModels15RecordedWorkoutV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvs",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvs",
+                "usr": "s:16WorkoutFramework0A7HandlerC08finishedA012CommonModels08RecordedA0VSgvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC08finishedA012CommonModels08RecordedA0VSgvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "intro_Macosx": "10.15",
@@ -2990,8 +2996,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvM",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC08finishedA3UrlSSSgvM",
+                "usr": "s:16WorkoutFramework0A7HandlerC08finishedA012CommonModels08RecordedA0VSgvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC08finishedA012CommonModels08RecordedA0VSgvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "intro_Macosx": "10.15",
@@ -3010,19 +3016,19 @@
           },
           {
             "kind": "Var",
-            "name": "$finishedWorkoutUrl",
-            "printedName": "$finishedWorkoutUrl",
+            "name": "$finishedWorkout",
+            "printedName": "$finishedWorkout",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Publisher",
-                "printedName": "Combine.Published<Swift.Optional<Swift.String>>.Publisher",
+                "printedName": "Combine.Published<Swift.Optional<CommonModels.RecordedWorkout>>.Publisher",
                 "usr": "s:7Combine9PublishedV9PublisherV"
               }
             ],
             "declKind": "Var",
-            "usr": "s:16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_Gvp",
-            "mangledName": "$s16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_Gvp",
+            "usr": "s:16WorkoutFramework0A7HandlerC09$finishedA07Combine9PublishedV9PublisherVy12CommonModels08RecordedA0VSg_Gvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC09$finishedA07Combine9PublishedV9PublisherVy12CommonModels08RecordedA0VSg_Gvp",
             "moduleName": "WorkoutFramework",
             "implicit": true,
             "accessors": [
@@ -3034,13 +3040,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Publisher",
-                    "printedName": "Combine.Published<Swift.Optional<Swift.String>>.Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<CommonModels.RecordedWorkout>>.Publisher",
                     "usr": "s:7Combine9PublishedV9PublisherV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_Gvg",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_Gvg",
+                "usr": "s:16WorkoutFramework0A7HandlerC09$finishedA07Combine9PublishedV9PublisherVy12CommonModels08RecordedA0VSg_Gvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC09$finishedA07Combine9PublishedV9PublisherVy12CommonModels08RecordedA0VSg_Gvg",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3058,13 +3064,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Publisher",
-                    "printedName": "Combine.Published<Swift.Optional<Swift.String>>.Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<CommonModels.RecordedWorkout>>.Publisher",
                     "usr": "s:7Combine9PublishedV9PublisherV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_Gvs",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_Gvs",
+                "usr": "s:16WorkoutFramework0A7HandlerC09$finishedA07Combine9PublishedV9PublisherVy12CommonModels08RecordedA0VSg_Gvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC09$finishedA07Combine9PublishedV9PublisherVy12CommonModels08RecordedA0VSg_Gvs",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "intro_Macosx": "11.0",
@@ -3091,8 +3097,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_GvM",
-                "mangledName": "$s16WorkoutFramework0A7HandlerC09$finishedA3Url7Combine9PublishedV9PublisherVySSSg_GvM",
+                "usr": "s:16WorkoutFramework0A7HandlerC09$finishedA07Combine9PublishedV9PublisherVy12CommonModels08RecordedA0VSg_GvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC09$finishedA07Combine9PublishedV9PublisherVy12CommonModels08RecordedA0VSg_GvM",
                 "moduleName": "WorkoutFramework",
                 "implicit": true,
                 "intro_Macosx": "11.0",
@@ -4863,21 +4869,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.String?",
+                "printedName": "CommonModels.RecordedWorkout?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "RecordedWorkout",
+                    "printedName": "CommonModels.RecordedWorkout",
+                    "usr": "s:12CommonModels15RecordedWorkoutV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16WorkoutFramework0A7HandlerC03endA0SSSgyF",
-            "mangledName": "$s16WorkoutFramework0A7HandlerC03endA0SSSgyF",
+            "usr": "s:16WorkoutFramework0A7HandlerC03endA012CommonModels08RecordedA0VSgyF",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC03endA012CommonModels08RecordedA0VSgyF",
             "moduleName": "WorkoutFramework",
             "declAttributes": [
               "AccessControl",
@@ -4997,7 +5003,7 @@
     {
       "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 2978,
+      "offset": 2977,
       "length": 5,
       "value": "false"
     }
