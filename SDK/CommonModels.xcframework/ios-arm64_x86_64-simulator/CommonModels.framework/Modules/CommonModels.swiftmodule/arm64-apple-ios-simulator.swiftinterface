@@ -19,7 +19,8 @@ public struct Exercise : Swift.Identifiable, Swift.Equatable, Swift.Codable {
   public var loopSubExercises: Swift.Bool
   public var canSkipExercise: Swift.Bool
   public var data: CommonModels.ExerciseData?
-  public init(id: Swift.String, name: Swift.String, type: CommonModels.ExerciseType, durationInMillis: Foundation.TimeInterval? = nil, idx: Swift.Int, exerciseRepetition: Swift.Int, data: CommonModels.ExerciseData?, loopSubExercises: Swift.Bool, canSkipExercise: Swift.Bool, subExercises: [CommonModels.Exercise], media: CommonModels.Media? = nil)
+  public var parentNames: [Swift.String]
+  public init(id: Swift.String, name: Swift.String, type: CommonModels.ExerciseType, durationInMillis: Foundation.TimeInterval? = nil, idx: Swift.Int, exerciseRepetition: Swift.Int, data: CommonModels.ExerciseData?, loopSubExercises: Swift.Bool, canSkipExercise: Swift.Bool, subExercises: [CommonModels.Exercise], media: CommonModels.Media? = nil, parentNames: [Swift.String] = [])
   public func leftTime(elapsedTimeInMillis: Foundation.TimeInterval) -> Foundation.TimeInterval
   public func totalDuration() -> Foundation.TimeInterval
   public func hasSubExercises() -> Swift.Bool
@@ -30,6 +31,7 @@ public struct Exercise : Swift.Identifiable, Swift.Equatable, Swift.Codable {
 }
 extension CommonModels.Exercise {
   public func decodeExerciseData<T>(_ type: T.Type) throws -> T? where T : Swift.Decodable
+  public func buildHierarchy(parentNames: [Swift.String] = []) -> CommonModels.Exercise
 }
 public enum ExerciseType : Swift.CaseIterable, Swift.Codable {
   case exercise
