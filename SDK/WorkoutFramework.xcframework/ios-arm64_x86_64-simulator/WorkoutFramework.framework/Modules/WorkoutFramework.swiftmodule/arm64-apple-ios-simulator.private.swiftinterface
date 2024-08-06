@@ -269,6 +269,22 @@ public class WorkoutHandler : Foundation.ObservableObject {
   public func endWorkout() -> CommonModels.RecordedWorkout?
   public func muteVideo()
   public func refreshMedia()
+  #if compiler(>=5.3) && $AsyncAwait
+  public func connectToStream() async -> _Concurrency.AsyncStream<WorkoutFramework.WorkoutHandlerStreamEvent>
+  #endif
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
+}
+public enum WorkoutHandlerStreamEvent {
+  case runningExerciseTimeString(Swift.String)
+  case exerciseName(Swift.String)
+  case exerciseCycles(Swift.String?)
+  case parentExerciseTimeString(Swift.String?)
+  case parentExerciseName(Swift.String?)
+  case nextExerciseName(Swift.String?)
+  case player(AVFoundation.AVPlayer?)
+  case exerciseHasMedia(Swift.Bool)
+  case status(CommonModels.WorkoutStatus)
+  case isMuted(Swift.Bool)
+  case finishedTherapy(CommonModels.RecordedWorkout?)
 }
