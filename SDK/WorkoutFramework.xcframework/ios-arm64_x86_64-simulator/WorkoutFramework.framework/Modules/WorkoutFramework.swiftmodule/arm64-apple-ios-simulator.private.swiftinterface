@@ -269,6 +269,7 @@ public class WorkoutHandler : Foundation.ObservableObject {
   public func endWorkout() -> CommonModels.RecordedWorkout?
   public func muteVideo()
   public func refreshMedia()
+  public func tempTation() -> Swift.String
   #if compiler(>=5.3) && $AsyncAwait
   public func connectToStream() async -> _Concurrency.AsyncStream<WorkoutFramework.WorkoutHandlerStreamEvent>
   #endif
