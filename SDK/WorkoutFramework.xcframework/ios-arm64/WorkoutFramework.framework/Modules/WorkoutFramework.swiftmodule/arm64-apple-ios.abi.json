@@ -4936,27 +4936,6 @@
           },
           {
             "kind": "Function",
-            "name": "tempTation",
-            "printedName": "tempTation()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16WorkoutFramework0A7HandlerC10tempTationSSyF",
-            "mangledName": "$s16WorkoutFramework0A7HandlerC10tempTationSSyF",
-            "moduleName": "WorkoutFramework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "connectToStream",
             "printedName": "connectToStream()",
             "children": [
