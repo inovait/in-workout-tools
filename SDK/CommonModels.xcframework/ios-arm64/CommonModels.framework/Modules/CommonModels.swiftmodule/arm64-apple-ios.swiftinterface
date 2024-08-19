@@ -20,7 +20,9 @@ public struct Exercise : Swift.Identifiable, Swift.Equatable, Swift.Codable {
   public var canSkipExercise: Swift.Bool
   public var data: CommonModels.ExerciseData?
   public var parentNames: [Swift.String]
-  public init(id: Swift.String, name: Swift.String, type: CommonModels.ExerciseType, durationInMillis: Foundation.TimeInterval? = nil, idx: Swift.Int, exerciseRepetition: Swift.Int, data: CommonModels.ExerciseData?, loopSubExercises: Swift.Bool, canSkipExercise: Swift.Bool, subExercises: [CommonModels.Exercise], media: CommonModels.Media? = nil, parentNames: [Swift.String] = [])
+  public var hasParent: Swift.Bool
+  public var isTopParent: Swift.Bool
+  public init(id: Swift.String, name: Swift.String, type: CommonModels.ExerciseType, durationInMillis: Foundation.TimeInterval? = nil, idx: Swift.Int, exerciseRepetition: Swift.Int, data: CommonModels.ExerciseData?, loopSubExercises: Swift.Bool, canSkipExercise: Swift.Bool, subExercises: [CommonModels.Exercise], media: CommonModels.Media? = nil, parentNames: [Swift.String] = [], hasParent: Swift.Bool = false, isTopParent: Swift.Bool = false)
   public func leftTime(elapsedTimeInMillis: Foundation.TimeInterval) -> Foundation.TimeInterval
   public func totalDuration() -> Foundation.TimeInterval
   public func hasSubExercises() -> Swift.Bool
@@ -155,6 +157,9 @@ public struct RecordedWorkout : Swift.Equatable {
   public let url: Foundation.URL?
   public let breakdown: [CommonModels.RecordedBreakdownItem]
   public init(timestamp: Foundation.TimeInterval, duration: Swift.Int, name: Swift.String, breakdown: [CommonModels.RecordedBreakdownItem], url: Foundation.URL? = nil)
+  public var mappedHistoryExercise: CommonModels.Exercise {
+    get
+  }
   public var exercisesDisplay: Swift.String {
     get
   }
@@ -166,7 +171,9 @@ public struct RecordedBreakdownItem : Swift.Equatable, Swift.Hashable {
   public let type: CommonModels.RecordedBreakdownType
   public let duration: Swift.Int
   public let exerciseName: Swift.String?
-  public init(roundIdx: Swift.Int?, timestamp: Swift.Int, type: CommonModels.RecordedBreakdownType, duration: Swift.Int, exerciseName: Swift.String?)
+  public let numOfSubexercises: Swift.Int?
+  public let isTopParent: Swift.Bool?
+  public init(roundIdx: Swift.Int?, timestamp: Swift.Int, type: CommonModels.RecordedBreakdownType, duration: Swift.Int, exerciseName: Swift.String?, numOfSubexercises: Swift.Int? = nil, isTopParent: Swift.Bool? = nil)
   public static func == (a: CommonModels.RecordedBreakdownItem, b: CommonModels.RecordedBreakdownItem) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
