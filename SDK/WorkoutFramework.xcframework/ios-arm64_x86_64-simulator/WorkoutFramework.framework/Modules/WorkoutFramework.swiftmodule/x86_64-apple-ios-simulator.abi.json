@@ -5394,64 +5394,6 @@
           },
           {
             "kind": "Var",
-            "name": "media",
-            "printedName": "media",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(WorkoutFramework.WorkoutHandlerStreamEvent.Type) -> (CommonModels.Media?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(CommonModels.Media?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "CommonModels.Media?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Media",
-                            "printedName": "CommonModels.Media",
-                            "usr": "s:12CommonModels5MediaV"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16WorkoutFramework0A18HandlerStreamEventO5mediayAC12CommonModels5MediaVSgcACmF",
-            "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO5mediayAC12CommonModels5MediaVSgcACmF",
-            "moduleName": "WorkoutFramework"
-          },
-          {
-            "kind": "Var",
             "name": "exerciseHasMedia",
             "printedName": "exerciseHasMedia",
             "children": [
@@ -5656,6 +5598,64 @@
             "declKind": "EnumElement",
             "usr": "s:16WorkoutFramework0A18HandlerStreamEventO15finishedTherapyyAC12CommonModels08RecordedA0VSgcACmF",
             "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO15finishedTherapyyAC12CommonModels08RecordedA0VSgcACmF",
+            "moduleName": "WorkoutFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "runningExercise",
+            "printedName": "runningExercise",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WorkoutFramework.WorkoutHandlerStreamEvent.Type) -> (CommonModels.Exercise?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CommonModels.Exercise?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutHandlerStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
+                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CommonModels.Exercise?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Exercise",
+                            "printedName": "CommonModels.Exercise",
+                            "usr": "s:12CommonModels8ExerciseV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutHandlerStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
+                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WorkoutFramework0A18HandlerStreamEventO15runningExerciseyAC12CommonModels0G0VSgcACmF",
+            "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO15runningExerciseyAC12CommonModels0G0VSgcACmF",
             "moduleName": "WorkoutFramework"
           }
         ],

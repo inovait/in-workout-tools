@@ -283,9 +283,9 @@ public enum WorkoutHandlerStreamEvent {
   case parentExerciseName(Swift.String?)
   case nextExerciseName(Swift.String?)
   case player(AVFoundation.AVPlayer?)
-  case media(CommonModels.Media?)
   case exerciseHasMedia(Swift.Bool)
   case status(CommonModels.WorkoutStatus)
   case isMuted(Swift.Bool)
   case finishedTherapy(CommonModels.RecordedWorkout?)
+  case runningExercise(CommonModels.Exercise?)
 }
