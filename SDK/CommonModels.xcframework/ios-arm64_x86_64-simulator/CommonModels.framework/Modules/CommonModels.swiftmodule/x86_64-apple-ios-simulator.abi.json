@@ -6648,6 +6648,117 @@
           },
           {
             "kind": "Var",
+            "name": "pause",
+            "printedName": "pause",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.RecordedBreakdownType.Type) -> CommonModels.RecordedBreakdownType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordedBreakdownType",
+                    "printedName": "CommonModels.RecordedBreakdownType",
+                    "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.RecordedBreakdownType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RecordedBreakdownType",
+                        "printedName": "CommonModels.RecordedBreakdownType",
+                        "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels21RecordedBreakdownTypeO5pauseyA2CmF",
+            "mangledName": "$s12CommonModels21RecordedBreakdownTypeO5pauseyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "resume",
+            "printedName": "resume",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.RecordedBreakdownType.Type) -> CommonModels.RecordedBreakdownType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordedBreakdownType",
+                    "printedName": "CommonModels.RecordedBreakdownType",
+                    "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.RecordedBreakdownType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RecordedBreakdownType",
+                        "printedName": "CommonModels.RecordedBreakdownType",
+                        "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels21RecordedBreakdownTypeO6resumeyA2CmF",
+            "mangledName": "$s12CommonModels21RecordedBreakdownTypeO6resumeyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
+            "name": "skip",
+            "printedName": "skip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.RecordedBreakdownType.Type) -> CommonModels.RecordedBreakdownType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordedBreakdownType",
+                    "printedName": "CommonModels.RecordedBreakdownType",
+                    "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.RecordedBreakdownType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RecordedBreakdownType",
+                        "printedName": "CommonModels.RecordedBreakdownType",
+                        "usr": "s:12CommonModels21RecordedBreakdownTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels21RecordedBreakdownTypeO4skipyA2CmF",
+            "mangledName": "$s12CommonModels21RecordedBreakdownTypeO4skipyA2CmF",
+            "moduleName": "CommonModels"
+          },
+          {
+            "kind": "Var",
             "name": "stop",
             "printedName": "stop",
             "children": [
@@ -8178,154 +8289,154 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Exercise.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Exercise.swift",
       "kind": "Array",
       "offset": 1712,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Exercise.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Exercise.swift",
       "kind": "BooleanLiteral",
       "offset": 1734,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Exercise.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Exercise.swift",
       "kind": "BooleanLiteral",
       "offset": 1761,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Exercise.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Exercise.swift",
       "kind": "Array",
       "offset": 3982,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1590,
       "length": 11,
       "value": "\"image\/jpg\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1621,
       "length": 11,
       "value": "\"image\/gif\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1653,
       "length": 12,
       "value": "\"image\/jpeg\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1685,
       "length": 11,
       "value": "\"image\/png\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1717,
       "length": 12,
       "value": "\"image\/webp\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1751,
       "length": 9,
       "value": "\"image\/*\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1780,
       "length": 11,
       "value": "\"video\/mp4\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1811,
       "length": 11,
       "value": "\"video\/mov\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1848,
       "length": 17,
       "value": "\"video\/quicktime\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1590,
       "length": 11,
       "value": "\"image\/jpg\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1621,
       "length": 11,
       "value": "\"image\/gif\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1653,
       "length": 12,
       "value": "\"image\/jpeg\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1685,
       "length": 11,
       "value": "\"image\/png\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1717,
       "length": 12,
       "value": "\"image\/webp\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1751,
       "length": 9,
       "value": "\"image\/*\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1780,
       "length": 11,
       "value": "\"video\/mp4\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1811,
       "length": 11,
       "value": "\"video\/mov\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1848,
       "length": 17,
