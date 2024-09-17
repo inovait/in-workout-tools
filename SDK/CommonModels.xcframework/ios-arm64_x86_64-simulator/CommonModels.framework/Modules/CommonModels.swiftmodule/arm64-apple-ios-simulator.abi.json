@@ -6239,9 +6239,69 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isRest",
+            "printedName": "isRest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12CommonModels21RecordedBreakdownItemV6isRestSbSgvp",
+            "mangledName": "$s12CommonModels21RecordedBreakdownItemV6isRestSbSgvp",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12CommonModels21RecordedBreakdownItemV6isRestSbSgvg",
+                "mangledName": "$s12CommonModels21RecordedBreakdownItemV6isRestSbSgvg",
+                "moduleName": "CommonModels",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(roundIdx:timestamp:type:duration:exerciseName:numOfSubexercises:isTopParent:)",
+            "printedName": "init(roundIdx:timestamp:type:duration:exerciseName:numOfSubexercises:isTopParent:isRest:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6324,11 +6384,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12CommonModels21RecordedBreakdownItemV8roundIdx9timestamp4type8duration12exerciseName17numOfSubexercises11isTopParentACSiSg_SiAA0cD4TypeOSiSSSgAKSbSgtcfc",
-            "mangledName": "$s12CommonModels21RecordedBreakdownItemV8roundIdx9timestamp4type8duration12exerciseName17numOfSubexercises11isTopParentACSiSg_SiAA0cD4TypeOSiSSSgAKSbSgtcfc",
+            "usr": "s:12CommonModels21RecordedBreakdownItemV8roundIdx9timestamp4type8duration12exerciseName17numOfSubexercises11isTopParent0P4RestACSiSg_SiAA0cD4TypeOSiSSSgALSbSgAPtcfc",
+            "mangledName": "$s12CommonModels21RecordedBreakdownItemV8roundIdx9timestamp4type8duration12exerciseName17numOfSubexercises11isTopParent0P4RestACSiSg_SiAA0cD4TypeOSiSSSgALSbSgAPtcfc",
             "moduleName": "CommonModels",
             "declAttributes": [
               "AccessControl"
@@ -8289,154 +8364,154 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Exercise.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Exercise.swift",
       "kind": "Array",
       "offset": 1712,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Exercise.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Exercise.swift",
       "kind": "BooleanLiteral",
       "offset": 1734,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Exercise.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Exercise.swift",
       "kind": "BooleanLiteral",
       "offset": 1761,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Exercise.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Exercise.swift",
       "kind": "Array",
       "offset": 3982,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1590,
       "length": 11,
       "value": "\"image\/jpg\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1621,
       "length": 11,
       "value": "\"image\/gif\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1653,
       "length": 12,
       "value": "\"image\/jpeg\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1685,
       "length": 11,
       "value": "\"image\/png\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1717,
       "length": 12,
       "value": "\"image\/webp\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1751,
       "length": 9,
       "value": "\"image\/*\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1780,
       "length": 11,
       "value": "\"video\/mp4\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1811,
       "length": 11,
       "value": "\"video\/mov\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1848,
       "length": 17,
       "value": "\"video\/quicktime\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1590,
       "length": 11,
       "value": "\"image\/jpg\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1621,
       "length": 11,
       "value": "\"image\/gif\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1653,
       "length": 12,
       "value": "\"image\/jpeg\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1685,
       "length": 11,
       "value": "\"image\/png\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1717,
       "length": 12,
       "value": "\"image\/webp\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1751,
       "length": 9,
       "value": "\"image\/*\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1780,
       "length": 11,
       "value": "\"video\/mp4\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1811,
       "length": 11,
       "value": "\"video\/mov\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/CommonModels\/Media.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/CommonModels\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1848,
       "length": 17,

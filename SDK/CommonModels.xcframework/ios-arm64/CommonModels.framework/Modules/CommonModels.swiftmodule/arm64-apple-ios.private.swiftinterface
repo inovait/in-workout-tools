@@ -173,7 +173,8 @@ public struct RecordedBreakdownItem : Swift.Equatable, Swift.Hashable {
   public let exerciseName: Swift.String?
   public let numOfSubexercises: Swift.Int?
   public let isTopParent: Swift.Bool?
-  public init(roundIdx: Swift.Int?, timestamp: Swift.Int, type: CommonModels.RecordedBreakdownType, duration: Swift.Int, exerciseName: Swift.String?, numOfSubexercises: Swift.Int? = nil, isTopParent: Swift.Bool? = nil)
+  public let isRest: Swift.Bool?
+  public init(roundIdx: Swift.Int?, timestamp: Swift.Int, type: CommonModels.RecordedBreakdownType, duration: Swift.Int, exerciseName: Swift.String?, numOfSubexercises: Swift.Int? = nil, isTopParent: Swift.Bool? = nil, isRest: Swift.Bool? = nil)
   public static func == (a: CommonModels.RecordedBreakdownItem, b: CommonModels.RecordedBreakdownItem) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
