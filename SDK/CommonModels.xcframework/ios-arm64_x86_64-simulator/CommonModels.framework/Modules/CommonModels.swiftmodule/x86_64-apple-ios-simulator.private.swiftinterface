@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name CommonModels
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
 import Swift
 import _Concurrency
@@ -27,6 +28,7 @@ public struct Exercise : Swift.Identifiable, Swift.Equatable, Swift.Codable {
   public func totalDuration() -> Foundation.TimeInterval
   public func hasSubExercises() -> Swift.Bool
   public func hasDuration() -> Swift.Bool
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -41,7 +43,7 @@ public enum ExerciseType : Swift.CaseIterable, Swift.Codable {
   public static func == (a: CommonModels.ExerciseType, b: CommonModels.ExerciseType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public typealias AllCases = [CommonModels.ExerciseType]
-  public static var allCases: [CommonModels.ExerciseType] {
+  nonisolated public static var allCases: [CommonModels.ExerciseType] {
     get
   }
   public func encode(to encoder: any Swift.Encoder) throws
@@ -143,6 +145,7 @@ public struct Media : Swift.Equatable, Swift.Identifiable, Swift.Codable, Swift.
   }
   public static func == (a: CommonModels.Media, b: CommonModels.Media) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Foundation.UUID
   public func encode(to encoder: any Swift.Encoder) throws
   public var hashValue: Swift.Int {
