@@ -4950,27 +4950,114 @@
           },
           {
             "kind": "Function",
-            "name": "connectToStream",
-            "printedName": "connectToStream()",
+            "name": "connectToTimeStream",
+            "printedName": "connectToTimeStream()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "AsyncStream",
-                "printedName": "_Concurrency.AsyncStream<WorkoutFramework.WorkoutHandlerStreamEvent>",
+                "printedName": "_Concurrency.AsyncStream<WorkoutFramework.WorkoutTimeStreamEvent>",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "WorkoutHandlerStreamEvent",
-                    "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                    "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
+                    "name": "WorkoutTimeStreamEvent",
+                    "printedName": "WorkoutFramework.WorkoutTimeStreamEvent",
+                    "usr": "s:16WorkoutFramework0A15TimeStreamEventO"
                   }
                 ],
                 "usr": "s:ScS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16WorkoutFramework0A7HandlerC15connectToStreamScSyAA0acF5EventOGyYaF",
-            "mangledName": "$s16WorkoutFramework0A7HandlerC15connectToStreamScSyAA0acF5EventOGyYaF",
+            "usr": "s:16WorkoutFramework0A7HandlerC19connectToTimeStreamScSyAA0afG5EventOGyYaF",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC19connectToTimeStreamScSyAA0afG5EventOGyYaF",
+            "moduleName": "WorkoutFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectToExerciseInfoStream",
+            "printedName": "connectToExerciseInfoStream()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AsyncStream",
+                "printedName": "_Concurrency.AsyncStream<WorkoutFramework.WorkoutExerciseInfoStreamEvent>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutExerciseInfoStreamEvent",
+                    "printedName": "WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                    "usr": "s:16WorkoutFramework0A23ExerciseInfoStreamEventO"
+                  }
+                ],
+                "usr": "s:ScS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WorkoutFramework0A7HandlerC27connectToExerciseInfoStreamScSyAA0afgH5EventOGyYaF",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC27connectToExerciseInfoStreamScSyAA0afgH5EventOGyYaF",
+            "moduleName": "WorkoutFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectToPlayerStream",
+            "printedName": "connectToPlayerStream()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AsyncStream",
+                "printedName": "_Concurrency.AsyncStream<WorkoutFramework.WorkoutPlayerStreamEvent>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutPlayerStreamEvent",
+                    "printedName": "WorkoutFramework.WorkoutPlayerStreamEvent",
+                    "usr": "s:16WorkoutFramework0A17PlayerStreamEventO"
+                  }
+                ],
+                "usr": "s:ScS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WorkoutFramework0A7HandlerC21connectToPlayerStreamScSyAA0afG5EventOGyYaF",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC21connectToPlayerStreamScSyAA0afG5EventOGyYaF",
+            "moduleName": "WorkoutFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectToStatusStream",
+            "printedName": "connectToStatusStream()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AsyncStream",
+                "printedName": "_Concurrency.AsyncStream<WorkoutFramework.WorkoutStatusStreamEvent>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutStatusStreamEvent",
+                    "printedName": "WorkoutFramework.WorkoutStatusStreamEvent",
+                    "usr": "s:16WorkoutFramework0A17StatusStreamEventO"
+                  }
+                ],
+                "usr": "s:ScS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WorkoutFramework0A7HandlerC21connectToStatusStreamScSyAA0afG5EventOGyYaF",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC21connectToStatusStreamScSyAA0afG5EventOGyYaF",
             "moduleName": "WorkoutFramework",
             "declAttributes": [
               "AccessControl"
@@ -5027,573 +5114,9 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "WorkoutHandlerStreamEvent",
-        "printedName": "WorkoutHandlerStreamEvent",
+        "name": "WorkoutStatusStreamEvent",
+        "printedName": "WorkoutStatusStreamEvent",
         "children": [
-          {
-            "kind": "Var",
-            "name": "runningExerciseCurrentTimeInterval",
-            "printedName": "runningExerciseCurrentTimeInterval",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(WorkoutFramework.WorkoutHandlerStreamEvent.Type) -> (Swift.Double?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Double?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.Double?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Double",
-                            "printedName": "Swift.Double",
-                            "usr": "s:Sd"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16WorkoutFramework0A18HandlerStreamEventO34runningExerciseCurrentTimeIntervalyACSdSgcACmF",
-            "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO34runningExerciseCurrentTimeIntervalyACSdSgcACmF",
-            "moduleName": "WorkoutFramework"
-          },
-          {
-            "kind": "Var",
-            "name": "runningExerciseTotalTimeInterval",
-            "printedName": "runningExerciseTotalTimeInterval",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(WorkoutFramework.WorkoutHandlerStreamEvent.Type) -> (Swift.Double?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Double?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.Double?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Double",
-                            "printedName": "Swift.Double",
-                            "usr": "s:Sd"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16WorkoutFramework0A18HandlerStreamEventO32runningExerciseTotalTimeIntervalyACSdSgcACmF",
-            "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO32runningExerciseTotalTimeIntervalyACSdSgcACmF",
-            "moduleName": "WorkoutFramework"
-          },
-          {
-            "kind": "Var",
-            "name": "exerciseName",
-            "printedName": "exerciseName",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(WorkoutFramework.WorkoutHandlerStreamEvent.Type) -> (Swift.String) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16WorkoutFramework0A18HandlerStreamEventO12exerciseNameyACSScACmF",
-            "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO12exerciseNameyACSScACmF",
-            "moduleName": "WorkoutFramework"
-          },
-          {
-            "kind": "Var",
-            "name": "exerciseCycles",
-            "printedName": "exerciseCycles",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(WorkoutFramework.WorkoutHandlerStreamEvent.Type) -> (Swift.String?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16WorkoutFramework0A18HandlerStreamEventO14exerciseCyclesyACSSSgcACmF",
-            "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO14exerciseCyclesyACSSSgcACmF",
-            "moduleName": "WorkoutFramework"
-          },
-          {
-            "kind": "Var",
-            "name": "parentExerciseCurrentTimeInterval",
-            "printedName": "parentExerciseCurrentTimeInterval",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(WorkoutFramework.WorkoutHandlerStreamEvent.Type) -> (Swift.Double?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Double?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.Double?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Double",
-                            "printedName": "Swift.Double",
-                            "usr": "s:Sd"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16WorkoutFramework0A18HandlerStreamEventO33parentExerciseCurrentTimeIntervalyACSdSgcACmF",
-            "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO33parentExerciseCurrentTimeIntervalyACSdSgcACmF",
-            "moduleName": "WorkoutFramework"
-          },
-          {
-            "kind": "Var",
-            "name": "parentExerciseTotalTimeInterval",
-            "printedName": "parentExerciseTotalTimeInterval",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(WorkoutFramework.WorkoutHandlerStreamEvent.Type) -> (Swift.Double?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Double?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.Double?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Double",
-                            "printedName": "Swift.Double",
-                            "usr": "s:Sd"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16WorkoutFramework0A18HandlerStreamEventO31parentExerciseTotalTimeIntervalyACSdSgcACmF",
-            "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO31parentExerciseTotalTimeIntervalyACSdSgcACmF",
-            "moduleName": "WorkoutFramework"
-          },
-          {
-            "kind": "Var",
-            "name": "parentExerciseName",
-            "printedName": "parentExerciseName",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(WorkoutFramework.WorkoutHandlerStreamEvent.Type) -> (Swift.String?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16WorkoutFramework0A18HandlerStreamEventO18parentExerciseNameyACSSSgcACmF",
-            "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO18parentExerciseNameyACSSSgcACmF",
-            "moduleName": "WorkoutFramework"
-          },
-          {
-            "kind": "Var",
-            "name": "nextExerciseName",
-            "printedName": "nextExerciseName",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(WorkoutFramework.WorkoutHandlerStreamEvent.Type) -> (Swift.String?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16WorkoutFramework0A18HandlerStreamEventO16nextExerciseNameyACSSSgcACmF",
-            "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO16nextExerciseNameyACSSSgcACmF",
-            "moduleName": "WorkoutFramework"
-          },
-          {
-            "kind": "Var",
-            "name": "player",
-            "printedName": "player",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(WorkoutFramework.WorkoutHandlerStreamEvent.Type) -> (AVFoundation.AVPlayer?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(AVFoundation.AVPlayer?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "AVFoundation.AVPlayer?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "AVPlayer",
-                            "printedName": "AVFoundation.AVPlayer",
-                            "usr": "c:objc(cs)AVPlayer"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16WorkoutFramework0A18HandlerStreamEventO6playeryACSo8AVPlayerCSgcACmF",
-            "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO6playeryACSo8AVPlayerCSgcACmF",
-            "moduleName": "WorkoutFramework"
-          },
-          {
-            "kind": "Var",
-            "name": "exerciseHasMedia",
-            "printedName": "exerciseHasMedia",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(WorkoutFramework.WorkoutHandlerStreamEvent.Type) -> (Swift.Bool) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Bool) -> WorkoutFramework.WorkoutHandlerStreamEvent",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:16WorkoutFramework0A18HandlerStreamEventO16exerciseHasMediayACSbcACmF",
-            "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO16exerciseHasMediayACSbcACmF",
-            "moduleName": "WorkoutFramework"
-          },
           {
             "kind": "Var",
             "name": "status",
@@ -5602,18 +5125,18 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(WorkoutFramework.WorkoutHandlerStreamEvent.Type) -> (CommonModels.WorkoutStatus) -> WorkoutFramework.WorkoutHandlerStreamEvent",
+                "printedName": "(WorkoutFramework.WorkoutStatusStreamEvent.Type) -> (CommonModels.WorkoutStatus) -> WorkoutFramework.WorkoutStatusStreamEvent",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(CommonModels.WorkoutStatus) -> WorkoutFramework.WorkoutHandlerStreamEvent",
+                    "printedName": "(CommonModels.WorkoutStatus) -> WorkoutFramework.WorkoutStatusStreamEvent",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
+                        "name": "WorkoutStatusStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutStatusStreamEvent",
+                        "usr": "s:16WorkoutFramework0A17StatusStreamEventO"
                       },
                       {
                         "kind": "TypeNominal",
@@ -5626,13 +5149,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent.Type",
+                    "printedName": "WorkoutFramework.WorkoutStatusStreamEvent.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
+                        "name": "WorkoutStatusStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutStatusStreamEvent",
+                        "usr": "s:16WorkoutFramework0A17StatusStreamEventO"
                       }
                     ]
                   }
@@ -5640,8 +5163,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:16WorkoutFramework0A18HandlerStreamEventO6statusyAC12CommonModels0A6StatusOcACmF",
-            "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO6statusyAC12CommonModels0A6StatusOcACmF",
+            "usr": "s:16WorkoutFramework0A17StatusStreamEventO6statusyAC12CommonModels0aC0OcACmF",
+            "mangledName": "$s16WorkoutFramework0A17StatusStreamEventO6statusyAC12CommonModels0aC0OcACmF",
             "moduleName": "WorkoutFramework"
           },
           {
@@ -5652,18 +5175,18 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(WorkoutFramework.WorkoutHandlerStreamEvent.Type) -> (Swift.Bool) -> WorkoutFramework.WorkoutHandlerStreamEvent",
+                "printedName": "(WorkoutFramework.WorkoutStatusStreamEvent.Type) -> (Swift.Bool) -> WorkoutFramework.WorkoutStatusStreamEvent",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool) -> WorkoutFramework.WorkoutHandlerStreamEvent",
+                    "printedName": "(Swift.Bool) -> WorkoutFramework.WorkoutStatusStreamEvent",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
+                        "name": "WorkoutStatusStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutStatusStreamEvent",
+                        "usr": "s:16WorkoutFramework0A17StatusStreamEventO"
                       },
                       {
                         "kind": "TypeNominal",
@@ -5676,13 +5199,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent.Type",
+                    "printedName": "WorkoutFramework.WorkoutStatusStreamEvent.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
+                        "name": "WorkoutStatusStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutStatusStreamEvent",
+                        "usr": "s:16WorkoutFramework0A17StatusStreamEventO"
                       }
                     ]
                   }
@@ -5690,8 +5213,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:16WorkoutFramework0A18HandlerStreamEventO7isMutedyACSbcACmF",
-            "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO7isMutedyACSbcACmF",
+            "usr": "s:16WorkoutFramework0A17StatusStreamEventO7isMutedyACSbcACmF",
+            "mangledName": "$s16WorkoutFramework0A17StatusStreamEventO7isMutedyACSbcACmF",
             "moduleName": "WorkoutFramework"
           },
           {
@@ -5702,18 +5225,18 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(WorkoutFramework.WorkoutHandlerStreamEvent.Type) -> (CommonModels.RecordedWorkout?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
+                "printedName": "(WorkoutFramework.WorkoutStatusStreamEvent.Type) -> (CommonModels.RecordedWorkout?) -> WorkoutFramework.WorkoutStatusStreamEvent",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(CommonModels.RecordedWorkout?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
+                    "printedName": "(CommonModels.RecordedWorkout?) -> WorkoutFramework.WorkoutStatusStreamEvent",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
+                        "name": "WorkoutStatusStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutStatusStreamEvent",
+                        "usr": "s:16WorkoutFramework0A17StatusStreamEventO"
                       },
                       {
                         "kind": "TypeNominal",
@@ -5734,13 +5257,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent.Type",
+                    "printedName": "WorkoutFramework.WorkoutStatusStreamEvent.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
+                        "name": "WorkoutStatusStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutStatusStreamEvent",
+                        "usr": "s:16WorkoutFramework0A17StatusStreamEventO"
                       }
                     ]
                   }
@@ -5748,8 +5271,400 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:16WorkoutFramework0A18HandlerStreamEventO15finishedTherapyyAC12CommonModels08RecordedA0VSgcACmF",
-            "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO15finishedTherapyyAC12CommonModels08RecordedA0VSgcACmF",
+            "usr": "s:16WorkoutFramework0A17StatusStreamEventO15finishedTherapyyAC12CommonModels08RecordedA0VSgcACmF",
+            "mangledName": "$s16WorkoutFramework0A17StatusStreamEventO15finishedTherapyyAC12CommonModels08RecordedA0VSgcACmF",
+            "moduleName": "WorkoutFramework"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16WorkoutFramework0A17StatusStreamEventO",
+        "mangledName": "$s16WorkoutFramework0A17StatusStreamEventO",
+        "moduleName": "WorkoutFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WorkoutPlayerStreamEvent",
+        "printedName": "WorkoutPlayerStreamEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "player",
+            "printedName": "player",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WorkoutFramework.WorkoutPlayerStreamEvent.Type) -> (AVFoundation.AVPlayer?) -> WorkoutFramework.WorkoutPlayerStreamEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AVFoundation.AVPlayer?) -> WorkoutFramework.WorkoutPlayerStreamEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutPlayerStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutPlayerStreamEvent",
+                        "usr": "s:16WorkoutFramework0A17PlayerStreamEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AVFoundation.AVPlayer?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AVPlayer",
+                            "printedName": "AVFoundation.AVPlayer",
+                            "usr": "c:objc(cs)AVPlayer"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WorkoutFramework.WorkoutPlayerStreamEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutPlayerStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutPlayerStreamEvent",
+                        "usr": "s:16WorkoutFramework0A17PlayerStreamEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WorkoutFramework0A17PlayerStreamEventO6playeryACSo8AVPlayerCSgcACmF",
+            "mangledName": "$s16WorkoutFramework0A17PlayerStreamEventO6playeryACSo8AVPlayerCSgcACmF",
+            "moduleName": "WorkoutFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "exerciseHasMedia",
+            "printedName": "exerciseHasMedia",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WorkoutFramework.WorkoutPlayerStreamEvent.Type) -> (Swift.Bool) -> WorkoutFramework.WorkoutPlayerStreamEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> WorkoutFramework.WorkoutPlayerStreamEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutPlayerStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutPlayerStreamEvent",
+                        "usr": "s:16WorkoutFramework0A17PlayerStreamEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WorkoutFramework.WorkoutPlayerStreamEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutPlayerStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutPlayerStreamEvent",
+                        "usr": "s:16WorkoutFramework0A17PlayerStreamEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WorkoutFramework0A17PlayerStreamEventO16exerciseHasMediayACSbcACmF",
+            "mangledName": "$s16WorkoutFramework0A17PlayerStreamEventO16exerciseHasMediayACSbcACmF",
+            "moduleName": "WorkoutFramework"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16WorkoutFramework0A17PlayerStreamEventO",
+        "mangledName": "$s16WorkoutFramework0A17PlayerStreamEventO",
+        "moduleName": "WorkoutFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WorkoutExerciseInfoStreamEvent",
+        "printedName": "WorkoutExerciseInfoStreamEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "exerciseName",
+            "printedName": "exerciseName",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WorkoutFramework.WorkoutExerciseInfoStreamEvent.Type) -> (Swift.String) -> WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutExerciseInfoStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                        "usr": "s:16WorkoutFramework0A23ExerciseInfoStreamEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WorkoutFramework.WorkoutExerciseInfoStreamEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutExerciseInfoStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                        "usr": "s:16WorkoutFramework0A23ExerciseInfoStreamEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WorkoutFramework0A23ExerciseInfoStreamEventO12exerciseNameyACSScACmF",
+            "mangledName": "$s16WorkoutFramework0A23ExerciseInfoStreamEventO12exerciseNameyACSScACmF",
+            "moduleName": "WorkoutFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "exerciseCycles",
+            "printedName": "exerciseCycles",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WorkoutFramework.WorkoutExerciseInfoStreamEvent.Type) -> (Swift.String?) -> WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?) -> WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutExerciseInfoStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                        "usr": "s:16WorkoutFramework0A23ExerciseInfoStreamEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WorkoutFramework.WorkoutExerciseInfoStreamEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutExerciseInfoStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                        "usr": "s:16WorkoutFramework0A23ExerciseInfoStreamEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WorkoutFramework0A23ExerciseInfoStreamEventO14exerciseCyclesyACSSSgcACmF",
+            "mangledName": "$s16WorkoutFramework0A23ExerciseInfoStreamEventO14exerciseCyclesyACSSSgcACmF",
+            "moduleName": "WorkoutFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "parentExerciseName",
+            "printedName": "parentExerciseName",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WorkoutFramework.WorkoutExerciseInfoStreamEvent.Type) -> (Swift.String?) -> WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?) -> WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutExerciseInfoStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                        "usr": "s:16WorkoutFramework0A23ExerciseInfoStreamEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WorkoutFramework.WorkoutExerciseInfoStreamEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutExerciseInfoStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                        "usr": "s:16WorkoutFramework0A23ExerciseInfoStreamEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WorkoutFramework0A23ExerciseInfoStreamEventO06parentC4NameyACSSSgcACmF",
+            "mangledName": "$s16WorkoutFramework0A23ExerciseInfoStreamEventO06parentC4NameyACSSSgcACmF",
+            "moduleName": "WorkoutFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "nextExerciseName",
+            "printedName": "nextExerciseName",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WorkoutFramework.WorkoutExerciseInfoStreamEvent.Type) -> (Swift.String?) -> WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?) -> WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutExerciseInfoStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                        "usr": "s:16WorkoutFramework0A23ExerciseInfoStreamEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WorkoutFramework.WorkoutExerciseInfoStreamEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutExerciseInfoStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                        "usr": "s:16WorkoutFramework0A23ExerciseInfoStreamEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WorkoutFramework0A23ExerciseInfoStreamEventO04nextC4NameyACSSSgcACmF",
+            "mangledName": "$s16WorkoutFramework0A23ExerciseInfoStreamEventO04nextC4NameyACSSSgcACmF",
             "moduleName": "WorkoutFramework"
           },
           {
@@ -5760,18 +5675,18 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(WorkoutFramework.WorkoutHandlerStreamEvent.Type) -> (CommonModels.Exercise?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
+                "printedName": "(WorkoutFramework.WorkoutExerciseInfoStreamEvent.Type) -> (CommonModels.Exercise?) -> WorkoutFramework.WorkoutExerciseInfoStreamEvent",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(CommonModels.Exercise?) -> WorkoutFramework.WorkoutHandlerStreamEvent",
+                    "printedName": "(CommonModels.Exercise?) -> WorkoutFramework.WorkoutExerciseInfoStreamEvent",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
+                        "name": "WorkoutExerciseInfoStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                        "usr": "s:16WorkoutFramework0A23ExerciseInfoStreamEventO"
                       },
                       {
                         "kind": "TypeNominal",
@@ -5792,13 +5707,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent.Type",
+                    "printedName": "WorkoutFramework.WorkoutExerciseInfoStreamEvent.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "WorkoutHandlerStreamEvent",
-                        "printedName": "WorkoutFramework.WorkoutHandlerStreamEvent",
-                        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO"
+                        "name": "WorkoutExerciseInfoStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutExerciseInfoStreamEvent",
+                        "usr": "s:16WorkoutFramework0A23ExerciseInfoStreamEventO"
                       }
                     ]
                   }
@@ -5806,14 +5721,276 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:16WorkoutFramework0A18HandlerStreamEventO15runningExerciseyAC12CommonModels0G0VSgcACmF",
-            "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO15runningExerciseyAC12CommonModels0G0VSgcACmF",
+            "usr": "s:16WorkoutFramework0A23ExerciseInfoStreamEventO07runningC0yAC12CommonModels0C0VSgcACmF",
+            "mangledName": "$s16WorkoutFramework0A23ExerciseInfoStreamEventO07runningC0yAC12CommonModels0C0VSgcACmF",
             "moduleName": "WorkoutFramework"
           }
         ],
         "declKind": "Enum",
-        "usr": "s:16WorkoutFramework0A18HandlerStreamEventO",
-        "mangledName": "$s16WorkoutFramework0A18HandlerStreamEventO",
+        "usr": "s:16WorkoutFramework0A23ExerciseInfoStreamEventO",
+        "mangledName": "$s16WorkoutFramework0A23ExerciseInfoStreamEventO",
+        "moduleName": "WorkoutFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WorkoutTimeStreamEvent",
+        "printedName": "WorkoutTimeStreamEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "runningExerciseCurrentTimeInterval",
+            "printedName": "runningExerciseCurrentTimeInterval",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WorkoutFramework.WorkoutTimeStreamEvent.Type) -> (Swift.Double?) -> WorkoutFramework.WorkoutTimeStreamEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double?) -> WorkoutFramework.WorkoutTimeStreamEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutTimeStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutTimeStreamEvent",
+                        "usr": "s:16WorkoutFramework0A15TimeStreamEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Double?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WorkoutFramework.WorkoutTimeStreamEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutTimeStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutTimeStreamEvent",
+                        "usr": "s:16WorkoutFramework0A15TimeStreamEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WorkoutFramework0A15TimeStreamEventO022runningExerciseCurrentC8IntervalyACSdSgcACmF",
+            "mangledName": "$s16WorkoutFramework0A15TimeStreamEventO022runningExerciseCurrentC8IntervalyACSdSgcACmF",
+            "moduleName": "WorkoutFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "runningExerciseTotalTimeInterval",
+            "printedName": "runningExerciseTotalTimeInterval",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WorkoutFramework.WorkoutTimeStreamEvent.Type) -> (Swift.Double?) -> WorkoutFramework.WorkoutTimeStreamEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double?) -> WorkoutFramework.WorkoutTimeStreamEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutTimeStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutTimeStreamEvent",
+                        "usr": "s:16WorkoutFramework0A15TimeStreamEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Double?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WorkoutFramework.WorkoutTimeStreamEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutTimeStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutTimeStreamEvent",
+                        "usr": "s:16WorkoutFramework0A15TimeStreamEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WorkoutFramework0A15TimeStreamEventO020runningExerciseTotalC8IntervalyACSdSgcACmF",
+            "mangledName": "$s16WorkoutFramework0A15TimeStreamEventO020runningExerciseTotalC8IntervalyACSdSgcACmF",
+            "moduleName": "WorkoutFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "parentExerciseCurrentTimeInterval",
+            "printedName": "parentExerciseCurrentTimeInterval",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WorkoutFramework.WorkoutTimeStreamEvent.Type) -> (Swift.Double?) -> WorkoutFramework.WorkoutTimeStreamEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double?) -> WorkoutFramework.WorkoutTimeStreamEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutTimeStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutTimeStreamEvent",
+                        "usr": "s:16WorkoutFramework0A15TimeStreamEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Double?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WorkoutFramework.WorkoutTimeStreamEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutTimeStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutTimeStreamEvent",
+                        "usr": "s:16WorkoutFramework0A15TimeStreamEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WorkoutFramework0A15TimeStreamEventO021parentExerciseCurrentC8IntervalyACSdSgcACmF",
+            "mangledName": "$s16WorkoutFramework0A15TimeStreamEventO021parentExerciseCurrentC8IntervalyACSdSgcACmF",
+            "moduleName": "WorkoutFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "parentExerciseTotalTimeInterval",
+            "printedName": "parentExerciseTotalTimeInterval",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WorkoutFramework.WorkoutTimeStreamEvent.Type) -> (Swift.Double?) -> WorkoutFramework.WorkoutTimeStreamEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double?) -> WorkoutFramework.WorkoutTimeStreamEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutTimeStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutTimeStreamEvent",
+                        "usr": "s:16WorkoutFramework0A15TimeStreamEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Double?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WorkoutFramework.WorkoutTimeStreamEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutTimeStreamEvent",
+                        "printedName": "WorkoutFramework.WorkoutTimeStreamEvent",
+                        "usr": "s:16WorkoutFramework0A15TimeStreamEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WorkoutFramework0A15TimeStreamEventO019parentExerciseTotalC8IntervalyACSdSgcACmF",
+            "mangledName": "$s16WorkoutFramework0A15TimeStreamEventO019parentExerciseTotalC8IntervalyACSdSgcACmF",
+            "moduleName": "WorkoutFramework"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16WorkoutFramework0A15TimeStreamEventO",
+        "mangledName": "$s16WorkoutFramework0A15TimeStreamEventO",
         "moduleName": "WorkoutFramework",
         "declAttributes": [
           "AccessControl"
@@ -5840,35 +6017,35 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
       "kind": "StringLiteral",
       "offset": 1167,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
       "kind": "StringLiteral",
       "offset": 1242,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
       "kind": "StringLiteral",
       "offset": 1319,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 2062,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/filipbozic\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 2977,
       "length": 5,

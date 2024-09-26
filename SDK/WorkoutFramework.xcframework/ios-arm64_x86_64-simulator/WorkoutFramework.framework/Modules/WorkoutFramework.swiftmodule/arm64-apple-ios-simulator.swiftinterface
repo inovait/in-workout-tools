@@ -270,24 +270,33 @@ public class WorkoutHandler : Foundation.ObservableObject {
   public func endWorkout() -> CommonModels.RecordedWorkout?
   public func muteVideo()
   public func refreshMedia()
-  public func connectToStream() async -> _Concurrency.AsyncStream<WorkoutFramework.WorkoutHandlerStreamEvent>
+  public func connectToTimeStream() async -> _Concurrency.AsyncStream<WorkoutFramework.WorkoutTimeStreamEvent>
+  public func connectToExerciseInfoStream() async -> _Concurrency.AsyncStream<WorkoutFramework.WorkoutExerciseInfoStreamEvent>
+  public func connectToPlayerStream() async -> _Concurrency.AsyncStream<WorkoutFramework.WorkoutPlayerStreamEvent>
+  public func connectToStatusStream() async -> _Concurrency.AsyncStream<WorkoutFramework.WorkoutStatusStreamEvent>
   @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
-public enum WorkoutHandlerStreamEvent {
-  case runningExerciseCurrentTimeInterval(Foundation.TimeInterval?)
-  case runningExerciseTotalTimeInterval(Foundation.TimeInterval?)
-  case exerciseName(Swift.String)
-  case exerciseCycles(Swift.String?)
-  case parentExerciseCurrentTimeInterval(Foundation.TimeInterval?)
-  case parentExerciseTotalTimeInterval(Foundation.TimeInterval?)
-  case parentExerciseName(Swift.String?)
-  case nextExerciseName(Swift.String?)
-  case player(AVFoundation.AVPlayer?)
-  case exerciseHasMedia(Swift.Bool)
+public enum WorkoutStatusStreamEvent {
   case status(CommonModels.WorkoutStatus)
   case isMuted(Swift.Bool)
   case finishedTherapy(CommonModels.RecordedWorkout?)
+}
+public enum WorkoutPlayerStreamEvent {
+  case player(AVFoundation.AVPlayer?)
+  case exerciseHasMedia(Swift.Bool)
+}
+public enum WorkoutExerciseInfoStreamEvent {
+  case exerciseName(Swift.String)
+  case exerciseCycles(Swift.String?)
+  case parentExerciseName(Swift.String?)
+  case nextExerciseName(Swift.String?)
   case runningExercise(CommonModels.Exercise?)
+}
+public enum WorkoutTimeStreamEvent {
+  case runningExerciseCurrentTimeInterval(Foundation.TimeInterval?)
+  case runningExerciseTotalTimeInterval(Foundation.TimeInterval?)
+  case parentExerciseCurrentTimeInterval(Foundation.TimeInterval?)
+  case parentExerciseTotalTimeInterval(Foundation.TimeInterval?)
 }
