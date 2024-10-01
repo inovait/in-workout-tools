@@ -265,6 +265,7 @@ public class WorkoutHandler : Foundation.ObservableObject {
   public func pauseWorkout()
   public func resumeWorkout()
   public func nextRound()
+  public func nextParentRound()
   public func previousRound()
   @discardableResult
   public func endWorkout() -> CommonModels.RecordedWorkout?

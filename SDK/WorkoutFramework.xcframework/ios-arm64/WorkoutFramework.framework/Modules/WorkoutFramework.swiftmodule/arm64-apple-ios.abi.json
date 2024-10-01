@@ -4856,6 +4856,27 @@
           },
           {
             "kind": "Function",
+            "name": "nextParentRound",
+            "printedName": "nextParentRound()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WorkoutFramework0A7HandlerC15nextParentRoundyyF",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC15nextParentRoundyyF",
+            "moduleName": "WorkoutFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "previousRound",
             "printedName": "previousRound()",
             "children": [
