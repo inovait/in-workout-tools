@@ -220,6 +220,12 @@ public enum WorkoutStatus {
     get
   }
 }
+public enum WorkoutUpdateEvent : Swift.Equatable {
+  case started(CommonModels.Exercise, Foundation.TimeInterval)
+  case ended(CommonModels.Exercise, Foundation.TimeInterval)
+  case elapsed(CommonModels.Exercise, Foundation.TimeInterval)
+  public static func == (a: CommonModels.WorkoutUpdateEvent, b: CommonModels.WorkoutUpdateEvent) -> Swift.Bool
+}
 extension CommonModels.ExerciseType : Swift.Equatable {}
 extension CommonModels.ExerciseType : Swift.Hashable {}
 extension CommonModels.Gender : Swift.Equatable {}

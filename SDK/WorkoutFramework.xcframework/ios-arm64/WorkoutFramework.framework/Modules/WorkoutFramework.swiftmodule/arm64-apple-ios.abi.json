@@ -4723,6 +4723,237 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "workoutUpdateEvent",
+            "printedName": "workoutUpdateEvent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CommonModels.WorkoutUpdateEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutUpdateEvent",
+                    "printedName": "CommonModels.WorkoutUpdateEvent",
+                    "usr": "s:12CommonModels18WorkoutUpdateEventO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WorkoutFramework0A7HandlerC18workoutUpdateEvent12CommonModels0aeF0OSgvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC18workoutUpdateEvent12CommonModels0aeF0OSgvp",
+            "moduleName": "WorkoutFramework",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CommonModels.WorkoutUpdateEvent?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutUpdateEvent",
+                        "printedName": "CommonModels.WorkoutUpdateEvent",
+                        "usr": "s:12CommonModels18WorkoutUpdateEventO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC18workoutUpdateEvent12CommonModels0aeF0OSgvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC18workoutUpdateEvent12CommonModels0aeF0OSgvg",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CommonModels.WorkoutUpdateEvent?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutUpdateEvent",
+                        "printedName": "CommonModels.WorkoutUpdateEvent",
+                        "usr": "s:12CommonModels18WorkoutUpdateEventO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC18workoutUpdateEvent12CommonModels0aeF0OSgvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC18workoutUpdateEvent12CommonModels0aeF0OSgvs",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC18workoutUpdateEvent12CommonModels0aeF0OSgvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC18workoutUpdateEvent12CommonModels0aeF0OSgvM",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$workoutUpdateEvent",
+            "printedName": "$workoutUpdateEvent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<CommonModels.WorkoutUpdateEvent>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16WorkoutFramework0A7HandlerC19$workoutUpdateEvent7Combine9PublishedV9PublisherVy12CommonModels0aeF0OSg_Gvp",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC19$workoutUpdateEvent7Combine9PublishedV9PublisherVy12CommonModels0aeF0OSg_Gvp",
+            "moduleName": "WorkoutFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<CommonModels.WorkoutUpdateEvent>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC19$workoutUpdateEvent7Combine9PublishedV9PublisherVy12CommonModels0aeF0OSg_Gvg",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC19$workoutUpdateEvent7Combine9PublishedV9PublisherVy12CommonModels0aeF0OSg_Gvg",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<CommonModels.WorkoutUpdateEvent>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC19$workoutUpdateEvent7Combine9PublishedV9PublisherVy12CommonModels0aeF0OSg_Gvs",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC19$workoutUpdateEvent7Combine9PublishedV9PublisherVy12CommonModels0aeF0OSg_Gvs",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16WorkoutFramework0A7HandlerC19$workoutUpdateEvent7Combine9PublishedV9PublisherVy12CommonModels0aeF0OSg_GvM",
+                "mangledName": "$s16WorkoutFramework0A7HandlerC19$workoutUpdateEvent7Combine9PublishedV9PublisherVy12CommonModels0aeF0OSg_GvM",
+                "moduleName": "WorkoutFramework",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -4966,6 +5197,35 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectToWorkoutUpdateStream",
+            "printedName": "connectToWorkoutUpdateStream()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AsyncStream",
+                "printedName": "_Concurrency.AsyncStream<WorkoutFramework.WorkoutUpdateStream>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WorkoutUpdateStream",
+                    "printedName": "WorkoutFramework.WorkoutUpdateStream",
+                    "usr": "s:16WorkoutFramework0A12UpdateStreamO"
+                  }
+                ],
+                "usr": "s:ScS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16WorkoutFramework0A7HandlerC09connectToA12UpdateStreamScSyAA0afG0OGyYaF",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC09connectToA12UpdateStreamScSyAA0afG0OGyYaF",
+            "moduleName": "WorkoutFramework",
+            "declAttributes": [
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -6012,6 +6272,94 @@
         "declKind": "Enum",
         "usr": "s:16WorkoutFramework0A15TimeStreamEventO",
         "mangledName": "$s16WorkoutFramework0A15TimeStreamEventO",
+        "moduleName": "WorkoutFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WorkoutUpdateStream",
+        "printedName": "WorkoutUpdateStream",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "update",
+            "printedName": "update",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WorkoutFramework.WorkoutUpdateStream.Type) -> (CommonModels.WorkoutUpdateEvent?) -> WorkoutFramework.WorkoutUpdateStream",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CommonModels.WorkoutUpdateEvent?) -> WorkoutFramework.WorkoutUpdateStream",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutUpdateStream",
+                        "printedName": "WorkoutFramework.WorkoutUpdateStream",
+                        "usr": "s:16WorkoutFramework0A12UpdateStreamO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CommonModels.WorkoutUpdateEvent?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "WorkoutUpdateEvent",
+                            "printedName": "CommonModels.WorkoutUpdateEvent",
+                            "usr": "s:12CommonModels18WorkoutUpdateEventO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WorkoutFramework.WorkoutUpdateStream.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutUpdateStream",
+                        "printedName": "WorkoutFramework.WorkoutUpdateStream",
+                        "usr": "s:16WorkoutFramework0A12UpdateStreamO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16WorkoutFramework0A12UpdateStreamO6updateyAC12CommonModels0aC5EventOSgcACmF",
+            "mangledName": "$s16WorkoutFramework0A12UpdateStreamO6updateyAC12CommonModels0aC5EventOSgcACmF",
+            "moduleName": "WorkoutFramework"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16WorkoutFramework0A12UpdateStreamO",
+        "mangledName": "$s16WorkoutFramework0A12UpdateStreamO",
         "moduleName": "WorkoutFramework",
         "declAttributes": [
           "AccessControl"

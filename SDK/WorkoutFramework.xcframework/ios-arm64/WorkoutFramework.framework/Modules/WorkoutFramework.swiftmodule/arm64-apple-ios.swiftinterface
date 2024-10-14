@@ -259,6 +259,18 @@ public class WorkoutHandler : Foundation.ObservableObject {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
+  @Combine.Published @_projectedValueProperty($workoutUpdateEvent) public var workoutUpdateEvent: CommonModels.WorkoutUpdateEvent? {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  public var $workoutUpdateEvent: Combine.Published<CommonModels.WorkoutUpdateEvent?>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
   public init()
   public func initialize(exercise: CommonModels.Exercise)
   public func startWorkout()
@@ -271,6 +283,7 @@ public class WorkoutHandler : Foundation.ObservableObject {
   public func endWorkout() -> CommonModels.RecordedWorkout?
   public func muteVideo()
   public func refreshMedia()
+  public func connectToWorkoutUpdateStream() async -> _Concurrency.AsyncStream<WorkoutFramework.WorkoutUpdateStream>
   public func connectToTimeStream() async -> _Concurrency.AsyncStream<WorkoutFramework.WorkoutTimeStreamEvent>
   public func connectToExerciseInfoStream() async -> _Concurrency.AsyncStream<WorkoutFramework.WorkoutExerciseInfoStreamEvent>
   public func connectToPlayerStream() async -> _Concurrency.AsyncStream<WorkoutFramework.WorkoutPlayerStreamEvent>
@@ -300,4 +313,7 @@ public enum WorkoutTimeStreamEvent {
   case runningExerciseTotalTimeInterval(Foundation.TimeInterval?)
   case parentExerciseCurrentTimeInterval(Foundation.TimeInterval?)
   case parentExerciseTotalTimeInterval(Foundation.TimeInterval?)
+}
+public enum WorkoutUpdateStream {
+  case update(CommonModels.WorkoutUpdateEvent?)
 }

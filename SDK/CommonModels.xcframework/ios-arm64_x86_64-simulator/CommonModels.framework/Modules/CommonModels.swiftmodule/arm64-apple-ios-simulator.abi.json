@@ -7432,6 +7432,283 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CommonModels",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WorkoutUpdateEvent",
+        "printedName": "WorkoutUpdateEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "started",
+            "printedName": "started",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.WorkoutUpdateEvent.Type) -> (CommonModels.Exercise, Swift.Double) -> CommonModels.WorkoutUpdateEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CommonModels.Exercise, Swift.Double) -> CommonModels.WorkoutUpdateEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutUpdateEvent",
+                        "printedName": "CommonModels.WorkoutUpdateEvent",
+                        "usr": "s:12CommonModels18WorkoutUpdateEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(CommonModels.Exercise, Swift.Double)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Exercise",
+                            "printedName": "CommonModels.Exercise",
+                            "usr": "s:12CommonModels8ExerciseV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.WorkoutUpdateEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutUpdateEvent",
+                        "printedName": "CommonModels.WorkoutUpdateEvent",
+                        "usr": "s:12CommonModels18WorkoutUpdateEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels18WorkoutUpdateEventO7startedyAcA8ExerciseV_SdtcACmF",
+            "mangledName": "$s12CommonModels18WorkoutUpdateEventO7startedyAcA8ExerciseV_SdtcACmF",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ended",
+            "printedName": "ended",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.WorkoutUpdateEvent.Type) -> (CommonModels.Exercise, Swift.Double) -> CommonModels.WorkoutUpdateEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CommonModels.Exercise, Swift.Double) -> CommonModels.WorkoutUpdateEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutUpdateEvent",
+                        "printedName": "CommonModels.WorkoutUpdateEvent",
+                        "usr": "s:12CommonModels18WorkoutUpdateEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(CommonModels.Exercise, Swift.Double)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Exercise",
+                            "printedName": "CommonModels.Exercise",
+                            "usr": "s:12CommonModels8ExerciseV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.WorkoutUpdateEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutUpdateEvent",
+                        "printedName": "CommonModels.WorkoutUpdateEvent",
+                        "usr": "s:12CommonModels18WorkoutUpdateEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels18WorkoutUpdateEventO5endedyAcA8ExerciseV_SdtcACmF",
+            "mangledName": "$s12CommonModels18WorkoutUpdateEventO5endedyAcA8ExerciseV_SdtcACmF",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "elapsed",
+            "printedName": "elapsed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CommonModels.WorkoutUpdateEvent.Type) -> (CommonModels.Exercise, Swift.Double) -> CommonModels.WorkoutUpdateEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CommonModels.Exercise, Swift.Double) -> CommonModels.WorkoutUpdateEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutUpdateEvent",
+                        "printedName": "CommonModels.WorkoutUpdateEvent",
+                        "usr": "s:12CommonModels18WorkoutUpdateEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(CommonModels.Exercise, Swift.Double)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Exercise",
+                            "printedName": "CommonModels.Exercise",
+                            "usr": "s:12CommonModels8ExerciseV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CommonModels.WorkoutUpdateEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WorkoutUpdateEvent",
+                        "printedName": "CommonModels.WorkoutUpdateEvent",
+                        "usr": "s:12CommonModels18WorkoutUpdateEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12CommonModels18WorkoutUpdateEventO7elapsedyAcA8ExerciseV_SdtcACmF",
+            "mangledName": "$s12CommonModels18WorkoutUpdateEventO7elapsedyAcA8ExerciseV_SdtcACmF",
+            "moduleName": "CommonModels",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WorkoutUpdateEvent",
+                "printedName": "CommonModels.WorkoutUpdateEvent",
+                "usr": "s:12CommonModels18WorkoutUpdateEventO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WorkoutUpdateEvent",
+                "printedName": "CommonModels.WorkoutUpdateEvent",
+                "usr": "s:12CommonModels18WorkoutUpdateEventO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CommonModels18WorkoutUpdateEventO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12CommonModels18WorkoutUpdateEventO2eeoiySbAC_ACtFZ",
+            "moduleName": "CommonModels",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12CommonModels18WorkoutUpdateEventO",
+        "mangledName": "$s12CommonModels18WorkoutUpdateEventO",
+        "moduleName": "CommonModels",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "Array",
         "printedName": "Array",
