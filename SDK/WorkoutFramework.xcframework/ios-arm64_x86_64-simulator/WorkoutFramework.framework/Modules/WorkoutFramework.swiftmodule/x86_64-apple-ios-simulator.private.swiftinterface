@@ -175,6 +175,18 @@ public class WorkoutHandler : Foundation.ObservableObject {
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
+  @Combine.Published @_projectedValueProperty($recordedWorkoutUrl) public var recordedWorkoutUrl: Foundation.URL? {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  public var $recordedWorkoutUrl: Combine.Published<Foundation.URL?>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
   @Combine.Published @_projectedValueProperty($runningExerciseCurrentTime) public var runningExerciseCurrentTime: Foundation.TimeInterval? {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
@@ -296,6 +308,7 @@ public enum WorkoutStatusStreamEvent {
   case status(CommonModels.WorkoutStatus)
   case isMuted(Swift.Bool)
   case finishedTherapy(CommonModels.RecordedWorkout?)
+  case recordedWorkoutUrl(Foundation.URL?)
 }
 public enum WorkoutPlayerStreamEvent {
   case player(AVFoundation.AVPlayer?)
