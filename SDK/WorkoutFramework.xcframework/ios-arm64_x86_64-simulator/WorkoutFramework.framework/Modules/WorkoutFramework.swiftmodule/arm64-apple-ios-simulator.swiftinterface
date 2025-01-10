@@ -284,7 +284,7 @@ public class WorkoutHandler : Foundation.ObservableObject {
     set
   }
   public init()
-  public func initialize(exercise: CommonModels.Exercise)
+  public func initialize(exercise: CommonModels.Exercise, withMedia: Swift.Bool? = true)
   public func startWorkout()
   public func pauseWorkout()
   public func resumeWorkout()

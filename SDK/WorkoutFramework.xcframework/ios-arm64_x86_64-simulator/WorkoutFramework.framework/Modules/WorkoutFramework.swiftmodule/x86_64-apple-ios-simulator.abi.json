@@ -5208,7 +5208,7 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(exercise:)",
+            "printedName": "initialize(exercise:withMedia:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5220,11 +5220,26 @@
                 "name": "Exercise",
                 "printedName": "CommonModels.Exercise",
                 "usr": "s:12CommonModels8ExerciseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:16WorkoutFramework0A7HandlerC10initialize8exercisey12CommonModels8ExerciseV_tF",
-            "mangledName": "$s16WorkoutFramework0A7HandlerC10initialize8exercisey12CommonModels8ExerciseV_tF",
+            "usr": "s:16WorkoutFramework0A7HandlerC10initialize8exercise9withMediay12CommonModels8ExerciseV_SbSgtF",
+            "mangledName": "$s16WorkoutFramework0A7HandlerC10initialize8exercise9withMediay12CommonModels8ExerciseV_SbSgtF",
             "moduleName": "WorkoutFramework",
             "declAttributes": [
               "AccessControl",
@@ -6708,6 +6723,13 @@
       "offset": 3060,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/filipbozic\/Developer\/actions-runner\/SDK\/_work\/in-workout-tools-sdk\/in-workout-tools-sdk\/WorkoutFramework\/WorkoutHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4448,
+      "length": 4,
+      "value": "true"
     }
   ]
 }
