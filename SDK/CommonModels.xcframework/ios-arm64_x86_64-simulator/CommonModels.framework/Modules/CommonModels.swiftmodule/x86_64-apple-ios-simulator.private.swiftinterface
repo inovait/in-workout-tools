@@ -151,7 +151,7 @@ public struct Media : Swift.Equatable, Swift.Identifiable, Swift.Codable, Swift.
   }
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct RecordedWorkout : Swift.Equatable {
+public struct RecordedWorkout : Swift.Equatable, Swift.Sendable {
   public let timestamp: Foundation.TimeInterval
   public let duration: Swift.Int
   public let name: Swift.String
@@ -166,7 +166,7 @@ public struct RecordedWorkout : Swift.Equatable {
   }
   public static func == (a: CommonModels.RecordedWorkout, b: CommonModels.RecordedWorkout) -> Swift.Bool
 }
-public struct RecordedBreakdownItem : Swift.Equatable, Swift.Hashable {
+public struct RecordedBreakdownItem : Swift.Equatable, Swift.Hashable, Swift.Sendable {
   public let roundIdx: Swift.Int?
   public let timestamp: Swift.Int
   public let type: CommonModels.RecordedBreakdownType
@@ -181,7 +181,7 @@ public struct RecordedBreakdownItem : Swift.Equatable, Swift.Hashable {
     get
   }
 }
-public enum RecordedBreakdownType : Swift.Equatable {
+public enum RecordedBreakdownType : Swift.Equatable, Swift.Sendable {
   case start
   case sessionStarted
   case sessionEnded
